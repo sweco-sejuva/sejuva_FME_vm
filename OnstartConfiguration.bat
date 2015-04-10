@@ -11,11 +11,12 @@ taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
 net stop "FME Server Database" >> c:\temp\FMEServerRestart.log
 net start "FME Server Database" >> c:\temp\FMEServerRestart.log
 
+::This is a test of GitHUb
+::test
+
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
 net stop SMTPRelay
 C:\apps\FME\fme.exe "C:\Users\Administrator\Documents\My FME Workspaces\SMTPConfigure.fmw"
 copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y
 net start SMTPRelay
-
-
