@@ -20,3 +20,6 @@ net stop SMTPRelay
 C:\apps\FME\fme.exe "C:\Users\Administrator\Documents\My FME Workspaces\SMTPConfigure.fmw"
 copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y
 net start SMTPRelay
+
+:: New Comment test
+:: Another new comment
