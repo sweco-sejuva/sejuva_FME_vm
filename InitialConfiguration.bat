@@ -3,13 +3,13 @@
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
 ::Download and run this from the (elevated?) command line by using the following command:
 
-::bitsadmin.exe /transfer "Start" https://s3.amazonaws.com/FMETraining/InitialConfiguration.bat InitialConfiguration.bat & InitialConfiguration.bat
+::bitsadmin.exe /transfer "Start" https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat InitialConfiguration.bat & InitialConfiguration.bat
 
 ::Last Edited By: Ryan Cragg 2015-03-31
 
 ::::GENERAL SETTINGS FOR LATER IN BATCH FILE::::
 
-set OnstartConfigurationURL=https://s3.amazonaws.com/FMETraining/OnstartConfiguration.bat
+set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
 set SAFE_LICENSE_FILE=@107.20.199.168
 set EC2PASSWORD=FME2015learnings
 set PORTFORWARDING=81;82;443;8080;8081
