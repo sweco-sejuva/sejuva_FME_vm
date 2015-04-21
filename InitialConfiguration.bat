@@ -16,7 +16,7 @@ set PORTFORWARDING=81;82;443;8080;8081
 ::set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
 set FMEDESKTOPURL=https://s3.amazonaws.com/FME-Installers/fme-desktop-b15475-win-x86.msi
 set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
-set FMESERVERURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
+set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15253-win-x86.msi
 set FMEDATAURL=https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
 set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
