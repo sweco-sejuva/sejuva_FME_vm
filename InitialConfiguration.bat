@@ -19,9 +19,11 @@ set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/f
 set FMESERVERURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
 set FMEDATAURL=https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
 
+set SSD=z:
 set DISABLED=::
 set LOG=c:\temp\Configure.log
 set TEMP=c:\temp
+md %TEMP%
 
 echo "Starting Downloading, Installing, and Configuring" > %LOG%
 
@@ -30,7 +32,7 @@ echo "Starting Downloading, Installing, and Configuring" > %LOG%
 ::Set some SYSTEM environment variables
 setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE% >> %LOG%
 setx /m FME_USE_LM_ENVIRONMENT YES >> %LOG%
-setx /m FME_TEMP D:\TEMP >> %LOG%
+setx /m FME_TEMP %SSD%\TEMP >> %LOG%
 
 :: Log that variables are set correctly
 echo "Variables are set to:" >> %LOG%
@@ -124,15 +126,15 @@ choco install eclipse -y  >> %LOG%
 ::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
 ::FMEData should be kept as https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
 ::Get the basic FMEData and unzip any updates into c:\
-pushd d:\ && aria2c %FMEDATAURL% --allow-overwrite=true >> %LOG%
-pushd d:\ && unzip -u FME-Sample-Dataset-Full.zip -d c:\ >> %LOG%
+pushd %TEMP% && aria2c %FMEDATAURL% --allow-overwrite=true >> %LOG%
+pushd %TEMP% && unzip -u FME-Sample-Dataset-Full.zip -d c:\ >> %LOG%
 
 ::The lastest FME Desktop Installers are available from http://www.safe.com/fme/fme-desktop/trial-download/download.php
-pushd d:\ && aria2c %FMEDESKTOPURL% --allow-overwrite=true >> %LOG%
-pushd d:\ && aria2c %FMEDESKTOP64URL% --allow-overwrite=true >> %LOG%
+pushd %TEMP% && aria2c %FMEDESKTOPURL% --allow-overwrite=true >> %LOG%
+pushd %TEMP% && aria2c %FMEDESKTOP64URL% --allow-overwrite=true >> %LOG%
 
 ::The lastest FME Server Installers are available from http://www.safe.com/fme/fme-server/trial-download/download.php
-pushd d:\ && aria2c %FMESERVERURL%  --allow-overwrite=true >> %LOG%
+pushd %TEMP% && aria2c %FMESERVERURL%  --allow-overwrite=true >> %LOG%
 
 ::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 :: Silent Install?
@@ -141,13 +143,13 @@ pushd d:\ && aria2c %FMESERVERURL%  --allow-overwrite=true >> %LOG%
 ::Silent Install of Oracle?
 
 ::Copy FMEDATA onto the SSD drive for better performance, or backup.
-robocopy c:\fmedata d:\fmedata /E >> c:\temp\FMEServerRestart.log
-robocopy c:\fmedata2014 d:\fmedata2014 /E >> c:\temp\FMEServerRestart.log
-robocopy c:\fmedata2015 d:\fmedata2015 /E >> c:\temp\FMEServerRestart.log
-echo "This is a temporary drive. It is deleted upon shutdown. Use with caution" > "d:\This is a temporary drive.txt"
+robocopy c:\fmedata %SSD%\fmedata /E >> %LOG%
+robocopy c:\fmedata2014 %SSD%\fmedata2014 /E >> %LOG%
+robocopy c:\fmedata2015 %SSD%\fmedata2015 /E >> %LOG%
+echo "This is a temporary drive. It is deleted upon shutdown. Use with caution" > "%SSD%\This is a temporary drive.txt"
 
-echo "Finished the Restart Process" >> c:\temp\FMEServerRestart.log
+echo "Finished the Restart Process" >> %LOG%
 
 ::::INITIAL CONFIGURATION ONLY::::
 ::Restart the computer
-
+shutdown /r
