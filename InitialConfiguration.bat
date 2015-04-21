@@ -149,6 +149,9 @@ pushd %TEMP% && aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=tru
 pushd %TEMP% && msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
 pushd %TEMP% && msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
 
+:: Silent install of FME Server:
+pushd %TEMP% && msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
+
 ::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 pushd %TEMP% && aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true >> %LOG%
 pushd %TEMP% && unzip -u ARCGIS.zip -d %TEMP%
@@ -168,4 +171,4 @@ echo "Finished the Restart Process" >> %LOG%
 
 ::::INITIAL CONFIGURATION ONLY::::
 ::Restart the computer
-::shutdown /r
+shutdown /r
