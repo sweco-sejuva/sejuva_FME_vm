@@ -136,6 +136,9 @@ pushd %TEMP% && aria2c %FMEDESKTOP64URL% --allow-overwrite=true >> %LOG%
 ::The lastest FME Server Installers are available from http://www.safe.com/fme/fme-server/trial-download/download.php
 pushd %TEMP% && aria2c %FMESERVERURL%  --allow-overwrite=true >> %LOG%
 
+:: Silent install of FME Desktop follows the form of:
+::msiexec /i fme-desktop-b15475-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\fme" ENABLE_POST_INSTALL_TASKS=no
+
 ::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 :: Silent Install?
 
