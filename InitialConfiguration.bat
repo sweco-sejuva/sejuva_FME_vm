@@ -18,6 +18,7 @@ set FMEDESKTOPURL=https://s3.amazonaws.com/FME-Installers/fme-desktop-b15475-win
 set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
 set FMESERVERURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
 set FMEDATAURL=https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
+set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
 set SSD=z:
 set DISABLED=::
@@ -148,6 +149,9 @@ pushd %TEMP% && msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps
 pushd %TEMP% && msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
 
 ::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
+pushd %TEMP% && aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true >> %LOG%
+pushd %TEMP% && unzip -u ARCGIS.zip -d %TEMP%
+
 :: Silent Install?
 
 ::Silent Install of PostGreSQL/PostGIS?
