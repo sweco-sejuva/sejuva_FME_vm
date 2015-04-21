@@ -127,7 +127,8 @@ choco install googleearth -y  >> %LOG%
 
 ::Install Python and Eclipse
 choco install python -y  >> %LOG%
-choco install python2 -y  >> %LOG%
+::Python 2.7.9 seems to have a problem installing.
+::choco install python2 -y  >> %LOG%
 choco install eclipse -y  >> %LOG%
 
 ::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
