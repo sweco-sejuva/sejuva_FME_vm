@@ -1,9 +1,9 @@
 ::This file does the initial configuration of the AWS instance.
 ::This should be filled with things that you only want to do once, like name the computer.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
-::Download and run this from the (elevated?) command line by using the following command:
+::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
 
-::bitsadmin.exe /transfer "Start" https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat InitialConfiguration.bat & InitialConfiguration.bat
+::bitsadmin.exe /transfer "Start" https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat %CD%\InitialConfiguration.bat && %CD%\InitialConfiguration.bat
 
 ::Last Edited By: Ryan Cragg 2015-03-31
 
