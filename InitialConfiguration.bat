@@ -92,6 +92,9 @@ schtasks /Create /F /RU SYSTEM /TN OnstartConfiguration /SC ONSTART /TR "pushd %
 ::Bitsadmin does not work in a scheduled task. Install aria2. It is amazingly fast.
 choco install aria2 -y >> %LOG%
 
+::We'll need to unzip stuff eventually
+choco install devbox-unzip -y >> %LOG%
+
 ::I'm sure GIT will be useful at some point
 choco install git -y >> %LOG%
 
