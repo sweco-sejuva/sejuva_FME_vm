@@ -29,6 +29,9 @@ echo "Starting Downloading, Installing, and Configuring" > %LOG%
 
 ::::CONFIGURE WINDOWS SETTINGS::::
 
+:: Set the time zone
+tzutil /s "Pacific Standard Time"
+
 ::Set some SYSTEM environment variables
 setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE% >> %LOG%
 setx /m FME_USE_LM_ENVIRONMENT YES >> %LOG%
