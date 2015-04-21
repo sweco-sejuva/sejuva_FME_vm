@@ -132,18 +132,20 @@ choco install eclipse -y  >> %LOG%
 ::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
 ::FMEData should be kept as https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
 ::Get the basic FMEData and unzip any updates into c:\
-pushd %TEMP% && aria2c %FMEDATAURL% --allow-overwrite=true >> %LOG%
-pushd %TEMP% && unzip -u FME-Sample-Dataset-Full.zip -d c:\ >> %LOG%
+pushd %TEMP% && aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true >> %LOG%
+pushd %TEMP% && unzip -u FMEData.zip -d c:\ >> %LOG%
 
 ::The lastest FME Desktop Installers are available from http://www.safe.com/fme/fme-desktop/trial-download/download.php
-pushd %TEMP% && aria2c %FMEDESKTOPURL% --allow-overwrite=true >> %LOG%
-pushd %TEMP% && aria2c %FMEDESKTOP64URL% --allow-overwrite=true >> %LOG%
+pushd %TEMP% && aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true >> %LOG%
+pushd %TEMP% && aria2c %FMEDESKTOP64URL% --out=FMEDesktop64.msi --allow-overwrite=true >> %LOG%
 
 ::The lastest FME Server Installers are available from http://www.safe.com/fme/fme-server/trial-download/download.php
-pushd %TEMP% && aria2c %FMESERVERURL%  --allow-overwrite=true >> %LOG%
+pushd %TEMP% && aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=true >> %LOG%
 
 :: Silent install of FME Desktop follows the form of:
 ::msiexec /i fme-desktop-b15475-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\fme" ENABLE_POST_INSTALL_TASKS=no
+pushd %TEMP% && msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
+pushd %TEMP% && msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
 
 ::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 :: Silent Install?
@@ -161,4 +163,4 @@ echo "Finished the Restart Process" >> %LOG%
 
 ::::INITIAL CONFIGURATION ONLY::::
 ::Restart the computer
-shutdown /r
+::shutdown /r
