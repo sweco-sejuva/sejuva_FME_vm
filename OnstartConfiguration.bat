@@ -10,18 +10,24 @@
 
 set LOG=c:\temp\OnstartConfiguration.log
 set SSD=z:
+set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
+set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
+
+::Create the RDP files to connect to this instance
+:: RDPFiles.zip can then be downloaded from <ip address>\examples\RDPFiles.zip
+aria2c %RDP% --out="%TEMP%\ZippedRDPFileCreator.fmw" --allow-overwrite=true >> %LOG%
+C:\apps\FME\fme.exe "%TEMP%\ZippedRDPFileCreator.fmw" >> %LOG%
 
 taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe > %LOG%
 net stop "FME Server Database" >> %LOG%
 net start "FME Server Database" >> %LOG%
 
-::This is a test of GitHUb
-::test
 
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
 net stop SMTPRelay >> %LOG%
-C:\apps\FME\fme.exe "C:\Users\Administrator\Documents\My FME Workspaces\SMTPConfigure.fmw" >> %LOG%
+aria2c %SMTP% --out="%TEMP%\SMTPConfigure.fmw" --allow-overwrite=true >> %LOG%
+C:\apps\FME\fme.exe "%TEMP%\SMTPConfigure.fmw" >> %LOG%
 copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y >> %LOG%
 net start SMTPRelay >> %LOG%
 
