@@ -78,7 +78,7 @@ schtasks /Create /F /RU SYSTEM /TN SecondAutoShutdown /SC ONSTART /DELAY 3360:00
 ::On Logon, Disable the FirstAutoShutdown
 schtasks /Create /F /RU SYSTEM /TN DisableAutoShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "FirstAutoShutdown"" >> %LOG%
 ::Then, re-enable FirstAutoShutdown
-schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 30:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown"" >> %LOG%
+schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0030:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown"" >> %LOG%
 
 ::Create scheduled task that downloads and runs the other batch file. User aria2--bitsadmin doesn't play well with scheduled tasks
 ::Get the other batch file and run it.
