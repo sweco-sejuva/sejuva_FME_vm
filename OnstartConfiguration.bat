@@ -7,7 +7,7 @@
 :: Kill postgres.exe that is being run by SYSTEM. That is the cause of FME Server failing on first boot.
 :: https://technet.microsoft.com/en-us/library/bb491009.aspx
 :: Restart FME Server Database, because it doesn't start properly 1 time in 5 when first booting
-taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
+taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe > c:\temp\FMEServerRestart.log
 net stop "FME Server Database" >> c:\temp\FMEServerRestart.log
 net start "FME Server Database" >> c:\temp\FMEServerRestart.log
 
@@ -16,10 +16,10 @@ net start "FME Server Database" >> c:\temp\FMEServerRestart.log
 
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
-net stop SMTPRelay
-C:\apps\FME\fme.exe "C:\Users\Administrator\Documents\My FME Workspaces\SMTPConfigure.fmw"
-copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y
-net start SMTPRelay
+net stop SMTPRelay >> c:\temp\FMEServerRestart.log
+C:\apps\FME\fme.exe "C:\Users\Administrator\Documents\My FME Workspaces\SMTPConfigure.fmw" >> c:\temp\FMEServerRestart.log
+copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y >> c:\temp\FMEServerRestart.log
+net start SMTPRelay >> c:\temp\FMEServerRestart.log
 
 :: New Comment test
 :: Another new comment
