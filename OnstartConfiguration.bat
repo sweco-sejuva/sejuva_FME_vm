@@ -9,7 +9,7 @@
 :: Restart FME Server Database, because it doesn't start properly 1 time in 5 when first booting
 
 set LOG=c:\temp\OnstartConfiguration.log
-set SSD=z:\
+set SSD=z:
 
 taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe > %LOG%
 net stop "FME Server Database" >> %LOG%
