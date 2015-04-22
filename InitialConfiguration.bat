@@ -160,12 +160,6 @@ pushd %TEMP% && unzip -u ARCGIS.zip -d %TEMP%
 ::Silent Install of PostGreSQL/PostGIS?
 ::Silent Install of Oracle?
 
-::Copy FMEDATA onto the SSD drive for better performance, or backup.
-robocopy c:\fmedata %SSD%\fmedata /E >> %LOG%
-robocopy c:\fmedata2014 %SSD%\fmedata2014 /E >> %LOG%
-robocopy c:\fmedata2015 %SSD%\fmedata2015 /E >> %LOG%
-echo "This is a temporary drive. It is deleted upon shutdown. Use with caution" > "%SSD%\This is a temporary drive.txt"
-
 echo "Finished the Restart Process" >> %LOG%
 
 ::::INITIAL CONFIGURATION ONLY::::
