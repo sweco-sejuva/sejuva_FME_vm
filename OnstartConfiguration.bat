@@ -1,5 +1,3 @@
-
-
 ::::ONSTART ONLY!::::
 :: These are things that should always be done ONSTART, but are too big to fit into a Scheduled Task.
 
@@ -7,34 +5,38 @@
 :: Kill postgres.exe that is being run by SYSTEM. That is the cause of FME Server failing on first boot.
 :: https://technet.microsoft.com/en-us/library/bb491009.aspx
 :: Restart FME Server Database, because it doesn't start properly 1 time in 5 when first booting
+:: Create the RDP files to connect to this instance
+:: RDPFiles.zip can then be downloaded from <ip address>\examples\RDPFiles.zip
 
 set LOG=c:\temp\OnstartConfiguration.log
 set SSD=z:
 set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
 set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
 
-::Create the RDP files to connect to this instance
-:: RDPFiles.zip can then be downloaded from <ip address>\examples\RDPFiles.zip
+call :sub > %LOG%
+exit /b
+
+:sub
 pushd c:\temp
 
-aria2c %RDP% --allow-overwrite=true >> %LOG%
-C:\apps\FME\fme.exe "c:\temp\ZippedRDPFileCreator.fmw" >> %LOG%
+aria2c %RDP% --allow-overwrite=true
+C:\apps\FME\fme.exe "c:\temp\ZippedRDPFileCreator.fmw"
 
-taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe > %LOG%
-net stop "FME Server Database" >> %LOG%
-net start "FME Server Database" >> %LOG%
+taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
+net stop "FME Server Database"
+net start "FME Server Database"
 
 
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
-net stop SMTPRelay >> %LOG%
-aria2c %SMTP% --allow-overwrite=true >> %LOG%
-C:\apps\FME\fme.exe "c:\temp\SMTPConfigure.fmw" >> %LOG%
-copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y >> %LOG%
-net start SMTPRelay >> %LOG%
+net stop SMTPRelay
+aria2c %SMTP% --allow-overwrite=true
+C:\apps\FME\fme.exe "c:\temp\SMTPConfigure.fmw"
+copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y
+net start SMTPRelay
 
 ::Copy FMEDATA onto the SSD drive for better performance, or backup.
-for /f "delims=" %%a in ('dir /b/ad "c:\fmedata*" ') do robocopy c:\%%a %SSD%\%%a /E >> %LOG%
+for /f "delims=" %%a in ('dir /b/ad "c:\fmedata*" ') do robocopy c:\%%a %SSD%\%%a /E
 
 ::Warn people not to put permanent stuff on the SSD drive.
 echo "This is a temporary drive. It is deleted upon shutdown. Use with caution" > "%SSD%\This is a temporary drive.txt"
@@ -54,5 +56,5 @@ echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\def
 
 
 :: Indicate the end of the log file.
-echo "Onstart Configuration complete" >> %LOG%
+echo "Onstart Configuration complete"
 
