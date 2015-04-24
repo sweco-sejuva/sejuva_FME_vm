@@ -39,6 +39,20 @@ for /f "delims=" %%a in ('dir /b/ad "c:\fmedata*" ') robocopy c:\%%a %SSD%\%%a /
 ::Warn people not to put permanent stuff on the SSD drive.
 echo "This is a temporary drive. It is deleted upon shutdown. Use with caution" > "%SSD%\This is a temporary drive.txt"
 
+::Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
+::Database Connections URL
+echo [InternetShortcut] > "c:\users\default\desktop\Database Connection Parameters.url"
+echo URL=http://fme.ly/database >>"c:\users\default\desktop\Database Connection Parameters.url"
+
+:: FME Desktop Course Resources
+echo [InternetShortcut] > "c:\users\default\desktop\FME Desktop Course Resources.url"
+echo URL=http://fme.ly/course >>"c:\users\default\desktop\FME Desktop Course Resources.url"
+
+:: Your Computer DNS Name
+echo [InternetShortcut] > "c:\users\default\desktop\Your Computer DNS Name.url"
+echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\default\desktop\Your Computer DNS Name.url"
+
+
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete" >> %LOG%
 
