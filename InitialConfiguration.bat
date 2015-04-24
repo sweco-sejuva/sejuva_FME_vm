@@ -82,7 +82,8 @@ schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0030:00
 
 ::Create scheduled task that downloads and runs the other batch file. User aria2--bitsadmin doesn't play well with scheduled tasks
 ::Get the other batch file and run it.
-schtasks /Create /F /RU SYSTEM /TN OnstartConfiguration /SC ONSTART /TR "aria2c.exe %OnstartConfigurationURL% --allow-overwrite=true" /TR "OnstartConfiguration.bat" >> %LOG%
+schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationSetup /SC ONSTART /TR "aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true" >> %LOG%
+schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationRun /SC ONSTART /DELAY 0001:00 /TR "c:/temp/OnstartConfiguration.bat" >> %LOG%
 
 ::The VNC Scheduled Task is created when installing VNC, in the INSTALL SOFTWARE section
 
