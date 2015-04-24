@@ -39,3 +39,6 @@ for /f "delims=" %%a in ('dir /b/ad "c:\fmedata*" ') robocopy c:\%%a %SSD%\%%a /
 ::Warn people not to put permanent stuff on the SSD drive.
 echo "This is a temporary drive. It is deleted upon shutdown. Use with caution" > "%SSD%\This is a temporary drive.txt"
 
+:: Indicate the end of the log file.
+echo "Onstart Configuration complete" >> %LOG%
+
