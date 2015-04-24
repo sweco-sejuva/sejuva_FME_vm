@@ -34,7 +34,7 @@ copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.x
 net start SMTPRelay >> %LOG%
 
 ::Copy FMEDATA onto the SSD drive for better performance, or backup.
-for /f "delims=" %%a in ('dir /b/ad "c:\fmedata*" ') robocopy c:\%%a %SSD%\%%a /E >> %LOG%
+for /f "delims=" %%a in ('dir /b/ad "c:\fmedata*" ') do robocopy c:\%%a %SSD%\%%a /E >> %LOG%
 
 ::Warn people not to put permanent stuff on the SSD drive.
 echo "This is a temporary drive. It is deleted upon shutdown. Use with caution" > "%SSD%\This is a temporary drive.txt"
