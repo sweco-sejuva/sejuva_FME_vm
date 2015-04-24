@@ -15,8 +15,10 @@ set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
 
 ::Create the RDP files to connect to this instance
 :: RDPFiles.zip can then be downloaded from <ip address>\examples\RDPFiles.zip
-aria2c %RDP% --out="%TEMP%\ZippedRDPFileCreator.fmw" --allow-overwrite=true >> %LOG%
-C:\apps\FME\fme.exe "%TEMP%\ZippedRDPFileCreator.fmw" >> %LOG%
+pushd c:\temp
+
+aria2c %RDP% --allow-overwrite=true >> %LOG%
+C:\apps\FME\fme.exe "c:\temp\ZippedRDPFileCreator.fmw" >> %LOG%
 
 taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe > %LOG%
 net stop "FME Server Database" >> %LOG%
@@ -26,8 +28,8 @@ net start "FME Server Database" >> %LOG%
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
 net stop SMTPRelay >> %LOG%
-aria2c %SMTP% --out="%TEMP%\SMTPConfigure.fmw" --allow-overwrite=true >> %LOG%
-C:\apps\FME\fme.exe "%TEMP%\SMTPConfigure.fmw" >> %LOG%
+aria2c %SMTP% --allow-overwrite=true >> %LOG%
+C:\apps\FME\fme.exe "c:\temp\SMTPConfigure.fmw" >> %LOG%
 copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y >> %LOG%
 net start SMTPRelay >> %LOG%
 
