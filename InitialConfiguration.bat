@@ -24,15 +24,15 @@ set DISABLED=::
 set LOG=c:\temp\InitialConfiguration.log
 set TEMP=c:\temp
 
+md %TEMP%
+pushd %TEMP%
+
 :: Start Logging
 call :sub > %LOG%
 exit /b
 
 :sub
 echo "Starting Downloading, Installing, and Configuring"
-
-md %TEMP%
-pushd %TEMP%
 
 ::::CONFIGURE WINDOWS SETTINGS::::
 
