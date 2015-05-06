@@ -159,9 +159,15 @@ pushd %TEMP% && msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Pr
 :: Silent install of FME Server:
 pushd %TEMP% && msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
 
+::Install Beta.  Comment this out.
+aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
+msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
+
 ::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 pushd %TEMP% && aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
 pushd %TEMP% && unzip -u ARCGIS.zip -d %TEMP%
+
+
 
 :: Silent Install?
 
