@@ -15,7 +15,7 @@ set EC2PASSWORD=FME2015learnings
 set PORTFORWARDING=81;82;443;8080;8081
 set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
 set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
-set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15253-win-x86.msi
+set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15480-win-x86.msi
 set FMEDATAURL=https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
 set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
@@ -160,8 +160,8 @@ pushd %TEMP% && msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Pr
 pushd %TEMP% && msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
 
 ::Install Beta.  Comment this out.
-aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
-msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
+::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
+::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
 
 ::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 pushd %TEMP% && aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
