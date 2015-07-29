@@ -1,11 +1,10 @@
 ::This file does the initial configuration of the AWS instance.
+::Assuming that a T2.large is being used.
 ::This should be filled with things that you only want to do once, like name the computer.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
 
 ::bitsadmin.exe /transfer "Start" https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat %CD%\InitialConfiguration.bat && %CD%\InitialConfiguration.bat
-
-::Last Edited By: Ryan Cragg 2015-03-31
 
 ::::GENERAL SETTINGS FOR LATER IN BATCH FILE::::
 
@@ -15,11 +14,10 @@ set EC2PASSWORD=FME2015learnings
 set PORTFORWARDING=81;82;443;8080;8081
 set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
 set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
-set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15480-win-x86.msi
-set FMEDATAURL=https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
+set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15515-win-x86.msi
+set FMEDATAURL=http://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
 set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
-set SSD=z:
 set DISABLED=::
 set LOG=c:\temp\InitialConfiguration.log
 set TEMP=c:\temp
@@ -42,14 +40,10 @@ tzutil /s "Pacific Standard Time"
 ::Set some SYSTEM environment variables
 setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE%
 setx /m FME_USE_LM_ENVIRONMENT YES 
-setx /m FME_TEMP %SSD%\TEMP
 
 :: Log that variables are set correctly
 echo "Variables are set to:"
 set
-
-::Make the D:\temp used by FME_TEMP
-md %FME_TEMP%
 
 :: The purpose of this section is to configure proxy ports for Remote Desktop
 :: It must be run with elevated permissions (right-click and run as administrator)
@@ -141,31 +135,31 @@ choco install eclipse -y
 ::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
 ::FMEData should be kept as https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
 ::Get the basic FMEData and unzip any updates into c:\
-pushd %TEMP% && aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
-pushd %TEMP% && unzip -u FMEData.zip -d c:\ 
+aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
+unzip -u FMEData.zip -d c:\ 
 
 ::The lastest FME Desktop Installers are available from http://www.safe.com/fme/fme-desktop/trial-download/download.php
-pushd %TEMP% && aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true
-pushd %TEMP% && aria2c %FMEDESKTOP64URL% --out=FMEDesktop64.msi --allow-overwrite=true 
+aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true
+aria2c %FMEDESKTOP64URL% --out=FMEDesktop64.msi --allow-overwrite=true 
 
 ::The lastest FME Server Installers are available from http://www.safe.com/fme/fme-server/trial-download/download.php
-pushd %TEMP% && aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=true
+aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=true
 
 :: Silent install of FME Desktop follows the form of:
 ::msiexec /i fme-desktop-b15475-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\fme" ENABLE_POST_INSTALL_TASKS=no
-pushd %TEMP% && msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
-pushd %TEMP% && msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
+msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
+msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
 
 :: Silent install of FME Server:
-pushd %TEMP% && msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
+msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
 
 ::Install Beta.  Comment this out.
 ::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
 ::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
 
 ::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
-pushd %TEMP% && aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
-pushd %TEMP% && unzip -u ARCGIS.zip -d %TEMP%
+aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
+unzip -u ARCGIS.zip -d %TEMP%
 
 
 
