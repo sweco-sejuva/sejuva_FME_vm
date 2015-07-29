@@ -9,7 +9,6 @@
 :: RDPFiles.zip can then be downloaded from <ip address>\examples\RDPFiles.zip
 
 set LOG=c:\temp\OnstartConfiguration.log
-set SSD=z:
 set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
 set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
 
@@ -35,12 +34,6 @@ C:\apps\FME\fme.exe "c:\temp\SMTPConfigure.fmw"
 copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y
 net start SMTPRelay
 
-::Copy FMEDATA onto the SSD drive for better performance, or backup.
-for /f "delims=" %%a in ('dir /b/ad "c:\fmedata*" ') do robocopy c:\%%a %SSD%\%%a /E
-
-::Warn people not to put permanent stuff on the SSD drive.
-echo "This is a temporary drive. It is deleted upon shutdown. Use with caution" > "%SSD%\This is a temporary drive.txt"
-
 ::Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 :: Add the URLs to c:\users\public\desktop. That way everyone gets it.
 ::Database Connections URL
@@ -50,6 +43,10 @@ echo URL=http://fme.ly/database >>"c:\users\public\desktop\Database Connection P
 :: FME Desktop Course Resources
 echo [InternetShortcut] > "c:\users\public\desktop\FME Desktop Course Resources.url"
 echo URL=http://fme.ly/course >>"c:\users\public\desktop\FME Desktop Course Resources.url"
+
+:: FME Server Course Resources
+echo [InternetShortcut] > "c:\users\public\desktop\FME Server Course Resources.url"
+echo URL=http://www.safe.com/learning/training/resource-center/fme-server-authoring >> "c:\users\public\desktop\FME Server Course Resources.url"
 
 :: Your Computer DNS Name
 echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
