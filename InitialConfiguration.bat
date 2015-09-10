@@ -153,7 +153,7 @@ msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME"
 :: Silent install of FME Server:
 msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
 echo Registered Product=server > c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
-echo FME Server >> c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
+echo FME Engine >> c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
 
 ::Install Beta.  Comment this out.
 ::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
