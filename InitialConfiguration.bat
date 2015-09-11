@@ -60,6 +60,8 @@ for %%f IN (%PORTFORWARDING%) DO (
 	)
 ::We should make sure port 80 is open too, for FME Server. This might be unnecessary
 netsh firewall add portopening TCP 80 "FME Server"
+::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
+netsh firewall add portopening TCP 25 "SMTP"
 
 ::Set Computer Name. This will require a reboot. Reboot is at the end of this batch file.
 wmic computersystem where name="%COMPUTERNAME%" call rename name="FMETraining"
