@@ -1,6 +1,6 @@
 ::This file does the initial configuration of the AWS instance.
-::Assuming that a T2.large is being used.
-::This should be filled with things that you only want to do once, like name the computer.
+::Assuming that a T2.large is being used. Provide at least 100GB of storage.
+::This script does things that you only want to do once, like name the computer.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
 
@@ -17,7 +17,7 @@ set EC2PASSWORD=FME2015learnings
 set PORTFORWARDING=81;82;443;8080;8081
 set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
 set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
-set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15515-win-x86.msi
+set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15539-win-x86.msi
 set FMEDATAURL=http://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
 set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
@@ -30,7 +30,11 @@ pushd %TEMP%
 
 :: Start Logging
 call :sub > %LOG%
+::Restart the computer
+shutdown /r
 exit /b
+
+::Everything below here are sub routines.
 
 :sub
 echo "Starting Downloading, Installing, and Configuring"
@@ -80,10 +84,17 @@ WMIC USERACCOUNT WHERE "Name='administrator'" SET PasswordExpires=FALSE
 ::Remember to FORCE schedule task creation--otherwise you'll be prompted. 
 ::Create the Shutdowns
 schtasks /Create /F /RU SYSTEM /TN FirstAutoShutdown /SC ONSTART /DELAY 1440:00 /TR "C:\Windows\System32\shutdown.exe /s"
-schtasks /Create /F /RU SYSTEM /TN SecondAutoShutdown /SC ONSTART /DELAY 3360:00 /TR "C:\Windows\System32\shutdown.exe /s" 
+
+::The idle shutdown is tricky to create; it requires an XML file which we create in a subroutine
+::If the echo is on, the XML will be malformed
+echo off
+call :idlexml > idle.xml
+echo on
+schtasks /create /xml "idle.xml" /tn "IdleShutdown"
+
 ::On Logon, Disable the FirstAutoShutdown
 schtasks /Create /F /RU SYSTEM /TN DisableAutoShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "FirstAutoShutdown""
-::Then, re-enable FirstAutoShutdown
+::Then, re-enable FirstAutoShutdown so I don't have to worry about it when creating the AMI
 schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0004:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown"" 
 
 ::Create scheduled task that downloads and runs the other batch file. User aria2--bitsadmin doesn't play well with scheduled tasks
@@ -175,8 +186,57 @@ unzip -u ARCGIS.zip -d %TEMP%
 ::Silent Install of PostGreSQL/PostGIS?
 ::Silent Install of Oracle?
 
-echo "Finished the Restart Process" 
+echo "Finished the Initial Configuration" 
 
 ::::INITIAL CONFIGURATION ONLY::::
-::Restart the computer
-shutdown /r
+
+GOTO :eof
+
+
+:idlexml
+echo ^<?xml version="1.0" encoding="UTF-16"?^>
+echo ^<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"^>
+echo   ^<RegistrationInfo^>
+echo     ^<Date^>2015-10-02T15:47:19.2075945^</Date^>
+echo     ^<Author^>Administrator^</Author^>
+echo   ^</RegistrationInfo^>
+echo   ^<Triggers^>
+echo     ^<SessionStateChangeTrigger^>
+echo       ^<Enabled^>true^</Enabled^>
+echo       ^<StateChange^>RemoteDisconnect^</StateChange^>
+echo       ^<Delay^>PT1440M0S^</Delay^>
+echo     ^</SessionStateChangeTrigger^>
+echo   ^</Triggers^>
+echo   ^<Principals^>
+echo     ^<Principal id="Author"^>
+echo       ^<UserId^>S-1-5-18^</UserId^>
+echo       ^<RunLevel^>LeastPrivilege^</RunLevel^>
+echo     ^</Principal^>
+echo   ^</Principals^>
+echo   ^<Settings^>
+echo     ^<MultipleInstancesPolicy^>IgnoreNew^</MultipleInstancesPolicy^>
+echo     ^<DisallowStartIfOnBatteries^>true^</DisallowStartIfOnBatteries^>
+echo     ^<StopIfGoingOnBatteries^>true^</StopIfGoingOnBatteries^>
+echo     ^<AllowHardTerminate^>true^</AllowHardTerminate^>
+echo     ^<StartWhenAvailable^>false^</StartWhenAvailable^>
+echo     ^<RunOnlyIfNetworkAvailable^>false^</RunOnlyIfNetworkAvailable^>
+echo     ^<IdleSettings^>
+echo       ^<StopOnIdleEnd^>true^</StopOnIdleEnd^>
+echo       ^<RestartOnIdle^>false^</RestartOnIdle^>
+echo     ^</IdleSettings^>
+echo     ^<AllowStartOnDemand^>true^</AllowStartOnDemand^>
+echo     ^<Enabled^>true^</Enabled^>
+echo     ^<Hidden^>false^</Hidden^>
+echo     ^<RunOnlyIfIdle^>false^</RunOnlyIfIdle^>
+echo     ^<WakeToRun^>false^</WakeToRun^>
+echo     ^<ExecutionTimeLimit^>P3D^</ExecutionTimeLimit^>
+echo     ^<Priority^>7^</Priority^>
+echo   ^</Settings^>
+echo   ^<Actions Context="Author"^>
+echo     ^<Exec^>
+echo       ^<Command^>C:\Windows\System32\shutdown.exe^</Command^>
+echo       ^<Arguments^>/s /f^</Arguments^>
+echo     ^</Exec^>
+echo   ^</Actions^>
+echo ^</Task^>
+GOTO :eof
