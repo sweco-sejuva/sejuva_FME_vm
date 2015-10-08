@@ -30,11 +30,14 @@ pushd %TEMP%
 
 :: Start Logging
 call :sub > %LOG%
+
+:::::::::::::::::This is the actual end of the script :::::::::
 ::Restart the computer
 shutdown /r
 exit /b
 
-::Everything below here are sub routines.
+
+::::::::::::::::Everything below here are sub routines::::::::::::::::::::::::
 
 :sub
 echo "Starting Downloading, Installing, and Configuring"
@@ -179,18 +182,11 @@ echo FME Engine >> c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
 aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
 unzip -u ARCGIS.zip -d %TEMP%
 
-
-
 :: Silent Install?
-
 ::Silent Install of PostGreSQL/PostGIS?
 ::Silent Install of Oracle?
-
 echo "Finished the Initial Configuration" 
-
-::::INITIAL CONFIGURATION ONLY::::
-
-GOTO :eof
+exit /b
 
 
 :idlexml
@@ -239,4 +235,4 @@ echo       ^<Arguments^>/s /f^</Arguments^>
 echo     ^</Exec^>
 echo   ^</Actions^>
 echo ^</Task^>
-GOTO :eof
+exit /b
