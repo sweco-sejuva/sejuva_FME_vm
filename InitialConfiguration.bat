@@ -113,43 +113,25 @@ schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationRun /SC ONSTART /DELAY 00
 ::https://chocolatey.org/
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
+:: Chocolatey allows you to specify what you want on a single line. Let's try that
+
+choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
+
 ::Bitsadmin does not work in a scheduled task. Install aria2. It is amazingly fast.
-choco install aria2 -y
-
-::We'll need to unzip stuff eventually
-choco install devbox-unzip -y
-
+::We'll need to unzip stuff eventually so get devbox-unzip
 ::I'm sure GIT will be useful at some point
-choco install git -y 
-
 ::WinDirStat is useful for finding what is taking up drive space.
-choco install windirstat -y
-
 ::UltraVNC is useful when helping students troubleshoot. Why 2 passwords? The first is for full control; the second is for view-only.
+::Google Chrome and Firefox are useful web browsers
+::Adobe Reader is used to read manuals
+::Notepad++ is great for text editing
+::Google Earth is useful
+::Install Python and Eclipse
+
 ::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
 choco install ultravnc -y 
 "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
 schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
-
-::Google Chrome and Firefox are useful web browsers
-choco install google-chrome-x64 -y 
-choco install firefox -y 
-
-::The following should be used in the onsite script:
-::Adobe Reader is used to read manuals
-choco install adobereader -y 
-
-::Notepad++ is great for text editing
-choco install notepadplusplus -y 
-
-::Google Earth is useful
-choco install googleearth -y 
-
-::Install Python and Eclipse
-choco install python -y 
-::Python 2.7.9 seems to have a problem installing.
-::choco install python2 -y 
-choco install eclipse -y
 
 ::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
 ::FMEData should be kept as https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
