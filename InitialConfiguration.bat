@@ -28,12 +28,16 @@ set TEMP=c:\temp
 md %TEMP%
 pushd %TEMP%
 
+::Create an XML file needed for the task scheduler
+call :idlexml > idle.xml
+
 :: Start Logging
+
 call :sub > %LOG%
 
 :::::::::::::::::This is the actual end of the script :::::::::
 ::Restart the computer
-shutdown /r >> %LOG%
+shutdown /r
 exit /b
 
 
@@ -87,12 +91,6 @@ WMIC USERACCOUNT WHERE "Name='administrator'" SET PasswordExpires=FALSE
 ::Remember to FORCE schedule task creation--otherwise you'll be prompted. 
 ::Create the Shutdowns
 schtasks /Create /F /RU SYSTEM /TN FirstAutoShutdown /SC ONSTART /DELAY 1440:00 /TR "C:\Windows\System32\shutdown.exe /s"
-
-::The idle shutdown is tricky to create; it requires an XML file which we create in a subroutine
-::If the echo is on, the XML will be malformed
-echo off
-call :idlexml > idle.xml
-echo on
 schtasks /create /xml "idle.xml" /tn "IdleShutdown"
 
 ::On Logon, Disable the FirstAutoShutdown
@@ -180,10 +178,13 @@ unzip -u ARCGIS.zip -d %TEMP%
 ::Silent Install of PostGreSQL/PostGIS?
 ::Silent Install of Oracle?
 echo "Finished the Initial Configuration" 
-exit /b
+goto :eof
 
 
 :idlexml
+::The idle shutdown is tricky to create; it requires an XML file which we create in a subroutine
+::If the echo is on, the XML will be malformed
+@echo off
 echo ^<?xml version="1.0" encoding="UTF-16"?^>
 echo ^<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"^>
 echo   ^<RegistrationInfo^>
@@ -229,4 +230,5 @@ echo       ^<Arguments^>/s /f^</Arguments^>
 echo     ^</Exec^>
 echo   ^</Actions^>
 echo ^</Task^>
-exit /b
+@echo on
+goto :eof
