@@ -33,7 +33,7 @@ call :sub > %LOG%
 
 :::::::::::::::::This is the actual end of the script :::::::::
 ::Restart the computer
-shutdown /r
+shutdown /r >> %LOG%
 exit /b
 
 
@@ -170,9 +170,21 @@ msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POS
 msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
 
 :: Silent install of FME Server:
-msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
+:: Create license files first. FME Server doesn't like the Environment Variable trick
+
+md c:\apps\fmeserver\server\fme\licenses\
+
 echo Registered Product=server > c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
 echo FME Engine >> c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
+
+echo SERVER 107.20.199.168 Any > c:\apps\fmeserver\server\fme\licenses\fme_license.dat
+echo USE_SERVER >> c:\apps\fmeserver\server\fme\licenses\fme_license.dat
+
+echo fmeobjects_reproject > c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
+echo basic_raster >> c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
+
+msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
+
 
 ::Install Beta.  Comment this out.
 ::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
