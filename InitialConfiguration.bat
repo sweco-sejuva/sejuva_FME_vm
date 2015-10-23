@@ -191,9 +191,9 @@ goto :eof
 	::Install the 64 and 32 bit Oracle Instant Clients
 		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-nt-12.1.0.2.0.zip --out=Oracle32InstantClient.zip --allow-overwrite=true
 		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
-		unzip -u Oracle32InstantClient.zip -d c:\
-		unzip -u Oracle64InstantClient.zip -d c:\
-		setx /m PATH "%PATH%;C:\Oracle32InstantClient;c:\Oracle64InstantClient"
+		unzip -u Oracle32InstantClient.zip -d c:\Oracle32InstantClient
+		unzip -u Oracle64InstantClient.zip -d c:\Oracle64InstantClient
+		setx /m PATH "%PATH%;C:\Oracle32InstantClient\instantclient_12_1;c:\Oracle64InstantClient\instantclient_12_1"
 goto :eof
 
 :idlexml
