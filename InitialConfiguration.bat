@@ -209,8 +209,7 @@ aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-
 unzip -u Oracle32InstantClient.zip -d c:\
 unzip -u Oracle64InstantClient.zip -d c:\
 
-set PATH=%PATH%;C:\Oracle32InstantClient;c:\Oracle64InstantClient
-
+setx /m PATH %PATH%;C:\Oracle32InstantClient;c:\Oracle64InstantClient
 goto :eof
 
 :idlexml
