@@ -9,207 +9,191 @@
 
 ::::GENERAL SETTINGS FOR LATER IN BATCH FILE::::
 
-set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
-set SAFE_LICENSE_FILE=@107.20.199.168
-set EC2PASSWORD=FME2015learnings
-set PORTFORWARDING=81;82;443;8080;8081
-set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
-set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
-set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15539-win-x86.msi
-set FMEDATAURL=http://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
-set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
+	set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
+	set SAFE_LICENSE_FILE=@107.20.199.168
+	set EC2PASSWORD=FME2015learnings
+	set PORTFORWARDING=81;82;443;8080;8081
+	set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
+	set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
+	set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15539-win-x86.msi
+	set FMEDATAURL=http://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
+	set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
-set DISABLED=::
-set LOG=c:\temp\InitialConfiguration.log
-set TEMP=c:\temp
+	set DISABLED=::
+	set LOG=c:\temp\InitialConfiguration.log
+	set TEMP=c:\temp
 
-md %TEMP%
-pushd %TEMP%
+	md %TEMP%
+	pushd %TEMP%
 
 ::Create an XML file needed for the task scheduler
-call :idlexml > idle.xml
+	call :idlexml > idle.xml
 
 :: Start Logging, and call sub routines for configuring the computer
 ::basicSetup sets things like license files. Always necessary
-call :basicSetup > %LOG%
+	call :basicSetup > %LOG%
 
 ::ec2Setup sets things like computer password, timezone, etc.  Not necessary for non-ec2 training machines
-call :ec2Setup >> %LOG%
+	call :ec2Setup >> %LOG%
 
 ::scheduleTasks sets up shutdown scripts, and additional startup tasks. Not neccessary for non-ec2 training machines
-call :scheduleTasks >> %LOG%
+	call :scheduleTasks >> %LOG%
 
 ::helpfulApps are applications that are helpful. Always necessary
-call :helpfulApps >> %LOG%
+	call :helpfulApps >> %LOG%
 
 ::installFME installs FME 32 and 64 bit, and FME Server
-call :installFME >> %LOG%
+	call :installFME >> %LOG%
 
 ::oracle installs 32-bit and 64-bit Oracle Instant Clients
-call :oracle >> %LOG%
+	call :oracle >> %LOG%
 
 :::::::::::::::::This is the actual end of the script:::::::::::::::::
 ::Restart the computer
-echo "Finished the Initial Configuration" >> %LOG%
-shutdown /r
-exit /b
+	echo "Finished the Initial Configuration" >> %LOG%
+	shutdown /r
+	exit /b
 
 
 :::::::::::::::::Everything below here are sub routines:::::::::::::::::
 
 :basicSetup
-echo "Starting Downloading, Installing, and Configuring"
+	echo "Starting Downloading, Installing, and Configuring"
 
-:: Log that variables are set correctly
-echo "Variables are set to:"
-set
+	:: Log that variables are set correctly
+		echo "Variables are set to:"
+		set
 
-::Set some SYSTEM environment variables
-setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE%
-setx /m FME_USE_LM_ENVIRONMENT YES 
+	::Set some SYSTEM environment variables
+		setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE%
+		setx /m FME_USE_LM_ENVIRONMENT YES 
 
-::We should make sure port 80 is open too, for FME Server. This might be unnecessary
-netsh firewall add portopening TCP 80 "FME Server"
-::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
-netsh firewall add portopening TCP 25 "SMTP"
+	::We should make sure port 80 is open too, for FME Server. This might be unnecessary
+		netsh firewall add portopening TCP 80 "FME Server"
+	::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
+		netsh firewall add portopening TCP 25 "SMTP"
 
 goto :eof
 
 :ec2Setup
-::::CONFIGURE WINDOWS SETTINGS::::
+	::::CONFIGURE WINDOWS SETTINGS::::
+	:: Set the time zone
+		tzutil /s "Pacific Standard Time"
 
-:: Set the time zone
-tzutil /s "Pacific Standard Time"
-
-:: The purpose of this section is to configure proxy ports for Remote Desktop
-:: It must be run with elevated permissions (right-click and run as administrator)
-:: The batch file assumes the computer name will not change.
-:: Be sure to also open the listed ports in the EC2 security group
-:: The ports to be set are in PORTFORWARDING:
-:: First, we reset the existing proxy ports.
-netsh interface portproxy reset
-:: Now we set the proxy ports and add them to the firewall
-for %%f IN (%PORTFORWARDING%) DO (
-	netsh interface portproxy add v4tov4 listenport=%%f connectport=3389 connectaddress=%COMPUTERNAME%
-	netsh firewall add portopening TCP %%f "Remote Desktop Port Proxy"
-	)
-
-
-::Set Computer Name. This will require a reboot. Reboot is at the end of this batch file.
-wmic computersystem where name="%COMPUTERNAME%" call rename name="FMETraining"
-::Set Password for Administrator. I hate password complexity requiremens, but they can't be changed from the command line.
-net user Administrator %EC2PASSWORD%
-::Make sure password does not expire.
-WMIC USERACCOUNT WHERE "Name='administrator'" SET PasswordExpires=FALSE
-
+	:: The purpose of this section is to configure proxy ports for Remote Desktop
+	:: It must be run with elevated permissions (right-click and run as administrator)
+	:: The batch file assumes the computer name will not change.
+	:: Be sure to also open the listed ports in the EC2 security group
+	:: The ports to be set are in PORTFORWARDING:
+	:: First, we reset the existing proxy ports.
+		netsh interface portproxy reset
+	:: Now we set the proxy ports and add them to the firewall
+		for %%f IN (%PORTFORWARDING%) DO (
+			netsh interface portproxy add v4tov4 listenport=%%f connectport=3389 connectaddress=%COMPUTERNAME%
+			netsh firewall add portopening TCP %%f "Remote Desktop Port Proxy"
+		)
+	::Set Computer Name. This will require a reboot. Reboot is at the end of this batch file.
+		wmic computersystem where name="%COMPUTERNAME%" call rename name="FMETraining"
+	::Set Password for Administrator. I hate password complexity requiremens, but they can't be changed from the command line.
+		net user Administrator %EC2PASSWORD%
+	::Make sure password does not expire.
+		WMIC USERACCOUNT WHERE "Name='administrator'" SET PasswordExpires=FALSE
 goto :eof
 
 :scheduleTasks
-::::SCHEDULED TASKS::::
-:: It's a very good idea to limit how long an instance will run for. Leaving them for weeks at a time is bad
-::Create the Scheduled tasks. Shut down machine if not logged onto within 24 (cancelled on logon by another task) or 56 hours.
-::Remember to FORCE schedule task creation--otherwise you'll be prompted. 
-::Create the Shutdowns
-schtasks /Create /F /RU SYSTEM /TN FirstAutoShutdown /SC ONSTART /DELAY 1440:00 /TR "C:\Windows\System32\shutdown.exe /s"
-schtasks /create /xml "idle.xml" /tn "IdleShutdown"
+	::::SCHEDULED TASKS::::
+	:: It's a very good idea to limit how long an instance will run for. Leaving them for weeks at a time is bad
+	::Create the Scheduled tasks. Shut down machine if not logged onto within 24 (cancelled on logon by another task) or 56 hours.
+	::Remember to FORCE schedule task creation--otherwise you'll be prompted. 
+	::Create the Shutdowns
+		schtasks /Create /F /RU SYSTEM /TN FirstAutoShutdown /SC ONSTART /DELAY 1440:00 /TR "C:\Windows\System32\shutdown.exe /s"
+		schtasks /create /xml "idle.xml" /tn "IdleShutdown"
 
-::On Logon, Disable the FirstAutoShutdown
-schtasks /Create /F /RU SYSTEM /TN DisableAutoShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "FirstAutoShutdown""
-::Then, re-enable FirstAutoShutdown so I don't have to worry about it when creating the AMI
-schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0004:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown"" 
-
-::Create scheduled task that downloads and runs the other batch file. User aria2--bitsadmin doesn't play well with scheduled tasks
-::Get the other batch file and run it.
-schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationSetup /SC ONSTART /TR "aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true"
-schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationRun /SC ONSTART /DELAY 0001:00 /TR "c:/temp/OnstartConfiguration.bat"
-
-::The VNC Scheduled Task is created when installing VNC, in the INSTALL SOFTWARE section
-
+	::On Logon, Disable the FirstAutoShutdown
+		schtasks /Create /F /RU SYSTEM /TN DisableAutoShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "FirstAutoShutdown""
+	::Then, re-enable FirstAutoShutdown so I don't have to worry about it when creating the AMI
+		schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0004:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown"" 
+	::Create scheduled task that downloads and runs the other batch file. User aria2--bitsadmin doesn't play well with scheduled tasks
+	::Get the other batch file and run it.
+		schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationSetup /SC ONSTART /TR "aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true"
+		schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationRun /SC ONSTART /DELAY 0001:00 /TR "c:/temp/OnstartConfiguration.bat"
+	::The VNC Scheduled Task is created when installing VNC, in the INSTALL SOFTWARE section
 goto :eof
 
 :helpfulApps
-::::INSTALL SOFTWARE::::
-::Install Chocolatey  https://chocolatey.org/
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
-
-:: Chocolatey allows you to specify what you want on a single line. Let's try that
-::Bitsadmin does not work in a scheduled task. Install aria2. It is amazingly fast.
-::We'll need to unzip stuff eventually so get devbox-unzip
-::I'm sure GIT will be useful at some point
-::WinDirStat is useful for finding what is taking up drive space.
-::UltraVNC is useful when helping students troubleshoot. Why 2 passwords? The first is for full control; the second is for view-only.
-::Google Chrome and Firefox are useful web browsers
-::Adobe Reader is used to read manuals
-::Notepad++ is great for text editing
-::Google Earth is useful
-::Install Python and Eclipse
-choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
-
-::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
-schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
-
+	::::INSTALL SOFTWARE::::
+	::Install Chocolatey  https://chocolatey.org/
+		@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+	:: Chocolatey allows you to specify what you want on a single line. Let's try that
+	::Bitsadmin does not work in a scheduled task. Install aria2. It is amazingly fast.
+	::We'll need to unzip stuff eventually so get devbox-unzip
+	::I'm sure GIT will be useful at some point
+	::WinDirStat is useful for finding what is taking up drive space.
+	::UltraVNC is useful when helping students troubleshoot. Why 2 passwords? The first is for full control; the second is for view-only.
+	::Google Chrome and Firefox are useful web browsers
+	::Adobe Reader is used to read manuals
+	::Notepad++ is great for text editing
+	::Google Earth is useful
+	::Install Python and Eclipse
+		choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
+	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
+	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
+	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
 :installFME
+	::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
+	::FMEData should be kept as https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
+	::Get the basic FMEData and unzip any updates into c:\
+		aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
+		unzip -u FMEData.zip -d c:\ 
 
-::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
-::FMEData should be kept as https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
-::Get the basic FMEData and unzip any updates into c:\
-aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
-unzip -u FMEData.zip -d c:\ 
+	::The lastest FME Desktop Installers are available from http://www.safe.com/fme/fme-desktop/trial-download/download.php
+		aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true
+		aria2c %FMEDESKTOP64URL% --out=FMEDesktop64.msi --allow-overwrite=true 
+	::The lastest FME Server Installers are available from http://www.safe.com/fme/fme-server/trial-download/download.php
+		aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=true
+	:: Silent install of FME Desktop follows the form of:
+	::msiexec /i fme-desktop-b15475-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\fme" ENABLE_POST_INSTALL_TASKS=no
+		msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
+		msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
+	:: Silent install of FME Server:
+	:: Create license files first. FME Server doesn't like the Environment Variable trick
 
-::The lastest FME Desktop Installers are available from http://www.safe.com/fme/fme-desktop/trial-download/download.php
-aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true
-aria2c %FMEDESKTOP64URL% --out=FMEDesktop64.msi --allow-overwrite=true 
+		md c:\apps\fmeserver\server\fme\licenses\
 
-::The lastest FME Server Installers are available from http://www.safe.com/fme/fme-server/trial-download/download.php
-aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=true
+		echo Registered Product=server > c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
+		echo FME Engine >> c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
 
-:: Silent install of FME Desktop follows the form of:
-::msiexec /i fme-desktop-b15475-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\fme" ENABLE_POST_INSTALL_TASKS=no
-msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
-msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
+		echo SERVER 107.20.199.168 Any > c:\apps\fmeserver\server\fme\licenses\fme_license.dat
+		echo USE_SERVER >> c:\apps\fmeserver\server\fme\licenses\fme_license.dat
 
-:: Silent install of FME Server:
-:: Create license files first. FME Server doesn't like the Environment Variable trick
+		echo fmeobjects_reproject > c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
+		echo basic_raster >> c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
 
-md c:\apps\fmeserver\server\fme\licenses\
+		msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
 
-echo Registered Product=server > c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
-echo FME Engine >> c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
+	::Install Beta.  Comment this out.
+	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
+	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
 
-echo SERVER 107.20.199.168 Any > c:\apps\fmeserver\server\fme\licenses\fme_license.dat
-echo USE_SERVER >> c:\apps\fmeserver\server\fme\licenses\fme_license.dat
+	::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
+		aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
+		unzip -u ARCGIS.zip -d %TEMP%
 
-echo fmeobjects_reproject > c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
-echo basic_raster >> c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
-
-msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
-
-::Install Beta.  Comment this out.
-::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
-::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
-
-::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
-aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
-unzip -u ARCGIS.zip -d %TEMP%
-
-:: Silent Install?
-::Silent Install of PostGreSQL/PostGIS?
-::Silent Install of Oracle?
+	:: Silent Install?
+	::Silent Install of PostGreSQL/PostGIS?
+	::Silent Install of Oracle?
 
 goto :eof
 
 :oracle
-::Install the 64 and 32 bit Oracle Instant Clients
-aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-nt-12.1.0.2.0.zip --out=Oracle32InstantClient.zip --allow-overwrite=true
-aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
-
-unzip -u Oracle32InstantClient.zip -d c:\
-unzip -u Oracle64InstantClient.zip -d c:\
-
-setx /m PATH %PATH%;C:\Oracle32InstantClient;c:\Oracle64InstantClient
+	::Install the 64 and 32 bit Oracle Instant Clients
+		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-nt-12.1.0.2.0.zip --out=Oracle32InstantClient.zip --allow-overwrite=true
+		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
+		unzip -u Oracle32InstantClient.zip -d c:\
+		unzip -u Oracle64InstantClient.zip -d c:\
+		setx /m PATH %PATH%;C:\Oracle32InstantClient;c:\Oracle64InstantClient
 goto :eof
 
 :idlexml
