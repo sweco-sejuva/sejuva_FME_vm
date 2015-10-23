@@ -50,7 +50,8 @@
 
 :::::::::::::::::This is the actual end of the script:::::::::::::::::
 ::Restart the computer
-	echo "Finished the Initial Configuration" >> %LOG%
+	echo Finished the Initial Configuration >> %LOG%
+	echo Done! %date% %time% > "c:\temp\restart.txt"
 	shutdown /r
 	exit /b
 
