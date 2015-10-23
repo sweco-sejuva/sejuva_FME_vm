@@ -127,7 +127,7 @@ choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultrav
 ::Install Python and Eclipse
 
 ::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-choco install ultravnc -y 
+
 "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
 schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 
