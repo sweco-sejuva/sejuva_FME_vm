@@ -3,10 +3,8 @@
 ::This script does things that you only want to do once, like name the computer.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
-
-::bitsadmin.exe /transfer "Start" https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat %CD%\InitialConfiguration.bat && %CD%\InitialConfiguration.bat
-
-:: OR use User Data when creating the EC2 instance. Past in the following script:
+:: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
+::OR use User Data when creating the EC2 instance. Past in the following script:
 :: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
 
 ::::GENERAL SETTINGS FOR LATER IN BATCH FILE::::
@@ -31,33 +29,53 @@ pushd %TEMP%
 ::Create an XML file needed for the task scheduler
 call :idlexml > idle.xml
 
-:: Start Logging
+:: Start Logging, and call sub routines for configuring the computer
+::basicSetup sets things like license files. Always necessary
+call :basicSetup > %LOG%
 
-call :sub > %LOG%
+::ec2Setup sets things like computer password, timezone, etc.  Not necessary for non-ec2 training machines
+call :ec2Setup >> %LOG%
 
-:::::::::::::::::This is the actual end of the script :::::::::
+::scheduleTasks sets up shutdown scripts, and additional startup tasks. Not neccessary for non-ec2 training machines
+call :scheduleTasks >> %LOG%
+
+::helpfulApps are applications that are helpful. Always necessary
+call :helpfulApps >> %LOG%
+
+::installFME installs FME 32 and 64 bit, and FME Server
+call :installFME >> %LOG%
+
+:::::::::::::::::This is the actual end of the script:::::::::::::::::
 ::Restart the computer
 shutdown /r
 exit /b
 
 
-::::::::::::::::Everything below here are sub routines::::::::::::::::::::::::
+:::::::::::::::::Everything below here are sub routines:::::::::::::::::
 
-:sub
+:basicSetup
 echo "Starting Downloading, Installing, and Configuring"
 
-::::CONFIGURE WINDOWS SETTINGS::::
-
-:: Set the time zone
-tzutil /s "Pacific Standard Time"
+:: Log that variables are set correctly
+echo "Variables are set to:"
+set
 
 ::Set some SYSTEM environment variables
 setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE%
 setx /m FME_USE_LM_ENVIRONMENT YES 
 
-:: Log that variables are set correctly
-echo "Variables are set to:"
-set
+::We should make sure port 80 is open too, for FME Server. This might be unnecessary
+netsh firewall add portopening TCP 80 "FME Server"
+::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
+netsh firewall add portopening TCP 25 "SMTP"
+
+goto :eof
+
+:ec2Setup
+::::CONFIGURE WINDOWS SETTINGS::::
+
+:: Set the time zone
+tzutil /s "Pacific Standard Time"
 
 :: The purpose of this section is to configure proxy ports for Remote Desktop
 :: It must be run with elevated permissions (right-click and run as administrator)
@@ -66,16 +84,12 @@ set
 :: The ports to be set are in PORTFORWARDING:
 :: First, we reset the existing proxy ports.
 netsh interface portproxy reset
-
 :: Now we set the proxy ports and add them to the firewall
 for %%f IN (%PORTFORWARDING%) DO (
 	netsh interface portproxy add v4tov4 listenport=%%f connectport=3389 connectaddress=%COMPUTERNAME%
 	netsh firewall add portopening TCP %%f "Remote Desktop Port Proxy"
 	)
-::We should make sure port 80 is open too, for FME Server. This might be unnecessary
-netsh firewall add portopening TCP 80 "FME Server"
-::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
-netsh firewall add portopening TCP 25 "SMTP"
+
 
 ::Set Computer Name. This will require a reboot. Reboot is at the end of this batch file.
 wmic computersystem where name="%COMPUTERNAME%" call rename name="FMETraining"
@@ -84,8 +98,10 @@ net user Administrator %EC2PASSWORD%
 ::Make sure password does not expire.
 WMIC USERACCOUNT WHERE "Name='administrator'" SET PasswordExpires=FALSE
 
-::::SCHEDULED TASKS::::
+goto :eof
 
+:scheduleTasks
+::::SCHEDULED TASKS::::
 :: It's a very good idea to limit how long an instance will run for. Leaving them for weeks at a time is bad
 ::Create the Scheduled tasks. Shut down machine if not logged onto within 24 (cancelled on logon by another task) or 56 hours.
 ::Remember to FORCE schedule task creation--otherwise you'll be prompted. 
@@ -105,16 +121,14 @@ schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationRun /SC ONSTART /DELAY 00
 
 ::The VNC Scheduled Task is created when installing VNC, in the INSTALL SOFTWARE section
 
-::::INSTALL SOFTWARE::::
+goto :eof
 
-::Install Chocolatey
-::https://chocolatey.org/
+:helpfulApps
+::::INSTALL SOFTWARE::::
+::Install Chocolatey  https://chocolatey.org/
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
 :: Chocolatey allows you to specify what you want on a single line. Let's try that
-
-choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
-
 ::Bitsadmin does not work in a scheduled task. Install aria2. It is amazingly fast.
 ::We'll need to unzip stuff eventually so get devbox-unzip
 ::I'm sure GIT will be useful at some point
@@ -125,11 +139,15 @@ choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultrav
 ::Notepad++ is great for text editing
 ::Google Earth is useful
 ::Install Python and Eclipse
+choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
 
 ::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-
 "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
 schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
+
+goto :eof
+
+:installFME
 
 ::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
 ::FMEData should be kept as https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
@@ -164,7 +182,6 @@ echo fmeobjects_reproject > c:\apps\fmeserver\server\fme\licenses\flexlm_plugins
 echo basic_raster >> c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
 
 msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
-
 
 ::Install Beta.  Comment this out.
 ::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
