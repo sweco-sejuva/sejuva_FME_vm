@@ -45,6 +45,9 @@ call :helpfulApps >> %LOG%
 ::installFME installs FME 32 and 64 bit, and FME Server
 call :installFME >> %LOG%
 
+::oracle installs 32-bit and 64-bit Oracle Instant Clients
+call :oracle >> %LOG%
+
 :::::::::::::::::This is the actual end of the script:::::::::::::::::
 ::Restart the computer
 echo "Finished the Initial Configuration" >> %LOG%
@@ -198,6 +201,17 @@ unzip -u ARCGIS.zip -d %TEMP%
 
 goto :eof
 
+:oracle
+::Install the 64 and 32 bit Oracle Instant Clients
+aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-nt-12.1.0.2.0.zip --out=Oracle32InstantClient.zip --allow-overwrite=true
+aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
+
+unzip -u Oracle32InstantClient.zip -d c:\
+unzip -u Oracle64InstantClient.zip -d c:\
+
+set PATH=%PATH%;C:\Oracle32InstantClient;c:\Oracle64InstantClient
+
+goto :eof
 
 :idlexml
 ::The idle shutdown is tricky to create; it requires an XML file which we create in a subroutine
