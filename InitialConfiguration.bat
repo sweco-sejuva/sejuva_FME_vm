@@ -47,6 +47,7 @@ call :installFME >> %LOG%
 
 :::::::::::::::::This is the actual end of the script:::::::::::::::::
 ::Restart the computer
+echo "Finished the Initial Configuration" >> %LOG%
 shutdown /r
 exit /b
 
@@ -194,7 +195,7 @@ unzip -u ARCGIS.zip -d %TEMP%
 :: Silent Install?
 ::Silent Install of PostGreSQL/PostGIS?
 ::Silent Install of Oracle?
-echo "Finished the Initial Configuration" 
+
 goto :eof
 
 
