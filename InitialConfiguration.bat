@@ -193,7 +193,7 @@ goto :eof
 		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
 		unzip -u Oracle32InstantClient.zip -d c:\
 		unzip -u Oracle64InstantClient.zip -d c:\
-		setx /m PATH %PATH%;C:\Oracle32InstantClient;c:\Oracle64InstantClient
+		setx /m PATH "%PATH%;C:\Oracle32InstantClient;c:\Oracle64InstantClient"
 goto :eof
 
 :idlexml
