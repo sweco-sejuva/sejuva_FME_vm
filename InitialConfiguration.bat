@@ -1,6 +1,5 @@
-::This file does the initial configuration of the AWS instance.
+::This file does the initial configuration of the AWS instance; things that you only want to do once, like name the computer.
 ::Assuming that a T2.large is being used. Provide at least 100GB of storage.
-::This script does things that you only want to do once, like name the computer.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
 :: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
@@ -8,7 +7,6 @@
 :: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
 
 ::::GENERAL SETTINGS FOR LATER IN BATCH FILE::::
-
 	set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
 	set SAFE_LICENSE_FILE=@107.20.199.168
 	set EC2PASSWORD=FME2015learnings
@@ -25,26 +23,20 @@
 
 	md %TEMP%
 	pushd %TEMP%
-
+:::::::::::::::::Here are the procedure calls:::::::::::::::::
 ::Create an XML file needed for the task scheduler
 	call :idlexml > idle.xml
-
 :: Start Logging, and call sub routines for configuring the computer
 ::basicSetup sets things like license files. Always necessary
 	call :basicSetup > %LOG%
-
 ::ec2Setup sets things like computer password, timezone, etc.  Not necessary for non-ec2 training machines
 	call :ec2Setup >> %LOG%
-
 ::scheduleTasks sets up shutdown scripts, and additional startup tasks. Not neccessary for non-ec2 training machines
 	call :scheduleTasks >> %LOG%
-
 ::helpfulApps are applications that are helpful. Always necessary
 	call :helpfulApps >> %LOG%
-
 ::installFME installs FME 32 and 64 bit, and FME Server
 	call :installFME >> %LOG%
-
 ::oracle installs 32-bit and 64-bit Oracle Instant Clients
 	call :oracle >> %LOG%
 
@@ -54,33 +46,26 @@
 	echo Done! %date% %time% > "c:\temp\restart.txt"
 	shutdown /r
 	exit /b
-
-
 :::::::::::::::::Everything below here are sub routines:::::::::::::::::
 
 :basicSetup
 	echo "Starting Downloading, Installing, and Configuring"
-
 	:: Log that variables are set correctly
 		echo "Variables are set to:"
 		set
-
 	::Set some SYSTEM environment variables
 		setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE%
 		setx /m FME_USE_LM_ENVIRONMENT YES 
-
 	::We should make sure port 80 is open too, for FME Server. This might be unnecessary
 		netsh firewall add portopening TCP 80 "FME Server"
 	::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
 		netsh firewall add portopening TCP 25 "SMTP"
-
 goto :eof
 
 :ec2Setup
 	::::CONFIGURE WINDOWS SETTINGS::::
 	:: Set the time zone
 		tzutil /s "Pacific Standard Time"
-
 	:: The purpose of this section is to configure proxy ports for Remote Desktop
 	:: It must be run with elevated permissions (right-click and run as administrator)
 	:: The batch file assumes the computer name will not change.
@@ -109,7 +94,6 @@ goto :eof
 	::Create the Shutdowns
 		schtasks /Create /F /RU SYSTEM /TN FirstAutoShutdown /SC ONSTART /DELAY 1440:00 /TR "C:\Windows\System32\shutdown.exe /s"
 		schtasks /create /xml "idle.xml" /tn "IdleShutdown"
-
 	::On Logon, Disable the FirstAutoShutdown
 		schtasks /Create /F /RU SYSTEM /TN DisableAutoShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "FirstAutoShutdown""
 	::Then, re-enable FirstAutoShutdown so I don't have to worry about it when creating the AMI
@@ -160,7 +144,6 @@ goto :eof
 		msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
 	:: Silent install of FME Server:
 	:: Create license files first. FME Server doesn't like the Environment Variable trick
-
 		md c:\apps\fmeserver\server\fme\licenses\
 
 		echo Registered Product=server > c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
@@ -173,7 +156,6 @@ goto :eof
 		echo basic_raster >> c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
 
 		msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
-
 	::Install Beta.  Comment this out.
 	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
 	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
@@ -182,10 +164,8 @@ goto :eof
 		aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
 		unzip -u ARCGIS.zip -d %TEMP%
 
-	:: Silent Install?
+	:: Silent Install ArcGIS?
 	::Silent Install of PostGreSQL/PostGIS?
-	::Silent Install of Oracle?
-
 goto :eof
 
 :oracle
