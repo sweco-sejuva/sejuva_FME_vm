@@ -39,15 +39,11 @@
 	call :installFME >> %LOG%
 ::oracle installs 32-bit and 64-bit Oracle Instant Clients
 	call :oracle >> %LOG%
+::shut down the computer
+	call :shutdown >> %LOG%
+goto :eof
 
-:::::::::::::::::This is the actual end of the script:::::::::::::::::
-::Restart the computer
-	echo Finished the Initial Configuration >> %LOG%
-	echo Done! %date% %time% > "c:\temp\restart.txt"
-	shutdown /r
-	exit /b
 :::::::::::::::::Everything below here are sub routines:::::::::::::::::
-
 :basicSetup
 	echo "Starting Downloading, Installing, and Configuring"
 	:: Log that variables are set correctly
@@ -175,6 +171,13 @@ goto :eof
 		unzip -u Oracle32InstantClient.zip -d c:\Oracle32InstantClient
 		unzip -u Oracle64InstantClient.zip -d c:\Oracle64InstantClient
 		setx /m PATH "%PATH%;C:\Oracle32InstantClient\instantclient_12_1;c:\Oracle64InstantClient\instantclient_12_1"
+goto :eof
+
+:shutdown
+	::Shutdown the computer
+	echo Finished the Initial Configuration
+	echo Done! %date% %time% 
+	shutdown /s /t 1
 goto :eof
 
 :idlexml
