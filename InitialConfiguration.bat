@@ -6,50 +6,50 @@
 ::OR use User Data when creating the EC2 instance. Past in the following script:
 :: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
 
-::::GENERAL SETTINGS FOR LATER IN BATCH FILE::::
-:variables
-	set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
-	set LICENSEIP=107.20.199.168
-	set SAFE_LICENSE_FILE=@%LICENSEIP%
-	set EC2PASSWORD=FME2015learnings
-	set PORTFORWARDING=81;82;443;8080;8081
-	set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
-	set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
-	set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15539-win-x86.msi
-	set FMEDATAURL=http://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
-	set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
+:main
+	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
+		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
+		set LICENSEIP=107.20.199.168
+		set SAFE_LICENSE_FILE=@%LICENSEIP%
+		set EC2PASSWORD=FME2015learnings
+		set PORTFORWARDING=81;82;443;8080;8081
+		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
+		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
+		set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15539-win-x86.msi
+		set FMEDATAURL=http://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
+		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
-	set DISABLED=::
-	set LOG=c:\temp\InitialConfiguration.log
-	set TEMP=c:\temp
-
-	md %TEMP%
-	pushd %TEMP%
-:::::::::::::::::Here are the procedure calls:::::::::::::::::
-::Create an XML file needed for the task scheduler
-	call :idlexml > idle.xml
-:: Start Logging, and call sub routines for configuring the computer
-::basicSetup sets things like license files. Always necessary
-	call :basicSetup > %LOG%
-::ec2Setup sets things like computer password, timezone, etc.  Not necessary for non-ec2 training machines
-	call :ec2Setup >> %LOG%
-::scheduleTasks sets up shutdown scripts, and additional startup tasks. Not neccessary for non-ec2 training machines
-	call :scheduleTasks >> %LOG%
-::helpfulApps are applications that are helpful. Always necessary
-	call :helpfulApps >> %LOG%
-::installFME installs FME 32 and 64 bit, and FME Server
-	call :installFME >> %LOG%
-::downloadArcGIS downloads the ArcGIS installer and unzips it
-	call :downloadArcGIS >> %LOG%
-::oracle installs 32-bit and 64-bit Oracle Instant Clients
-	call :oracle >> %LOG%
-::shut down the computer
-	call :shutdown >> %LOG%
+		set DISABLED=::
+		set LOG=c:\temp\InitialConfiguration.log
+		set TEMP=c:\temp
+	::Make required folders
+		md %TEMP%
+		pushd %TEMP%
+	:::::::::::::::::Here are the procedure calls:::::::::::::::::
+	::Create an XML file needed for the task scheduler
+		call :idlexml > idle.xml
+	:: Start Logging, and call sub routines for configuring the computer
+	::basicSetup sets things like license files. Always necessary
+		call :basicSetup > %LOG%
+	::ec2Setup sets things like computer password, timezone, etc.  Not necessary for non-ec2 training machines
+		call :ec2Setup >> %LOG%
+	::scheduleTasks sets up shutdown scripts, and additional startup tasks. Not neccessary for non-ec2 training machines
+		call :scheduleTasks >> %LOG%
+	::helpfulApps are applications that are helpful. Always necessary
+		call :helpfulApps >> %LOG%
+	::installFME installs FME 32 and 64 bit, and FME Server
+		call :installFME >> %LOG%
+	::downloadArcGIS downloads the ArcGIS installer and unzips it
+		call :downloadArcGIS >> %LOG%
+	::oracle installs 32-bit and 64-bit Oracle Instant Clients
+		call :oracle >> %LOG%
+	::shut down the computer
+		call :shutdown >> %LOG%
 goto :eof
 
 :::::::::::::::::Everything below here are sub routines:::::::::::::::::
 :basicSetup
-	echo "Starting Downloading, Installing, and Configuring"
+		echo "Starting Downloading, Installing, and Configuring"
 	:: Log that variables are set correctly
 		echo "Variables are set to:"
 		set
@@ -155,7 +155,6 @@ goto :eof
 	::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 		aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
 		unzip -u ARCGIS.zip -d %TEMP%
-
 	:: Silent Install ArcGIS?
 	::Silent Install of PostGreSQL/PostGIS?
 goto :eof
