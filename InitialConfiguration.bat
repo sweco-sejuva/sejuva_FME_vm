@@ -1,5 +1,5 @@
 ::This file does the initial configuration of the AWS instance; things that you only want to do once, like name the computer.
-::Assuming that a T2.large is being used. Provide at least 100GB of storage.
+::Assuming that a T2.large is being used. Provide at least 70GB of storage.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
 :: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
