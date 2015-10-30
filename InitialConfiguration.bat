@@ -8,7 +8,8 @@
 
 ::::GENERAL SETTINGS FOR LATER IN BATCH FILE::::
 	set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
-	set SAFE_LICENSE_FILE=@107.20.199.168
+	set LICENSEIP=107.20.199.168
+	set SAFE_LICENSE_FILE=@%LICENSEIP%
 	set EC2PASSWORD=FME2015learnings
 	set PORTFORWARDING=81;82;443;8080;8081
 	set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
@@ -139,19 +140,9 @@ goto :eof
 		msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
 		msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
 	:: Silent install of FME Server:
-	:: Create license files first. FME Server doesn't like the Environment Variable trick
-		md c:\apps\fmeserver\server\fme\licenses\
-
-		echo Registered Product=server > c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
-		echo FME Engine >> c:\apps\fmeserver\server\fme\licenses\flexlm_config.dat
-
-		echo SERVER 107.20.199.168 Any > c:\apps\fmeserver\server\fme\licenses\fme_license.dat
-		echo USE_SERVER >> c:\apps\fmeserver\server\fme\licenses\fme_license.dat
-
-		echo fmeobjects_reproject > c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
-		echo basic_raster >> c:\apps\fmeserver\server\fme\licenses\flexlm_plugins.dat
-
 		msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
+	:: License FME Server
+		c:\apps\fmeserver\server\fme\fmelicensingassistant_cmd.exe --floating %LICENSEIP% server
 	::Install Beta.  Comment this out.
 	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
 	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
