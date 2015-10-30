@@ -7,6 +7,7 @@
 :: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
 
 ::::GENERAL SETTINGS FOR LATER IN BATCH FILE::::
+:variables
 	set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
 	set LICENSEIP=107.20.199.168
 	set SAFE_LICENSE_FILE=@%LICENSEIP%
@@ -38,6 +39,8 @@
 	call :helpfulApps >> %LOG%
 ::installFME installs FME 32 and 64 bit, and FME Server
 	call :installFME >> %LOG%
+::downloadArcGIS downloads the ArcGIS installer and unzips it
+	call :downloadArcGIS >> %LOG%
 ::oracle installs 32-bit and 64-bit Oracle Instant Clients
 	call :oracle >> %LOG%
 ::shut down the computer
@@ -119,8 +122,8 @@ goto :eof
 	::Install Python and Eclipse
 		choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
-	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
+		"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
+		schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
 :installFME
@@ -146,7 +149,9 @@ goto :eof
 	::Install Beta.  Comment this out.
 	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
 	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
+goto :eof
 
+:downloadArcGIS
 	::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 		aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
 		unzip -u ARCGIS.zip -d %TEMP%
@@ -166,9 +171,9 @@ goto :eof
 
 :shutdown
 	::Shutdown the computer
-	echo Finished the Initial Configuration
-	echo Done! %date% %time% 
-	shutdown /s /t 1
+		echo Finished the Initial Configuration
+		echo Done! %date% %time% 
+		shutdown /s /t 1
 goto :eof
 
 :idlexml
