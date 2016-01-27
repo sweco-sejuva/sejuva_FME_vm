@@ -2,21 +2,21 @@
 ::Assuming that a T2.large is being used. Provide at least 70GB of storage.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
-:: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
+:: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
 ::OR use User Data when creating the EC2 instance. Past in the following script:
-:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
+:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
 
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
-		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
+		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/2016/OnstartConfiguration.bat
 		set LICENSEIP=107.20.199.168
 		set SAFE_LICENSE_FILE=@%LICENSEIP%
-		set EC2PASSWORD=FME2015learnings
+		set EC2PASSWORD=FME2016learnings
 		set PORTFORWARDING=81;82;443;8080;8081
-		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme_eval.msi
-		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2015/win64/fme_eval.msi
-		set FMESERVERURL=http://downloads.safe.com/fme/2015/fme-server-b15539-win-x86.msi
-		set FMEDATAURL=http://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
+		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/fme_eval.msi
+		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/win64/fme_eval.msi
+		set FMESERVERURL=http://downloads.safe.com/fme/beta/fme-server-b16165-win-x86.msi
+		set FMEDATAURL=https://s3.amazonaws.com/FMEData/FMEData2016.zip
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
 		set DISABLED=::
@@ -53,9 +53,9 @@ goto :eof
 	:: Log that variables are set correctly
 		echo "Variables are set to:"
 		set
-	::Set some SYSTEM environment variables
-		setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE%
-		setx /m FME_USE_LM_ENVIRONMENT YES 
+	::Set some SYSTEM environment variables. Dropped this because it didn't play nice with FME Server
+	::	setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE%
+	::	setx /m FME_USE_LM_ENVIRONMENT YES 
 	::We should make sure port 80 is open too, for FME Server. This might be unnecessary
 		netsh firewall add portopening TCP 80 "FME Server"
 	::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
@@ -128,7 +128,6 @@ goto :eof
 
 :installFME
 	::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
-	::FMEData should be kept as https://s3.amazonaws.com/FMEData/FME-Sample-Dataset-Full.zip
 	::Get the basic FMEData and unzip any updates into c:\
 		aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
 		unzip -u FMEData.zip -d c:\ 
@@ -141,7 +140,9 @@ goto :eof
 	:: Silent install of FME Desktop follows the form of:
 	::msiexec /i fme-desktop-b15475-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\fme" ENABLE_POST_INSTALL_TASKS=no
 		msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
+		c:\apps\fme\fme\fmelicensingassistant_cmd.exe --floating %LICENSEIP% smallworld
 		msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
+		"c:\Program Files\fme\fmelicensingassistant_cmd.exe" --floating %LICENSEIP% smallworld
 	:: Silent install of FME Server:
 		msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
 	:: License FME Server
