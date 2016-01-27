@@ -10,7 +10,7 @@
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
 		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/2016/OnstartConfiguration.bat
 		set LICENSEIP=107.20.199.168
-		set SAFE_LICENSE_FILE=@%LICENSEIP%
+		::set SAFE_LICENSE_FILE=@%LICENSEIP%
 		set EC2PASSWORD=FME2016learnings
 		set PORTFORWARDING=81;82;443;8080;8081
 		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/fme_eval.msi
