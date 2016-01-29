@@ -16,7 +16,7 @@
 		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/fme_eval.msi
 		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/win64/fme_eval.msi
 		set FMESERVERURL=http://downloads.safe.com/fme/beta/fme-server-b16165-win-x86.msi
-		set FMEDATAURL=https://s3.amazonaws.com/FMEData/FMEData2016.zip
+		set FMEDATAURL=https://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
 		set DISABLED=::
