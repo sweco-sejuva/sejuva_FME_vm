@@ -226,4 +226,4 @@ echo     ^</Exec^>
 echo   ^</Actions^>
 echo ^</Task^>
 @echo on
-goto :eof
+@goto :eof
