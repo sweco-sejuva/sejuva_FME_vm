@@ -18,8 +18,9 @@ exit /b
 :sub
 pushd c:\temp
 
-aria2c %RDP% --allow-overwrite=true
-C:\apps\FME\fme.exe "c:\temp\ZippedRDPFileCreator.fmw"
+:: RDP creation is now done using Bluesky.
+::aria2c %RDP% --allow-overwrite=true
+::C:\apps\FME\fme.exe "c:\temp\ZippedRDPFileCreator.fmw"
 
 taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
 net stop "FME Server Database"
