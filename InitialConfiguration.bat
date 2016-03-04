@@ -60,6 +60,8 @@ goto :eof
 		netsh firewall add portopening TCP 80 "FME Server"
 	::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
 		netsh firewall add portopening TCP 25 "SMTP"
+	::We also need to open the port for UltraVNC. The installer fails to do that
+		netsh firewall add portopening TCP 5900 "VNC"
 goto :eof
 
 :ec2Setup
