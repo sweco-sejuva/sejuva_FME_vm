@@ -2,20 +2,20 @@
 ::Assuming that a T2.large is being used. Provide at least 70GB of storage.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
-:: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
+:: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
 ::OR use User Data when creating the EC2 instance. Past in the following script:
-:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
+:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
 
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
-		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/2016/OnstartConfiguration.bat
+		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
 		set LICENSEIP=107.20.199.168
 		::set SAFE_LICENSE_FILE=@%LICENSEIP%
 		set EC2PASSWORD=FME2016learnings
 		set PORTFORWARDING=81;82;443;8080;8081
 		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/fme_eval.msi
 		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/win64/fme_eval.msi
-		set FMESERVERURL=http://downloads.safe.com/fme/beta/fme-server-b16165-win-x86.msi
+		set FMESERVERURL=http://downloads.safe.com/fme/2016/fme-server-b16174-win-x86.msi
 		set FMEDATAURL=https://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 
