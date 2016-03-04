@@ -110,7 +110,7 @@ goto :eof
 :helpfulApps
 	::::INSTALL SOFTWARE::::
 	::Install Chocolatey  https://chocolatey.org/
-		@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+		 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 	:: Chocolatey allows you to specify what you want on a single line. Let's try that
 	::Bitsadmin does not work in a scheduled task. Install aria2. It is amazingly fast.
 	::We'll need to unzip stuff eventually so get devbox-unzip
