@@ -18,6 +18,7 @@
 		set FMESERVERURL=http://downloads.safe.com/fme/2016/fme-server-b16174-win-x86.msi
 		set FMEDATAURL=https://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
+		set NEWCOMPUTERNAME=FMETraining
 
 		set DISABLED=::
 		set LOG=c:\temp\InitialConfiguration.log
@@ -77,11 +78,11 @@ goto :eof
 		netsh interface portproxy reset
 	:: Now we set the proxy ports and add them to the firewall
 		for %%f IN (%PORTFORWARDING%) DO (
-			netsh interface portproxy add v4tov4 listenport=%%f connectport=3389 connectaddress=%COMPUTERNAME%
+			netsh interface portproxy add v4tov4 listenport=%%f connectport=3389 connectaddress=%NEWCOMPUTERNAME%
 			netsh firewall add portopening TCP %%f "Remote Desktop Port Proxy"
 		)
 	::Set Computer Name. This will require a reboot. Reboot is at the end of this batch file.
-		wmic computersystem where name="%COMPUTERNAME%" call rename name="FMETraining"
+		wmic computersystem where name="%COMPUTERNAME%" call rename name="%NEWCOMPUTERNAME%"
 	::Set Password for Administrator. I hate password complexity requiremens, but they can't be changed from the command line.
 		net user Administrator %EC2PASSWORD%
 	::Make sure password does not expire.
