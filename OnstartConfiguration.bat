@@ -56,7 +56,7 @@ echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\pub
 
 ::update FMEData
 aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
-unzip -u FMEData.zip -d c:\ 
+unzip -uo FMEData.zip -d c:\ 
 
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
