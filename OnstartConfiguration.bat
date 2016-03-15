@@ -11,6 +11,7 @@
 set LOG=c:\temp\OnstartConfiguration.log
 set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
 set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
+set FMEDATAURL=https://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
 
 call :sub > %LOG%
 exit /b
@@ -53,6 +54,9 @@ echo URL=http://www.safe.com/learning/training/resource-center/fme-server-author
 echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
 echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\public\desktop\Your Computer DNS Name.url"
 
+::update FMEData
+aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
+unzip -u FMEData.zip -d c:\ 
 
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
