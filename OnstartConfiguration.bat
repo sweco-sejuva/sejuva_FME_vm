@@ -55,8 +55,8 @@ echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
 echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\public\desktop\Your Computer DNS Name.url"
 
 ::update FMEData
-aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
-unzip -uo FMEData.zip -d c:\ 
+::aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
+::unzip -uo FMEData.zip -d c:\ 
 
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
