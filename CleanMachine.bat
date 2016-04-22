@@ -3,8 +3,7 @@
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
 :: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/CleanMachine.bat -OutFile CleanMachine.bat" && CleanMachine.bat
 ::OR use User Data when creating the EC2 instance. Past in the following script:
-:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/CleanMachine.bat -OutFile CleanMachine.bat" && CleanMachine.bat</script>
-
+:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
 		set EC2PASSWORD=FME2016learnings
@@ -63,10 +62,10 @@ goto :eof
 	::Notepad++ is great for text editing
 	::Google Earth is useful
 	::Install Python and Eclipse
-		choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
+	::	choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-		"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
-		schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
+	::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
+	::	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
 
