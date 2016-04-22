@@ -3,7 +3,7 @@
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
 :: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/CleanMachine.bat -OutFile CleanMachine.bat" && CleanMachine.bat
 ::OR use User Data when creating the EC2 instance. Past in the following script:
-:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
+:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/CleanMachine.bat -OutFile CleanMachine.bat" && CleanMachine.bat</script>
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
 		set EC2PASSWORD=FME2016learnings
