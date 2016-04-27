@@ -9,13 +9,14 @@
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
 		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
-		set LICENSEIP=107.20.199.168
+		set LICENSEIP=52.201.205.143
+		set SERIAL=UJRD-A7PQ-166X
 		::set SAFE_LICENSE_FILE=@%LICENSEIP%
 		set EC2PASSWORD=FME2016learnings
 		set PORTFORWARDING=81;82;443;8080;8081
 		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/fme_eval.msi
 		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2016/win64/fme_eval.msi
-		set FMESERVERURL=http://downloads.safe.com/fme/2016/fme-server-b16174-win-x86.msi
+		set FMESERVERURL=http://downloads.safe.com/fme/2016/fme-server-b16492-win-x86.msi
 		set FMEDATAURL=https://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 		set NEWCOMPUTERNAME=FMETraining
@@ -149,7 +150,7 @@ goto :eof
 	:: Silent install of FME Server:
 		msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
 	:: License FME Server
-		c:\apps\fmeserver\server\fme\fmelicensingassistant_cmd.exe --floating %LICENSEIP% server
+		c:\apps\fmeserver\server\fme\fmelicensingassistant_cmd.exe --serial %SERIAL%
 	::Install Beta.  Comment this out.
 	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
 	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
