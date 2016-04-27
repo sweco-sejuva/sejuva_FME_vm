@@ -44,7 +44,7 @@ echo URL=http://fme.ly/database >>"c:\users\public\desktop\Database Connection P
 
 :: FME Desktop Course Resources
 echo [InternetShortcut] > "c:\users\public\desktop\FME Desktop Course Resources.url"
-echo URL=http://fme.ly/course >>"c:\users\public\desktop\FME Desktop Course Resources.url"
+echo URL=https://knowledge.safe.com/content/kbentry/25216/fme-desktop-basic-training-course-resources.html >>"c:\users\public\desktop\FME Desktop Course Resources.url"
 
 :: FME Server Course Resources
 echo [InternetShortcut] > "c:\users\public\desktop\FME Server Course Resources.url"
