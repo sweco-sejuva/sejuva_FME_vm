@@ -64,6 +64,8 @@ goto :eof
 		netsh firewall add portopening TCP 25 "SMTP"
 	::We also need to open the port for UltraVNC. The installer fails to do that
 		netsh firewall add portopening TCP 5900 "VNC"
+	::FME Server needs port 7078 opened for web sockets
+		netsh firewall add portopening TCP 7078 "WebSockets"
 goto :eof
 
 :ec2Setup
