@@ -48,7 +48,7 @@ echo URL=https://knowledge.safe.com/content/kbentry/25216/fme-desktop-basic-trai
 
 :: FME Server Course Resources
 echo [InternetShortcut] > "c:\users\public\desktop\FME Server Course Resources.url"
-echo URL=http://www.safe.com/learning/training/resource-center/fme-server-authoring >> "c:\users\public\desktop\FME Server Course Resources.url"
+echo URL=https://knowledge.safe.com/content/kbentry/28253/fme-server-authoring-training-course-resources.html >> "c:\users\public\desktop\FME Server Course Resources.url"
 
 :: Your Computer DNS Name
 echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
