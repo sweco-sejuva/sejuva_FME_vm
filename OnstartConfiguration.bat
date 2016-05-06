@@ -54,6 +54,11 @@ echo URL=http://www.safe.com/learning/training/resource-center/fme-server-author
 echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
 echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\public\desktop\Your Computer DNS Name.url"
 
+:: Put the latest FME Server PDF manual on the desktop
+
+aria2c https://www.gitbook.com/download/pdf/book/safe-software/fme-server-training-2016 --allow-overwrite=true
+copy *.pdf c:\users\public\desktop\ /Y
+
 ::update FMEData
 ::aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
 ::unzip -uo FMEData.zip -d c:\ 
