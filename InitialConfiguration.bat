@@ -102,8 +102,10 @@ goto :eof
 		schtasks /create /xml "idle.xml" /tn "IdleShutdown"
 	::On Logon, Disable the FirstAutoShutdown
 		schtasks /Create /F /RU SYSTEM /TN DisableAutoShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "FirstAutoShutdown""
+		schtasks /Create /F /RU SYSTEM /TN DisableIdleShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "IdleShutdown""
 	::Then, re-enable FirstAutoShutdown so I don't have to worry about it when creating the AMI
-		schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0004:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown"" 
+		schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0004:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown""
+		schtasks /Create /F /RU SYSTEM /TN EnableIdleShutdown /SC ONLOGON /DELAY 0005:00 /TR "schtasks /Change /Enable /TN "IdleShutdown"" 
 	::Create scheduled task that downloads and runs the other batch file. User aria2--bitsadmin doesn't play well with scheduled tasks
 	::Get the other batch file and run it.
 		schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationSetup /SC ONSTART /TR "aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true"
