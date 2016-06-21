@@ -9,7 +9,7 @@
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
 		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
-		set LICENSEIP=52.201.205.143
+		set LICENSEIP=172.30.1.27
 		set SERIAL=UJRD-A7PQ-166X
 		::set SAFE_LICENSE_FILE=@%LICENSEIP%
 		set EC2PASSWORD=FME2016learnings
