@@ -11,7 +11,7 @@
 set LOG=c:\temp\OnstartConfiguration.log
 set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
 set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
-set FMEDATAURL=https://cdn.safe.com/training/sample-data/FME-Sample-Dataset-Full.zip
+set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2016.zip
 
 call :sub > %LOG%
 exit /b
@@ -60,8 +60,8 @@ aria2c https://www.gitbook.com/download/pdf/book/safe-software/fme-server-traini
 copy *.pdf c:\users\public\desktop\ /Y
 
 ::update FMEData
-::aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
-::unzip -uo FMEData.zip -d c:\ 
+aria2c %FMEDATAURL% --out=FMEData2016.zip --allow-overwrite=true
+unzip -uo FMEData2016.zip -d c:\ 
 
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
