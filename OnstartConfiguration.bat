@@ -79,13 +79,13 @@ goto :eof
 
 :taskbarPinning
 @echo off
-$sa = new-object -c shell.application
-$pn = $sa.namespace('c:\apps\fme').parsename('fmeworkbench.exe')
-$pn.invokeverb('taskbarpin')
+echo $sa = new-object -c shell.application
+echo $pn = $sa.namespace('c:\apps\fme').parsename('fmeworkbench.exe')
+echo $pn.invokeverb('taskbarpin')
 
-$sa = new-object -c shell.application
-$pn = $sa.namespace('c:\apps\fme').parsename('fmedatainspector.exe')
-$pn.invokeverb('taskbarpin')
+echo $sa = new-object -c shell.application
+echo $pn = $sa.namespace('c:\apps\fme').parsename('fmedatainspector.exe')
+echo $pn.invokeverb('taskbarpin')
 @echo on
 @goto :eof
 
