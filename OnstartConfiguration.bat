@@ -86,6 +86,15 @@ echo $pn.invokeverb('taskbarpin')
 echo $sa = new-object -c shell.application
 echo $pn = $sa.namespace('c:\apps\fme').parsename('fmedatainspector.exe')
 echo $pn.invokeverb('taskbarpin')
+
+echo $sa = new-object -c shell.application
+echo $pn = $sa.namespace('c:\windows\system32').parsename('ServerManager.exe')
+echo $pn.invokeverb('taskbarunpin')
+
+echo $sa = new-object -c shell.application
+echo $pn = $sa.namespace('C:\Windows\System32\WindowsPowerShell\v1.0').parsename('powershell.exe')
+echo $pn.invokeverb('taskbarunpin')
+
 @echo on
 @goto :eof
 
