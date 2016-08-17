@@ -68,6 +68,24 @@ copy *.pdf c:\users\public\desktop\ /Y
 ::aria2c %FMEDATAURL% --out=FMEData2016.zip --allow-overwrite=true
 ::unzip -uo FMEData2016.zip -d c:\ 
 
+:: Configure the TaskBar
+		call :taskbarPinning >taskbarPinning.ps1
+		powershell -executionpolicy bypass -File taskbarPinning.ps1
+
+
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
+goto :eof
+
+:taskbarPinning
+@echo off
+$sa = new-object -c shell.application
+$pn = $sa.namespace('c:\apps\fme').parsename('fmeworkbench.exe')
+$pn.invokeverb('taskbarpin')
+
+$sa = new-object -c shell.application
+$pn = $sa.namespace('c:\apps\fme').parsename('fmedatainspector.exe')
+$pn.invokeverb('taskbarpin')
+@echo on
+@goto :eof
 
