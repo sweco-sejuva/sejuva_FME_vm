@@ -159,6 +159,9 @@ goto :eof
 	::Install Beta.  Comment this out.
 	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
 	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
+	:: Pin Workbench and Data Inspector to the Task Bar
+		call :taskbarPinning >taskbarPinning.ps1
+		powershell -noexit -executionpolicy bypass -File taskbarPinning.ps1
 goto :eof
 
 :downloadArcGIS
@@ -234,5 +237,21 @@ echo       ^<Arguments^>/s /f^</Arguments^>
 echo     ^</Exec^>
 echo   ^</Actions^>
 echo ^</Task^>
+@echo on
+@goto :eof
+
+:taskbarPinning
+@echo off
+echo $shell = new-object -com "Shell.Application"  
+echo $folder = $shell.Namespace('C:\apps\fme')    
+echo $item = $folder.Parsename('fmeworkbench.exe')
+echo $verb = $item.Verbs() | ? {$_.Name -eq 'Pin to Tas&kbar'}
+echo if ($verb) {$verb.DoIt()}
+
+echo $shell = new-object -com "Shell.Application"  
+echo $folder = $shell.Namespace('C:\apps\fme')    
+echo $item = $folder.Parsename('fmedatainspector.exe')
+echo $verb = $item.Verbs() | ? {$_.Name -eq 'Pin to Tas&kbar'}
+echo if ($verb) {$verb.DoIt()}
 @echo on
 @goto :eof
