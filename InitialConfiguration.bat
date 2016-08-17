@@ -159,9 +159,7 @@ goto :eof
 	::Install Beta.  Comment this out.
 	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
 	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
-	:: Pin Workbench and Data Inspector to the Task Bar
-		call :taskbarPinning >taskbarPinning.ps1
-		powershell -executionpolicy bypass -File taskbarPinning.ps1
+
 goto :eof
 
 :downloadArcGIS
@@ -240,14 +238,4 @@ echo ^</Task^>
 @echo on
 @goto :eof
 
-:taskbarPinning
-@echo off
-$sa = new-object -c shell.application
-$pn = $sa.namespace('c:\apps\fme').parsename('fmeworkbench.exe')
-$pn.invokeverb('taskbarpin')
 
-$sa = new-object -c shell.application
-$pn = $sa.namespace('c:\apps\fme').parsename('fmedatainspector.exe')
-$pn.invokeverb('taskbarpin')
-@echo on
-@goto :eof
