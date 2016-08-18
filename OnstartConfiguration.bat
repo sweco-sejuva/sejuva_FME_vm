@@ -70,7 +70,7 @@ copy *.pdf c:\users\public\desktop\ /Y
 
 :: Configure the TaskBar
 		call :taskbarPinning >taskbarPinning.ps1
-		powershell -executionpolicy bypass -File taskbarPinning.ps1
+		powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
 
 
 :: Indicate the end of the log file.
