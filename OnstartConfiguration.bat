@@ -72,8 +72,9 @@ copy *.pdf c:\users\public\desktop\ /Y
 	call :taskbarPinning >taskbarPinning.ps1
 	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
 
-:: Create uninstall script
-	call :uninstallFME >uninstallFME.ps1
+:: Download FME uninstaller and installer
+	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEInstall.bat --allow-overwrite=true
+	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
 
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
@@ -100,9 +101,3 @@ echo $pn.invokeverb('taskbarunpin')
 @echo on
 @goto :eof
 
-:uninstallFME
-@echo off
-echo $app = Get-WmiObject -Class Win32_Product -Filter "Vendor='Safe Software Inc.'"
-echo $app.Uninstall()
-@echo on
-@goto :eof
