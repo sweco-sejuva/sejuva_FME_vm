@@ -69,9 +69,11 @@ copy *.pdf c:\users\public\desktop\ /Y
 ::unzip -uo FMEData2016.zip -d c:\ 
 
 :: Configure the TaskBar
-		call :taskbarPinning >taskbarPinning.ps1
-		powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
+	call :taskbarPinning >taskbarPinning.ps1
+	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
 
+:: Create uninstall script
+	call :uninstallFME >uninstallFME.ps1
 
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
@@ -98,3 +100,9 @@ echo $pn.invokeverb('taskbarunpin')
 @echo on
 @goto :eof
 
+:uninstallFME
+@echo off
+echo $app = Get-WmiObject -Class Win32_Product -Filter "Vendor='Safe Software Inc.'"
+echo $app.Uninstall()
+@echo on
+@goto :eof
