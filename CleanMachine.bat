@@ -35,12 +35,12 @@ goto :eof
 :ec2Setup
 	::::CONFIGURE WINDOWS SETTINGS::::
 	:: Set the time zone
-		tzutil /s "Pacific Standard Time"
+	::	tzutil /s "Pacific Standard Time"
 	:: The purpose of this section is to configure proxy ports for Remote Desktop
 	:: It must be run with elevated permissions (right-click and run as administrator)
 	:: The batch file assumes the computer name will not change.
 	::Set Computer Name. This will require a reboot. Reboot is at the end of this batch file.
-		wmic computersystem where name="%COMPUTERNAME%" call rename name="FMETraining"
+		wmic computersystem where name="%COMPUTERNAME%" call rename name="FMETesting"
 	::Set Password for Administrator. I hate password complexity requiremens, but they can't be changed from the command line.
 		net user Administrator %EC2PASSWORD%
 	::Make sure password does not expire.
@@ -62,7 +62,7 @@ goto :eof
 	::Notepad++ is great for text editing
 	::Google Earth is useful
 	::Install Python and Eclipse
-	::	choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
+		choco install notepadplusplus google-chrome-x64 firefox adobereader -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
 	::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
 	::	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
