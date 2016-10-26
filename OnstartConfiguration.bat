@@ -65,8 +65,8 @@ aria2c https://www.gitbook.com/download/pdf/book/safe-software/fme-server-traini
 copy *.pdf c:\users\public\desktop\ /Y
 
 ::update FMEData
-::aria2c %FMEDATAURL% --out=FMEData2016.zip --allow-overwrite=true
-::unzip -uo FMEData2016.zip -d c:\ 
+aria2c %FMEDATAURL% --out=FMEData2016.zip --allow-overwrite=true
+unzip -uo FMEData2016.zip -d c:\ 
 
 :: Configure the TaskBar
 	call :taskbarPinning >taskbarPinning.ps1
