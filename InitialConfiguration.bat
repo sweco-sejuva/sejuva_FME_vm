@@ -66,6 +66,8 @@ goto :eof
 		netsh firewall add portopening TCP 5900 "VNC"
 	::FME Server needs port 7078 opened for web sockets
 		netsh firewall add portopening TCP 7078 "WebSockets"
+	::Windows 2016 Server has stricter security settings that can block our RDP file from connecting. We can fix this with the following
+		reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v SecurityLayer /t REG_DWORD /d 0 /f
 goto :eof
 
 :ec2Setup
