@@ -11,7 +11,7 @@
 set LOG=c:\temp\OnstartConfiguration.log
 set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
 set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
-set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2016.zip
+set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2017.zip
 
 call :sub > %LOG%
 exit /b
@@ -64,9 +64,13 @@ echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\pub
 aria2c https://www.gitbook.com/download/pdf/book/safe-software/fme-server-training-2016 --allow-overwrite=true
 copy *.pdf c:\users\public\desktop\ /Y
 
+:: Stop the UltraVNC service. We want to start it at logon for a named user.
+
+net stop uvnc_service
+
 ::update FMEData
-::aria2c %FMEDATAURL% --out=FMEData2016.zip --allow-overwrite=true
-::unzip -uo FMEData2016.zip -d c:\ 
+aria2c %FMEDATAURL% --out=FMEData2017.zip --allow-overwrite=true
+unzip -uo FMEData2017.zip -d c:\ 
 
 :: Configure the TaskBar
 	call :taskbarPinning >taskbarPinning.ps1
