@@ -67,7 +67,7 @@ copy *.pdf c:\users\public\desktop\ /Y
 :: Stop the UltraVNC service. We want to start it at logon for a named user.
 
 net stop uvnc_service
-netsh firewall add portopening TCP 5900 "VNC"
+netsh firewall add portopening TCP 5800 "VNC"
 
 ::update FMEData
 aria2c %FMEDATAURL% --out=FMEData2017.zip --allow-overwrite=true
