@@ -73,6 +73,10 @@ netsh firewall add portopening TCP 5800 "VNC"
 aria2c %FMEDATAURL% --out=FMEData2017.zip --allow-overwrite=true
 unzip -uo FMEData2017.zip -d c:\ 
 
+::Add any additional large files
+aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/RasterTraining.zip --out=RasterTraining.zip --allow-overwrite=true
+unzip -uo RasterTraining.zip -d c:\FMEData2017\Resourses\Raster\
+
 :: Configure the TaskBar
 	call :taskbarPinning >taskbarPinning.ps1
 	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
