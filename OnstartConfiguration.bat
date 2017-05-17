@@ -23,10 +23,17 @@ pushd c:\temp
 ::aria2c %RDP% --allow-overwrite=true
 ::C:\apps\FME\fme.exe "c:\temp\ZippedRDPFileCreator.fmw"
 
+:: FME Server sometimes doesn't like to start properly. Halt it and try again here
 taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
+net stop "FME Server Engines"
+net stop "FME Server Core"
+net stop FMEServerAppServer
 net stop "FME Server Database"
-net start "FME Server Database"
 
+net start FMEServerAppServer
+net start "FME Server Database"
+net start "FME Server Core"
+net start "FME Server Engines"
 
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
