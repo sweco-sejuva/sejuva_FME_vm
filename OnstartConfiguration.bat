@@ -26,7 +26,7 @@ pushd c:\temp
 :: FME Server sometimes doesn't like to start properly. Halt it and try again here
 taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
 net stop "FME Server Engines"
-net stop "FME Server Core"
+net stop "FME Server Core" /y
 net stop FMEServerAppServer
 net stop "FME Server Database"
 
