@@ -83,8 +83,8 @@ unzip -uo FMEData2017.zip -d c:\
 ::Add any additional large files and stuff for the FME2017UC
 aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/RasterTraining.zip --out=RasterTraining.zip --allow-overwrite=true
 unzip -uo RasterTraining.zip -d c:\FMEData2017\Resources\Raster\
-aria2c https://s3.amazonaws.com/FMETraining/Installers/CreateNewCustomer.fmx --out="C:\Users\Administrator\Documents\FME\Transformers\CreateNewCustomer.fmx" --allow-overwrite=true
-aria2c https://s3.amazonaws.com/FMETraining/Installers/FloodPolygonExtractor.fmx --out="C:\Users\Administrator\Documents\FME\Transformers\FloodPolygonExtractor.fmx" --allow-overwrite=true
+aria2c https://s3.amazonaws.com/FMETraining/Installers/CreateNewCustomer.fmx --dir="C:\Users\Administrator\Documents\FME\Transformers\" --out=CreateNewCustomer.fmx --allow-overwrite=true
+aria2c https://s3.amazonaws.com/FMETraining/Installers/FloodPolygonExtractor.fmx --dir="C:\Users\Administrator\Documents\FME\Transformers\" --out=FloodPolygonExtractor.fmx --allow-overwrite=true
 
 :: Configure the TaskBar
 	call :taskbarPinning >taskbarPinning.ps1
