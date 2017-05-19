@@ -35,6 +35,13 @@ net start "FME Server Database"
 net start "FME Server Core"
 net start "FME Server Engines"
 
+::Steve's database stuff
+net start OracleServiceXE
+net start OracleXETNSListner
+aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/1.CreateDatabase.fmw --allow-overwrite=true
+C:\apps\FME\fme.exe "c:\temp\1.CreateDatabase.fmw"
+
+
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
 net stop SMTPRelay
