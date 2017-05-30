@@ -81,10 +81,10 @@ aria2c %FMEDATAURL% --out=FMEData2017.zip --allow-overwrite=true
 unzip -uo FMEData2017.zip -d c:\ 
 
 ::Add any additional large files and stuff for the FME2017UC
-aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/RasterTraining.zip --out=RasterTraining.zip --allow-overwrite=true
-unzip -uo RasterTraining.zip -d c:\FMEData2017\Resources\Raster\
-aria2c https://s3.amazonaws.com/FMETraining/Installers/CreateNewCustomer.fmx --dir=C:\Users\Administrator\Documents\FME\Transformers\ --out=CreateNewCustomer.fmx --allow-overwrite=true
-aria2c https://s3.amazonaws.com/FMETraining/Installers/FloodPolygonExtractor.fmx --dir=C:\Users\Administrator\Documents\FME\Transformers\ --out=FloodPolygonExtractor.fmx --allow-overwrite=true
+::aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/RasterTraining.zip --out=RasterTraining.zip --allow-overwrite=true
+::unzip -uo RasterTraining.zip -d c:\FMEData2017\Resources\Raster\
+::aria2c https://s3.amazonaws.com/FMETraining/Installers/CreateNewCustomer.fmx --dir=C:\Users\Administrator\Documents\FME\Transformers\ --out=CreateNewCustomer.fmx --allow-overwrite=true
+::aria2c https://s3.amazonaws.com/FMETraining/Installers/FloodPolygonExtractor.fmx --dir=C:\Users\Administrator\Documents\FME\Transformers\ --out=FloodPolygonExtractor.fmx --allow-overwrite=true
 
 :: Configure the TaskBar
 	call :taskbarPinning >taskbarPinning.ps1
@@ -95,10 +95,10 @@ aria2c https://s3.amazonaws.com/FMETraining/Installers/FloodPolygonExtractor.fmx
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
 
 ::Steve's database stuff
-net start OracleServiceXE
-net start OracleXETNSListner
-aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/1.CreateDatabase.fmw --allow-overwrite=true
-C:\apps\FME\fme.exe "c:\temp\1.CreateDatabase.fmw"
+::net start OracleServiceXE
+::net start OracleXETNSListner
+::aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/1.CreateDatabase.fmw --allow-overwrite=true
+::C:\apps\FME\fme.exe "c:\temp\1.CreateDatabase.fmw"
 
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
