@@ -10,12 +10,12 @@ set FMEBUILD=%2
 goto work
 
 :ask
-set /P FMEYEAR=Enter FME Release (ie. 2017.1):
+set /P FMERELEASE=Enter FME Release (ie. 2017.1):
 set /P FMEBUILD=Enter FME Build Number:
 goto work
 
 :work
-set FMEYEAR=%FMEBUILD:~0,4%
+set FMEYEAR=%FMERELEASE:~0,4%
 aria2c http://downloads.safe.com/fme/%FMEYEAR%/fme-desktop-%FMERELEASE%-b%FMEBUILD%-win-x86.msi --allow-overwrite=true
 aria2c http://downloads.safe.com/fme/%FMEYEAR%/fme-desktop-%FMERELEASE%-b%FMEBUILD%-win-x64.msi --allow-overwrite=true
 aria2c http://downloads.safe.com/fme/%FMEYEAR%/fme-server-%FMERELEASE%-b%FMEBUILD%-win-x86.msi --allow-overwrite=true
