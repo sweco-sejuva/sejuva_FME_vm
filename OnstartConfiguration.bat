@@ -19,6 +19,8 @@ exit /b
 :sub
 pushd c:\temp
 
+net user Administrator FME2016learnings
+
 :: RDP creation is now done using Bluesky.
 ::aria2c %RDP% --allow-overwrite=true
 ::C:\apps\FME\fme.exe "c:\temp\ZippedRDPFileCreator.fmw"
