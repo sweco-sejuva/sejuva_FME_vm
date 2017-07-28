@@ -45,6 +45,8 @@
 		call :downloadArcGIS >> %LOG%
 	::oracle installs 32-bit and 64-bit Oracle Instant Clients
 		call :oracle >> %LOG%
+	::second run at Chocolatey; install all the other apps
+		call :choco >> %LOG%
 	::shut down the computer
 		call :shutdown >> %LOG%
 goto :eof
@@ -131,7 +133,7 @@ goto :eof
 	::Notepad++ is great for text editing
 	::Google Earth is useful
 	::Install Python and Eclipse
-		choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat unzip git python eclipse -y
+		choco install aria2 unzip -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
 		"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
 		"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
@@ -180,6 +182,14 @@ goto :eof
 		unzip -u Oracle32InstantClient.zip -d c:\Oracle32InstantClient
 		unzip -u Oracle64InstantClient.zip -d c:\Oracle64InstantClient
 		setx /m PATH "%PATH%;C:\Oracle32InstantClient\instantclient_12_1;c:\Oracle64InstantClient\instantclient_12_1"
+goto :eof
+
+:choco
+	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat unzip git python eclipse -y
+	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
+		"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
+		"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
+		schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
 :shutdown
