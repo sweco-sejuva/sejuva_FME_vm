@@ -39,11 +39,11 @@ net start "FME Server Engines"
 
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
-net stop SMTPRelay
-aria2c %SMTP% --allow-overwrite=true
-C:\apps\FME\fme.exe "c:\temp\SMTPConfigure.fmw"
-copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y
-net start SMTPRelay
+::net stop SMTPRelay
+::aria2c %SMTP% --allow-overwrite=true
+::C:\apps\FME\fme.exe "c:\temp\SMTPConfigure.fmw"
+::copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y
+::net start SMTPRelay
 
 ::Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 :: Add the URLs to c:\users\public\desktop. That way everyone gets it.
