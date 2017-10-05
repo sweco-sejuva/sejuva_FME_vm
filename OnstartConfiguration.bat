@@ -97,10 +97,10 @@ unzip -uo FMEData2017.zip -d c:\
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
 
 ::Steve's database stuff
-::net start OracleServiceXE
-::net start OracleXETNSListner
-::aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/1.CreateDatabase.fmw --allow-overwrite=true
-::C:\apps\FME\fme.exe "c:\temp\1.CreateDatabase.fmw"
+net start OracleServiceXE
+net start OracleXETNSListner
+aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/1.CreateDatabase.fmw --allow-overwrite=true
+C:\apps\FME\fme.exe "c:\temp\1.CreateDatabase.fmw"
 
 :: Indicate the end of the log file.
 echo "Onstart Configuration complete"
