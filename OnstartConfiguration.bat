@@ -28,7 +28,7 @@ exit /b
 	
 
 ::Create the OnLogon scheduled task to run OnLogon.bat
-	schtasks /Create /F /RU SYSTEM /TN OnLogonConfiguration /SC ONSTART /TR "cmd.exe /C aria2c.exe %OnLogonConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnLogonConfiguration.bat
+	schtasks /Create /F /RU SYSTEM /TN OnLogonConfiguration /SC ONLOGON /TR "cmd.exe /C aria2c.exe %OnLogonConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnLogonConfiguration.bat
 
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
