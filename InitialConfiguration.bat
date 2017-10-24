@@ -4,7 +4,7 @@
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
 :: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
 ::OR use User Data when creating the EC2 instance. Past in the following script:
-:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
+:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat password</script>
 
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
@@ -12,7 +12,7 @@
 		set LICENSEIP=172.30.1.27
 		set SERIAL=UJRD-A7PQ-166X
 		::set SAFE_LICENSE_FILE=@%LICENSEIP%
-		set EC2PASSWORD=FME2016learnings
+		set EC2PASSWORD=%1
 		set PORTFORWARDING=81;82;443;8080;8081
 		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2017/fme_eval.msi
 		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2017/win64/fme_eval.msi
@@ -135,8 +135,8 @@ goto :eof
 	::Install Python and Eclipse
 		choco install aria2 unzip -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-		"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
-		"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
+	::	"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
+	::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
 	::	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
@@ -187,9 +187,9 @@ goto :eof
 :choco
 	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat unzip git python eclipse -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-		"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
-		"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
-		schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
+	::	"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
+	::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
+	::	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
 :shutdown
