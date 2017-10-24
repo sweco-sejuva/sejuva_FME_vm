@@ -110,12 +110,12 @@ goto :eof
 	::Then, re-enable FirstAutoShutdown so I don't have to worry about it when creating the AMI
 		::schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0004:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown""
 		::schtasks /Create /F /RU SYSTEM /TN EnableIdleShutdown /SC ONLOGON /DELAY 0005:00 /TR "schtasks /Change /Enable /TN "IdleShutdown"" 
-	::Create scheduled task that downloads and runs the other batch file. User aria2--bitsadmin doesn't play well with scheduled tasks
+	::Create scheduled task that downloads and runs the other batch file. Use aria2--bitsadmin doesn't play well with scheduled tasks
 	::Get the other batch file and run it.
 		::schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationSetup /SC ONSTART /TR "aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true"
 		::schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationRun /SC ONSTART /DELAY 0001:00 /TR "c:/temp/OnstartConfiguration.bat"
-		schtasks /Create /F /RU Administrator /RP %EC2PASSWORD% /TN OnstartConfiguration /SC ONSTART /TR "cmd.exe /C aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnstartConfiguration.bat"
-	::The VNC Scheduled Task is created when installing VNC, in the INSTALL SOFTWARE section
+		schtasks /Create /F /RU SYSTEM /TN OnstartConfiguration /SC ONSTART /TR "cmd.exe /C aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnstartConfiguration.bat"
+
 goto :eof
 
 :helpfulApps
@@ -137,7 +137,7 @@ goto :eof
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
 		"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
 		"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
-		schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
+	::	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
 :installFME
