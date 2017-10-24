@@ -24,7 +24,7 @@ exit /b
 
 ::Set the password and VNC password
 	net user Administrator %VM_PASSWORD%
-	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" %VM_PASSWORD% %VM_PASSWORD% 
+	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" %VM_PASSWORD% %VM_PASSWORD%V 
 	
 
 ::Create the OnLogon scheduled task to run OnLogon.bat
