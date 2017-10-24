@@ -13,3 +13,4 @@ exit /b
     net stop "uvnc_service"
     "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
   )
+goto :eof
