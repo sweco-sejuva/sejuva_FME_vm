@@ -2,7 +2,7 @@
 ::These are things that should only happen once a user has logged in.
 
 ::Set all required variables
-  set LOG=c:\temp\OnstartLogon.log
+  set LOG=c:\temp\OnLogonConfiguration.log
 
 call :VNC > %LOG%
 exit /b
