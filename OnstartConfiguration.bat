@@ -12,7 +12,7 @@
 	set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
 	set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
 	set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2017.zip
-	set OnLogonConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartLogon.bat
+	set OnLogonConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnLogonConfigurations.bat
 	set VM_PASSWORD=FME2016learnings
 
 call :sub > %LOG%
