@@ -57,6 +57,11 @@ exit /b
 	echo [InternetShortcut] > "c:\users\public\desktop\FME Esri Course Resources.url"
 	echo URL=https://knowledge.safe.com/articles/30330/fme-desktop-for-esri-training-course-resources.html >> "c:\users\public\desktop\FME Esri Course Resources.url"
 
+:: FME for Smallworld Course Resources
+	echo [InternetShortcut] > "c:\users\public\desktop\FME Smallworld Course Resources.url"
+	echo URL=https://knowledge.safe.com/articles/48300/index.html >> "c:\users\public\desktop\FME Smallworld Course Resources.url"
+
+
 :: Your Computer DNS Name
 	echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
 	echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\public\desktop\Your Computer DNS Name.url"
