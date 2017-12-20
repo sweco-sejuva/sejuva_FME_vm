@@ -1,6 +1,6 @@
 ::This file does the initial configuration of the AWS instance; things that you only want to do once, like name the computer and set the password.
-::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
-:: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/CleanMachine.bat -OutFile CleanMachine.bat" && CleanMachine.bat
+::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command (replace password with the desired password):
+:: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/2016/CleanMachine.bat -OutFile CleanMachine.bat" && CleanMachine.bat password
 ::OR use User Data when creating the EC2 instance. Past in the following script:
 :: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/CleanMachine.bat -OutFile CleanMachine.bat" && CleanMachine.bat password</script>
 :main
