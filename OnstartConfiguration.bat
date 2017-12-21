@@ -24,8 +24,11 @@ exit /b
 
 ::Set the password and VNC password
 	net user Administrator %VM_PASSWORD%
-	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" %VM_PASSWORD% %VM_PASSWORD%V 
+	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" %VM_PASSWORD% %VM_PASSWORD%V
 	
+::Get any extra chocolatey stuff (install any additional applications that you forgot when first creating the instance)
+::I'm moving to 7zip for command line unzipping. Not yet on default instances
+	choco install 7zip -y
 
 ::Create the OnLogon scheduled task to run OnLogon.bat
 	schtasks /Create /F /RU SYSTEM /TN OnLogonConfiguration /SC ONLOGON /TR "cmd.exe /C aria2c.exe %OnLogonConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnLogonConfiguration.bat
@@ -76,7 +79,7 @@ exit /b
 
 ::update FMEData
 	aria2c %FMEDATAURL% --out=FMEData2017.zip --allow-overwrite=true
-	unzip -uo FMEData2017.zip -d c:\ 
+	7z x -oc:\ -aoa FMEData2017.zip
 
 ::Add any additional large files and stuff for the FME2017UC
 ::aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/RasterTraining.zip --out=RasterTraining.zip --allow-overwrite=true
