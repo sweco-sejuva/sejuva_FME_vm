@@ -133,7 +133,7 @@ goto :eof
 	::Notepad++ is great for text editing
 	::Google Earth is useful
 	::Install Python and Eclipse
-		choco install aria2 unzip -y
+		choco install aria2 7zip -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
 	::	"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
 	::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
@@ -144,7 +144,7 @@ goto :eof
 	::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
 	::Get the basic FMEData and unzip any updates into c:\
 		aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
-		unzip -u FMEData.zip -d c:\ 
+		7z x -oc:\ -aoa FMEData2017.zip
 
 	::The lastest FME Desktop Installers are available from http://www.safe.com/fme/fme-desktop/trial-download/download.php
 		aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true
@@ -170,7 +170,7 @@ goto :eof
 :downloadArcGIS
 	::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
 		aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
-		unzip -u ARCGIS.zip -d %TEMP%
+		7z x -o%TEMP% -aoa ARCGIS.zip
 	:: Silent Install ArcGIS?
 	::Silent Install of PostGreSQL/PostGIS?
 goto :eof
@@ -179,13 +179,13 @@ goto :eof
 	::Install the 64 and 32 bit Oracle Instant Clients
 		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-nt-12.1.0.2.0.zip --out=Oracle32InstantClient.zip --allow-overwrite=true
 		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
-		unzip -u Oracle32InstantClient.zip -d c:\Oracle32InstantClient
-		unzip -u Oracle64InstantClient.zip -d c:\Oracle64InstantClient
+		7z x -oc:\Oracle32InstantClient -aoa Oracle32InstantClient.zip
+		7z x -oc:\Oracle64InstantClient -aoa Oracle64InstantClient.zip
 		setx /m PATH "%PATH%;C:\Oracle32InstantClient\instantclient_12_1;c:\Oracle64InstantClient\instantclient_12_1"
 goto :eof
 
 :choco
-	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat unzip git python eclipse -y
+	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
 	::	"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
 	::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
