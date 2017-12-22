@@ -185,6 +185,8 @@ goto :eof
 goto :eof
 
 :choco
+	::Some packages to consider:
+		::github webdeploy carbon iisexpress
 	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
 	::	"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
