@@ -17,7 +17,7 @@
 		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2017/fme_eval.msi
 		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2017/win64/fme_eval.msi
 		set FMESERVERURL=https://downloads.safe.com/fme/2017/fme-server-2017.1-b17539-win-x86.msi
-		set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2017.zip
+		set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2018.zip
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 		set NEWCOMPUTERNAME=FMETraining
 
