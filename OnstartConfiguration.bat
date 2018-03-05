@@ -24,7 +24,7 @@ exit /b
 
 ::Set the password and VNC password
 ::	net user Administrator %VM_PASSWORD%
-	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" %VM_PASSWORD% %VM_PASSWORD%V
+::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" %VM_PASSWORD% %VM_PASSWORD%V
 	
 ::Get any extra chocolatey stuff (install any additional applications that you forgot when first creating the instance)
 ::I'm moving to 7zip for command line unzipping. Not yet on default instances
