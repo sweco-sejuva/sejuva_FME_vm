@@ -79,8 +79,8 @@ exit /b
 	netsh firewall add portopening TCP 5800 "VNC"
 
 ::update FMEData
-	aria2c %FMEDATAURL% --out=FMEData2017.zip --allow-overwrite=true
-	7z x -oc:\ -aoa FMEData2017.zip
+	aria2c %FMEDATAURL% --out=FMEData2018.zip --allow-overwrite=true
+	7z x -oc:\ -aoa FMEData2018.zip
 
 ::Add any additional large files and stuff for the FME2017UC
 ::aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/RasterTraining.zip --out=RasterTraining.zip --allow-overwrite=true
