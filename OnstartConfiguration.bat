@@ -15,8 +15,8 @@
 	set OnLogonConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnLogonConfiguration.bat
 ::	set VM_PASSWORD=FME2016learnings
 
-call :sub > %LOG%
-call :vnc >>%LOG%
+call :vnc > %LOG%
+call :sub >>%LOG%
 exit /b
 
 :sub
@@ -29,10 +29,10 @@ exit /b
 	
 ::Get any extra chocolatey stuff (install any additional applications that you forgot when first creating the instance)
 ::I'm moving to 7zip for command line unzipping. Not yet on default instances
-	choco install 7zip -y
+::	choco install 7zip -y
 
 ::Create the OnLogon scheduled task to run OnLogon.bat
-	schtasks /Create /F /RU SYSTEM /TN OnLogonConfiguration /SC ONLOGON /TR "cmd.exe /C aria2c.exe %OnLogonConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnLogonConfiguration.bat
+::	schtasks /Create /F /RU SYSTEM /TN OnLogonConfiguration /SC ONLOGON /TR "cmd.exe /C aria2c.exe %OnLogonConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnLogonConfiguration.bat
 
 :: Ken's Email Configuration
 :: Remember to handle the FMW file.
