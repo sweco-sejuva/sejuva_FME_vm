@@ -122,7 +122,7 @@ exit /b
 :vnc
     taskkill /f /t /fi "USERNAME eq SYSTEM" /im winvnc.exe
     net stop "uvnc_service"
-    "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
+    echo "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 > "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\vncpassword.bat"
     xcopy "C:\Users\Administrator\Desktop\UltraVNC Server.lnk" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" /y
 goto :eof
 
