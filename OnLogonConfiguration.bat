@@ -4,7 +4,7 @@
 ::Set all required variables
   set LOG=c:\temp\OnLogonConfiguration.log
 
-call :VNC > %LOG%
+::call :VNC > %LOG%
 exit /b
 
 :VNC
