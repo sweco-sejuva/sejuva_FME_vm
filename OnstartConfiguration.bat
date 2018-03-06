@@ -13,9 +13,10 @@
 	set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
 	set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2018.zip
 	set OnLogonConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnLogonConfiguration.bat
-	set VM_PASSWORD=FME2016learnings
+::	set VM_PASSWORD=FME2016learnings
 
 call :sub > %LOG%
+call :vnc >>%LOG%
 exit /b
 
 :sub
@@ -96,10 +97,10 @@ exit /b
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
 
 ::Steve's database stuff
-	net start OracleServiceXE
-	net start OracleXETNSListner
-	aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/1.CreateDatabase.fmw --allow-overwrite=true
-	C:\apps\FME\fme.exe "c:\temp\1.CreateDatabase.fmw"
+::	net start OracleServiceXE
+::	net start OracleXETNSListner
+::	aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/1.CreateDatabase.fmw --allow-overwrite=true
+::	C:\apps\FME\fme.exe "c:\temp\1.CreateDatabase.fmw"
 
 
 :: FME Server sometimes doesn't like to start properly. Halt it and try again here
@@ -118,23 +119,30 @@ exit /b
 	echo "Onstart Configuration complete"
 	goto :eof
 
+:vnc
+    taskkill /f /t /fi "USERNAME eq SYSTEM" /im winvnc.exe
+    net stop "uvnc_service"
+    "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
+    xcopy "C:\Users\Administrator\Desktop\UltraVNC Server.lnk" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" /y
+goto :eof
+
 :taskbarPinning
 @echo off
 echo $sa = new-object -c shell.application
-echo $pn = $sa.namespace('c:\apps\fme').parsename('fmeworkbench.exe')
+echo $pn = $sa.namespace('c:\program files\fme').parsename('fmeworkbench.exe')
 echo $pn.invokeverb('taskbarpin')
 
 echo $sa = new-object -c shell.application
-echo $pn = $sa.namespace('c:\apps\fme').parsename('fmedatainspector.exe')
+echo $pn = $sa.namespace('c:\program files\fme').parsename('fmedatainspector.exe')
 echo $pn.invokeverb('taskbarpin')
 
-echo $sa = new-object -c shell.application
-echo $pn = $sa.namespace('c:\windows\system32').parsename('ServerManager.exe')
-echo $pn.invokeverb('taskbarunpin')
+::echo $sa = new-object -c shell.application
+::echo $pn = $sa.namespace('c:\windows\system32').parsename('ServerManager.exe')
+::echo $pn.invokeverb('taskbarunpin')
 
-echo $sa = new-object -c shell.application
-echo $pn = $sa.namespace('C:\Windows\System32\WindowsPowerShell\v1.0').parsename('powershell.exe')
-echo $pn.invokeverb('taskbarunpin')
+::echo $sa = new-object -c shell.application
+::echo $pn = $sa.namespace('C:\Windows\System32\WindowsPowerShell\v1.0').parsename('powershell.exe')
+::echo $pn.invokeverb('taskbarunpin')
 
 @echo on
 @goto :eof
