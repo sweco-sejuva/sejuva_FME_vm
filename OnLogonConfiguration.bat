@@ -14,6 +14,6 @@ echo %SESSIONNAME%
     taskkill /f /t /fi "USERNAME eq SYSTEM" /im winvnc.exe
     net stop "uvnc_service"
     "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
-    start "" "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
+    start "" "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe" -run
  :: )
 goto :eof
