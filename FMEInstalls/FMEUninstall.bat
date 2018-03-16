@@ -5,6 +5,11 @@ pushd c:\temp
 ::Create the PS1 file
 call :uninstallFME >uninstallFME.ps1
 
+call :execute
+call :restart
+goto :eof
+
+:execute
 ::Execute the PS1 file
 powershell -NoProfile -executionpolicy bypass -File uninstallFME.ps1
 
@@ -16,3 +21,10 @@ echo $app = Get-WmiObject -Class Win32_Product -Filter "Vendor='Safe Software In
 echo $app.Uninstall()
 @echo on
 @goto :eof
+
+:restart
+	::Shutdown the computer
+		echo Finished the Initial Configuration
+		echo Done! %date% %time% 
+		shutdown -r
+goto :eof
