@@ -26,5 +26,5 @@ echo $app.Uninstall()
 	::Shutdown the computer
 		echo Finished the Initial Configuration
 		echo Done! %date% %time% 
-		shutdown -r
+		shutdown /r
 goto :eof
