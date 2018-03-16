@@ -5,8 +5,8 @@ pushd c:\temp
 ::Create the PS1 file
 call :uninstallFME >uninstallFME.ps1
 
-call :execute
-call :restart
+call :execute >uninstall.log
+call :restart >>uninstall.log
 goto :eof
 
 :execute
