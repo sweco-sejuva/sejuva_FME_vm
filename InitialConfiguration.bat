@@ -1,30 +1,24 @@
 ::This file does the initial configuration of the AWS instance; things that you only want to do once, like name the computer.
 ::Assuming that a T2.large is being used. Provide at least 70GB of storage.
 ::OnstartConfiguration is a copy of this, but with most commands DISABLED
-::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command:
-:: powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat
-::OR use User Data when creating the EC2 instance. Past in the following script:
-:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat password</script>
+::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command without the <script> start/end:
+::OR use User Data when creating the EC2 instance. Past in the following script, and replace "password fmelicenseip fmeserverserial" with the correct things:
+:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat password fmelicenseip fmeserverserial</script>
 
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
-		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
-		set LICENSEIP=172.30.1.27
-		set SERIAL=UJRD-A7PQ-166X
-		::set SAFE_LICENSE_FILE=@%LICENSEIP%
 		set EC2PASSWORD=%1
+		setx /m FMELICENSEIP %2
+		setx /m FMESERVERSERIAL %3
+		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
+		set FMEDownloadInstall=https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDownloadInstall.bat
 		set PORTFORWARDING=81;82;443;8080;8081
-		set FMEDESKTOPURL=https://s3.amazonaws.com/downloads.safe.com/fme/2017/fme_eval.msi
-		set FMEDESKTOP64URL=https://s3.amazonaws.com/downloads.safe.com/fme/2017/win64/fme_eval.msi
-		set FMESERVERURL=https://downloads.safe.com/fme/2017/fme-server-2017.1-b17539-win-x86.msi
 		set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2018.zip
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 		set NEWCOMPUTERNAME=FMETraining
-
-		set DISABLED=::
 		set LOG=c:\temp\InitialConfiguration.log
 		set TEMP=c:\temp
-	::Make required folders
+	::Make required folders and get into it
 		md %TEMP%
 		pushd %TEMP%
 	:::::::::::::::::Here are the procedure calls:::::::::::::::::
@@ -57,15 +51,13 @@ goto :eof
 	:: Log that variables are set correctly
 		echo "Variables are set to:"
 		set
-	::Set some SYSTEM environment variables. Dropped this because it didn't play nice with FME Server
-	::	setx /m SAFE_LICENSE_FILE %SAFE_LICENSE_FILE%
-	::	setx /m FME_USE_LM_ENVIRONMENT YES 
 	::We should make sure port 80 is open too, for FME Server. This might be unnecessary
 		netsh firewall add portopening TCP 80 "FME Server"
 	::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
 		netsh firewall add portopening TCP 25 "SMTP"
 	::We also need to open the port for UltraVNC. The installer fails to do that
 		netsh firewall add portopening TCP 5900 "VNC"
+		netsh firewall add portopening TCP 5800 "VNC"
 	::FME Server needs port 7078 opened for web sockets
 		netsh firewall add portopening TCP 7078 "WebSockets"
 	::Windows 2016 Server has stricter security settings that can block our RDP file from connecting. We can fix this with the following
@@ -121,50 +113,37 @@ goto :eof
 :helpfulApps
 	::::INSTALL SOFTWARE::::
 	::Install Chocolatey  https://chocolatey.org/
-		 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
-	:: Chocolatey allows you to specify what you want on a single line. Let's try that
-	::Bitsadmin does not work in a scheduled task. Install aria2. It is amazingly fast.
-	::We'll need to unzip stuff eventually so get devbox-unzip
-	::I'm sure GIT will be useful at some point
-	::WinDirStat is useful for finding what is taking up drive space.
-	::UltraVNC is useful when helping students troubleshoot. Why 2 passwords? The first is for full control; the second is for view-only.
-	::Google Chrome and Firefox are useful web browsers
-	::Adobe Reader is used to read manuals
-	::Notepad++ is great for text editing
-	::Google Earth is useful
-	::Install Python and Eclipse
+		@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+		::Some choco installs fail. Just get the essentials now.
 		choco install aria2 7zip -y
-	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-	::	"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
-	::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
-	::	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
 :installFME
 	::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
 	::Get the basic FMEData and unzip any updates into c:\
-		aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
-		7z x -oc:\ -aoa FMEData2017.zip
-
+		::aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
+		::7z x -oc:\ -aoa FMEData2017.zip
 	::The lastest FME Desktop Installers are available from http://www.safe.com/fme/fme-desktop/trial-download/download.php
-		aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true
-		aria2c %FMEDESKTOP64URL% --out=FMEDesktop64.msi --allow-overwrite=true 
+		::aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true
+		::aria2c %FMEDESKTOP64URL% --out=FMEDesktop64.msi --allow-overwrite=true 
 	::The lastest FME Server Installers are available from http://www.safe.com/fme/fme-server/trial-download/download.php
-		aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=true
+		::aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=true
 	:: Silent install of FME Desktop follows the form of:
 	::msiexec /i fme-desktop-b15475-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\fme" ENABLE_POST_INSTALL_TASKS=no
-		msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
-		c:\apps\fme\fme\fmelicensingassistant_cmd.exe --floating %LICENSEIP% smallworld
-		msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
-		"c:\Program Files\fme\fmelicensingassistant_cmd.exe" --floating %LICENSEIP% smallworld
+		::msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
+		::c:\apps\fme\fme\fmelicensingassistant_cmd.exe --floating %LICENSEIP% smallworld
+		::msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
+		::"c:\Program Files\fme\fmelicensingassistant_cmd.exe" --floating %LICENSEIP% smallworld
 	:: Silent install of FME Server:
-		msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
+		::msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
 	:: License FME Server
-		c:\apps\fmeserver\server\fme\fmelicensingassistant_cmd.exe --serial %SERIAL%
+		::c:\apps\fmeserver\server\fme\fmelicensingassistant_cmd.exe --serial %SERIAL%
 	::Install Beta.  Comment this out.
 	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
 	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
-
+	::Download the installer bat file and execute it. This requires the FMELICENSEIP and FMESERVERSERIAL environment variables
+	aria2c %FMEDownloadInstall% --out=FMEDownloadInstall.bat --allow-overwrite=true
+	CALL FMEDownloadInstall.bat
 goto :eof
 
 :downloadArcGIS
@@ -176,12 +155,12 @@ goto :eof
 goto :eof
 
 :oracle
-	::Install the 64 and 32 bit Oracle Instant Clients
-		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-nt-12.1.0.2.0.zip --out=Oracle32InstantClient.zip --allow-overwrite=true
+	::Install the 64 bit Oracle Instant Clients
+		::aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-nt-12.1.0.2.0.zip --out=Oracle32InstantClient.zip --allow-overwrite=true
 		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
-		7z x -oc:\Oracle32InstantClient -aoa Oracle32InstantClient.zip
+		::7z x -oc:\Oracle32InstantClient -aoa Oracle32InstantClient.zip
 		7z x -oc:\Oracle64InstantClient -aoa Oracle64InstantClient.zip
-		setx /m PATH "%PATH%;C:\Oracle32InstantClient\instantclient_12_1;c:\Oracle64InstantClient\instantclient_12_1"
+		setx /m PATH "%PATH%;c:\Oracle64InstantClient\instantclient_12_1"
 goto :eof
 
 :choco
