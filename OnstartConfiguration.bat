@@ -92,9 +92,10 @@ exit /b
 	call :taskbarPinning >taskbarPinning.ps1
 	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
 
-:: Download FME uninstaller and installer
+:: Download Current FME uninstaller and installer
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEInstall.bat --allow-overwrite=true
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
+	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEDownloadInstall.bat --allow-overwrite=true
 
 ::Steve's database stuff
 ::	net start OracleServiceXE
