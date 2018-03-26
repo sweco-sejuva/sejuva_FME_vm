@@ -18,6 +18,7 @@
 
 call :vnc > %LOG%
 call :main >>%LOG%
+call :autoshutdown >>%LOG%
 exit /b
 
 :vnc
@@ -98,6 +99,10 @@ goto :eof
 	echo "Onstart Configuration complete"
 goto :eof
 
+:autoshutdown
+	::schedule automatic shutdown.
+	schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC weekly /d FRI /st 16:30 /TR "C:\Windows\System32\shutdown.exe /s"
+got :eof
 
 :taskbarPinning
 @echo off
