@@ -119,28 +119,6 @@ goto :eof
 goto :eof
 
 :installFME
-	::Download the latest FMEData. This is done so that Ryan doesn't have to create a new AMI whenever there is just a small change in FMEData
-	::Get the basic FMEData and unzip any updates into c:\
-		::aria2c %FMEDATAURL% --out=FMEData.zip --allow-overwrite=true
-		::7z x -oc:\ -aoa FMEData2017.zip
-	::The lastest FME Desktop Installers are available from http://www.safe.com/fme/fme-desktop/trial-download/download.php
-		::aria2c %FMEDESKTOPURL% --out=FMEDesktop.msi --allow-overwrite=true
-		::aria2c %FMEDESKTOP64URL% --out=FMEDesktop64.msi --allow-overwrite=true 
-	::The lastest FME Server Installers are available from http://www.safe.com/fme/fme-server/trial-download/download.php
-		::aria2c %FMESERVERURL%  --out=FMEServer.msi --allow-overwrite=true
-	:: Silent install of FME Desktop follows the form of:
-	::msiexec /i fme-desktop-b15475-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\fme" ENABLE_POST_INSTALL_TASKS=no
-		::msiexec /i FMEDesktop.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME" ENABLE_POST_INSTALL_TASKS=no
-		::c:\apps\fme\fme\fmelicensingassistant_cmd.exe --floating %LICENSEIP% smallworld
-		::msiexec /i FMEDesktop64.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\Program Files\FME" ENABLE_POST_INSTALL_TASKS=no
-		::"c:\Program Files\fme\fmelicensingassistant_cmd.exe" --floating %LICENSEIP% smallworld
-	:: Silent install of FME Server:
-		::msiexec /i fmeserver.msi /qb /norestart /l*v installFMEServerLog.txt FMESERVERHOSTNAME=localhost
-	:: License FME Server
-		::c:\apps\fmeserver\server\fme\fmelicensingassistant_cmd.exe --serial %SERIAL%
-	::Install Beta.  Comment this out.
-	::aria2c https://s3.amazonaws.com/FME-Installers/fme-desktop-b16016-win-x86.msi
-	::msiexec /i fme-desktop-b16016-win-x86.msi /qb INSTALLLEVEL=3 INSTALLDIR="c:\apps\FME2016" ENABLE_POST_INSTALL_TASKS=no
 	::Download the installer bat file and execute it. This requires the FMELICENSEIP and FMESERVERSERIAL environment variables
 	aria2c %FMEDownloadInstall% --out=FMEDownloadInstall.bat --allow-overwrite=true
 	CALL FMEDownloadInstall.bat
@@ -156,21 +134,15 @@ goto :eof
 
 :oracle
 	::Install the 64 bit Oracle Instant Clients
-		::aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-nt-12.1.0.2.0.zip --out=Oracle32InstantClient.zip --allow-overwrite=true
 		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
-		::7z x -oc:\Oracle32InstantClient -aoa Oracle32InstantClient.zip
 		7z x -oc:\Oracle64InstantClient -aoa Oracle64InstantClient.zip
 		setx /m PATH "%PATH%;c:\Oracle64InstantClient\instantclient_12_1"
 goto :eof
 
 :choco
-	::Some packages to consider:
+	::Some additional packages to consider:
 		::github webdeploy carbon iisexpress
 	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse -y
-	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
-	::	"C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe -remove"
-	::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
-	::	schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
 goto :eof
 
 :shutdown
