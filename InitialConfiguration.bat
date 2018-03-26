@@ -88,25 +88,7 @@ goto :eof
 goto :eof
 
 :scheduleTasks
-	::::SCHEDULED TASKS::::
-	:: It's a very good idea to limit how long an instance will run for. Leaving them for weeks at a time is bad
-	::Create the Scheduled tasks. Shut down machine if not logged onto within 24 (cancelled on logon by another task) or 56 hours.
-	::Remember to FORCE schedule task creation--otherwise you'll be prompted. 
-	::Create the Shutdowns
-		::schtasks /Create /F /RU SYSTEM /TN FirstAutoShutdown /SC ONSTART /DELAY 1440:00 /TR "C:\Windows\System32\shutdown.exe /s"
-		::schtasks /create /xml "idle.xml" /tn "IdleShutdown"
-	::On Logon, Disable the FirstAutoShutdown
-		::schtasks /Create /F /RU SYSTEM /TN DisableAutoShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "FirstAutoShutdown""
-		::schtasks /Create /F /RU SYSTEM /TN DisableIdleShutdown /SC ONLOGON /TR "schtasks /Change /Disable /TN "IdleShutdown""
-	::Then, re-enable FirstAutoShutdown so I don't have to worry about it when creating the AMI
-		::schtasks /Create /F /RU SYSTEM /TN EnableAutoShutdown /SC ONLOGON /DELAY 0004:00 /TR "schtasks /Change /Enable /TN "FirstAutoShutdown""
-		::schtasks /Create /F /RU SYSTEM /TN EnableIdleShutdown /SC ONLOGON /DELAY 0005:00 /TR "schtasks /Change /Enable /TN "IdleShutdown"" 
-	::Create scheduled task that downloads and runs the other batch file. Use aria2--bitsadmin doesn't play well with scheduled tasks
-	::Get the other batch file and run it.
-		::schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationSetup /SC ONSTART /TR "aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true"
-		::schtasks /Create /F /RU SYSTEM /TN OnstartConfigurationRun /SC ONSTART /DELAY 0001:00 /TR "c:/temp/OnstartConfiguration.bat"
-		schtasks /Create /F /RU SYSTEM /TN OnstartConfiguration /SC ONSTART /TR "cmd.exe /C aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnstartConfiguration.bat"
-
+	schtasks /Create /F /RU SYSTEM /TN OnstartConfiguration /SC ONSTART /TR "cmd.exe /C aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnstartConfiguration.bat"
 goto :eof
 
 :helpfulApps
