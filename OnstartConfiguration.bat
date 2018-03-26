@@ -8,7 +8,8 @@
 :: Restart FME Server Database, because it doesn't start properly 1 time in 5 when first booting
 
 :: Set all the required variables
-	set LOG=c:\temp\OnstartConfiguration.log
+	set TEMP=c:\temp
+	set LOG=%TEMP%\OnstartConfiguration.log
 	set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
 	set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
 	set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2018.zip
@@ -16,11 +17,12 @@
 	set CurrentFMEDataDownloadURL=https://bluesky-safe-software.fmecloud.com/fmedatastreaming/FMETraining/CurrentFMEDataDownloadURL.fmw
 ::	set VM_PASSWORD=FME2016learnings
 
-md c:\temp
-pushd c:\temp
+md %TEMP%
+pushd %TEMP%
 
 call :vnc > %LOG%
 call :main >>%LOG%
+call :urls >>%LOG%
 call :autoshutdown >>%LOG%
 call :fmedatadownload >>%LOG%
 exit /b
