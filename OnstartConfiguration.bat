@@ -19,6 +19,7 @@
 call :vnc > %LOG%
 call :main >>%LOG%
 call :autoshutdown >>%LOG%
+call :fmedatadownload >>%LOG%
 exit /b
 
 :vnc
@@ -68,11 +69,6 @@ goto :eof
 	aria2c https://www.gitbook.com/download/pdf/book/safe-software/fme-server-training-2017 --allow-overwrite=true
 	copy *.pdf c:\users\public\desktop\ /Y
 
-::update FMEData
-	aria2c %CurrentFMEDataDownloadURL% --out=CurrentFMEDataDownloadURL.txt --allow-overwrite=true
-	aria2c -i CurrentFMEDataDownloadURL.txt --allow-overwrite=true
-	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
-
 :: Configure the TaskBar
 	call :taskbarPinning >taskbarPinning.ps1
 	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
@@ -102,6 +98,12 @@ goto :eof
 :autoshutdown
 	::schedule automatic shutdown.
 	schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC weekly /d FRI /st 16:30 /TR "C:\Windows\System32\shutdown.exe /s"
+goto :eof
+
+:fmedatadownload
+	::download and install the current FMEData from www.safe.com/download	
+	aria2c https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
+	CALL FMEDataDownloadInstall.bat
 goto :eof
 
 :taskbarPinning
