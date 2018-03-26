@@ -73,8 +73,7 @@ goto :eof
 	call :taskbarPinning >taskbarPinning.ps1
 	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
 
-:: Download Current FME uninstaller and installer, and post creation steps.
-	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEInstall.bat --allow-overwrite=true
+:: Download Current FME uninstaller and installer, and post creation steps. We don't run them automatically, but nice to have.
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEDownloadInstall.bat --allow-overwrite=true
 	aria2c https://github.com/rjcragg/AWS/raw/master/PostCreationSteps.txt --allow-overwrite=true
