@@ -17,31 +17,23 @@
 ::	set VM_PASSWORD=FME2016learnings
 
 call :vnc > %LOG%
-call :sub >>%LOG%
+call :main >>%LOG%
 exit /b
 
-:sub
+:vnc
+    taskkill /f /t /fi "USERNAME eq SYSTEM" /im winvnc.exe
+    net stop "uvnc_service"
+    echo "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 > "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\vncpassword.bat"
+    echo start "" "C:\Program Files\uvnc bvba\UltraVnc\winvnc.exe" >> "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\vncpassword.bat"
+goto :eof
+
+:main
 ::Get into the correct folder
 	pushd c:\temp
-
-::Set the password and VNC password
-::	net user Administrator %VM_PASSWORD%
-::	"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" %VM_PASSWORD% %VM_PASSWORD%V
-	
-::Get any extra chocolatey stuff (install any additional applications that you forgot when first creating the instance)
-::I'm moving to 7zip for command line unzipping. Not yet on default instances
-::	choco install 7zip -y
 
 ::Create the OnLogon scheduled task to run OnLogon.bat
 ::	schtasks /Create /F /RU SYSTEM /TN OnLogonConfiguration /SC ONLOGON /TR "cmd.exe /C aria2c.exe %OnLogonConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnLogonConfiguration.bat
 
-:: Ken's Email Configuration
-:: Remember to handle the FMW file.
-::net stop SMTPRelay
-::aria2c %SMTP% --allow-overwrite=true
-::C:\apps\FME\fme.exe "c:\temp\SMTPConfigure.fmw"
-::copy C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config_fme.xml C:\apps\FMEServer\Utilities\smtprelay\james\apps\james\SAR-INF\config.xml /Y
-::net start SMTPRelay
 
 ::Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 :: Add the URLs to c:\users\public\desktop. That way everyone gets it.
@@ -75,38 +67,21 @@ exit /b
 	aria2c https://www.gitbook.com/download/pdf/book/safe-software/fme-server-training-2017 --allow-overwrite=true
 	copy *.pdf c:\users\public\desktop\ /Y
 
-:: Open Ports, if necessary.
-::VNC Port
-	netsh firewall add portopening TCP 5800 "VNC"
-
 ::update FMEData
-
 	aria2c %CurrentFMEDataDownloadURL% --out=CurrentFMEDataDownloadURL.txt --allow-overwrite=true
 	aria2c -i CurrentFMEDataDownloadURL.txt --allow-overwrite=true
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
-
-::Add any additional large files and stuff for the FME2017UC
-::aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/RasterTraining.zip --out=RasterTraining.zip --allow-overwrite=true
-::unzip -uo RasterTraining.zip -d c:\FMEData2017\Resources\Raster\
-::aria2c https://s3.amazonaws.com/FMETraining/Installers/CreateNewCustomer.fmx --dir=C:\Users\Administrator\Documents\FME\Transformers\ --out=CreateNewCustomer.fmx --allow-overwrite=true
-::aria2c https://s3.amazonaws.com/FMETraining/Installers/FloodPolygonExtractor.fmx --dir=C:\Users\Administrator\Documents\FME\Transformers\ --out=FloodPolygonExtractor.fmx --allow-overwrite=true
 
 :: Configure the TaskBar
 	call :taskbarPinning >taskbarPinning.ps1
 	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
 
-:: Download Current FME uninstaller and installer
+:: Download Current FME uninstaller and installer, and post creation steps.
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEInstall.bat --allow-overwrite=true
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEDownloadInstall.bat --allow-overwrite=true
-
-::Steve's database stuff
-::	net start OracleServiceXE
-::	net start OracleXETNSListner
-::	aria2c https://s3.amazonaws.com/FMEData/FMEUC2017/1.CreateDatabase.fmw --allow-overwrite=true
-::	C:\apps\FME\fme.exe "c:\temp\1.CreateDatabase.fmw"
-
-
+	aria2c https://github.com/rjcragg/AWS/raw/master/PostCreationSteps.txt --allow-overwrite=true
+	
 :: FME Server sometimes doesn't like to start properly. Halt it and try again here
 	taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
 	net stop "FME Server Engines"
@@ -121,15 +96,8 @@ exit /b
 
 :: Indicate the end of the log file.
 	echo "Onstart Configuration complete"
-	goto :eof
-
-:vnc
-    taskkill /f /t /fi "USERNAME eq SYSTEM" /im winvnc.exe
-    net stop "uvnc_service"
-    echo "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 > "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\vncpassword.bat"
-    echo start "" "C:\Program Files\uvnc bvba\UltraVnc\winvnc.exe" >> "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\vncpassword.bat"
-::    xcopy "C:\Users\Administrator\Desktop\UltraVNC Server.lnk" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" /y
 goto :eof
+
 
 :taskbarPinning
 @echo off
