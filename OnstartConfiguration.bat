@@ -16,6 +16,9 @@
 	set CurrentFMEDataDownloadURL=https://bluesky-safe-software.fmecloud.com/fmedatastreaming/FMETraining/CurrentFMEDataDownloadURL.fmw
 ::	set VM_PASSWORD=FME2016learnings
 
+md c:\temp
+pushd c:\temp
+
 call :vnc > %LOG%
 call :main >>%LOG%
 call :autoshutdown >>%LOG%
@@ -30,44 +33,12 @@ exit /b
 goto :eof
 
 :main
-::Get into the correct folder
-	pushd c:\temp
-
-::Create the OnLogon scheduled task to run OnLogon.bat
-::	schtasks /Create /F /RU SYSTEM /TN OnLogonConfiguration /SC ONLOGON /TR "cmd.exe /C aria2c.exe %OnLogonConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnLogonConfiguration.bat
-
-
-::Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
-:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
-::Database Connections URL
-	echo [InternetShortcut] > "c:\users\public\desktop\Database Connection Parameters.url"
-	echo URL=http://fme.ly/database >>"c:\users\public\desktop\Database Connection Parameters.url"
-
-:: FME Desktop Course Resources
-	echo [InternetShortcut] > "c:\users\public\desktop\FME Desktop Course Resources.url"
-	echo URL=https://knowledge.safe.com/content/kbentry/25216/fme-desktop-basic-training-course-resources.html >>"c:\users\public\desktop\FME Desktop Course Resources.url"
-
-:: FME Server Course Resources
-	echo [InternetShortcut] > "c:\users\public\desktop\FME Server Course Resources.url"
-	echo URL=https://knowledge.safe.com/content/kbentry/28253/fme-server-authoring-training-course-resources.html >> "c:\users\public\desktop\FME Server Course Resources.url"
-
-
-:: FME Server Course Resources
-	echo [InternetShortcut] > "c:\users\public\desktop\FME Esri Course Resources.url"
-	echo URL=https://knowledge.safe.com/articles/30330/fme-desktop-for-esri-training-course-resources.html >> "c:\users\public\desktop\FME Esri Course Resources.url"
-
-:: FME for Smallworld Course Resources
-	echo [InternetShortcut] > "c:\users\public\desktop\FME Smallworld Course Resources.url"
-	echo URL=https://knowledge.safe.com/articles/48300/index.html >> "c:\users\public\desktop\FME Smallworld Course Resources.url"
 
 
 :: Your Computer DNS Name
 	echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
 	echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\public\desktop\Your Computer DNS Name.url"
 
-:: Put the latest FME Server PDF manual on the desktop
-	aria2c https://www.gitbook.com/download/pdf/book/safe-software/fme-server-training-2017 --allow-overwrite=true
-	copy *.pdf c:\users\public\desktop\ /Y
 
 :: Configure the TaskBar
 	call :taskbarPinning >taskbarPinning.ps1
@@ -92,6 +63,17 @@ goto :eof
 
 :: Indicate the end of the log file.
 	echo "Onstart Configuration complete"
+goto :eof
+
+:urls
+	::Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
+	:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
+	::Database Connections URL
+		echo [InternetShortcut] > "c:\users\public\desktop\Database Connection Parameters.url"
+		echo URL=http://fme.ly/database >>"c:\users\public\desktop\Database Connection Parameters.url"
+	:: FME Desktop Course Resources
+		echo [InternetShortcut] > "c:\users\public\desktop\FME Training Course Resources.url"
+		echo URL=https://knowledge.safe.com/articles/55282/fme-training-course-resources.html  >>"c:\users\public\desktop\FME Training Course Resources.url"
 goto :eof
 
 :autoshutdown
