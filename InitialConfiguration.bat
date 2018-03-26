@@ -13,7 +13,6 @@
 		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
 		set FMEDownloadInstall=https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDownloadInstall.bat
 		set PORTFORWARDING=81;82;443;8080;8081
-		set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2018.zip
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 		set NEWCOMPUTERNAME=FMETraining
 		set LOG=c:\temp\InitialConfiguration.log
