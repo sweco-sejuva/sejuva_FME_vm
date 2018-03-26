@@ -21,8 +21,6 @@
 		md %TEMP%
 		pushd %TEMP%
 	:::::::::::::::::Here are the procedure calls:::::::::::::::::
-	::Create an XML file needed for the task scheduler
-		call :idlexml > idle.xml
 	:: Start Logging, and call sub routines for configuring the computer
 	::basicSetup sets things like license files. Always necessary
 		call :basicSetup > %LOG%
@@ -132,57 +130,4 @@ goto :eof
 		echo Done! %date% %time% 
 		shutdown /s /t 1
 goto :eof
-
-:idlexml
-::The idle shutdown is tricky to create; it requires an XML file which we create in a subroutine
-::If the echo is on, the XML will be malformed
-@echo off
-echo ^<?xml version="1.0" encoding="UTF-16"?^>
-echo ^<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"^>
-echo   ^<RegistrationInfo^>
-echo     ^<Date^>2015-10-02T15:47:19.2075945^</Date^>
-echo     ^<Author^>Administrator^</Author^>
-echo   ^</RegistrationInfo^>
-echo   ^<Triggers^>
-echo     ^<SessionStateChangeTrigger^>
-echo       ^<Enabled^>true^</Enabled^>
-echo       ^<StateChange^>RemoteDisconnect^</StateChange^>
-echo       ^<Delay^>PT1440M0S^</Delay^>
-echo     ^</SessionStateChangeTrigger^>
-echo   ^</Triggers^>
-echo   ^<Principals^>
-echo     ^<Principal id="Author"^>
-echo       ^<UserId^>S-1-5-18^</UserId^>
-echo       ^<RunLevel^>LeastPrivilege^</RunLevel^>
-echo     ^</Principal^>
-echo   ^</Principals^>
-echo   ^<Settings^>
-echo     ^<MultipleInstancesPolicy^>IgnoreNew^</MultipleInstancesPolicy^>
-echo     ^<DisallowStartIfOnBatteries^>true^</DisallowStartIfOnBatteries^>
-echo     ^<StopIfGoingOnBatteries^>true^</StopIfGoingOnBatteries^>
-echo     ^<AllowHardTerminate^>true^</AllowHardTerminate^>
-echo     ^<StartWhenAvailable^>false^</StartWhenAvailable^>
-echo     ^<RunOnlyIfNetworkAvailable^>false^</RunOnlyIfNetworkAvailable^>
-echo     ^<IdleSettings^>
-echo       ^<StopOnIdleEnd^>true^</StopOnIdleEnd^>
-echo       ^<RestartOnIdle^>false^</RestartOnIdle^>
-echo     ^</IdleSettings^>
-echo     ^<AllowStartOnDemand^>true^</AllowStartOnDemand^>
-echo     ^<Enabled^>true^</Enabled^>
-echo     ^<Hidden^>false^</Hidden^>
-echo     ^<RunOnlyIfIdle^>false^</RunOnlyIfIdle^>
-echo     ^<WakeToRun^>false^</WakeToRun^>
-echo     ^<ExecutionTimeLimit^>P3D^</ExecutionTimeLimit^>
-echo     ^<Priority^>7^</Priority^>
-echo   ^</Settings^>
-echo   ^<Actions Context="Author"^>
-echo     ^<Exec^>
-echo       ^<Command^>C:\Windows\System32\shutdown.exe^</Command^>
-echo       ^<Arguments^>/s /f^</Arguments^>
-echo     ^</Exec^>
-echo   ^</Actions^>
-echo ^</Task^>
-@echo on
-@goto :eof
-
 
