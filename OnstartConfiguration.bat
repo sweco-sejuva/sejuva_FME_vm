@@ -102,7 +102,7 @@ goto :eof
 :autoshutdown
 	::schedule automatic shutdown.
 	schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC weekly /d FRI /st 16:30 /TR "C:\Windows\System32\shutdown.exe /s"
-got :eof
+goto :eof
 
 :taskbarPinning
 @echo off
