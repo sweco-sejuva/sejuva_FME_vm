@@ -7,7 +7,7 @@
 
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
-		set EC2PASSWORD=%1
+		setx /m EC2PASSWORD %1
 		setx /m FMELICENSEIP %2
 		setx /m FMESERVERSERIAL %3
 		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
