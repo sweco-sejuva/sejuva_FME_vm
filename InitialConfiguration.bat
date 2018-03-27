@@ -14,6 +14,7 @@
 		set FMEDownloadInstall=https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDownloadInstall.bat
 		set PORTFORWARDING=81;82;443;8080;8081
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
+		set Oracle64InstantClient=https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip
 		set NEWCOMPUTERNAME=FMETraining
 		set TEMP=c:\temp
 		set LOG=%TEMP%\InitialConfiguration.log
@@ -114,7 +115,7 @@ goto :eof
 
 :oracle
 	::Install the 64 bit Oracle Instant Clients
-		aria2c https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip --out=Oracle64InstantClient.zip --allow-overwrite=true
+		aria2c %Oracle64InstantClient% --out=Oracle64InstantClient.zip --allow-overwrite=true
 		7z x -oc:\Oracle64InstantClient -aoa Oracle64InstantClient.zip
 		setx /m PATH "%PATH%;c:\Oracle64InstantClient\instantclient_12_1"
 goto :eof
