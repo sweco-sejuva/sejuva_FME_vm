@@ -15,8 +15,9 @@
 		set PORTFORWARDING=81;82;443;8080;8081
 		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 		set NEWCOMPUTERNAME=FMETraining
-		set LOG=c:\temp\InitialConfiguration.log
 		set TEMP=c:\temp
+		set LOG=%TEMP%\InitialConfiguration.log
+
 	::Make required folders and get into it
 		md %TEMP%
 		pushd %TEMP%
@@ -33,7 +34,7 @@
 	::installFME installs FME 32 and 64 bit, and FME Server
 		call :installFME >> %LOG%
 	::downloadArcGIS downloads the ArcGIS installer and unzips it
-		call :downloadArcGIS >> %LOG%
+		::call :downloadArcGIS >> %LOG%
 	::oracle installs 32-bit and 64-bit Oracle Instant Clients
 		call :oracle >> %LOG%
 	::second run at Chocolatey; install all the other apps
