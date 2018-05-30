@@ -123,7 +123,7 @@ goto :eof
 :choco
 	::Some additional packages to consider:
 		::github webdeploy carbon iisexpress
-	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse -y
+	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman -y
 goto :eof
 
 :shutdown
