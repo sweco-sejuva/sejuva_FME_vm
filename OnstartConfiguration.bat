@@ -35,6 +35,8 @@ exit /b
 goto :eof
 
 :main
+:: get any extra Chocolatey apps
+	choco install postman -y
 
 
 :: Your Computer DNS Name
