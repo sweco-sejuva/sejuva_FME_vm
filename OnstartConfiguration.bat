@@ -25,6 +25,7 @@ call :main >>%LOG%
 call :urls >>%LOG%
 call :autoshutdown >>%LOG%
 call :fmedatadownload >>%LOG%
+call :fmeserverhoops >>%LOG%
 exit /b
 
 :vnc
@@ -53,6 +54,13 @@ goto :eof
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEDownloadInstall.bat --allow-overwrite=true
 	aria2c https://github.com/rjcragg/AWS/raw/master/PostCreationSteps.txt --allow-overwrite=true
 	
+
+
+:: Indicate the end of the log file.
+	echo "Onstart Configuration complete"
+goto :eof
+
+:fmeserverhoops
 :: FME Server sometimes doesn't like to start properly. Halt it and try again here
 	taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
 	net stop "FME Server Engines"
@@ -64,9 +72,6 @@ goto :eof
 	net start "FME Server Database"
 	net start "FME Server Core"
 	net start "FME Server Engines"
-
-:: Indicate the end of the log file.
-	echo "Onstart Configuration complete"
 goto :eof
 
 :urls
