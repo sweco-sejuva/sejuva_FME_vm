@@ -23,7 +23,7 @@ pushd %TEMP%
 call :vnc > %LOG%
 call :main >>%LOG%
 call :urls >>%LOG%
-call :autoshutdown >>%LOG%
+::call :autoshutdown >>%LOG%
 call :fmedatadownload >>%LOG%
 call :fmeserverhoops >>%LOG%
 exit /b
