@@ -37,7 +37,10 @@ goto :eof
 
 :main
 :: get any extra Chocolatey apps
-	choco install postman -y
+::	choco install postman -y
+
+::Update Firewall
+netsh firewall add portopening TCP 8888 "Extra Tomcat webservice port"
 
 
 :: Your Computer DNS Name
