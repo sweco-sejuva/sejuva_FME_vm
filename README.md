@@ -1,6 +1,8 @@
 # AWS
 AWS Configuration Scripts
 
+## Fork this Repository to your own account
+
 ## Create image for virtual machine
 
 ### Create License Server machine for FME Desktop (if desired)
