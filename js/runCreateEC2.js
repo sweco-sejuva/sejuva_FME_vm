@@ -10,8 +10,8 @@ $(document).ready(function() {
 var dataDist = (function () {
 
   // privates
-  var repository = 'FMETraining';
-  var workspaceName = 'PythonVMCreator.fmw';
+  var repository = initObject.repository; //'FMETraining';
+  var workspaceName = initObject.workspaceName; //'PythonVMCreator.fmw';
   var host ;
   var token ;
 
