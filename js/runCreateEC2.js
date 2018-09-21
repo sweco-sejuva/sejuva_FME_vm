@@ -10,8 +10,8 @@ $(document).ready(function() {
 var dataDist = (function () {
 
   // privates
-  var repository = 'EC2';
-  var workspaceName = 'EC2Launcher.fmw';
+  var repository = 'FMETraining';
+  var workspaceName = 'PythonVMCreator.fmw';
   var host ;
   var token ;
 
