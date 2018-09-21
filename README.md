@@ -19,5 +19,15 @@ The machine used for training could possibly do this. Turn off auto-shutdown.
 1. Use FME Server to sync GitHub files into S3 bucket. Maybe use FME Server to create config.js file for token etc.
 1. Add GitHub webhook to run GitHub2S3.fmw
 
+### GitHub Webhook
+1. Navigate to your GitHub repository
+1. Click on the Settings tab
+1. Click on Webhooks
+1. Click Add webhook
+1. Payload URL is https://<server name>/fmerest/v3/transformations/submit/<repository name>/GitHub2S3.fmw?fmetoken=<token>
+1. Content type is application/json
+  
+  
+
 ## Set Calendar Reminders
 If you are not using a permanent license for FME Server, you'll have to re-license it on occasion. The FME Server token will also have to be refreshed.
