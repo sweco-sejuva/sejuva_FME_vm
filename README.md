@@ -28,7 +28,7 @@ The machine used for training could possibly do this. Turn off auto-shutdown.
 1. Click on the `Settings` tab
 1. Click on `Webhooks`
 1. Click `Add webhook`
-1. Payload URL is `https://<server name>/fmerest/v3/transformations/submit/<repository name>/GitHub2S3.fmw?fmetoken=<token>`/n
+1. Payload URL is `https://<server name>/fmerest/v3/transformations/submit/<repository name>/GitHub2S3.fmw?fmetoken=<token>`  
 https://www.urlencoder.org/
 1. Content type is `application/json`
   
