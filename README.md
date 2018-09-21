@@ -1,5 +1,9 @@
 # AWS
 AWS Configuration Scripts
+The files in this repository are used to create virtual machines for FME training courses.
+The virtual machines are Amazon AWS EC2 machines.
+The webpage used for requesting the virtual machines in a static page hosted on AWS S3.
+
 
 ## Fork this Repository to your own account
 
