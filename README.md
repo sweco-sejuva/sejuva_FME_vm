@@ -13,9 +13,9 @@ Use private IP address when licensing FME. That way machines outside the VPC can
 The machine used for training could possibly do this. Turn off auto-shutdown.
 
 ## Create website for launching virtual machines
-Create S3 bucket
-Use FME Server to sync GitHub files into S3 bucket. Maybe use FME Server to create config.js file for token etc.
-Add GitHub webhook to run GitHub2S3.fmw
+1. Create S3 bucket
+1. Use FME Server to sync GitHub files into S3 bucket. Maybe use FME Server to create config.js file for token etc.
+1. Add GitHub webhook to run GitHub2S3.fmw
 
 ## Set Calendar Reminders
 If you are not using a permanent license for FME Server, you'll have to re-license it on occasion. The FME Server token will also have to be refreshed.
