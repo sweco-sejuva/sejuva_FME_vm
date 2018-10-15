@@ -82,7 +82,7 @@ var dataDist = (function () {
      }
     else{
       resultDiv.append($('<h1>' + 'There was an error processing your request <br> Check the information entered above, and email train@safe.com' + '</h1>'));
-      resultDiv.append($('<h2>' + result.statusMessage + '</h2>'));
+      resultDiv.append($('<h2>' + result + '</h2>'));
     }
 
     $('#results').html(resultDiv);
