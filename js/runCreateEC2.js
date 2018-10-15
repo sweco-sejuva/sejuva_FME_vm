@@ -136,7 +136,7 @@ var dataDist = (function () {
         }
       }
       params = params.substr(0, params.length-1);
-      FMEServer.submitJob(repository, workspaceName, params, displayResult);
+      FMEServer.submitSyncJob(repository, workspaceName, params, displayResult);
       return false;
     },
 
