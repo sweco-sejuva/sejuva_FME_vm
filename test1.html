@@ -42,37 +42,87 @@
 		<div id="mapwrapper">
 			<div id="map_canvas"></div>
 
-			<div id="request_form" >
-	
-				
-				<h1>Please Read Carefully</h1>
+		<form id="example-form">
+		<input id="repository-name" type="hidden" value="FMETraining" name="repository" />
+		<input id="workspace-name" type="hidden" value="PythonVMCreator.fmw" name="workspace" />
+	</form>
 
-				<form id="fmeForm" name="fmeForm" onsubmit="return dataDist.orderData(this);" onchange="dataDist.updateQuery()">
-					<input type="hidden" id="FullName" name="FullName" >				
-					<ol style="padding-left:20px; padding-right:10px">
-						<li>						<input id='submit' class='btn' type="submit" value="Request Virtual Machine" onclick="document.getElementById('submit').value = 'Requesting.... Go to Step 2'"> </li>
-						<li>	Count backwards from 30. An 'Email Sent!' confirmation will appear at the bottom of the page. </li>
-						<li>	Follow the additional instructions in the email. If you don't receive an email within a few minutes, please add train@safe.com to your safe email list.</li>
-						<br>
-					</ol>
-					
+	<script type="text/javascript">
+		var repository, workspace, form;
 
+		window.onload = function() {
+			repository = document.getElementById( "repository-name" ).value;
+			workspace = document.getElementById( "workspace-name" ).value;
+			form = document.getElementById( "example-form" );
 
+			FMEServer.init({
+				server : "https://bluesky-safe-software.fmecloud.com",
+				token : "0da8284a549462da314f97b336723e23178655d5"
+			});
 
-					<!-- Extra service-specific directives -->
-					<input type="hidden" name="opt_showresult" value="true">
-					<input type="hidden" name="opt_servicemode" value="sync">
-					<input type="hidden" name="opt_responseformat" value="json">
+			// Get the workspace parameters from FME Server
+			FMEServer.getWorkspaceParameters( repository, workspace, populateForm );
+		};
 
-					
-				</form>
-		      <div id="results-panel" >
-                <div id="results" ></div>
-              </div>
-		
-     </div>
+		function populateForm( json ) {
+			// Use the API to build the form items
+			FMEServer.generateFormItems( "example-form", json );
 
-		</div>
+			// Add the custom submit button
+			var button = document.createElement( "input" );
+			button.type = "button";
+			button.value = "Request Virtual Machine";
+			button.setAttribute( "onclick", "submitJob();" );
+			form.appendChild( button );
+		}
+
+		function showResults( json ) {
+			// The following is to write out the full return object
+			// for visualization of the example
+			var hr = document.createElement( "hr" );
+			var div = document.createElement( "div" );
+			div.innerHTML = "<h4>Return Object:</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>";
+			document.body.appendChild( hr );
+			document.body.appendChild( div );
+		}
+
+		function submitJob() {
+			// Create the the publishedParameters array, and a checkboxes object
+			var params = { "publishedParameters" : [] };
+			var publishedParameters = params.publishedParameters;
+			var checkboxes = {};
+
+			// Loop through the form elements and build the publishedParameters array
+			for( var i = 0; i < form.elements.length; i++ ){
+				var element = form.elements[i];
+				var obj = { "name" : "", "value" : null }
+				obj.name = element.name;
+				if( element.type == "select" ) {
+					obj.value = element[element.selectedIndex].value;
+					publishedParameters.push( obj );
+				} else if( element.type == "checkbox" ){
+					if( element.checked ) {
+						if( !checkboxes[element.name] ){
+							checkboxes[element.name] = [];
+						}
+						checkboxes[element.name].push( element.value );
+					}
+				} else if( element.type != "hidden" && element.type != "button" ) {
+					obj.value = element.value;
+					publishedParameters.push( obj );
+				}
+			}
+
+			// Add all grouped checkbox elements to the published parameters
+			for( name in checkboxes ) {
+				publishedParameters.push( { "name" : name, "value" : checkboxes[name] } );
+			}
+
+			// Submit Job to FME Server and run synchronously
+			FMEServer.submitSyncJob( repository, workspace, params, showResults );
+		}
+
+	</script>
 		<div id="footer">
             <!-- Do we need anything here?-->
 		</div>
