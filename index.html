@@ -38,9 +38,9 @@
 			// Add the custom submit button
 			var button = document.createElement( "input" );
 			button.type = "button";
-			button.value = "Request Virtual Machine";
+		//	button.value = "Request Virtual Machine";
 			button.setAttribute( "onclick", "submitJob();"  );
-			button.src="libs\loading.gif";
+			button.innerHTML = '<img src="libs\loading.gif" />';
 			form.appendChild( button );
 		}
 
