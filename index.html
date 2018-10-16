@@ -58,7 +58,13 @@
 			var params = { "publishedParameters" : [] };
 			var publishedParameters = params.publishedParameters;
 			var checkboxes = {};
-
+			
+			var hr = document.createElement( "hr" );
+			var div = document.createElement( "div" );
+			div.innerHTML = "<h4>Sent!</h4>";
+			document.body.appendChild( hr );
+			document.body.appendChild( div );
+			
 			// Loop through the form elements and build the publishedParameters array
 			for( var i = 0; i < form.elements.length; i++ ){
 				var element = form.elements[i];
