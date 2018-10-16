@@ -39,7 +39,7 @@
 			var button = document.createElement( "input" );
 			button.id = "RequestButton";
 			button.type = "button";
-			button.innerHTML = "<h1>Request Virtual Machine</h1>";
+			button.value = "<h1>Request Virtual Machine</h1>";
 			button.setAttribute( "onclick", "submitJob();" );
 			form.appendChild( button );
 		}
@@ -66,8 +66,8 @@
 			var checkboxes = {};
 			
 			var button = document.getElementById("RequestButton");
-			button.type = "image";
-			button.src = "libs/github.png";
+		//	button.type = "image";
+		//	button.src = "libs/github.png";
 			
 			
 		//	button.value = "<img src=\"libs/loading.gif\">";			
