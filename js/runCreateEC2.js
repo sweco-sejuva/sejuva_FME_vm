@@ -70,19 +70,19 @@ var dataDist = (function () {
    * @param  {JSON} result JSON returned by the data download service call.
    */
   function displayResult(result){
-    var resultText = result.status;
+    var resultText = result.serviceResponse.statusInfo.status;
     var resultUrl = '';
     var resultDiv = $('<div />');
 
     if(resultText == 'success'){
-      //resultUrl = result.serviceResponse.url;
+      resultUrl = result.serviceResponse.url;
       //resultDiv.append($('<h2>' + resultText.toUpperCase() + '</h2>'));
       resultDiv.append($('<h1>' + 'Email Sent!' + '</h1>'));
 	  resultDiv.append($('<h2>' + 'If you do not receive an email within 5 minute, please double-check the email address above, and check your spam filter' + '</h2>'));
      }
     else{
       resultDiv.append($('<h1>' + 'There was an error processing your request <br> Check the information entered above, and email train@safe.com' + '</h1>'));
-      resultDiv.append($('<h2>' + result.object + '</h2>'));
+      resultDiv.append($('<h2>' + result.serviceResponse.statusInfo.message + '</h2>'));
     }
 
     $('#results').html(resultDiv);
@@ -124,41 +124,21 @@ var dataDist = (function () {
      * @return {Boolean} Returning false prevents a new page loading.
      */
     orderData : function(formInfo){
-			// Create the the publishedParameters array, and a checkboxes object
-			var params = { "publishedParameters" : [] };
-			var publishedParameters = params.publishedParameters;
-			var checkboxes = {};
-
-			// Loop through the form elements and build the publishedParameters array
-			for( var i = 0; i < form.elements.length; i++ ){
-				var element = form.elements[i];
-				var obj = { "name" : "", "value" : null }
-				obj.name = element.name;
-				if( element.type == "select" ) {
-					obj.value = element[element.selectedIndex].value;
-					publishedParameters.push( obj );
-				} else if( element.type == "checkbox" ){
-					if( element.checked ) {
-						if( !checkboxes[element.name] ){
-							checkboxes[element.name] = [];
-						}
-						checkboxes[element.name].push( element.value );
-					}
-				} else if( element.type != "hidden" && element.type != "button" ) {
-					obj.value = element.value;
-					publishedParameters.push( obj );
-				}
-			}
-
-			// Add all grouped checkbox elements to the published parameters
-			for( name in checkboxes ) {
-				publishedParameters.push( { "name" : name, "value" : checkboxes[name] } );
-			}
-
-			// Submit Job to FME Server and run synchronously
-			FMEServer.submitSyncJob( repository, workspace, params, displayResult );
-		}
-	 
+      var params = '';
+      var elem = formInfo.elements;
+      for(var i = 0; i < elem.length; i++) {
+        if(elem[i].type !== 'submit') {
+          if(elem[i].type === "checkbox" && elem[i].checked) {
+            params += elem[i].name + "=" + elem[i].value + "&";
+          } else if(elem[i].type !== "checkbox") {
+            params += elem[i].name + "=" + elem[i].value + "&";
+          }
+        }
+      }
+      params = params.substr(0, params.length-1);
+      FMEServer.runDataDownload(repository, workspaceName, params, displayResult);
+      return false;
+    },
 
     /**
      * Updates the URL text, called when a form item changes.
