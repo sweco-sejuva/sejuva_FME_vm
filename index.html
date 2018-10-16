@@ -38,8 +38,7 @@
 			// Add the custom submit button
 			var button = document.createElement( "input" );
 			button.type = "button";
-		//	button.value = "Request Virtual Machine";
-			button.setAttribute( "onclick", "submitJob();"  );
+			button.value = "Request Virtual Machine";
 			button.innerHTML = '<img src="libs\loading.gif" />';
 			form.appendChild( button );
 		}
@@ -60,6 +59,11 @@
 			var publishedParameters = params.publishedParameters;
 			var checkboxes = {};
 			
+			var hr = document.createElement( "hr" );
+			var div = document.createElement( "div" );
+			div.innerHTML = "WORKING!";
+			document.body.appendChild( hr );
+			document.body.appendChild( div );
 
 			// Loop through the form elements and build the publishedParameters array
 			for( var i = 0; i < form.elements.length; i++ ){
