@@ -129,13 +129,13 @@ var dataDist = (function () {
       for(var i = 0; i < elem.length; i++) {
         if(elem[i].type !== 'submit') {
           if(elem[i].type === "checkbox" && elem[i].checked) {
-            params += elem[i].name + "=" + elem[i].value + "&";
+            params += elem[i].name + ":" + elem[i].value + ",";
           } else if(elem[i].type !== "checkbox") {
-            params += elem[i].name + "=" + elem[i].value + "&";
+            params += elem[i].name + ":" + elem[i].value + ",";
           }
         }
       }
-      params = params.substr(0, params.length-1);
+      params = JSON.parse(params);
       FMEServer.submitSyncJob(repository, workspaceName, params, displayResult);
       return false;
     },
