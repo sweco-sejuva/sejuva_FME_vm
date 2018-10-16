@@ -45,6 +45,11 @@
 		}
 
 		function showResults( json ) {
+			
+			var button = document.getElementById("RequestButton");
+			button.type = "reset";
+			button.value = "Reset";
+			
 			// The following is to write out the full return object
 			// for visualization of the example
 			var hr = document.createElement( "hr" );
@@ -63,7 +68,6 @@
 			var button = document.getElementById("RequestButton");
 			button.type = "image";
 			button.src = "libs/loading.gif";
-			button.value = "";
 			
 			
 		//	button.value = "<img src=\"libs/loading.gif\">";			
