@@ -124,21 +124,41 @@ var dataDist = (function () {
      * @return {Boolean} Returning false prevents a new page loading.
      */
     orderData : function(formInfo){
-      var params = '';
-      var elem = formInfo.elements;
-      for(var i = 0; i < elem.length; i++) {
-        if(elem[i].type !== 'submit') {
-          if(elem[i].type === "checkbox" && elem[i].checked) {
-            params += elem[i].name + ":" + elem[i].value + ",";
-          } else if(elem[i].type !== "checkbox") {
-            params += elem[i].name + ":" + elem[i].value + ",";
-          }
-        }
-      }
-      params = JSON.parse(params);
-      FMEServer.submitSyncJob(repository, workspaceName, params, displayResult);
-      return false;
-    },
+			// Create the the publishedParameters array, and a checkboxes object
+			var params = { "publishedParameters" : [] };
+			var publishedParameters = params.publishedParameters;
+			var checkboxes = {};
+
+			// Loop through the form elements and build the publishedParameters array
+			for( var i = 0; i < form.elements.length; i++ ){
+				var element = form.elements[i];
+				var obj = { "name" : "", "value" : null }
+				obj.name = element.name;
+				if( element.type == "select" ) {
+					obj.value = element[element.selectedIndex].value;
+					publishedParameters.push( obj );
+				} else if( element.type == "checkbox" ){
+					if( element.checked ) {
+						if( !checkboxes[element.name] ){
+							checkboxes[element.name] = [];
+						}
+						checkboxes[element.name].push( element.value );
+					}
+				} else if( element.type != "hidden" && element.type != "button" ) {
+					obj.value = element.value;
+					publishedParameters.push( obj );
+				}
+			}
+
+			// Add all grouped checkbox elements to the published parameters
+			for( name in checkboxes ) {
+				publishedParameters.push( { "name" : name, "value" : checkboxes[name] } );
+			}
+
+			// Submit Job to FME Server and run synchronously
+			FMEServer.submitSyncJob( repository, workspace, params, displayResult );
+		}
+	 
 
     /**
      * Updates the URL text, called when a form item changes.
