@@ -39,7 +39,6 @@
 			var button = document.createElement( "input" );
 			button.type = "button";
 			button.value = "Request Virtual Machine";
-			button.innerText = "Request sent...";
 			button.setAttribute( "onclick", "submitJob();"  );
 			form.appendChild( button );
 		}
@@ -59,6 +58,8 @@
 			var params = { "publishedParameters" : [] };
 			var publishedParameters = params.publishedParameters;
 			var checkboxes = {};
+			
+			document.getElementById("button").value="Request Sent...";
 			
 
 			// Loop through the form elements and build the publishedParameters array
