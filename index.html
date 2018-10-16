@@ -46,8 +46,7 @@
 
 		function showResults( json ) {
 			
-			var button = document.getElementById("RequestButton");
-			button.type = "hidden";
+
 			
 			// The following is to write out the full return object
 			// for visualization of the example
@@ -63,6 +62,13 @@
 			var params = { "publishedParameters" : [] };
 			var publishedParameters = params.publishedParameters;
 			var checkboxes = {};
+			
+			var button = document.getElementById("RequestButton");
+			button.type = "hidden";
+			
+			var spinner = document.createElement("img");
+			spinner.src = "libs/github.png";
+			document.body.appendChild(spinner);
 			
 		//	var button = document.getElementById("RequestButton");
 		//	button.type = "image";
