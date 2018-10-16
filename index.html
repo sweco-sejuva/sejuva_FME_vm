@@ -39,7 +39,8 @@
 			var button = document.createElement( "input" );
 			button.type = "button";
 			button.value = "Request Virtual Machine";
-			button.setAttribute( "onclick", "submitJob();", "button.value = "Request Sent...";"  );
+			button.innerText = "Request sent...";
+			button.setAttribute( "onclick", "submitJob();"  );
 			form.appendChild( button );
 		}
 
