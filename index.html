@@ -58,7 +58,7 @@
 			var hr = document.createElement( "hr" );
 			var div = document.createElement( "div" );
 			if(resultText == 'SUCCESS'){
-				div.innerHTML = "<h4>Email Sent! <br> If you do not receive an email within 5 minute, please double-check the email address above, and check your spam filter</h4>";
+				div.innerHTML = "<h4>Email Sent! <br> If you do not receive an email within 5 minutes, please double-check the email address above, and check your spam filter</h4>";
 			}
 			else{
 				div.innerHTML = "<h4>Something has gone wrong <br> Contact train@safe.com and include the following:</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>";
