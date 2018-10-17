@@ -47,24 +47,7 @@
 		function showResults( json ) {
 			
 			var resultText = json.status;
-    		//	var resultUrl = '';
-    		//	var resultDiv = $('<div />');
-
-    		//	if(resultText == 'success'){
-		//	      resultUrl = result.serviceResponse.url;
-			      //resultDiv.append($('<h2>' + resultText.toUpperCase() + '</h2>'));
-		//	      resultDiv.append($('<h1>' + 'Email Sent!' + '</h1>'));
-		//		  resultDiv.append($('<h2>' + 'If you do not receive an email within 5 minute, please double-check the email address above, and check your spam filter' + '</h2>'));
-		//	     }
-		//	    else{
-		//	      resultDiv.append($('<h1>' + 'There was an error processing your request <br> Check the information entered above, and email train@safe.com' + '</h1>'));
-		//	      resultDiv.append($('<h2>' + result.serviceResponse.statusInfo.message + '</h2>'));
-		//	    }
-			
-			
-			
-			
-			
+ 
 			//hide spinner when results come in
 			var spinner = document.getElementById("spinner");
 			spinner.type = "hidden";
@@ -75,12 +58,12 @@
 			var hr = document.createElement( "hr" );
 			var div = document.createElement( "div" );
 			if(resultText == 'SUCCESS'){
-				div.innerHTML = "<h4>Email Sent!</h4><pre>"+json.status+JSON.stringify(json, undefined, 4)+"</pre>";
+				div.innerHTML = "<h4>Email Sent! <br> If you do not receive an email within 5 minute, please double-check the email address above, and check your spam filter</h4>";
 			}
 			else{
-				div.innerHTML = "<h4>Something has gone wrong <br> Contact train@safe.com</h4><pre>"+json.status+JSON.stringify(json, undefined, 4)+"</pre>";
+				div.innerHTML = "<h4>Something has gone wrong <br> Contact train@safe.com and include the following:</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>";
 			}
-		//	div.innerHTML = "<h4>Return Object:</h4><pre>"+json.status+JSON.stringify(json, undefined, 4)+"</pre>";
+
 			document.body.appendChild( hr );
 			document.body.appendChild( div );
 		}
