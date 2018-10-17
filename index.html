@@ -66,8 +66,10 @@
 			var button = document.getElementById("RequestButton");
 			button.type = "hidden";
 			
-			var spinner = document.createElement("img");
-			spinner.src = "libs/github.png";
+			var spinner = document.createElement("input");
+			spinner.id = "spinner";
+			spinner.type = "image";
+			spinner.src = "libs/loading.gif";
 			document.body.appendChild(spinner);
 			
 		//	var button = document.getElementById("RequestButton");
