@@ -74,7 +74,7 @@
 				div.innerHTML = "<h4>Email Sent! Request ID is "+resultId+"<br> If you do not receive an email within 5 minutes, please double-check the email address above, and check your spam filter</h4>";
 			}
 			else if(json.statusMessage == "Parameter 'FullName' must be given a value.\n    "){
-				div.innerHTML = "<h4>Request failed <br>You must enter your full name and email address <br> Please refresh the page and try again</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>";
+				div.innerHTML = "<h4>Request failed <br>You must enter your full name and email address <br> Please try again</h4>";
 			}
 			else{
 				div.innerHTML = "<h4>Something has gone wrong <br> Contact train@safe.com and include the following:</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>";
