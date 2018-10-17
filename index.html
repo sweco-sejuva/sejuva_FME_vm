@@ -46,6 +46,7 @@
 
 		function showResults( json ) {
 			
+			//hide spinner when results come in
 			var spinner = document.getElementById("spinner");
 			spinner.type = "hidden";
 			
@@ -65,26 +66,16 @@
 			var publishedParameters = params.publishedParameters;
 			var checkboxes = {};
 			
+			//Hide the request button so it doesn't get pressed again
 			var button = document.getElementById("RequestButton");
 			button.type = "hidden";
 			
+			//Show spinner
 			var spinner = document.createElement("input");
 			spinner.id = "spinner";
 			spinner.type = "image";
-			spinner.src = "libs/loading.gif";
+			spinner.src = "https://s3.amazonaws.com/fmevm/pleasewait.gif";
 			document.body.appendChild(spinner);
-			
-		//	var button = document.getElementById("RequestButton");
-		//	button.type = "image";
-		//	button.src = "libs/github.png";
-			
-			
-		//	button.value = "<img src=\"libs/loading.gif\">";			
-		//	var hr = document.createElement( "hr" );
-		//	var div = document.createElement( "div" );
-		//	div.innerHTML = "<h4>Sent!</h4> <img src=\"libs/loading.gif\">";
-		//	document.body.appendChild( hr );
-		//	document.body.appendChild( div ); 
 			
 			// Loop through the form elements and build the publishedParameters array
 			for( var i = 0; i < form.elements.length; i++ ){
