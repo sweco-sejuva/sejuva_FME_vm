@@ -42,6 +42,15 @@
 			button.value = "Request Virtual Machine";
 			button.setAttribute( "onclick", "submitJob();" );
 			form.appendChild( button );
+			
+			//Add and hide spinner
+			//Show spinner
+			var spinner = document.createElement("input");
+			spinner.id = "spinner";
+			spinner.type = "image";
+			spinner.src = "https://s3.amazonaws.com/fmevm/libs/loading.gif";
+			spinner.type = "hidden";
+			document.body.appendChild(spinner);
 		}
 
 		function showResults( json ) {
@@ -80,11 +89,8 @@
 			button.type = "hidden";
 			
 			//Show spinner
-			var spinner = document.createElement("input");
-			spinner.id = "spinner";
+			var spinner = document.getElementById("spinner");
 			spinner.type = "image";
-			spinner.src = "https://s3.amazonaws.com/fmevm/libs/loading.gif";
-			document.body.appendChild(spinner);
 			
 			// Loop through the form elements and build the publishedParameters array
 			for( var i = 0; i < form.elements.length; i++ ){
