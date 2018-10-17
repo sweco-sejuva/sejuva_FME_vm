@@ -68,14 +68,14 @@
 			var hr = document.createElement( "hr" );
 			var div = document.createElement( "div" );
 			if(resultText == 'SUCCESS'){
-				div.innerHTML = "<h4>Email Sent! Request ID is "+resultId+"<br> If you do not receive an email within 5 minutes, please double-check the email address above, and check your spam filter</h4>";
+				div.innerHTML = "<br><h4>Email Sent! Request ID is "+resultId+"<br> If you do not receive an email within 5 minutes, please double-check the email address above, and check your spam filter</h4>";
 			}
 			else{
-				div.innerHTML = "<h4>Something has gone wrong <br> Contact train@safe.com and include the following:</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>";
+				div.innerHTML = "<br><h4>Something has gone wrong <br> Contact train@safe.com and include the following:</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>";
 			}
 
-			document.body.appendChild( hr );
-			document.body.appendChild( div );
+			form.appendChild( hr );
+			form.appendChild( div );
 		}
 
 		function submitJob() {
