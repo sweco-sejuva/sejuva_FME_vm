@@ -50,6 +50,13 @@
 			spinner.src = "https://s3.amazonaws.com/fmevm/libs/loading.gif";
 			spinner.type = "hidden";
 			form.appendChild(spinner);
+			
+			//Create JobResults object
+			var jobResult = document.createElement("input");
+			jobResult.id = "jobResult";
+			jobResult.type = "text";
+			jobResult.type = "hidden";
+			form.appendChild(jobResult);
 		}
 
 		function showResults( json ) {
@@ -64,6 +71,11 @@
 			//Show the request button again
 			var button = document.getElementById("RequestButton");
 			button.type = "button";
+			
+			//Show jobResult object
+			var jobResult = document.getElementById("jobResult");
+			jobResult.type = "text";
+			jobResult.innerHTML = "<h4>Something has gone wrong <br> Contact train@safe.com and include the following information:</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>"
 			
 			
 			// The following is to write out the full return object
