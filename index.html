@@ -46,6 +46,27 @@
 
 		function showResults( json ) {
 			
+			var resultText = result.status;
+    			var resultUrl = '';
+    			var resultDiv = $('<div />');
+
+    			if(resultText == 'success'){
+			      resultUrl = result.serviceResponse.url;
+			      //resultDiv.append($('<h2>' + resultText.toUpperCase() + '</h2>'));
+			      resultDiv.append($('<h1>' + 'Email Sent!' + '</h1>'));
+				  resultDiv.append($('<h2>' + 'If you do not receive an email within 5 minute, please double-check the email address above, and check your spam filter' + '</h2>'));
+			     }
+			    else{
+			      resultDiv.append($('<h1>' + 'There was an error processing your request <br> Check the information entered above, and email train@safe.com' + '</h1>'));
+			      resultDiv.append($('<h2>' + result.serviceResponse.statusInfo.message + '</h2>'));
+			    }
+			
+			
+			
+			
+			
+			
+			
 			//hide spinner when results come in
 			var spinner = document.getElementById("spinner");
 			spinner.type = "hidden";
