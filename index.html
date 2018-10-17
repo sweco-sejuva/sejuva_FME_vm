@@ -43,8 +43,7 @@
 			button.setAttribute( "onclick", "submitJob();" );
 			form.appendChild( button );
 			
-			//Add and hide spinner
-			//Show spinner
+			//Add and hide spinner for feedback when request is made
 			var spinner = document.createElement("input");
 			spinner.id = "spinner";
 			spinner.type = "image";
@@ -61,6 +60,10 @@
 			//hide spinner when results come in
 			var spinner = document.getElementById("spinner");
 			spinner.type = "hidden";
+			
+			//Show the request button again
+			var button = document.getElementById("RequestButton");
+			button.type = "button";
 			
 			
 			// The following is to write out the full return object
