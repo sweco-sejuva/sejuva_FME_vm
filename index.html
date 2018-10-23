@@ -39,14 +39,6 @@
 			button.setAttribute( "onclick", "submitJob();" );
 			form.appendChild( button );
 			
-			//Add and hide spinner for feedback when request is made
-			var spinner = document.createElement("input");
-			spinner.id = "spinner";
-			spinner.type = "image";
-			spinner.src = "https://s3.amazonaws.com/fmevm/images/FMEServerLoader.gif";
-			spinner.type = "hidden";
-			form.appendChild(spinner);
-			
 			//Add job results section
 			var hr = document.createElement( "hr" );
 			var div = document.createElement( "div" );
@@ -60,12 +52,8 @@
 			
 			var resultText = json.status;
 			var resultId = json.id;
- 
-			//hide spinner when results come in
-			var spinner = document.getElementById("spinner");
-			spinner.type = "hidden";
 			
-			//Show the request button again
+			//Enable the request button again
 			var button = document.getElementById("RequestButton");
 			button.type = "button";	
 			
@@ -91,13 +79,11 @@
 			var publishedParameters = params.publishedParameters;
 			var checkboxes = {};
 			
-			//Hide the request button so it doesn't get pressed again
+			//Disable the request button so it doesn't get pressed again
 			var button = document.getElementById("RequestButton");
-			button.type = "hidden";
+			button.disabled = true;
 			
 			//Show spinner
-			var spinner = document.getElementById("spinner");
-			spinner.type = "image";
 			var div = document.getElementById("jobResult");
 			div.innerHTML = '<img src="https://s3.amazonaws.com/fmevm/images/FMEServerLoader.gif" alt="Requesting Virtual Machine. Please Wait.">'
 			
