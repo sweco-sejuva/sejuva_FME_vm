@@ -9,28 +9,23 @@
 	<!-- Include FMEServer.js -->
 	<script type="text/javascript" src="https://api.fmeserver.com/js/v3/FMEServer.js"></script>
 	<script type="text/javascript" src="https://s3.amazonaws.com/fmevm/js/PythonVMCreator.js"></script>
+	<script type="text/javascript" src="https://s3.amazonaws.com/fmevm/js/parameters.js"></script>
 	
 </head>
 <body>
 	<form id="example-form">
-		<input id="repository-name" type="hidden" value="FMETraining" name="repository" />
-		<input id="workspace-name" type="hidden" value="PythonVMCreator.fmw" name="workspace" />
 	</form>
 
 	<script type="text/javascript">
-		var repository, workspace, form;
 		window.onload = function() {
-			repository = document.getElementById( "repository-name" ).value;
-			workspace = document.getElementById( "workspace-name" ).value;
 			form = document.getElementById( "example-form" );
 			FMEServer.init({
-				server : "https://bluesky-safe-software.fmecloud.com",
-				token : "0da8284a549462da314f97b336723e23178655d5"
+				server : server,
+				token : token
 			});
 			// Get the workspace parameters from FME Server
 			FMEServer.getWorkspaceParameters( repository, workspace, populateForm );
 		};
-
 	</script>
 </body>
 </html>
