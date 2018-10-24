@@ -39,6 +39,9 @@
 			else if(json.statusMessage == "Parameter 'EmailAddress' must be given a value.\n    "){
 				div.innerHTML = "<h4>Request failed <br>You must enter your full name and email address <br> Please try again</h4>";
 			}
+			else if(json.statusMessage == "Terminator: Termination Message: 'Invalid email address'"){
+				div.innerHTML = "<h4>Request failed <br>Invalid Email Address<br> Please check your email address and try again <br>Request ID is "+resultId+"</h4>";
+			}
 			else{
 				div.innerHTML = "<h4>Something has gone wrong <br> Contact train@safe.com and include the following information:</h4><pre>"+JSON.stringify(json, undefined, 4)+"</pre>";
 			}
