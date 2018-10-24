@@ -1,16 +1,3 @@
-
-		var repository, workspace, form;
-		window.onload = function() {
-			repository = document.getElementById( "repository-name" ).value;
-			workspace = document.getElementById( "workspace-name" ).value;
-			form = document.getElementById( "example-form" );
-			FMEServer.init({
-				server : "https://bluesky-safe-software.fmecloud.com",
-				token : "0da8284a549462da314f97b336723e23178655d5"
-			});
-			// Get the workspace parameters from FME Server
-			FMEServer.getWorkspaceParameters( repository, workspace, populateForm );
-		};
 		function populateForm( json ) {
 			// Use the API to build the form items
 			FMEServer.generateFormItems( "example-form", json );
