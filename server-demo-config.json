@@ -1,8 +1,0 @@
-{
-  "initObject" : {
-    "server": "https://bluesky-safe-software.fmecloud.com",
-    "token": "0da8284a549462da314f97b336723e23178655d5",
-    "repository": "FMETraining",
-    "workspaceName": "PythonVMCreator.fmw"
-  }
-}
