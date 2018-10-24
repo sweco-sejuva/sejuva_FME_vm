@@ -59,7 +59,7 @@ function submitJob() {
 
 	//Show spinner
 	var div = document.getElementById("jobResult");
-	div.innerHTML = '<img src="https://s3.amazonaws.com/fmevm/images/pleasewait.gif" alt="Requesting Virtual Machine. Please Wait.">'
+	div.innerHTML = '<img src="https://s3.amazonaws.com/fmevm/images/FMEServerLoader.gif" alt="Requesting Virtual Machine. Please Wait.">'
 
 	// Loop through the form elements and build the publishedParameters array
 	for( var i = 0; i < form.elements.length; i++ ){
