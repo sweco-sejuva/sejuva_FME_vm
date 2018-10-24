@@ -1,4 +1,4 @@
-	<script type="text/javascript">
+
 		var repository, workspace, form;
 		window.onload = function() {
 			repository = document.getElementById( "repository-name" ).value;
@@ -98,4 +98,4 @@
 			// Submit Job to FME Server and run synchronously
 			FMEServer.submitSyncJob( repository, workspace, params, callback );
 		}
-	</script>
+
