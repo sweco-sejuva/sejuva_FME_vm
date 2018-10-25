@@ -9,4 +9,4 @@ aria2c https://s3.amazonaws.com/FMEData/GeoAlbertaWorkshops.zip --out=GeoAlberta
 
 :Unzip FMEData
 for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
-7z x -oc:\FMEData2018\Resources\ -aoa GeoAlbertaWorkshops.zip
+7z x -oc:\FMEData2018\Resources\GeoAlbertaWorkshops\ -aoa GeoAlbertaWorkshops.zip
