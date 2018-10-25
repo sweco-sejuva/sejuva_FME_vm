@@ -5,6 +5,8 @@ aria2c https://bluesky-safe-software.fmecloud.com/fmedatastreaming/FMETraining/C
 
 :Download FMEData
 aria2c -i CurrentFMEDataDownloadURL.txt --allow-overwrite=true
+aria2c https://s3.amazonaws.com/FMEData/GeoAlbertaWorkshops.zip --out=GeoAlbertaWorkshops.zip --allow-overwrite=true
 
 :Unzip FMEData
 for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
+7z x -oc:\FMEData2018\Resources\ -aoa GeoAlbertaWorkshops.zip
