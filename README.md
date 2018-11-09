@@ -12,6 +12,7 @@ The webpage used for requesting the virtual machines in a static page hosted on 
 ### Create License Server machine for FME Desktop (if desired)
 Use Linux t3.nano in same VPC as training machines
 Use private IP address when licensing FME. That way machines outside the VPC cannot obtain a license.
+[Detailed instructions here](https://knowledge.safe.com/articles/82230/create-fme-license-server.html)
 
 ## Create workspace for launching virtual machines
 
