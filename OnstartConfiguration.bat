@@ -42,6 +42,7 @@ goto :eof
 
 :: get any extra Chocolatey apps
 ::	choco install postman -y
+	choco install openoffice -y
 
 ::Update Firewall
 netsh firewall add portopening TCP 8888 "Extra Tomcat webservice port"
