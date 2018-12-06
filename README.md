@@ -8,6 +8,17 @@ The webpage used for requesting the virtual machines in a static page hosted on 
 ## Fork this Repository to your own account
 
 ## Create image for virtual machine
+InitialConfiguration.bat is used to setup the image for the virtual machine.
+Create a t3.large Windows instance, and then edit and run the following from the commandline:
+`powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat password fmelicenseip fmeserverserial`
+* Edit the `https://raw.githubusercontent.com/.../InitialConfiguration.bat` path to point to your GitHub repository
+* Replace `password` with the desired login password for the virtual machine
+* Replace `fmelicenseip` with the FME license server IP address
+
+
+OnstartConfiguration.bat is run by the Task Scheduler on the virtual machines every time the virtual machine starts (or restarts). This allows you to perform additional configuration steps at startup.
+
+
 
 ### Create License Server machine for FME Desktop (if desired)
 Use Linux t3.nano in same VPC as training machines
