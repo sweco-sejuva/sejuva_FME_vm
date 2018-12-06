@@ -13,7 +13,6 @@
 		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
 		set FMEDownloadInstall=https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDownloadInstall.bat
 		set PORTFORWARDING=81;82;443;8080;8081
-		set ARCGISURL=https://s3.amazonaws.com/FME-Installers/ArcGIS10.3.1-20150220.zip
 		set Oracle64InstantClient=https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip
 		set NEWCOMPUTERNAME=FMETraining
 		set TEMP=c:\temp
