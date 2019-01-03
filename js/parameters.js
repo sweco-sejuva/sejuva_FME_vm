@@ -1,5 +1,5 @@
 var repository, workspace, form, server, token;
 repository = "FMETraining";
 workspace = "PythonVMCreator.fmw";
-server = "https://bluesky-safe-software.fmecloud.com";
-token ="0da8284a549462da314f97b336723e23178655d5"; 
+server = "https://demos-safe-software.fmecloud.com";
+token ="b42f5405ae92f30024974cd3943d5d2a2bcf0443"; 
