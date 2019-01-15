@@ -9,5 +9,5 @@ var EC2Type = "t3";
 var EC2Size = "large";
 var CourseType = "training";
 var AccountEmail = "train@safe.com";
-var EmergencyEmail = "ryan.cragg@safe.com;
+var EmergencyEmail = "ryan.cragg@safe.com";
 var CRMEmail = "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com";
