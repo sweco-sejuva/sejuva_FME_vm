@@ -11,3 +11,4 @@ var CourseType = "training";
 var AccountEmail = "train@safe.com";
 var EmergencyEmail = "ryan.cragg@safe.com";
 var CRMEmail = "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com";
+var S3ROOT = "https://s3.amazonaws.com/fmekc/test/";   //This is the combination of s3 bucket name and folder name
