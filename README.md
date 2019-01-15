@@ -35,8 +35,8 @@ The machine used for training could possibly do this. Turn off auto-shutdown.
 
 ## Create website for launching virtual machines
 1. Create S3 bucket
-1. Use FME Server to sync GitHub files into S3 bucket. Maybe use FME Server to create config.js file for token etc.
-1. Add GitHub webhook to run GitHub2S3.fmw
+1. Edit GitClone2S3.fmw so that it contains your AWS web connection, and publish to FME Server or FME Cloud.
+1. Add webhook in GitHub repository run GitHub2S3.fmw
 
 ### GitHub Webhook
 1. Navigate to your GitHub repository
@@ -47,7 +47,6 @@ The machine used for training could possibly do this. Turn off auto-shutdown.
 Make sure that the value for GitHubZip URL is encoded properly. Use the link below.  
 https://www.urlencoder.org/
 1. Content type is `application/json`
-  
   
 
 ## Set Calendar Reminders
