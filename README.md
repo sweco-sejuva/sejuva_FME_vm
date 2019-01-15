@@ -44,8 +44,7 @@ The machine used for training could possibly do this. Turn off auto-shutdown.
 1. Click on `Webhooks`
 1. Click `Add webhook`
 1. Payload URL is `https://<server name>/fmerest/v3/transformations/submit/<repository name>/GitHub2S3.fmw?GitHubZipUrl=<GitHub ZIP download URL>&S3_BUCKET_NAME=<S3 Bucket name>&fmetoken=<token>`  
-Make sure that the value for GitHubZip URL is encoded properly. Use the link below.  
-https://www.urlencoder.org/
+`https://demos-safe-software.fmecloud.com/fmerest/v3/transformations/submit/FMETraining/GitClone2S3.fmw?GITUSER=<git user name>&GITREPOSITORY=<repository name>&GITBRANCH=<git branch>&S3_BUCKET_NAME=<S3 Bucket>&S3_OBJECT_KEY=<folder in bucket>&fmetoken=<fme token>`
 1. Content type is `application/json`
   
 
