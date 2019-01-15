@@ -1,0 +1,3 @@
+The attached RDP files can be used to connect to your FME Virtual Machine.
+
+Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.
