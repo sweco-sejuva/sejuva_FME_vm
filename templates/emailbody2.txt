@@ -1,0 +1,4 @@
+The username is administrator
+The password is FMElearnings#1
+
+Some organizations block the port used by RDP; port 3389.
