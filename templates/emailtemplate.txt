@@ -1,27 +1,27 @@
-Hello $(FullName),
+Hello _FullName_,
 
 The attached RDP files can be used to connect to your FME Virtual Machine.
 
 Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.
 
-Please try @Value(PublicIpAddress).rdp first. 
-Double-click on @Value(PublicIpAddress).rdp to open it in Microsoft Remote Desktop.
+Please try _PublicIpAddress_.rdp first. 
+Double-click on _PublicIpAddress_.rdp to open it in Microsoft Remote Desktop.
 
 The username is administrator
 The password is FMElearnings#1
 
 Some organizations block the port used by RDP; port 3389.
 
-If @Value(PublicIpAddress).rdp does not work, please try the other two RDP files; @Value(PublicIpAddress)Port8080.rdp and @Value(PublicIpAddress)Port443.rdp.
+If _PublicIpAddress_.rdp does not work, please try the other two RDP files; _PublicIpAddress_Port8080.rdp and _PublicIpAddress_Port443.rdp.
 These RDP files use different ports that might not be blocked.
 
 If none of the RDP files will connect, then your Security Administrator is likely using a Web Security Gateway. 
 This cannot be bypassed without contacting your IT Department. 
-Please contact your IT Department, and tell them you need to use Remote Desktop to connect to @Value(PublicIpAddress) 
+Please contact your IT Department, and tell them you need to use Remote Desktop to connect to _PublicIpAddress_ 
 
 As a last-resort, you can try to use an HTML5 Remote Desktop Client.
 Go to http://54.205.104.160/myrtille
-Server: @Value(PublicIpAddress)
+Server: _PublicIpAddress_
 User: administrator
 Password: FMElearnings#1 
 
