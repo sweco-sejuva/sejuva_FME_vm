@@ -18,6 +18,7 @@ Use private IP address when licensing FME. That way machines outside the VPC can
 
 ## Create image for virtual machine
 InitialConfiguration.bat is used to setup the image for the virtual machine.
+Edit the content of InitialConfiguration.bat so that OnstartConfigurationURL points to your own OnstartConfigurationURL.bat file.
 Create a t3.large Windows instance, and then edit and run the following from the commandline:
 `powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat password fmelicenseip fmeserverserial`
 * Edit the `https://raw.githubusercontent.com/.../InitialConfiguration.bat` path to point to your GitHub repository
