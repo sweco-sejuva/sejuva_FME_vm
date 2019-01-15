@@ -9,7 +9,11 @@ The webpage used for requesting the virtual machines is a static page hosted on 
 1. Configure an image that has everything you need installed. If you are happy creating student virtual machines manually, this is the only required step.
 1. (optional) Set up an installation of FME Server to allow students to request a virtual machine
 
-There are four files in the repository that need to be edited, and two workspaces that need to be edited and published to FME Server.
+There are four files in the repository that need to be edited, and two workspaces that need to be edited and published to FME Server. The four files you will eventually edit are:
+1. InitialConfiguration.bat
+1. /js/parameters.js
+1. /templates/emailtemplate.txt
+1. /template/rdptempate.txt (optional)
 
 ## Fork this Repository to your own account
 
