@@ -31,12 +31,11 @@ Create a t3.large Windows instance, and then edit and run the following from the
 * Replace `password` with the desired login password for the virtual machine
 * Replace `fmelicenseip` with the FME license server IP address
 
-
 OnstartConfiguration.bat is run by the Task Scheduler on the virtual machines every time the virtual machine starts (or restarts). This allows you to perform additional configuration steps at startup.
 
-## Create workspace for launching virtual machines
+Once the machine is configured, create an image (AMI) and add a tag called Course. The course is the name of the image (like training, or certification). This tag is used by the VMCreator.fmw file to launch virtual machines on demand.  
 
-## Create FME Server machine or use FME Cloud
+## Create FME Server machine or use FME Cloud for launching virtual machines
 The machine used for training could possibly do this. Turn off auto-shutdown.
 
 ## Create website for launching virtual machines
@@ -52,7 +51,16 @@ The machine used for training could possibly do this. Turn off auto-shutdown.
 1. Payload URL is `https://<server name>/fmerest/v3/transformations/submit/<repository name>/GitHub2S3.fmw?GitHubZipUrl=<GitHub ZIP download URL>&S3_BUCKET_NAME=<S3 Bucket name>&fmetoken=<token>`  
 `https://demos-safe-software.fmecloud.com/fmerest/v3/transformations/submit/FMETraining/GitClone2S3.fmw?GITUSER=<git user name>&GITREPOSITORY=<repository name>&GITBRANCH=<git branch>&S3_BUCKET_NAME=<S3 Bucket>&S3_OBJECT_KEY=<folder in bucket>&fmetoken=<fme token>`
 1. Content type is `application/json`
-  
 
+## Create workspace for launching virtual machines
+1. Edit /workspaces/VMCreator.fmw. The 2 private parameters and the Web Connection for email must be configured.
+1. Publish to FME Server or FME Cloud.
+1. Create a new user with only Read and Run permissions for the FME Server repository that contains VMCreator.fmw
+1. Create a token with the new user.
+
+## Edit /js/parameters.js
+The configuration for the webpage and VMCreator.fmw is done in parameters.js
+
+  
 ## Set Calendar Reminders
 If you are not using a permanent license for FME Server, you'll have to re-license it on occasion. The FME Server token will also have to be refreshed.
