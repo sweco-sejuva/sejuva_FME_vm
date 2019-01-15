@@ -10,6 +10,7 @@ function populateForm( json ) {
 	json[4].defaultValue = AccountEmail;
 	json[5].defaultValue = EmergencyEmail;
 	json[6].defaultValue = CRMEmail;
+	json[7].defaultValue = S3ROOT;
 	
 	// Use the API to build the form items
 	FMEServer.generateFormItems( "example-form", json );
@@ -22,6 +23,7 @@ function populateForm( json ) {
 	document.querySelector("span.AccountEmail.fmes-form-component").style.display= 'none';
 	document.querySelector("span.EmergencyEmail.fmes-form-component").style.display= 'none';
 	document.querySelector("span.CRMEmail.fmes-form-component").style.display= 'none';
+	document.querySelector("span.S3ROOT.fmes-form-component").style.display= 'none';
 
 	// Add the custom submit button
 	var button = document.createElement( "input" );
