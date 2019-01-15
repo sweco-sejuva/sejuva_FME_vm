@@ -1,4 +1,3 @@
-full address:s:@Value(PublicIpAddress):@Value(PORT)
 username:s:Administrator
 domain:s:FMETraining
 screen mode id:i:2
