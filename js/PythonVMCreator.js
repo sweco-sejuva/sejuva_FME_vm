@@ -1,6 +1,27 @@
 function populateForm( json ) {
+	// Print json to the log; might need it for troubleshooting later if element numbers change
+	console.log(json);
+	// Update response json to contain desired default values
+	// Make sure these are hidden later
+	json[0].defaultValue = region_name;
+	json[1].defaultValue = EC2Type;
+	json[2].defaultValue = EC2Size;
+	json[3].defaultValue = CourseType;
+	json[4].defaultValue = AccountEmail;
+	json[5].defaultValue = EmergencyEmail;
+	json[6].defaultValue = CRMEmail;
+	
 	// Use the API to build the form items
 	FMEServer.generateFormItems( "example-form", json );
+	
+	// Hide the published parameters that the user shouldn't see
+	document.querySelector("span.region_name.fmes-form-component").style.display= 'none';
+	document.querySelector("span.EC2Type.fmes-form-component").style.display= 'none';
+	document.querySelector("span.EC2Size.fmes-form-component").style.display= 'none';
+	document.querySelector("span.CourseType.fmes-form-component").style.display= 'none';
+	document.querySelector("span.AccountEmail.fmes-form-component").style.display= 'none';
+	document.querySelector("span.EmergencyEmail.fmes-form-component").style.display= 'none';
+	document.querySelector("span.CRMEmail.fmes-form-component").style.display= 'none';
 
 	// Add the custom submit button
 	var button = document.createElement( "input" );
