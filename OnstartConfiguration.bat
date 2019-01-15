@@ -10,13 +10,6 @@
 :: Set all the required variables
 	set TEMP=c:\temp
 	set LOG=%TEMP%\OnstartConfiguration.log
-	set SMTP=https://s3.amazonaws.com/FMETraining/SMTPConfigure.fmw
-	set RDP=https://s3.amazonaws.com/FMETraining/ZippedRDPFileCreator.fmw
-	set FMEDATAURL=http://s3.amazonaws.com/FMEData/FMEData2018.zip
-	set OnLogonConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnLogonConfiguration.bat
-	set CurrentFMEDataDownloadURL=https://bluesky-safe-software.fmecloud.com/fmedatastreaming/FMETraining/CurrentFMEDataDownloadURL.fmw
-::	set VM_PASSWORD=FME2016learnings
-
 md %TEMP%
 pushd %TEMP%
 
