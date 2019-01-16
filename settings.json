@@ -1,14 +1,19 @@
 //this is a test of comments in a json file.
 
 var config = {
-"region_name":"us-east-1",
-"EC2Type":"t3",
-"EC2Size":"large",
-"CourseType":"training",
-"AccountEmail":"train@safe.com",
+"repository"  : "FMETraining", 
+"workspace"   : "VMCreator.fmw",
+"server"      : "https://demos-safe-software.fmecloud.com",
+"token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",     
+  
+"S3ROOT"      : "https://s3.amazonaws.com/fmekc/test/",
+"region_name" : "us-east-1",
+"EC2Type"     : "t3",
+"EC2Size"     : "large",
+"CourseType"  : "training",
+"AccountEmail": "train@safe.com",
 "EmergencyEmail":"ryan.cragg@safe.com",
-"CRMEmail":"emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
-"S3ROOT":"https://s3.amazonaws.com/fmekc/test/",
+"CRMEmail"    : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
   
 "_email_template":
 "Hello _FullName_,
