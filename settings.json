@@ -10,8 +10,8 @@ var settings = {
 "region_name" : "us-east-1",
 "EC2Type"     : "t3",
 "EC2Size"     : "large",
-"Team"        : "Train"
-"Owner"       : "RCragg"
+"Team"        : "Train",
+"Owner"       : "RCragg",
 "CourseType"  : "training",
 "FromEmail"   : "train@safe.com",
 "CCEmail"     :"ryan.cragg@safe.com",
