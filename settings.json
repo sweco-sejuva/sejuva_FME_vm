@@ -1,7 +1,7 @@
 //this is a test of comments in a json file.
 
 {
-"region_name":"us-east-1",
+"region_name":"us-east-1", //test of comment in middle of JSON
 "EC2Type":"t3",
 "EC2Size":"large",
 "CourseType":"training",
