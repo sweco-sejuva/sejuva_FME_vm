@@ -1,7 +1,7 @@
 //this is a test of comments in a json file.
 
 {
-"region_name":"us-east-1", //test of comment in middle of JSON
+"region_name":"us-east-1",
 "EC2Type":"t3",
 "EC2Size":"large",
 "CourseType":"training",
@@ -9,7 +9,9 @@
 "EmergencyEmail":"ryan.cragg@safe.com",
 "CRMEmail":"emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
 "S3ROOT":"https://s3.amazonaws.com/fmekc/test/",
-  "_email_template":"Hello _FullName_,
+//test of comment between json elements.  
+"_email_template":
+"Hello _FullName_,
 
 The attached RDP files can be used to connect to your FME Virtual Machine.
 
@@ -48,7 +50,8 @@ Training at Safe Software
 Safe Software Inc.
 Suite 2017, 7445 - 132nd Street, Surrey, BC Canada V3W 1J8
 T 604.501.9985
-train@safe.com | www.safe.com",
+train@safe.com | www.safe.com
+",
 
 "_rdp_template":"
 username:s:Administrator
