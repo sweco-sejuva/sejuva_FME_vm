@@ -1,6 +1,6 @@
 //this is a test of comments in a json file.
 
-{
+var config = {
 "region_name":"us-east-1",
 "EC2Type":"t3",
 "EC2Size":"large",
@@ -9,7 +9,7 @@
 "EmergencyEmail":"ryan.cragg@safe.com",
 "CRMEmail":"emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
 "S3ROOT":"https://s3.amazonaws.com/fmekc/test/",
-//test of comment between json elements.  
+  
 "_email_template":
 "Hello _FullName_,
 
