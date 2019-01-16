@@ -1,6 +1,6 @@
 //this is a test of comments in a json file.
 
-var config = {
+var settings = {
 "repository"  : "FMETraining", 
 "workspace"   : "VMCreator.fmw",
 "server"      : "https://demos-safe-software.fmecloud.com",
