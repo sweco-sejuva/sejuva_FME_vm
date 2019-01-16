@@ -1,3 +1,5 @@
+//this is a test of comments in a json file.
+
 {
 "region_name":"us-east-1",
 "EC2Type":"t3",
