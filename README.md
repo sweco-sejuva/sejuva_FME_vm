@@ -5,8 +5,9 @@ The virtual machines are Amazon AWS EC2 machines.
 The webpage used for requesting the virtual machines is a static page hosted on AWS S3.
 
 Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines. At Safe Software, we have a limit of 500.
+
 ![EC2 Service Increase](/images/EC2Limits.png)
-Format: ![Alt Text](url)
+
 
 ## Overview
 1. (optional) Configure a floating license server to license FME Desktop. The other option is to have the students request an evaluation license when they start FME Desktop.
