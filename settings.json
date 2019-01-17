@@ -1,4 +1,7 @@
-//this is a test of comments in a json file.
+//The json in this file is used to configure both the static webpage and the VMCreator.fmw workspace.
+//_email_template and _rdp_template look strange here because json doesn't truly support multi-line text
+//For _email_template, you only really need to edit the signature at the end of the email
+//For _rdp_template, only the username and domain lines might need to be changed, but the current settings are probabaly ok.
 
 var settings = {
 "repository"  : "FMETraining", 
