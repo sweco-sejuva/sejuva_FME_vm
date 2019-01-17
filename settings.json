@@ -9,7 +9,7 @@ var settings = {
 "server"      : "https://demos-safe-software.fmecloud.com",
 "token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",     
   
-"S3ROOT"      : "https://s3.amazonaws.com/fmekc/test2/",
+"S3ROOT"      : "https://s3.amazonaws.com/fmekc/test2",
 "region_name" : "us-east-2",
 "EC2Type"     : "t3",
 "EC2Size"     : "large",
