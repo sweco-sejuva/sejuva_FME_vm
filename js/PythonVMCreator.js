@@ -4,7 +4,7 @@ repository = settings.repository;
 workspace = settings.workspace;
 server = settings.server;
 token = settings.token;
-S3ROOT = settings.S3ROOT
+S3ROOT = settings.S3ROOT;
 
 function populateForm( json ) {
 	// Print json to the log; might need it for troubleshooting later if element numbers change
