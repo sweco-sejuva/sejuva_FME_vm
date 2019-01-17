@@ -1,4 +1,5 @@
 //The json in this file is used to configure both the static webpage and the VMCreator.fmw workspace.
+// For S3ROOT, make sure there is no / at the end of the specified value. A trailing / will break the translation.
 //_email_template and _rdp_template look strange here because json doesn't truly support multi-line text
 //For _email_template, you only really need to edit the signature at the end of the email
 //For _rdp_template, only the username and domain lines might need to be changed, but the current settings are probabaly ok.
@@ -10,6 +11,7 @@ var settings = {
 "token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",     
   
 "S3ROOT"      : "https://s3.amazonaws.com/fmekc/test2",
+  
 "region_name" : "us-east-2",
 "EC2Type"     : "t3",
 "EC2Size"     : "large",
