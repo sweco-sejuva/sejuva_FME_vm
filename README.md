@@ -1,25 +1,25 @@
-# AWS
-AWS Configuration Scripts
-The files in this repository are used to create virtual machines for FME training courses.
+# FME Training Virtual Machines and Automation
+The files in this repository are used to create virtual machines for FME training courses, and to allow students to request virtual machines on-demand.
 The virtual machines are Amazon AWS EC2 machines.
 The webpage used for requesting the virtual machines is a static page hosted on AWS S3.
+
+## Prerequisites
+A basic understanding of GitHub, Amazon AWS, FME Desktop, and FME Server is required.
 
 Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines. At Safe Software, we have a limit of 500.
 
 ![EC2 Service Increase](/images/EC2Limits.png)
-
 
 ## Overview
 1. (optional) Configure a floating license server to license FME Desktop. The other option is to have the students request an evaluation license when they start FME Desktop.
 1. Configure an image that has everything you need installed. If you are happy creating student virtual machines manually, this is the only required step.
 1. (optional) Set up an installation of FME Server to allow students to request a virtual machine
 
-There are four files in the repository that need to be edited, and two workspaces that need to be edited and published to FME Server. The four files you will eventually edit are:
+There are two files in the repository that need to be edited, and two workspaces that need to be edited and published to FME Server. The two files you will eventually edit are:
 1. InitialConfiguration.bat
-1. /js/parameters.js
-1. /templates/emailtemplate.txt
-1. /template/rdptempate.txt (optional)
+1. settings.json
 
+# Steps
 ## Fork this Repository to your own account
 
 ### Create License Server machine for FME Desktop (if desired)
