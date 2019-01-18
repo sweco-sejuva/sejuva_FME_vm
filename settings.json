@@ -10,11 +10,12 @@ var settings = {
 "server"      : "https://demos-safe-software.fmecloud.com",
 "token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",     
   
-"S3ROOT"      : "https://s3.amazonaws.com/fmekc/test2",
+"S3ROOT"      : "https://s3.amazonaws.com/fmevm/training",
   
 "region_name" : "us-east-2",
 "EC2Type"     : "t3",
 "EC2Size"     : "large",
+"SubnetId"    : [ "subnet-08964761", "subnet-177f996c", "subnet-b6999dfc"  ],
 "Team"        : "Train",
 "Owner"       : "RCragg",
 "CourseType"  : "training",
@@ -25,7 +26,7 @@ var settings = {
 "_email_template":[
 "Hello _FullName_,",
 "",  
-"The attached RDP files can be used to connect to your FME Virtual Machine.",
+"The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.",
 "",
 "Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.",
 "",
