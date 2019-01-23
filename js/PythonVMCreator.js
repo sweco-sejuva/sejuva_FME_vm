@@ -4,20 +4,20 @@ repository = settings.repository;
 workspace = settings.workspace;
 server = settings.server;
 token = settings.token;
-S3ROOT = settings.S3ROOT;
+S3_BUCKET_NAME = settings.S3_BUCKET_NAME;
 
 function populateForm( json ) {
 	// Print json to the log; might need it for troubleshooting later if element numbers change
 	console.log(json);
 	// Update response json to contain desired default values
 	// Make sure these are hidden later
-	json[0].defaultValue = S3ROOT;
-	
+	json[0].defaultValue = S3_BUCKET_NAME;
+
 	// Use the API to build the form items
 	FMEServer.generateFormItems( "example-form", json );
-	
+
 	// Hide the published parameters that the user shouldn't see
-	document.querySelector("span.S3ROOT.fmes-form-component").style.display= 'none';
+	document.querySelector("span.S3_BUCKET_NAME.fmes-form-component").style.display= 'none';
 
 	// Add the custom submit button
 	var button = document.createElement( "input" );
@@ -43,7 +43,7 @@ function callback( json ) {
 
 	//Enable the request button again
 	var button = document.getElementById("RequestButton");
-	button.disabled = false;	
+	button.disabled = false;
 
 	//Show job results
 	var div = document.getElementById("jobResult");
@@ -105,4 +105,3 @@ function submitJob() {
 	// Submit Job to FME Server and run synchronously
 	FMEServer.submitSyncJob( repository, workspace, params, callback );
 }
-

@@ -12,7 +12,6 @@ var settings = {
 "token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",
 
 "S3_BUCKET_NAME": "fmevm",
-"GITBRANCH"   : "2019",
 
 "S3ROOT"      : "https://s3.amazonaws.com/fmevm/training",
 
