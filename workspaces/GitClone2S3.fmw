@@ -1,28 +1,24 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2019.0/fme /Users/rcragg/Documents/FME/Workspaces/GitClone2S3.fmw
-#              --GITUSER ""
-#              --GITREPOSITORY ""
-#              --GITBRANCH "master"
-#              --S3_BUCKET_NAME "FMEData"
-#              --S3_OBJECT_KEY ""
+#        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/AWS/workspaces/GitClone2S3.fmw
+#              --GITBRANCH "2019"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
 #!   BEGIN_TCL=""
 #!   CATEGORY="Web"
-#!   DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mirror the FMEData GitHub repository onto S3. Specify which branch to mirror.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workspace is run via a GitHub webhook.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;https://bluesky-safe-software.fmecloud.com/fmerest/v3/transformations/submit/FMETraining/FMEDataGit2S3.fmw?fmetoken=0da8284a549462da314f97b336723e23178655d5&amp;amp;Branch=2018 &lt;/p&gt;&#10;"
+#!   DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mirror the FMEData GitHub repository onto S3. Specify which branch to mirror.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workspace is run via a GitHub webhook.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;https://bluesky-safe-software.fmecloud.com/fmerest/v3/transformations/submit/FMETraining/FMEDataGit2S3.fmw?fmetoken=0da8284a549462da314f97b336723e23178655d5&amp;amp;Branch=2018 &lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Before publishing:&lt;/p&gt;&#10;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&#10;    &lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set GITUSER to be your GitHub username &lt;/li&gt;&#10;    &lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set the GITREPOSITORY to be the GitHub repository &lt;/li&gt;&#10;    &lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Configure the Web Connection used by the S3Uploader &lt;/li&gt;&#10;&lt;/ul&gt;&#10;"
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="7603.58 3411.03"
-#!   DOC_TOP_LEFT="-2671.53 -2631.02"
+#!   DOC_EXTENTS="8616.09 3924.03"
+#!   DOC_TOP_LEFT="-3684.04 -2631.02"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19151"
-#!   FME_DOCUMENT_GUID="61101b1a-0f4e-43b5-981d-8e960522a08a"
-#!   FME_DOCUMENT_PRIORGUID="fb6d43ff-11ac-4960-93f3-d14cdb70f2c2"
+#!   FME_BUILD_NUM="18547"
+#!   FME_DOCUMENT_GUID="185d2865-c010-4019-a3d8-f54e10c4eda4"
+#!   FME_DOCUMENT_PRIORGUID="fb6d43ff-11ac-4960-93f3-d14cdb70f2c2,61101b1a-0f4e-43b5-981d-8e960522a08a"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -30,8 +26,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.0.0.0 (20181109 - Build 19151 - macosx)"
-#!   LAST_SAVE_DATE="2019-01-14T13:26:46"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
+#!   LAST_SAVE_DATE="2019-01-23T12:36:18"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -41,7 +37,6 @@
 #!   PASSWORD=""
 #!   PYTHON_COMPATIBILITY="27"
 #!   REDIRECT_TERMINATORS="NONE"
-#!   SAVE_ON_PROMPT_AND_RUN="Yes"
 #!   SHOW_ANNOTATIONS="true"
 #!   SHOW_INFO_NODES="true"
 #!   SOURCE="NONE"
@@ -50,7 +45,7 @@
 #!   TITLE="FMEDataGit2S3"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="-2478.02 1269.01"
+#!   VIEW_POSITION="-2967.03 -1263.01"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -144,28 +139,18 @@
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR GITUSER MAX%MAX GIT user:"
-#!   DEFAULT_VALUE=""
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR GITREPOSITORY MAX%MAX GIT Repository:"
-#!   DEFAULT_VALUE=""
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR GITBRANCH MAX%MAX Git Branch:"
-#!   DEFAULT_VALUE="master"
+#!   DEFAULT_VALUE="2019"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI STRING_OR_ATTR S3_BUCKET_NAME Bucket:"
-#!   DEFAULT_VALUE="FMEData"
+#!   GUI_LINE="GUI IGNORE TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR GITUSER MAX%MAX GIT user:"
+#!   DEFAULT_VALUE="rjcragg"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI STRING_OR_ATTR S3_OBJECT_KEY Object/Folder Key:"
-#!   DEFAULT_VALUE=""
+#!   GUI_LINE="GUI IGNORE TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR GITREPOSITORY MAX%MAX GIT Repository:"
+#!   DEFAULT_VALUE="AWS"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -178,10 +163,10 @@
 #! <COMMENT
 #!   IDENTIFIER="56"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set temp directory to use for files&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-1715.5199251992522 2.9993799938000336"
-#!   TOP_LEFT="-1715.5199251992522 2.9993799938000336"
-#!   BOTTOM_RIGHT="-1272.5199251992522 3.9993799938000336"
-#!   BOUNDING_RECT="-1715.5199251992522 2.9993799938000336 443 -1"
+#!   POSITION="-1568.5184551845523 201.00136001360022"
+#!   TOP_LEFT="-1568.5184551845523 201.00136001360022"
+#!   BOTTOM_RIGHT="-1125.5184551845523 202.00136001360022"
+#!   BOUNDING_RECT="-1568.5184551845523 201.00136001360022 443 -1"
 #!   ORDER="500000000000115"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -218,12 +203,26 @@
 #!   ANCHORED_NODE="92"
 #! />
 #! <COMMENT
+#!   IDENTIFIER="26"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The branch will be the CourseType. Make sure they are the same when forking the repository&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-3235.5312406468797 429.5028600286002"
+#!   TOP_LEFT="-3235.5312406468797 429.5028600286002"
+#!   BOTTOM_RIGHT="-2763.5312406468797 430.5028600286002"
+#!   BOUNDING_RECT="-3235.5312406468797 429.5028600286002 472 -1"
+#!   ORDER="500000000000126"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.78431372549019607,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="23"
+#! />
+#! <COMMENT
 #!   IDENTIFIER="100"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Created by Ryan Cragg&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The purpose of this workspace is to clone the current FMEData Git repository, create a new FMEData&amp;lt;year&amp;gt;.zip file, and upload the zip file to the FMEData S3 bucket.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The location of the Git Repository is &lt;a href=&quot;https://github.com/safesoftware/FMEData&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/safesoftware/FMEData&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The FMEData S3 bucket belongs to train@safe.com&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workspace will work as long as GIT LFS is not used; LFS is not supported on FME Cloud.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-2671.5262605970793 -1563.0101856035647"
-#!   TOP_LEFT="-2671.5262605970793 -1563.0101856035647"
-#!   BOTTOM_RIGHT="-817.50772041167738 -1665.0109056107647"
-#!   BOUNDING_RECT="-2671.5262605970793 -1563.0101856035647 1854.0185401854019 102.00072000720007"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Created by Ryan Cragg. ryan.cragg@safe.com&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mirror the FMEData GitHub repository onto S3. Specify which branch to mirror.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workspace is run via a GitHub webhook such as:&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;https://bluesky-safe-software.fmecloud.com/fmerest/v3/transformations/submit/FMETraining/FMEDataGit2S3.fmw?fmetoken=0da8284a549462da314f97b336723e23178655d5&amp;amp;Branch=2018 &lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Before publishing:&lt;/p&gt;&#10;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set GITUSER to be your GitHub username &lt;/li&gt;&#10;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set the GITREPOSITORY to be the GitHub repository &lt;/li&gt;&#10;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Configure the Web Connection used by the S3Uploader &lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-2671.5262605970793 -1560.0101556032646"
+#!   TOP_LEFT="-2671.5262605970793 -1560.0101556032646"
+#!   BOTTOM_RIGHT="-817.50772041167738 -1662.0108756104646"
+#!   BOUNDING_RECT="-2671.5262605970793 -1560.0101556032646 1854.0185401854019 102.00072000720007"
 #!   ORDER="500000000000100"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -245,11 +244,11 @@
 #! />
 #! <COMMENT
 #!   IDENTIFIER="12"
-#!   COMMENT_VALUE="&lt;b&gt;AttributeManager&amp;nbsp;[AttributeManager]&lt;/b&gt;&lt;br&gt;Attribute&amp;nbsp;Actions:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;Input&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Output&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Attribute&amp;nbsp;Value&lt;/td&gt;&lt;td&gt;Action&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_gitUser&lt;/td&gt;&lt;td&gt;$(GITUSER)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_gitRepository&lt;/td&gt;&lt;td&gt;$(GITREPOSITORY)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_branch&lt;/td&gt;&lt;td&gt;$(GITBRANCH)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_s3_bucket_name&lt;/td&gt;&lt;td&gt;$(S3_BUCKET_NAME)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_s3_object_key&lt;/td&gt;&lt;td&gt;$(S3_OBJECT_KEY)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TempFolder&lt;/td&gt;&lt;td&gt;$(FME_SHAREDRESOURCE_TEMP)/@UUID()/@Value(_s3_object_key)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_command&lt;/td&gt;&lt;td&gt;git&amp;nbsp;clone&amp;nbsp;-b&amp;nbsp;@Value(_branch)&amp;nbsp;https://github.com/@Value(_gitUser)/@Value(_gitRepository).git&amp;nbsp;@Value(TempFolder)/&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
-#!   POSITION="-2570.0257002570029 780.00715007150075"
-#!   TOP_LEFT="-2570.0257002570029 780.00715007150075"
-#!   BOTTOM_RIGHT="-2571.0257002570029 781.00715007150075"
-#!   BOUNDING_RECT="-2570.0257002570029 780.00715007150075 -1 -1"
+#!   COMMENT_VALUE="&lt;b&gt;AttributeManager&amp;nbsp;[AttributeManager]&lt;/b&gt;&lt;br&gt;Attribute&amp;nbsp;Actions:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;Input&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Output&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Attribute&amp;nbsp;Value&lt;/td&gt;&lt;td&gt;Action&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;GITUSER&lt;/td&gt;&lt;td&gt;$(GITUSER)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;GITREPOSITORY&lt;/td&gt;&lt;td&gt;$(GITREPOSITORY)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;GITBRANCH&lt;/td&gt;&lt;td&gt;$(GITBRANCH)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;_s3_bucket_name&lt;/td&gt;&lt;td&gt;@Value(S3_BUCKET_NAME)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;_s3_object_key&lt;/td&gt;&lt;td&gt;$(GITBRANCH)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;TempFolder&lt;/td&gt;&lt;td&gt;$(FME_SHAREDRESOURCE_TEMP)/@UUID()/@Value(_s3_object_key)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;_command&lt;/td&gt;&lt;td&gt;git&amp;nbsp;clone&amp;nbsp;-b&amp;nbsp;@Value(GITBRANCH)&amp;nbsp;https://github.com/@Value(GITUSER)/@Value(GITREPOSITORY).git&amp;nbsp;@Value(TempFolder)/&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+#!   POSITION="-2396.0239602396023 1293.0122801228013"
+#!   TOP_LEFT="-2396.0239602396023 1293.0122801228013"
+#!   BOTTOM_RIGHT="-2397.0239602396023 1294.0122801228013"
+#!   BOUNDING_RECT="-2396.0239602396023 1293.0122801228013 -1 -1"
 #!   ORDER="500000000000102"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="true"
@@ -262,39 +261,39 @@
 #! <BOOKMARK
 #!   IDENTIFIER="71"
 #!   NAME="Upload updated folders and the zip file to S3"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="1400.5303053030584 -90.000900009000304"
 #!   ORDER="500000000000062"
 #!   BOTTOM_RIGHT="4932.0493204932045 -1542.0154201542016"
 #!   BOUNDING_RECT="1400.5303053030584 -90.000900009000304 3531.5190151901461 1452.0145201452012"
 #!   STICKY="true"
-#!   COLOUR="0.75294117647058822,0.65490196078431373,0.67450980392156867,0.39215686274509803"
-#!   CONTENTS="90 28 88 21 91 "
+#!   COLOUR="0.75294117647058822,0.65490196078431373,0.67450980392156867"
+#!   CONTENTS="90 28 21 91 88 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="54"
 #!   NAME="Clone FMEData GitHub repository"
-#!   DESCRIPTION=""
-#!   TOP_LEFT="-2242.0215002150026 593.0041800418004"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-3684.0368403684033 593.0041800418004"
 #!   ORDER="500000000000114"
-#!   BOTTOM_RIGHT="1296.0129601296012 -1404.0140401404014"
-#!   BOUNDING_RECT="-2242.0215002150026 593.0041800418004 3538.0344603446038 1997.0182201822017"
+#!   BOTTOM_RIGHT="1296.012960129603 -1404.0140401404014"
+#!   BOUNDING_RECT="-3684.0368403684033 593.0041800418004 4980.0498004980063 1997.0182201822017"
 #!   STICKY="true"
-#!   COLOUR="0.48627450980392156,0.73333333333333328,0.27058823529411763,0.39215686274509803"
-#!   CONTENTS="3 8 81 93 11 9 95 2 92 56 98 94 "
+#!   COLOUR="0.48627450980392156,0.73333333333333328,0.27058823529411763"
+#!   CONTENTS="8 24 2 93 30 56 92 94 27 11 23 3 95 26 81 29 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="101"
 #!   NAME="Documentation"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-2671.5262605970793 -1485.0094055957647"
 #!   ORDER="500000000000101.13"
 #!   BOTTOM_RIGHT="-742.50697040417731 -2631.0208657103658"
 #!   BOUNDING_RECT="-2671.5262605970793 -1485.0094055957647 1929.019290192902 1146.0114601146011"
 #!   STICKY="true"
-#!   COLOUR="0.047058823529411764,0.59607843137254901,0.023529411764705882,0.39215686274509803"
+#!   COLOUR="0.047058823529411764,0.59607843137254901,0.023529411764705882"
 #!   CONTENTS="100 "
 #! >
 #! </BOOKMARK>
@@ -304,8 +303,8 @@
 #!   IDENTIFIER="2"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="-2150.0215002150026 -248.00248002480015"
-#!   BOUNDING_RECT="-2150.0215002150026 -248.00248002480015 -1 -1"
+#!   POSITION="-3533.0353303533043 -47.000470004699963"
+#!   BOUNDING_RECT="-3533.0353303533043 -47.000470004699963 -1 -1"
 #!   ORDER="500000000000095"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -337,13 +336,17 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_gitUser" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_gitRepository" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITUSER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITREPOSITORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITBRANCH" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_key" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TempFolder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="CMD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_command&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -359,20 +362,24 @@
 #!   ORDER="500000000000100"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19151"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_gitUser" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_gitRepository" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITUSER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITREPOSITORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITBRANCH" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_key" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TempFolder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; _gitUser $(GITUSER) SET_TO  _gitRepository $(GITREPOSITORY) SET_TO  _branch $(GITBRANCH) SET_TO  _s3_bucket_name $(S3_BUCKET_NAME) SET_TO  _s3_object_key $(S3_OBJECT_KEY) SET_TO  TempFolder $(FME_SHAREDRESOURCE_TEMP)&lt;solidus&gt;&lt;at&gt;UUID&lt;openparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;_s3_object_key&lt;closeparen&gt; SET_TO  _command git&lt;space&gt;clone&lt;space&gt;-b&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_branch&lt;closeparen&gt;&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;github.com&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;_gitUser&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;_gitRepository&lt;closeparen&gt;.git&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;TempFolder&lt;closeparen&gt;&lt;solidus&gt; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; GITUSER $(GITUSER) SET_TO  GITREPOSITORY $(GITREPOSITORY) SET_TO  GITBRANCH $(GITBRANCH) SET_TO  _s3_bucket_name &lt;at&gt;Value&lt;openparen&gt;S3_BUCKET_NAME&lt;closeparen&gt; SET_TO  _s3_object_key $(GITBRANCH) SET_TO  TempFolder $(FME_SHAREDRESOURCE_TEMP)&lt;solidus&gt;&lt;at&gt;UUID&lt;openparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;_s3_object_key&lt;closeparen&gt; SET_TO  _command git&lt;space&gt;clone&lt;space&gt;-b&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;GITBRANCH&lt;closeparen&gt;&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;github.com&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;GITUSER&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;GITREPOSITORY&lt;closeparen&gt;.git&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;TempFolder&lt;closeparen&gt;&lt;solidus&gt; SET_TO _response_body _response_body  NO_OP _http_status_code _http_status_code  NO_OP CourseType CourseType  NO_OP S3_BUCKET_NAME S3_BUCKET_NAME  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -394,26 +401,34 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_gitUser" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_gitRepository" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITUSER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITREPOSITORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITBRANCH" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_key" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TempFolder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_gitUser" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_gitRepository" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GITUSER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GITREPOSITORY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GITBRANCH" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_key" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TempFolder" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="AWS_ACCESS_KEY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AWS_CONNECTION" PARM_VALUE="train@safe.com Amazon Web Services"/>
+#!     <XFORM_PARM PARM_NAME="AWS_CONNECTION" PARM_VALUE="VM Amazon Web Services"/>
 #!     <XFORM_PARM PARM_NAME="AWS_SECRET_KEY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="EMBED_CONNECTION_GROUP" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="S3_ACCELERATION" PARM_VALUE="No"/>
@@ -453,13 +468,17 @@
 #! >
 #!     <OUTPUT_FEAT NAME="LOGGED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_gitUser" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_gitRepository" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITUSER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITREPOSITORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITBRANCH" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_key" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TempFolder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
@@ -485,13 +504,17 @@
 #! >
 #!     <OUTPUT_FEAT NAME="LOGGED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_gitUser" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_gitRepository" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITUSER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITREPOSITORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITBRANCH" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_key" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TempFolder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
@@ -517,13 +540,17 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_gitUser" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_gitRepository" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITUSER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITREPOSITORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GITBRANCH" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_key" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TempFolder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;solidus&gt;&lt;solidus&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
@@ -535,12 +562,116 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_Temp"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="HTTPCaller"
+#!   VERSION="1"
+#!   POSITION="-2863.5281806162798 -104.00164001640005"
+#!   BOUNDING_RECT="-2863.5281806162798 -104.00164001640005 -1 -1"
+#!   ORDER="500000000000125"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_REQUEST_PARAMETERS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
+#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ERROR_ATTR" PARM_VALUE="_error"/>
+#!     <XFORM_PARM PARM_NAME="FILE_PATH_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FILE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
+#!     <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
+#!     <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="_response_body"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="fme-system"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="https:&lt;solidus&gt;&lt;solidus&gt;raw.githubusercontent.com&lt;solidus&gt;rjcragg&lt;solidus&gt;AWS&lt;solidus&gt;2019&lt;solidus&gt;settings.json"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_CONTENT_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="JSONFlattener"
+#!   VERSION="5"
+#!   POSITION="-2225.0237679049155 -104.00164001640005"
+#!   BOUNDING_RECT="-2225.0237679049155 -104.00164001640005 -1 -1"
+#!   ORDER="500000000000127"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ERROR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ERROR_LIST_ATTR" PARM_VALUE="_json_error"/>
+#!     <XFORM_PARM PARM_NAME="FILEPATH_OR_URL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FLATTEN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INPUT_SETTINGS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_DOCUMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_response_body&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="CourseType S3_BUCKET_NAME"/>
+#!     <XFORM_PARM PARM_NAME="PREFIX_STRING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_FROM_FILE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFlattener"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="9"
+#!   IDENTIFIER="24"
 #!   SOURCE_NODE="2"
-#!   TARGET_NODE="8"
+#!   TARGET_NODE="23"
 #!   SOURCE_PORT_DESC="fo 0 CREATED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -582,6 +713,28 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="27"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="false"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="94"
 #!   SOURCE_NODE="92"
 #!   TARGET_NODE="3"
@@ -615,23 +768,17 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 27
-DEFAULT_MACRO GITUSER 
-GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE GITUSER MAX%MAX GIT user:
-DEFAULT_MACRO GITREPOSITORY 
-GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE GITREPOSITORY MAX%MAX GIT Repository:
-DEFAULT_MACRO GITBRANCH master
+DEFAULT_MACRO GITBRANCH 2019
 GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE GITBRANCH MAX%MAX Git Branch:
-DEFAULT_MACRO S3_BUCKET_NAME FMEData
-GUI STRING S3_BUCKET_NAME Bucket:
-DEFAULT_MACRO S3_OBJECT_KEY 
-GUI STRING S3_OBJECT_KEY Object/Folder Key:
+DEFAULT_MACRO GITUSER rjcragg
+GUI IGNORE TEXT_EDIT_OR_NUM_MULTI_FEATURE GITUSER MAX%MAX GIT user:
+DEFAULT_MACRO GITREPOSITORY AWS
+GUI IGNORE TEXT_EDIT_OR_NUM_MULTI_FEATURE GITREPOSITORY MAX%MAX GIT Repository:
 DEFAULT_MACRO FME_SHAREDRESOURCE_TEMP /Users/rcragg/Downloads
 GUI IGNORE OPTIONAL DIRNAME_SRC FME_SHAREDRESOURCE_TEMP FME Server Temporary Resource Directory:
+INCLUDE [ if {{$(GITBRANCH)} == {}} { puts_real {Parameter 'GITBRANCH' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(GITUSER)} == {}} { puts_real {Parameter 'GITUSER' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(GITREPOSITORY)} == {}} { puts_real {Parameter 'GITREPOSITORY' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(GITBRANCH)} == {}} { puts_real {Parameter 'GITBRANCH' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(S3_BUCKET_NAME)} == {}} { puts_real {Parameter 'S3_BUCKET_NAME' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(S3_OBJECT_KEY)} == {}} { puts_real {Parameter 'S3_OBJECT_KEY' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
@@ -675,25 +822,34 @@ INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment 
 FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
 FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
 FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES 1    OUTPUT FEATURE_TYPE Creator_CREATED        fme_feature_type Creator
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 9"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 24"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Creator_CREATED    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "_gitUser" "$(GITUSER)" "SET_TO" }      ATTR_ACTION { "" "_gitRepository" "$(GITREPOSITORY)" "SET_TO" }      ATTR_ACTION { "" "_branch" "$(GITBRANCH)" "SET_TO" }      ATTR_ACTION { "" "_s3_bucket_name" "$(S3_BUCKET_NAME$encode)" "SET_TO" }      ATTR_ACTION { "" "_s3_object_key" "$(S3_OBJECT_KEY$encode)" "SET_TO" }      ATTR_ACTION { "" "TempFolder" "$(FME_SHAREDRESOURCE_TEMP$encode)<solidus><at>UUID<openparen><closeparen><solidus><at>Value<openparen>_s3_object_key<closeparen>" "SET_TO" }      ATTR_ACTION { "" "_command" "git<space>clone<space>-b<space><at>Value<openparen>_branch<closeparen><space>https:<solidus><solidus>github.com<solidus><at>Value<openparen>_gitUser<closeparen><solidus><at>Value<openparen>_gitRepository<closeparen>.git<space><at>Value<openparen>TempFolder<closeparen><solidus>" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE Creator_CREATED    TARGET_URL "https:<solidus><solidus>raw.githubusercontent.com<solidus>rjcragg<solidus>AWS<solidus>2019<solidus>settings.json"    HTTP_METHOD GET    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    FILE_EXTENSION "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY "<Unused>"    MULTIPART_UPLOAD <Unused>    UPLOAD_CONTENT_TYPE "<Unused>"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING fme-system    RESPONSE_HEADER_LIST_ATTR ""    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME HTTPCaller_<Rejected> INPUT FEATURE_TYPE HTTPCaller_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, HTTPCaller<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener    INPUT  FEATURE_TYPE HTTPCaller_Output    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response_body<closeparen>,JSONFlattener)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONFlattener_OUTPUT Disabled Nuker -1 30"   INPUT FEATURE_TYPE JSONFlattener_OUTPUT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_<Rejected> INPUT FEATURE_TYPE JSONFlattener_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE JSONFlattener_OUTPUT    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "GITUSER" "$(GITUSER)" "SET_TO" }      ATTR_ACTION { "" "GITREPOSITORY" "$(GITREPOSITORY)" "SET_TO" }      ATTR_ACTION { "" "GITBRANCH" "$(GITBRANCH)" "SET_TO" }      ATTR_ACTION { "" "_s3_bucket_name" "<at>Value<openparen>S3_BUCKET_NAME<closeparen>" "SET_TO" }      ATTR_ACTION { "" "_s3_object_key" "$(GITBRANCH)" "SET_TO" }      ATTR_ACTION { "" "TempFolder" "$(FME_SHAREDRESOURCE_TEMP$encode)<solidus><at>UUID<openparen><closeparen><solidus><at>Value<openparen>_s3_object_key<closeparen>" "SET_TO" }      ATTR_ACTION { "" "_command" "git<space>clone<space>-b<space><at>Value<openparen>GITBRANCH<closeparen><space>https:<solidus><solidus>github.com<solidus><at>Value<openparen>GITUSER<closeparen><solidus><at>Value<openparen>GITREPOSITORY<closeparen>.git<space><at>Value<openparen>TempFolder<closeparen><solidus>" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_Temp_47900218_5753_4eba_a060_287597260cd619_replacer { findText replaceText invalidValue} {     set attrs [split \"TempFolder\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_Temp    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_Temp_OUTPUT         @Tcl2("StringReplacer_Temp_47900218_5753_4eba_a060_287597260cd619_replacer {<solidus><solidus>} {<solidus>} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_Temp_4ab826a9_acae_4743_8f34_f6db0d1caeb41_replacer { findText replaceText invalidValue} {     set attrs [split \"TempFolder\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_Temp    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_Temp_OUTPUT         @Tcl2("StringReplacer_Temp_4ab826a9_acae_4743_8f34_f6db0d1caeb41_replacer {<solidus><solidus>} {<solidus>} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME SystemCaller    INPUT  FEATURE_TYPE StringReplacer_Temp_OUTPUT    OUTPUT FEATURE_TYPE SystemCaller_OUTPUT         @System(LOG_PREFIX,SystemCaller,ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_command<closeparen>,SystemCaller)")
 # -------------------------------------------------------------------------
-FACTORY_DEF * COM.safe.fme.factory.S3Factory    FACTORY_NAME S3Uploader       INPUT  FEATURE_TYPE SystemCaller_OUTPUT    S3_MODE S3_PUT    S3_NAMED_CONNECTION "train@safe.com Amazon Web Services"    S3_AWS_REGION "US_EAST_1"    S3_BUCKET_NAME "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>_s3_bucket_name<closeparen>,S3Uploader)"    S3_OBJECT_KEY "/"    S3_DATA_FOLDER "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>TempFolder<closeparen>,S3Uploader)"    S3_UPLOAD_SUBFOLDERS "Yes"    S3_CUSTOM_HEADERS    S3_REQUEST_HEADER_LIST_ATTR "<Unused>"    S3_ACCELERATION "Suspended"    S3_UPLOAD_ENCRYPTION "NONE"    S3_URI_ATTRIBUTE "_s3_object_uri"    S3_ERROR_ATTRIBUTE "fme_rejection_message"    OUTPUT OUTPUT FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT REJECTED FEATURE_TYPE S3Uploader_<REJECTED>
+FACTORY_DEF * COM.safe.fme.factory.S3Factory    FACTORY_NAME S3Uploader       INPUT  FEATURE_TYPE SystemCaller_OUTPUT    S3_MODE S3_PUT    S3_NAMED_CONNECTION "VM Amazon Web Services"    S3_AWS_REGION "US_EAST_1"    S3_BUCKET_NAME "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>_s3_bucket_name<closeparen>,S3Uploader)"    S3_OBJECT_KEY "/"    S3_DATA_FOLDER "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>TempFolder<closeparen>,S3Uploader)"    S3_UPLOAD_SUBFOLDERS "Yes"    S3_CUSTOM_HEADERS    S3_REQUEST_HEADER_LIST_ATTR "<Unused>"    S3_ACCELERATION "Suspended"    S3_UPLOAD_ENCRYPTION "NONE"    S3_URI_ATTRIBUTE "_s3_object_uri"    S3_ERROR_ATTRIBUTE "fme_rejection_message"    OUTPUT OUTPUT FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT REJECTED FEATURE_TYPE S3Uploader_<REJECTED>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Uploader_Rejected_Logger    INPUT  FEATURE_TYPE S3Uploader_<REJECTED>    OUTPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED                  @Log(ENCODED, "Logger_S3Uploader_Rejected:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,Logger_S3Uploader_Rejected_1ad7e713_109a_4475_869d_09a2f2fdeb4e11)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Uploader_Rejected_Logger    INPUT  FEATURE_TYPE S3Uploader_<REJECTED>    OUTPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED                  @Log(ENCODED, "Logger_S3Uploader_Rejected:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,Logger_S3Uploader_Rejected_20d8cecd_697f_4a22_9a10_73e905e3ed391)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger_S3Uploader_Rejected LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Output_Logger    INPUT  FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT FEATURE_TYPE Logger_S3Output_LOGGED                  @Log(ENCODED, "Logger_S3Output:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_S3Output_2e6381ac_fccc_47de_8cc9_957eff9e817e11)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Output_Logger    INPUT  FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT FEATURE_TYPE Logger_S3Output_LOGGED                  @Log(ENCODED, "Logger_S3Output:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_S3Output_277bcf07_9f07_4414_b390_245a0a631f651)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger_S3Output LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_S3Output_LOGGED
 # -------------------------------------------------------------------------
 
