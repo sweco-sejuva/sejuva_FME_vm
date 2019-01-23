@@ -5,13 +5,16 @@
 //For _rdp_template, only the username and domain lines might need to be changed, but the current settings are probabaly ok.
 
 var settings = {
-"repository"  : "FMETraining", 
+"repository"  : "FMETraining",
 "workspace"   : "VMCreator.fmw",
 "server"      : "https://demos-safe-software.fmecloud.com",
-"token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",     
-  
+"token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",
+
+"S3_BUCKET_NAME": "fmevm",
+"GITBRANCH"   : "2019",     
+
 "S3ROOT"      : "https://s3.amazonaws.com/fmevm/training",
-  
+
 "region_name" : "us-east-2",
 "EC2Type"     : "t3",
 "EC2Size"     : "large",
@@ -22,10 +25,10 @@ var settings = {
 "FromEmail"   : "train@safe.com",
 "CCEmail"     : "ryan.cragg@safe.com",
 "BCCEmail"    : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
-  
+
 "_email_template":[
 "Hello _FullName_,",
-"",  
+"",
 "The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.",
 "",
 "Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.",
