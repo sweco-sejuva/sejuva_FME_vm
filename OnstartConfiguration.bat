@@ -80,7 +80,8 @@ goto :eof
 	schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC weekly /d FRI /st 16:30 /TR "C:\Windows\System32\shutdown.exe /s"
 
 	:: This one sets the shutdown for 14 days after startup.
-	::schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC ONSTART /DELAY 20160:00 /TR "C:\Windows\System32\shutdown.exe /s"
+	::schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC WEEKLY /MO 2 /TR "C:\Windows\System32\shutdown.exe /s"
+
 
 goto :eof
 
