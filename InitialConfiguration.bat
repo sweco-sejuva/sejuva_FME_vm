@@ -1,6 +1,5 @@
 ::This file does the initial configuration of the AWS instance; things that you only want to do once, like name the computer.
-::Assuming that a T2.large is being used. Provide at least 70GB of storage.
-::OnstartConfiguration is a copy of this, but with most commands DISABLED
+::Assuming that a T3.large is being used. Provide at least 70GB of storage.
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command without the <script> start/end:
 ::OR use User Data when creating the EC2 instance. Past in the following script, and replace "password fmelicenseip fmeserverserial" with the correct things:
 :: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat password fmelicenseip fmeserverserial</script>
@@ -33,8 +32,6 @@
 		call :helpfulApps >> %LOG%
 	::installFME installs FME 32 and 64 bit, and FME Server
 		call :installFME >> %LOG%
-	::downloadArcGIS downloads the ArcGIS installer and unzips it
-		::call :downloadArcGIS >> %LOG%
 	::oracle installs 32-bit and 64-bit Oracle Instant Clients
 		call :oracle >> %LOG%
 	::second run at Chocolatey; install all the other apps
@@ -87,6 +84,7 @@ goto :eof
 goto :eof
 
 :scheduleTasks
+	::This section sets OnstartConfiguration.bat to run at ONSTART.
 	schtasks /Create /F /RU SYSTEM /TN OnstartConfiguration /SC ONSTART /TR "cmd.exe /C aria2c.exe %OnstartConfigurationURL% --dir=/temp --allow-overwrite=true && c:\temp\OnstartConfiguration.bat"
 goto :eof
 
@@ -94,7 +92,7 @@ goto :eof
 	::::INSTALL SOFTWARE::::
 	::Install Chocolatey  https://chocolatey.org/
 		@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
-		::Some choco installs fail. Just get the essentials now.
+		::Some choco installs fail. Just get the absolute essentials now. The rest are added in the choco section
 		choco install aria2 7zip -y
 goto :eof
 
@@ -102,14 +100,6 @@ goto :eof
 	::Download the installer bat file and execute it. This requires the FMELICENSEIP and FMESERVERSERIAL environment variables
 	aria2c %FMEDownloadInstall% --out=FMEDownloadInstall.bat --allow-overwrite=true
 	CALL FMEDownloadInstall.bat
-goto :eof
-
-:downloadArcGIS
-	::Might be nice to have the lastest ArcGIS installer downloaded and ready to go.
-		aria2c %ARCGISURL% --out=ARCGIS.zip --allow-overwrite=true
-		7z x -o%TEMP% -aoa ARCGIS.zip
-	:: Silent Install ArcGIS?
-	::Silent Install of PostGreSQL/PostGIS?
 goto :eof
 
 :oracle
@@ -122,13 +112,12 @@ goto :eof
 :choco
 	::Some additional packages to consider:
 		::github webdeploy carbon iisexpress
-	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman -y
+	choco install notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice -y
 goto :eof
 
 :shutdown
 	::Shutdown the computer
 		echo Finished the Initial Configuration
-		echo Done! %date% %time% 
+		echo Done! %date% %time%
 		shutdown /s /t 1
 goto :eof
-

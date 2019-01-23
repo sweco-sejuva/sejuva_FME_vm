@@ -18,7 +18,7 @@ call :main >>%LOG%
 call :urls >>%LOG%
 ::call :autoshutdown >>%LOG%
 call :fmedatadownload >>%LOG%
-call :fmeserverhoops >>%LOG%
+
 exit /b
 
 :vnc
@@ -54,26 +54,14 @@ netsh firewall add portopening TCP 8888 "Extra Tomcat webservice port"
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
 	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEDownloadInstall.bat --allow-overwrite=true
 	aria2c https://github.com/rjcragg/AWS/raw/master/PostCreationSteps.txt --allow-overwrite=true
-	
+
 
 
 :: Indicate the end of the log file.
 	echo "Onstart Configuration complete"
 goto :eof
 
-:fmeserverhoops
-:: FME Server sometimes doesn't like to start properly. Halt it and try again here
-	taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
-	net stop "FME Server Engines"
-	net stop "FME Server Core" /y
-	net stop FMEServerAppServer
-	net stop "FME Server Database"
 
-	net start FMEServerAppServer
-	net start "FME Server Database"
-	net start "FME Server Core"
-	net start "FME Server Engines"
-goto :eof
 
 :urls
 	::Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
@@ -88,15 +76,23 @@ goto :eof
 
 :autoshutdown
 	::schedule automatic shutdown.
+	:: This one sets the shutdown for a specific day and time.
 	schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC weekly /d FRI /st 16:30 /TR "C:\Windows\System32\shutdown.exe /s"
+
+	:: This one sets the shutdown for 14 days after startup.
+	::schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC ONSTART /DELAY 20160:00 /TR "C:\Windows\System32\shutdown.exe /s"
+
 goto :eof
 
 :fmedatadownload
-	::download and install the current FMEData from www.safe.com/download	
+	::download and install the current FMEData from www.safe.com/download
 	aria2c https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
 	CALL FMEDataDownloadInstall.bat
 goto :eof
 
+
+::Junk section
+:: Everything below here is deprecated stuff that might still be useful in the future.
 :taskbarPinning
 @echo off
 echo $sa = new-object -c shell.application
@@ -118,3 +114,16 @@ echo $pn.invokeverb('taskbarpin')
 @echo on
 @goto :eof
 
+:fmeserverhoops
+:: FME Server sometimes doesn't like to start properly. Halt it and try again here
+	taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
+	net stop "FME Server Engines"
+	net stop "FME Server Core" /y
+	net stop FMEServerAppServer
+	net stop "FME Server Database"
+
+	net start FMEServerAppServer
+	net start "FME Server Database"
+	net start "FME Server Core"
+	net start "FME Server Engines"
+goto :eof
