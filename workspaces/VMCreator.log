@@ -1,0 +1,1039 @@
+2019-01-23 15:52:26|   0.1|  0.1|INFORM|FME 2018.1.0.2 (20180903 - Build 18547 - macosx)
+2019-01-23 15:52:26|   0.1|  0.0|INFORM|FME_HOME is '/Library/FME/2018.1/'
+2019-01-23 15:52:26|   0.1|  0.1|INFORM|FME for August (node locked-crc)
+2019-01-23 15:52:26|   0.1|  0.0|INFORM|Serial Number: 0
+2019-01-23 15:52:26|   0.1|  0.0|INFORM|Temporary License: 588 days left.
+2019-01-23 15:52:26|   0.1|  0.0|INFORM|Machine host name is: Garak.hitronhub.home
+2019-01-23 15:52:26|   0.1|  0.0|INFORM|START - ProcessID: 14824, peak process memory usage: 64036 kB, current process memory usage: 64036 kB
+2019-01-23 15:52:26|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2018.1//bin/fme' `/Users/rcragg/Documents/GitHub/AWS/workspaces/wb-xlate-1548287532970_4160' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{81d0d977-85ca-40c0-af94-8c3038d2416d}'
+2019-01-23 15:52:26|   0.1|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/rcragg/Library/Caches/Safe Software/FME/'
+2019-01-23 15:52:26|   0.3|  0.2|INFORM|Shared folders for formats are : /Library/FME/2018.1/datasources;/Users/rcragg/Library/Application Support/FME/Formats
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Shared folders for transformers are : /Users/rcragg/Library/Caches/Safe Software/FME/Packages/18547-macosx/transformers;/Library/FME/2018.1/transformers;/Users/rcragg/Library/Application Support/FME/Transformers;/Users/rcragg/Library/Caches/Safe Software/FME/FME Store/Transformers
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Shared folders for coordinate systems are : /Users/rcragg/Library/Application Support/FME/CoordinateSystems
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/rcragg/Library/Application Support/FME/CoordinateSystemExceptions
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/rcragg/Library/Application Support/FME/CoordinateSystemGridOverrides
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/rcragg/Library/Application Support/FME/CsmapTransformationExceptions
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Shared folders for transformer categories are : /Users/rcragg/Library/Application Support/FME/TransformerCategories
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Mapping File Identifier is: Amazon EC2 Virtual Machine Creator
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Current working folder is `/Users/rcragg/Documents/GitHub/AWS/workspaces'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Temporary folder is in the system location `/tmp'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2018.1/'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/rcragg/Documents/GitHub/AWS/workspaces/'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'VMCreator.fmw'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2018.1.0.2'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|System Status: 98.64 TB of disk space available in the FME temporary folder (/tmp)
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|System Status: 424.26 GB of virtual memory available
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Operating System: Mac OS X Version 10.14 (Build 18A391)
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Platform: macosx
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|The memory allocator being used by FME is : `/usr/lib/system/libsystem_malloc.dylib'
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|Locale: en_CA.UTF-8
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Process limit is 16.00 GB of physical memory
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 423.08 GB of virtual memory
+2019-01-23 15:52:26|   0.3|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 317.31 GB of virtual memory
+2019-01-23 15:52:26|   0.4|  0.1|INFORM|Creating writer for format: NULL (Nothing)
+2019-01-23 15:52:26|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2019-01-23 15:52:26|   0.4|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2019-01-23 15:52:26|   0.4|  0.0|INFORM|Loaded module 'NULL' from file '/Library/FME/2018.1/plugins/null.so'
+2019-01-23 15:52:26|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20180604)
+2019-01-23 15:52:26|   0.4|  0.0|INFORM|Creating reader for format: 
+2019-01-23 15:52:26|   0.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2019-01-23 15:52:26|   0.4|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2019-01-23 15:52:27|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.5|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.5|  0.0|INFORM|Loaded module 'Geometry_func' from file '/Library/FME/2018.1/plugins/geometry_func.so'
+2019-01-23 15:52:27|   0.5|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.5|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2018.1/plugins/logcount_func.so'
+2019-01-23 15:52:27|   0.5|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.5|  0.0|INFORM|Loaded module 'HTTPFactory' from file '/Library/FME/2018.1/plugins/httpfactory.so'
+2019-01-23 15:52:27|   0.5|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.6|  0.0|INFORM|Loaded module 'JSONQueryFactory' from file '/Library/FME/2018.1/plugins/jsonqueryfactory.so'
+2019-01-23 15:52:27|   0.6|  0.0|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.6|  0.0|INFORM|Loaded module 'PythonFactory' from file '/Library/FME/2018.1/plugins/pythonfactory.so'
+2019-01-23 15:52:27|   0.6|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.7|  0.0|INFORM|Python version 2.7 loaded successfully
+2019-01-23 15:52:27|   0.7|  0.0|WARN  |In a future release, FME will have reduced support for Python 2.7.  Please review http://fme.ly/py27 for further information
+2019-01-23 15:52:27|   0.7|  0.0|INFORM|Adding folder `/Users/rcragg/Documents/GitHub/AWS/workspaces/' to the python path
+2019-01-23 15:52:27|   0.8|  0.1|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.8|  0.0|INFORM|Loaded module 'AttributeFilterFactory' from file '/Library/FME/2018.1/plugins/attributefilterfactory.so'
+2019-01-23 15:52:27|   0.8|  0.0|INFORM|FME API version of module 'AttributeFilterFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|FME API version of module 'AttributeFilterFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|Loaded module 'UUID_func' from file '/Library/FME/2018.1/plugins/uuid_func.so'
+2019-01-23 15:52:27|   0.9|  0.0|INFORM|FME API version of module 'UUID_func' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   1.0|  0.1|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   1.0|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20180604)
+2019-01-23 15:52:27|   1.0|  0.0|INFORM|Emptying factory pipeline
+2019-01-23 15:52:27|   1.0|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Creator_Begin -1 13 fo 0 CREATED  0  b2abcb87cdb718305fe945d4f5b62ccafdd94723.ffsupdating'
+2019-01-23 15:52:27|   1.0|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Tester_valid_email -1 37 fo 0 PASSED  0  4526679c757c8160f703c257561b572aa49cab58.ffsupdating'
+2019-01-23 15:52:28|   1.0|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_TimeStamper_Created -1 14 fo 0 OUTPUT  0  e9e6674947f4c9c924537ac6f2b818cc3af3a6d8.ffsupdating'
+2019-01-23 15:52:28|   1.1|  0.0|INFORM|HTTPCaller_config.json(HTTPFactory): HTTP/FTP Transfer: Downloading resource 'https://s3.amazonaws.com/fmevm/training/settings.json' to internal memory buffer
+2019-01-23 15:52:28|   1.1|  0.0|INFORM|HTTPCaller_config.json(HTTPFactory): HTTP transfer summary - status code: 200, download size: '5202 bytes', DNS lookup time: '0.041676 seconds', total transfer time: '0.544835 seconds', url: 'https://s3.amazonaws.com/fmevm/training/settings.json'
+2019-01-23 15:52:28|   1.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_HTTPCaller_config.json -1 44 fo 0 Output  0  b136c8abc26f7421031c25f3d84e80c72fa1c52b.ffsupdating'
+2019-01-23 15:52:28|   1.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener -1 45 fo 0 OUTPUT  0  733f6dd1b731f03a3a40d331e0ae9a52e67df775.ffsupdating'
+2019-01-23 15:52:28|   1.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_email_template -1 141 fo 0 OUTPUT  0  b1585960aef60808c179d030ff441e68f199912c.ffsupdating'
+2019-01-23 15:52:28|   1.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_rdp_template -1 145 fo 0 OUTPUT  0  fdc1bf54a885b52b06723d6c0095778508f0b2c0.ffsupdating'
+2019-01-23 15:52:28|   1.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListElementCounter -1 166 fo 0 OUTPUT  0  acf7be91b8adab381b327ebdc4afb806eff47462.ffsupdating'
+2019-01-23 15:52:28|   1.2|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_RandomNumberGenerator -1 167 fo 0 OUTPUT  0  ecc161b1abe9a6bce3b855dcb0c2fba5666bb656.ffsupdating'
+2019-01-23 15:52:28|   1.2|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListIndexer -1 168 fo 0 OUTPUT  0  646e33ccb6e2d98810eca67368aa2afea5bffe53.ffsupdating'
+2019-01-23 15:52:28|   1.2|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRemover -1 150 fo 0 OUTPUT  0  a160a6a5f25c4b58b818f822267d4fd279a43f4a.ffsupdating'
+2019-01-23 15:52:28|   1.2|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeManager_tags_and_stuff -1 15 fo 0 OUTPUT  0  3169f02b80369e78e7b2a0eceed3ec25adcf315a.ffsupdating'
+2019-01-23 15:52:30|   2.1|  0.9|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_DescribeInstances -1 16 fo 0 OUTPUT  0  83cb5da13e0f8bea08c7ada56eae3161f9a92bff.ffsupdating'
+2019-01-23 15:52:30|   2.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_DescribeInstances -1 17 fo 0 OUTPUT  0  a2380c10a922f9d43ab20e88ad38aa61aab248b4.ffsupdating'
+2019-01-23 15:52:30|   2.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Reservations -1 24 fo 0 _lt_REJECTED_gt_  0  dd6e84fc2389ac1708d58813ccac881cbd92737e.ffsupdating'
+2019-01-23 15:52:30|   2.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_3 -1 20 fo 0 Output  0  9ac1f08acaedb7d9a43fe79f9a1c69a4eb3c6f57.ffsupdating'
+2019-01-23 15:52:31|   2.2|  0.1|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_describe_images -1 2 fo 0 OUTPUT  0  f2f7e0cb8e8657dec90eb83d5a6aa5b47837bb93.ffsupdating'
+2019-01-23 15:52:31|   2.2|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_describe_images -1 3 fo 0 OUTPUT  0  c7b7d8a3450fcf0beb974d286a8944b914c15894.ffsupdating'
+2019-01-23 15:52:31|   2.3|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder -1 4 fo 0 ELEMENTS  0  71f9800b2dec14227210c5425e70c6559f0c16be.ffsupdating'
+2019-01-23 15:52:31|   2.3|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeExposer_ImageId -1 5 fo 0 OUTPUT  0  fbbc233fe814a0353c6d8ac20d9d916fb5dc8690.ffsupdating'
+2019-01-23 15:52:31|   2.3|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_TesterImageId -1 38 fo 0 PASSED  0  82c726cc4ac85e9a12ed78ed39d15343328f53c2.ffsupdating'
+2019-01-23 15:52:32|   2.4|  0.1|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_run_instances -1 21 fo 0 OUTPUT  0  09211085e485c9ea1c104832ec1ad2463740ec11.ffsupdating'
+2019-01-23 15:52:32|   2.4|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_3 -1 22 fo 0 OUTPUT  0  c50f8e01414a2eb7290c6cc36baa1f129435147e.ffsupdating'
+2019-01-23 15:52:32|   2.4|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRenamer -1 34 fo 0 OUTPUT  0  e82e9aa0d8e5d443d5f1c6172f7e00c056d2db8a.ffsupdating'
+2019-01-23 15:52:33|   2.4|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_TesterInstanceId -1 40 fo 0 PASSED  0  2546117c5d484fb67e0aaa8a4b5d225094baad46.ffsupdating'
+2019-01-23 15:52:33|   2.5|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Input 0 2 0  0  .ffsupdating'
+2019-01-23 15:52:33|   2.5|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeCreator_try 0 11 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:33|   2.6|  0.1|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_PythonCaller_DescribeInstances_P 0 7 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress: Feature is:
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Feature Type: `AWS_PublicIpAddress_Logger_PublicIpAddress_LOGGED'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Architecture' has value `x86_64'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `BCCEmail' has value `emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `BlockDeviceMappings{0}.DeviceName' has value `/dev/sda1'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `BlockDeviceMappings{0}.Ebs.DeleteOnTermination' has value `Yes'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `BlockDeviceMappings{0}.Ebs.Encrypted' has value `No'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `BlockDeviceMappings{0}.Ebs.SnapshotId' has value `snap-0591c9902152e97b4'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(64 bit integer)         : `BlockDeviceMappings{0}.Ebs.VolumeSize' has value `70'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `BlockDeviceMappings{0}.Ebs.VolumeType' has value `gp2'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `CCEmail' has value `ryan.cragg@safe.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `CourseType' has value `training'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `Created' has value `2019-01-23'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `CreatedBy' has value `training virtual machine generator'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `CreationDate' has value `2018-09-26T19:59:45.000Z'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Description' has value `FMETraining20180926'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `EC2Size' has value `large'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `EC2Type' has value `t3'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `EnaSupport' has value `Yes'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `FromEmail' has value `train@safe.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `FullName' has value `ryan'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Hypervisor' has value `xen'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ImageId' has value `ami-023398c58c22f82a5'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ImageLocation' has value `201369646709/FMETraining20180926'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ImageType' has value `machine'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `InstanceId' has value `i-05b918988670df507'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `InstanceType' has value `t3.large'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(64 bit integer)         : `Instances{0}.AmiLaunchIndex' has value `0'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Architecture' has value `x86_64'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.ClientToken' has value `'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `Instances{0}.EbsOptimized' has value `No'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Hypervisor' has value `xen'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.ImageId' has value `ami-023398c58c22f82a5'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.InstanceType' has value `t3.large'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.LaunchTime' has value `2019-01-23 23:52:32+00:00'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Monitoring.State' has value `disabled'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.Attachment.AttachTime' has value `2019-01-23 23:52:32+00:00'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.Attachment.AttachmentId' has value `eni-attach-00b74c66bda5ff9aa'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `Instances{0}.NetworkInterfaces{0}.Attachment.DeleteOnTermination' has value `Yes'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(64 bit integer)         : `Instances{0}.NetworkInterfaces{0}.Attachment.DeviceIndex' has value `0'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.Attachment.Status' has value `attaching'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.Description' has value `'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.Groups{0}.GroupId' has value `sg-02422676b10db5b6c'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.Groups{0}.GroupName' has value `default'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.MacAddress' has value `02:fd:99:c2:75:22'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.NetworkInterfaceId' has value `eni-0f5efb7c4aa3d80c7'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.OwnerId' has value `201369646709'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.PrivateDnsName' has value `ip-172-31-16-60.ec2.internal'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.PrivateIpAddress' has value `172.31.16.60'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `Instances{0}.NetworkInterfaces{0}.PrivateIpAddresses{0}.Primary' has value `Yes'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.PrivateIpAddresses{0}.PrivateDnsName' has value `ip-172-31-16-60.ec2.internal'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.PrivateIpAddresses{0}.PrivateIpAddress' has value `172.31.16.60'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `Instances{0}.NetworkInterfaces{0}.SourceDestCheck' has value `Yes'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.Status' has value `in-use'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.SubnetId' has value `subnet-0cea773b7c4d20a1f'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.NetworkInterfaces{0}.VpcId' has value `vpc-07959adb98052aa29'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Placement.AvailabilityZone' has value `us-east-1c'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Placement.GroupName' has value `'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Placement.Tenancy' has value `default'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Platform' has value `windows'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.PrivateDnsName' has value `ip-172-31-16-60.ec2.internal'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.PrivateIpAddress' has value `172.31.16.60'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.PublicDnsName' has value `'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.RootDeviceName' has value `/dev/sda1'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.RootDeviceType' has value `ebs'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.SecurityGroups{0}.GroupId' has value `sg-02422676b10db5b6c'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.SecurityGroups{0}.GroupName' has value `default'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `Instances{0}.SourceDestCheck' has value `Yes'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(64 bit integer)         : `Instances{0}.State.Code' has value `0'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.State.Name' has value `pending'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.StateReason.Code' has value `pending'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.StateReason.Message' has value `pending'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.StateTransitionReason' has value `'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.SubnetId' has value `subnet-0cea773b7c4d20a1f'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{0}.Key' has value `Name'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{0}.Value' has value `ryan'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{1}.Key' has value `Owner'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{1}.Value' has value `RCragg'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{2}.Key' has value `Created'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{2}.Value' has value `2019-01-23'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{3}.Key' has value `Email'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{3}.Value' has value `ryan.cragg+8@safe.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{4}.Key' has value `Created By'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{4}.Value' has value `training virtual machine generator'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{5}.Key' has value `Team'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{5}.Value' has value `Train'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{6}.Key' has value `Purpose'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.Tags{6}.Value' has value `Used for training by ryan.cragg+8@safe.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.VirtualizationType' has value `hvm'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Instances{0}.VpcId' has value `vpc-07959adb98052aa29'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Name' has value `FMETraining20180926'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `Owner' has value `RCragg'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `OwnerId' has value `201369646709'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Platform' has value `windows'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(boolean)                : `Public' has value `No'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `Purpose' has value `Used for training by ryan.cragg+8@safe.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ReservationId' has value `r-0f90650abfb8d8f12'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ResponseMetadata.HTTPHeaders.content-length' has value `5213'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ResponseMetadata.HTTPHeaders.content-type' has value `text/xml;charset=UTF-8'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ResponseMetadata.HTTPHeaders.date' has value `Wed, 23 Jan 2019 23:52:32 GMT'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ResponseMetadata.HTTPHeaders.server' has value `AmazonEC2'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ResponseMetadata.HTTPHeaders.vary' has value `Accept-Encoding'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(64 bit integer)         : `ResponseMetadata.HTTPStatusCode' has value `200'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `ResponseMetadata.RequestId' has value `9fa4698c-a0fb-480c-b66e-cc5a4794c8a9'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(64 bit integer)         : `ResponseMetadata.RetryAttempts' has value `0'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `RootDeviceName' has value `/dev/sda1'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `RootDeviceType' has value `ebs'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `S3_BUCKET_NAME' has value `fmevm'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `SriovNetSupport' has value `simple'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `State' has value `available'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `SubnetId' has value `subnet-0cea773b7c4d20a1f'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `SubnetId{0}' has value `subnet-0cea773b7c4d20a1f'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `SubnetId{1}' has value `subnet-08e644daff185879f'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `SubnetId{2}' has value `subnet-0c6ea1035fa36ecb4'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `SubnetId{3}' has value `subnet-020753b43fc20f53b'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Tags{0}.Key' has value `Course'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `Tags{0}.Value' has value `training'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `Team' has value `Train'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `VirtualizationType' has value `hvm'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(32 bit unsigned integer): `_element_count' has value `4'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(32 bit integer)         : `_element_index' has value `0'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `_email_template' has value `Hello _FullName_,
+
+The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.
+
+Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.
+
+Please try _PublicIpAddress_.rdp first. 
+Double-click on _PublicIpAddress_.rdp to open it in Microsoft Remote Desktop.
+
+The username is administrator
+The password is FMElearnings#1
+
+Some organizations block the port used by RDP; port 3389.
+
+If _PublicIpAddress_.rdp does not work, please try the other two RDP files; _PublicIpAddress_Port8080.rdp and _PublicIpAddress_Port443.rdp.
+These RDP files use different ports that might not be blocked.
+
+If none of the RDP files will connect, then your Security Administrator is likely using a Web Security Gateway. This cannot be bypassed without contacting your IT Department. Please contact your IT Department, and tell them you need to use Remote Desktop to connect to _PublicIpAddress_ 
+
+As a last-resort, you can try to use an HTML5 Remote Desktop Client.
+Go to http://54.205.104.160/myrtille
+Server: _PublicIpAddress_
+User: administrator
+Password: FMElearnings#1 
+
+Virtual Machine Disclaimer:
+This copy of Safe Software’s proprietary FME software, extensions, and related materials ('FME Training Materials') is provided solely for training purposes. The content of the FME Training Materials is intended only to demonstrate features available in FME. User may not copy the FME Training Materials or sell, rent, lease, sub-license, lend, timeshare or transfer, in whole or in part, or provide unlicensed Third Parties access to the prior or present versions of the FME Training Materials. User shall not reverse engineer, decompile, disassemble, alter, modify, or create any derivative works of the FME Training Materials. User shall not remove or obscure any Safe copyright or trademark notices. On completion of training, User shall delete or return to Safe the FME Training Materials and any whole or partial copies, codes, modifications, and merged portions in any form. .
+THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.
+
+Regards,
+Ryan Cragg
+--
+Training at Safe Software
+Safe Software Inc.
+train@safe.com | www.safe.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `_random_number' has value `0'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `_rdp_template' has value `username:s:Administrator
+domain:s:FMETraining
+screen mode id:i:2
+use multimon:i:0
+session bpp:i:24
+compression:i:1
+keyboardhook:i:1
+audiocapturemode:i:0
+videoplaybackmode:i:1
+connection type:i:2
+displayconnectionbar:i:1
+disable wallpaper:i:1
+allow font smoothing:i:0
+allow desktop composition:i:0
+disable full window drag:i:1
+disable menu anims:i:1
+disable themes:i:1
+disable cursor setting:i:0
+bitmapcachepersistenable:i:0
+audiomode:i:0
+redirectprinters:i:0
+redirectcomports:i:0
+redirectsmartcards:i:1
+redirectclipboard:i:1
+redirectposdevices:i:0
+redirectdirectx:i:1
+autoreconnection enabled:i:1
+authentication level:i:0
+prompt for credentials:i:0
+negotiate security layer:i:1
+remoteapplicationmode:i:0
+alternate shell:s:
+shell working directory:s:
+gatewayhostname:s:
+gatewayusagemethod:i:4
+gatewaycredentialssource:i:4
+gatewayprofileusagemethod:i:0
+promptcredentialonce:i:1
+use redirection server name:i:0
+enablecredsspsupport:i:0
+drivestoredirect:s:'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `_response' has value `{"Reservations": [{"Instances": [{"Monitoring": {"State": "disabled"}, "PublicDnsName": "ec2-3-85-211-109.compute-1.amazonaws.com", "Platform": "windows", "State": {"Code": 0, "Name": "pending"}, "EbsOptimized": false, "LaunchTime": "2019-01-23 23:52:32+00:00", "PublicIpAddress": "3.85.211.109", "PrivateIpAddress": "172.31.16.60", "ProductCodes": [], "VpcId": "vpc-07959adb98052aa29", "StateTransitionReason": "", "InstanceId": "i-05b918988670df507", "EnaSupport": true, "ImageId": "ami-023398c58c22f82a5", "PrivateDnsName": "ip-172-31-16-60.ec2.internal", "SecurityGroups": [{"GroupName": "default", "GroupId": "sg-02422676b10db5b6c"}], "ClientToken": "", "SubnetId": "subnet-0cea773b7c4d20a1f", "InstanceType": "t3.large", "NetworkInterfaces": [{"Status": "in-use", "MacAddress": "02:fd:99:c2:75:22", "SourceDestCheck": true, "VpcId": "vpc-07959adb98052aa29", "Description": "", "NetworkInterfaceId": "eni-0f5efb7c4aa3d80c7", "PrivateIpAddresses": [{"PrivateDnsName": "ip-172-31-16-60.ec2.internal", "PrivateIpAddress": "172.31.16.60", "Primary": true, "Association": {"PublicIp": "3.85.211.109", "PublicDnsName": "ec2-3-85-211-109.compute-1.amazonaws.com", "IpOwnerId": "amazon"}}], "PrivateDnsName": "ip-172-31-16-60.ec2.internal", "Attachment": {"Status": "attaching", "DeviceIndex": 0, "DeleteOnTermination": true, "AttachmentId": "eni-attach-00b74c66bda5ff9aa", "AttachTime": "2019-01-23 23:52:32+00:00"}, "Groups": [{"GroupName": "default", "GroupId": "sg-02422676b10db5b6c"}], "Ipv6Addresses": [], "OwnerId": "201369646709", "PrivateIpAddress": "172.31.16.60", "SubnetId": "subnet-0cea773b7c4d20a1f", "Association": {"PublicIp": "3.85.211.109", "PublicDnsName": "ec2-3-85-211-109.compute-1.amazonaws.com", "IpOwnerId": "amazon"}}], "SourceDestCheck": true, "Placement": {"Tenancy": "default", "GroupName": "", "AvailabilityZone": "us-east-1c"}, "Hypervisor": "xen", "BlockDeviceMappings": [{"DeviceName": "/dev/sda1", "Ebs": {"Status": "attaching", "DeleteOnTermination": true, "VolumeId": "vol-08032c91657065c3b", "AttachTime": "2019-01-23 23:52:33+00:00"}}], "Architecture": "x86_64", "RootDeviceType": "ebs", "RootDeviceName": "/dev/sda1", "VirtualizationType": "hvm", "Tags": [{"Value": "ryan", "Key": "Name"}, {"Value": "RCragg", "Key": "Owner"}, {"Value": "2019-01-23", "Key": "Created"}, {"Value": "ryan.cragg+8@safe.com", "Key": "Email"}, {"Value": "training virtual machine generator", "Key": "Created By"}, {"Value": "Train", "Key": "Team"}, {"Value": "Used for training by ryan.cragg+8@safe.com", "Key": "Purpose"}], "AmiLaunchIndex": 0}], "ReservationId": "r-0f90650abfb8d8f12", "Groups": [], "OwnerId": "201369646709"}], "ResponseMetadata": {"RetryAttempts": 0, "HTTPStatusCode": 200, "RequestId": "d1b1b30d-e341-4bf7-8bfa-75fd3cc0ffdf", "HTTPHeaders": {"date": "Wed, 23 Jan 2019 23:52:32 GMT", "vary": "Accept-Encoding", "content-length": "7532", "content-type": "text/xml;charset=UTF-8", "server": "AmazonEC2"}}}'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(64 bit integer)         : `_try' has value `0'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `email' has value `ryan.cragg+8@safe.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `fme_feature_type' has value `Creator_Begin'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `fme_geometry' has value `fme_undefined'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `fme_rejection_code' has value `MISSING_PARAMETER_LIST'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(string)                 : `fme_type' has value `fme_no_geom'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `region_name' has value `us-east-1'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `repository' has value `FMETraining'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `server' has value `https://demos-safe-software.fmecloud.com'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `token' has value `b42f5405ae92f30024974cd3943d5d2a2bcf0443'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Attribute(encoded: UTF-8)         : `workspace' has value `VMCreator.fmw'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Coordinate System: `'
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|Geometry Type: IFMENull
+2019-01-23 15:52:34|   2.6|  0.0|INFORM|===========================================================================
+2019-01-23 15:52:34|   2.6|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Logger_PublicIpAddress 0 29 fo 0 LOGGED  0  .ffsupdating'
+2019-01-23 15:52:34|   2.6|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_JSONFlattener_response 0 8 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:34|   2.6|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeRenamer_PublicIpAddress 0 9 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:34|   2.7|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Tester_has_PublicIpAddress 0 10 fo 0 PASSED  0  .ffsupdating'
+2019-01-23 15:52:34|   2.7|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AWS_PublicIpAddress -1 33 fo 1 Output  0  597ca2c71135899ae3f4fd5ad567ddc1955caf41.ffsupdating'
+2019-01-23 15:52:34|   2.7|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_2 -1 19 fo 0 Output  0  428dc662bb42eea71660e200db37b42dd204da65.ffsupdating'
+2019-01-23 15:52:34|   2.7|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_UUIDGenerator -1 23 fo 0 OUTPUT  0  e14f4008a3ebc995015da036bd8a54104e8252da.ffsupdating'
+2019-01-23 15:52:34|   2.8|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Cloner -1 8 fo 0 COPY  0  5d789b05462f63c827060ebfaae2e6e7c5933896.ffsupdating'
+2019-01-23 15:52:34|   2.8|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreator_Port_FileName -1 7 fo 0 OUTPUT  0  36230403583021e26587431ac5e7b2fba35a311a.ffsupdating'
+2019-01-23 15:52:34|   2.8|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreatorRDP -1 6 fo 0 OUTPUT  0  8b8ca05383fd3f136beca442b86c930c56d618f5.ffsupdating'
+2019-01-23 15:52:34|   2.8|  0.0|INFORM|Creating writer for format: 
+2019-01-23 15:52:34|   2.8|  0.0|INFORM|Using MultiWriter with keyword `FeatureWriter' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Creating writer for format: Text File
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `TEXTLINE'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Loaded module 'TEXTLINE' from file '/Library/FME/2018.1/plugins/textline.so'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Writer `FeatureWriter_0' of type `TEXTLINE' using group definition keyword `FeatureWriter_0_DEF'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Opening the file 'Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109.rdp\' in append mode
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Line Termination: Unix
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Write the final line termination character: yes
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Character Encoding: 'SYSTEM'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Write UTF-8 Byte Order Mark: yes
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Creator_Begin_XML_Creator(CreationFactory): Created 1 features
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Creator_Begin_Cloner(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Creator_Begin_CREATED Feature Recorder -1 2147549197(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Creator_Begin -1 13 fo 0 CREATED  0  b2abcb87cdb718305fe945d4f5b62ccafdd94723.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Creator_Begin_CREATED Feature Counter -1 176(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Creator_Begin_CREATED Brancher -1 176(BranchingFactory): Branched 1 input feature -- 1 feature routed to the target factory, and 0 features routed to the fallback factory.
+2019-01-23 15:52:34|   2.9|  0.0|STATS |_CREATOR_BRANCH_TARGET(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Tester_valid_email(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Tester_valid_email_PASSED Feature Recorder -1 2147614757(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Tester_valid_email -1 37 fo 0 PASSED  0  4526679c757c8160f703c257561b572aa49cab58.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Tester_valid_email_FAILED Feature Recorder -1 2147680293(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Tester_valid_email -1 37 fo 1 FAILED  0  e61930b463fc0fc7b9f415406862af61902bc969.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Tester_valid_email_PASSED Feature Counter -1 162(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Tester_valid_email_FAILED Feature Counter -1 90(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Terminator(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|STATS |TimeStamper_Created(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|TimeStamper_Created_OUTPUT Feature Recorder -1 2147614734(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_TimeStamper_Created -1 14 fo 0 OUTPUT  0  e9e6674947f4c9c924537ac6f2b818cc3af3a6d8.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |TimeStamper_Created_OUTPUT Feature Counter -1 61(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|HTTPCaller_config.json_Output Feature Recorder -1 2147614764(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_HTTPCaller_config.json -1 44 fo 0 Output  0  b136c8abc26f7421031c25f3d84e80c72fa1c52b.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|HTTPCaller_config.json_<REJECTED> Feature Recorder -1 2147680300(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_HTTPCaller_config.json -1 44 fo 1 _lt_REJECTED_gt_  0  6cd5ba24c11712f92950d1cc3222d9e543fa0a14.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |HTTPCaller_config.json_Output Feature Counter -1 155(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |HTTPCaller_config.json_<REJECTED> Feature Counter -1 2147680300(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|JSONFlattener_OUTPUT Feature Recorder -1 2147614765(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener -1 45 fo 0 OUTPUT  0  733f6dd1b731f03a3a40d331e0ae9a52e67df775.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|JSONFlattener_<REJECTED> Feature Recorder -1 2147680301(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener -1 45 fo 1 _lt_REJECTED_gt_  0  adec8b1b862c1e51881daeaff233910786f632d2.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |JSONFlattener_OUTPUT Feature Counter -1 142(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |JSONFlattener_<REJECTED> Feature Counter -1 2147680301(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListConcatenator_email_template(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListConcatenator_email_template_OUTPUT Feature Recorder -1 2147614861(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_email_template -1 141 fo 0 OUTPUT  0  b1585960aef60808c179d030ff441e68f199912c.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListConcatenator_email_template_OUTPUT Feature Counter -1 146(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListConcatenator_rdp_template(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListConcatenator_rdp_template_OUTPUT Feature Recorder -1 2147614865(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_rdp_template -1 145 fo 0 OUTPUT  0  fdc1bf54a885b52b06723d6c0095778508f0b2c0.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListConcatenator_rdp_template_OUTPUT Feature Counter -1 175(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListElementCounter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListElementCounter_OUTPUT Feature Recorder -1 2147614886(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListElementCounter -1 166 fo 0 OUTPUT  0  acf7be91b8adab381b327ebdc4afb806eff47462.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListElementCounter_OUTPUT Feature Counter -1 169(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |RandomNumberGenerator_MinRejecter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|STATS |RandomNumberGenerator_MaxRejecter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|STATS |RandomNumberGenerator_PlacesRejecter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|STATS |RandomNumberGenerator_RandomNumberGenerator(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|RandomNumberGenerator_OUTPUT Feature Recorder -1 2147614887(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_RandomNumberGenerator -1 167 fo 0 OUTPUT  0  ecc161b1abe9a6bce3b855dcb0c2fba5666bb656.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|RandomNumberGenerator_<REJECTED> Feature Recorder -1 2147680423(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_RandomNumberGenerator -1 167 fo 1 _lt_REJECTED_gt_  0  4d1316c51a07507d726bc8135441ca5e585ae444.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |RandomNumberGenerator_OUTPUT Feature Counter -1 171(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |RandomNumberGenerator_<REJECTED> Feature Counter -1 2147680423(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListIndexer_IntTester(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListIndexer_ListIndexer(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListIndexer_OUTPUT Feature Recorder -1 2147614888(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListIndexer -1 168 fo 0 OUTPUT  0  646e33ccb6e2d98810eca67368aa2afea5bffe53.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListIndexer_<REJECTED> Feature Recorder -1 2147680424(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListIndexer -1 168 fo 1 _lt_REJECTED_gt_  0  ad8b1d2c89a26b7ff907a473e853759ffed374a0.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListIndexer_OUTPUT Feature Counter -1 151(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListIndexer_<REJECTED> Feature Counter -1 2147680424(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeRemover(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeRemover_OUTPUT Feature Recorder -1 2147614870(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRemover -1 150 fo 0 OUTPUT  0  a160a6a5f25c4b58b818f822267d4fd279a43f4a.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeRemover_OUTPUT Feature Counter -1 152(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeManager_tags_and_stuff_OUTPUT Feature Recorder -1 2147614735(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeManager_tags_and_stuff -1 15 fo 0 OUTPUT  0  3169f02b80369e78e7b2a0eceed3ec25adcf315a.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeManager_tags_and_stuff_OUTPUT Feature Counter -1 164(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Optional `close' method not present; not called
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|PythonCaller_DescribeInstances_OUTPUT Feature Recorder -1 2147614736(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_DescribeInstances -1 16 fo 0 OUTPUT  0  83cb5da13e0f8bea08c7ada56eae3161f9a92bff.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |PythonCaller_DescribeInstances_OUTPUT Feature Counter -1 63(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|JSONFlattener_DescribeInstances_OUTPUT Feature Recorder -1 2147614737(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_DescribeInstances -1 17 fo 0 OUTPUT  0  a2380c10a922f9d43ab20e88ad38aa61aab248b4.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|JSONFlattener_DescribeInstances_<REJECTED> Feature Recorder -1 2147680273(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_DescribeInstances -1 17 fo 1 _lt_REJECTED_gt_  0  6dbd6b00f0eae11d2fead727f796ec503c01c16d.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |JSONFlattener_DescribeInstances_OUTPUT Feature Counter -1 65(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |JSONFlattener_DescribeInstances_<REJECTED> Feature Counter -1 2147680273(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder_Reservations(ElementFactory): Split out 0 list elements from 1 input features, using mode CLASSIC
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListExploder_Reservations_<REJECTED> Feature Recorder -1 2147680280(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Reservations -1 24 fo 0 _lt_REJECTED_gt_  0  dd6e84fc2389ac1708d58813ccac881cbd92737e.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListExploder_Reservations_ELEMENTS Feature Recorder -1 2147614744(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Reservations -1 24 fo 1 ELEMENTS  0  4785fdd4c795dc99ea34b1fd164ff33b82816c99.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder_Reservations_<REJECTED> Feature Counter -1 93(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder_Reservations_ELEMENTS Feature Counter -1 75(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeExposer_Instances_list(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeExposer_Instances_list_OUTPUT Feature Recorder -1 2147614745(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeExposer_Instances_list -1 25 fo 0 OUTPUT  0  a63d6bc032579262a6201afda1dc9f74c85bd44b.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeExposer_Instances_list_OUTPUT Feature Counter -1 78(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder_Instances(ElementFactory): Split out 0 list elements from 0 input features, using mode CLASSIC
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListExploder_Instances_ELEMENTS Feature Recorder -1 2147614746(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Instances -1 26 fo 0 ELEMENTS  0  67d751d63b34215baaf218ae228f109133507c5a.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListExploder_Instances_<REJECTED> Feature Recorder -1 2147680282(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Instances -1 26 fo 1 _lt_REJECTED_gt_  0  cc7357361301a5612ec1ea2b29036f5bfc96b745.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder_Instances_ELEMENTS Feature Counter -1 74(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder_Instances_<REJECTED> Feature Counter -1 2147680282(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeExposer_PublicIpAddress(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeExposer_PublicIpAddress_OUTPUT Feature Recorder -1 2147614747(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeExposer_PublicIpAddress -1 27 fo 0 OUTPUT  0  c2532bab0c952e9819adb1dc81e3ab4031e65f8a.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeExposer_PublicIpAddress_OUTPUT Feature Counter -1 79(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_<lt>EMPTY<gt> Feature Recorder -1 2147614748(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter -1 28 fo 0 _lt_lt_gt_EMPTY_lt_gt_gt_  0  48aa5844801966c916fcf223223f91b238d928cf.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_<lt>MISSING<gt> Feature Recorder -1 2147680284(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter -1 28 fo 1 _lt_lt_gt_MISSING_lt_gt_gt_  0  fcf493ac7cd42dbdb63a794403f83281b54a0f85.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_<lt>NULL<gt> Feature Recorder -1 2147745820(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter -1 28 fo 2 _lt_lt_gt_NULL_lt_gt_gt_  0  75233c463e88f033093cf4b9f88407bf0e3ac0af.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_<lt>UNFILTERED<gt> Feature Recorder -1 2147811356(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter -1 28 fo 3 _lt_lt_gt_UNFILTERED_lt_gt_gt_  0  df514dae1593d91ed4aa4b451ed3b2458484c924.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_running Feature Recorder -1 2147876892(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter -1 28 fo 4 running  0  2193a15954a0d49cb8e4c2cee3b7681393e4cbda.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_pending Feature Recorder -1 2147942428(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter -1 28 fo 5 pending  0  bc7ed93c3edf1a2435e5e35d473df4b4a6fa9fa9.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_<lt>EMPTY<gt> Feature Counter -1 80(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_<lt>MISSING<gt> Feature Counter -1 95(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_<lt>NULL<gt> Feature Counter -1 99(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_<lt>UNFILTERED<gt> Feature Counter -1 102(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_running Feature Counter -1 105(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_pending Feature Counter -1 108(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FeatureHolder(SortFactory): Done sorting 0 feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FeatureHolder_OUTPUT Feature Recorder -1 2147614749(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_FeatureHolder -1 29 fo 0 OUTPUT  0  996854b478e124863ef42f5a2a7226eeb07ddc79.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |FeatureHolder_OUTPUT Feature Counter -1 81(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Sampler(SamplingFactory): Sampled 0 of 0 feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Sampler_Sampled(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Sampler_SAMPLED Feature Recorder -1 2147614750(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Sampler -1 30 fo 0 SAMPLED  0  83b774a213b0223c19228dd7024d3fc519f95bd4.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Sampler_NOT_SAMPLED Feature Recorder -1 2147680286(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Sampler -1 30 fo 1 NOT_SAMPLED  0  4d41b978a611b15a8558757f6e9bc34a9c5691b8.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Sampler_SAMPLED Feature Counter -1 82(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Sampler_NOT_SAMPLED Feature Counter -1 2147680286(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_state(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_state_<lt>EMPTY<gt> Feature Recorder -1 2147614738(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter_state -1 18 fo 0 _lt_lt_gt_EMPTY_lt_gt_gt_  0  9067583b0e22eb817604f51e56a77b99ce13356f.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_state_<lt>MISSING<gt> Feature Recorder -1 2147680274(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter_state -1 18 fo 1 _lt_lt_gt_MISSING_lt_gt_gt_  0  99340f73a3f80c7c530dd0c9530974a447d5ff00.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_state_<lt>NULL<gt> Feature Recorder -1 2147745810(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter_state -1 18 fo 2 _lt_lt_gt_NULL_lt_gt_gt_  0  ce3f977ad20edc7105b5730a150095355f643640.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_state_<lt>UNFILTERED<gt> Feature Recorder -1 2147811346(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter_state -1 18 fo 3 _lt_lt_gt_UNFILTERED_lt_gt_gt_  0  7fa32478805abcb8d1f6b0b614c5f8340dc2f3bf.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_state_running Feature Recorder -1 2147876882(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter_state -1 18 fo 4 running  0  83771b1285ee51d23fcb005559373a264a720bdd.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeFilter_state_pending Feature Recorder -1 2147942418(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeFilter_state -1 18 fo 5 pending  0  23b0cd5add37acfeb9dc2153872e222d4454b2c6.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_state_<lt>EMPTY<gt> Feature Counter -1 66(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_state_<lt>MISSING<gt> Feature Counter -1 91(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_state_<lt>NULL<gt> Feature Counter -1 98(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_state_<lt>UNFILTERED<gt> Feature Counter -1 101(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_state_running Feature Counter -1 104(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeFilter_state_pending Feature Counter -1 107(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Junction_3(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Junction_3_Output Feature Recorder -1 2147614740(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_3 -1 20 fo 0 Output  0  9ac1f08acaedb7d9a43fe79f9a1c69a4eb3c6f57.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Junction_3_Output Feature Counter -1 68(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Optional `close' method not present; not called
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|PythonCaller_describe_images_OUTPUT Feature Recorder -1 2147614722(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_describe_images -1 2 fo 0 OUTPUT  0  f2f7e0cb8e8657dec90eb83d5a6aa5b47837bb93.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |PythonCaller_describe_images_OUTPUT Feature Counter -1 50(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|JSONFlattener_describe_images_OUTPUT Feature Recorder -1 2147614723(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_describe_images -1 3 fo 0 OUTPUT  0  c7b7d8a3450fcf0beb974d286a8944b914c15894.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|JSONFlattener_describe_images_<REJECTED> Feature Recorder -1 2147680259(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_describe_images -1 3 fo 1 _lt_REJECTED_gt_  0  0cc27cd075094f78dd35aecc5f5a891202b38208.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |JSONFlattener_describe_images_OUTPUT Feature Counter -1 51(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |JSONFlattener_describe_images_<REJECTED> Feature Counter -1 2147680259(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder(ElementFactory): Split out 1 list elements from 1 input features, using mode CLASSIC
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListExploder_ELEMENTS Feature Recorder -1 2147614724(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder -1 4 fo 0 ELEMENTS  0  71f9800b2dec14227210c5425e70c6559f0c16be.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|ListExploder_<REJECTED> Feature Recorder -1 2147680260(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder -1 4 fo 1 _lt_REJECTED_gt_  0  675c7f90a248a1aa635810c6f602adeb2d81d0b5.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder_ELEMENTS Feature Counter -1 53(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |ListExploder_<REJECTED> Feature Counter -1 2147680260(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeExposer_ImageId(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeExposer_ImageId_OUTPUT Feature Recorder -1 2147614725(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeExposer_ImageId -1 5 fo 0 OUTPUT  0  fbbc233fe814a0353c6d8ac20d9d916fb5dc8690.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeExposer_ImageId_OUTPUT Feature Counter -1 52(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |TesterImageId(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|TesterImageId_PASSED Feature Recorder -1 2147614758(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_TesterImageId -1 38 fo 0 PASSED  0  82c726cc4ac85e9a12ed78ed39d15343328f53c2.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|TesterImageId_FAILED Feature Recorder -1 2147680294(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_TesterImageId -1 38 fo 1 FAILED  0  e343b5a5ddc3d2ad631582143c51222cbee21be1.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |TesterImageId_PASSED Feature Counter -1 76(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |TesterImageId_FAILED Feature Counter -1 94(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Terminator_ImageId(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Optional `close' method not present; not called
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|PythonCaller_run_instances_OUTPUT Feature Recorder -1 2147614741(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_run_instances -1 21 fo 0 OUTPUT  0  09211085e485c9ea1c104832ec1ad2463740ec11.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |PythonCaller_run_instances_OUTPUT Feature Counter -1 69(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|JSONFlattener_3_OUTPUT Feature Recorder -1 2147614742(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_3 -1 22 fo 0 OUTPUT  0  c50f8e01414a2eb7290c6cc36baa1f129435147e.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|JSONFlattener_3_<REJECTED> Feature Recorder -1 2147680278(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_3 -1 22 fo 1 _lt_REJECTED_gt_  0  f53a5bca301a60d2b96c3401937dc49a63b4fe84.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |JSONFlattener_3_OUTPUT Feature Counter -1 71(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |JSONFlattener_3_<REJECTED> Feature Counter -1 154(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Terminator_run_instances(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeRenamer_OUTPUT Feature Recorder -1 2147614754(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRenamer -1 34 fo 0 OUTPUT  0  e82e9aa0d8e5d443d5f1c6172f7e00c056d2db8a.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeRenamer_OUTPUT Feature Counter -1 73(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |TesterInstanceId(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|TesterInstanceId_PASSED Feature Recorder -1 2147614760(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_TesterInstanceId -1 40 fo 0 PASSED  0  2546117c5d484fb67e0aaa8a4b5d225094baad46.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|TesterInstanceId_FAILED Feature Recorder -1 2147680296(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_TesterInstanceId -1 40 fo 1 FAILED  0  666bb5c89de8f516fcafd598b928da021c0a5dee.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |TesterInstanceId_PASSED Feature Counter -1 85(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |TesterInstanceId_FAILED Feature Counter -1 96(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Terminator_InstanceId(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress Input Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Input Feature Recorder 0 2147549186(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Input 0 2 0  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Input1548287539 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Input Feature Counter 0 15(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Try_again Feature Recorder 0 2147549190(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Try_again 0 6 0  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Try_again1548287539 Input Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Try_again Feature Counter 0 16(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_AttributeCreator_increment_try_OUTPUT Feature Recorder 0 2147614733(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeCreator_increment_try 0 13 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_AttributeCreator_increment_try_OUTPUT Feature Counter 0 23(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Logger_Logger(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Logger_LOGGED Feature Recorder 0 2147614734(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Logger 0 14 fo 0 LOGGED  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Logger_LOGGED Feature Counter 0 24(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_AttributeCreator_try_OUTPUT Feature Recorder 0 2147614731(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeCreator_try 0 11 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_AttributeCreator_try_OUTPUT Feature Counter 0 21(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Optional `close' method not present; not called
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT Feature Recorder 0 2147614727(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_PythonCaller_DescribeInstances_P 0 7 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT Feature Counter 0 30(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Logger_PublicIpAddress_Logger(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Logger_PublicIpAddress_LOGGED Feature Recorder 0 2147614749(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Logger_PublicIpAddress 0 29 fo 0 LOGGED  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Logger_PublicIpAddress_LOGGED Feature Counter 0 31(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_JSONFlattener_response_OUTPUT Feature Recorder 0 2147614728(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_JSONFlattener_response 0 8 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_JSONFlattener_response_<REJECTED> Feature Recorder 0 2147680264(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_JSONFlattener_response 0 8 fo 1 _lt_REJECTED_gt_  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_JSONFlattener_response_OUTPUT Feature Counter 0 18(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_JSONFlattener_response_<REJECTED> Feature Counter 0 25(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_AttributeRenamer_PublicIpAddress_OUTPUT Feature Recorder 0 2147614729(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeRenamer_PublicIpAddress 0 9 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_AttributeRenamer_PublicIpAddress_OUTPUT Feature Counter 0 19(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Tester_has_PublicIpAddress(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Tester_has_PublicIpAddress_PASSED Feature Recorder 0 2147614730(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Tester_has_PublicIpAddress 0 10 fo 0 PASSED  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Tester_has_PublicIpAddress_FAILED Feature Recorder 0 2147680266(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Tester_has_PublicIpAddress 0 10 fo 1 FAILED  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Tester_has_PublicIpAddress_PASSED Feature Counter 0 20(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Tester_has_PublicIpAddress_FAILED Feature Counter 0 26(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Tester_try(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Tester_try_PASSED Feature Recorder 0 2147614732(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Tester_try 0 12 fo 0 PASSED  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Tester_try_FAILED Feature Recorder 0 2147680268(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Tester_try 0 12 fo 1 FAILED  0  .ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Tester_try_PASSED Feature Counter 0 22(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Tester_try_FAILED Feature Counter 0 27(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Loop to AWS_PublicIpAddress_Try_again1548287539 Input Splitter(BranchingFactory): Branched 0 input features -- 0 features routed to the target factory, and 0 features routed to the fallback factory.
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Output1548287539 Output Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Failed1548287539 Output Collector(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress Output Output Renamer/Nuker(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress Failed Output Renamer/Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Failed Feature Recorder -1 2147680289(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AWS_PublicIpAddress -1 33 fo 0 Failed  0  d60c460d404153ec46e50a0d42525e55ad4bf7dc.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AWS_PublicIpAddress_Output Feature Recorder -1 2147614753(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AWS_PublicIpAddress -1 33 fo 1 Output  0  597ca2c71135899ae3f4fd5ad567ddc1955caf41.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Failed Feature Counter -1 92(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AWS_PublicIpAddress_Output Feature Counter -1 70(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Junction_2(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Junction_2_Output Feature Recorder -1 2147614739(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_2 -1 19 fo 0 Output  0  428dc662bb42eea71660e200db37b42dd204da65.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Junction_2_Output Feature Counter -1 67(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |UUIDGenerator(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|UUIDGenerator_OUTPUT Feature Recorder -1 2147614743(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_UUIDGenerator -1 23 fo 0 OUTPUT  0  e14f4008a3ebc995015da036bd8a54104e8252da.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |UUIDGenerator_OUTPUT Feature Counter -1 60(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Cloner_Cloner(TeeFactory): Cloned 1 input feature(s) into 3 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Cloner_COPY Feature Recorder -1 2147614728(RecorderFactory): Recorded 3 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Cloner -1 8 fo 0 COPY  0  5d789b05462f63c827060ebfaae2e6e7c5933896.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Cloner_<REJECTED> Feature Recorder -1 2147680264(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Cloner -1 8 fo 1 _lt_REJECTED_gt_  0  094c6f8132bcffedb377fec472bbebafc13a23d2.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Cloner_COPY Feature Counter -1 56(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Cloner_<REJECTED> Feature Counter -1 2147680264(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeCreator_Port_FileName_OUTPUT Feature Recorder -1 2147614727(RecorderFactory): Recorded 3 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreator_Port_FileName -1 7 fo 0 OUTPUT  0  36230403583021e26587431ac5e7b2fba35a311a.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeCreator_Port_FileName_OUTPUT Feature Counter -1 55(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|AttributeCreatorRDP_OUTPUT Feature Recorder -1 2147614726(RecorderFactory): Recorded 3 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreatorRDP -1 6 fo 0 OUTPUT  0  8b8ca05383fd3f136beca442b86c930c56d618f5.ffsupdating'
+2019-01-23 15:52:34|   2.9|  0.0|STATS |AttributeCreatorRDP_OUTPUT Feature Counter -1 54(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Closing the file 'Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109.rdp'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Feature output statistics for `TEXTLINE' writer using keyword `FeatureWriter_0':
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|STATS |                               Features Written
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|STATS |text_line                                                                    1
+2019-01-23 15:52:34|   2.9|  0.0|STATS |==============================================================================
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Total Features Written                                                       1
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Creating writer for format: Text File
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `TEXTLINE'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Writer `FeatureWriter_1' of type `TEXTLINE' using group definition keyword `FeatureWriter_1_DEF'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Opening the file 'Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109Port8080.rdp\' in append mode
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Line Termination: Unix
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Write the final line termination character: yes
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Character Encoding: 'SYSTEM'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Write UTF-8 Byte Order Mark: yes
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Closing the file 'Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109Port8080.rdp'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Feature output statistics for `TEXTLINE' writer using keyword `FeatureWriter_1':
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|STATS |                               Features Written
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|STATS |text_line                                                                    1
+2019-01-23 15:52:34|   2.9|  0.0|STATS |==============================================================================
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Total Features Written                                                       1
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 1 feature(s) 
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': Started outputting features
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Creating writer for format: Text File
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `TEXTLINE'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Writer `FeatureWriter_2' of type `TEXTLINE' using group definition keyword `FeatureWriter_2_DEF'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (3.8 20180604)
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Opening the file 'Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109Port443.rdp\' in append mode
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Line Termination: Unix
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Write the final line termination character: yes
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Character Encoding: 'SYSTEM'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Write UTF-8 Byte Order Mark: yes
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Text File Writer: Closing the file 'Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109Port443.rdp'
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|Feature output statistics for `TEXTLINE' writer using keyword `FeatureWriter_2':
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|STATS |                               Features Written
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|STATS |text_line                                                                    1
+2019-01-23 15:52:34|   2.9|  0.0|STATS |==============================================================================
+2019-01-23 15:52:34|   2.9|  0.0|STATS |Total Features Written                                                       1
+2019-01-23 15:52:34|   2.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': done writing 1 feature(s) 
+2019-01-23 15:52:34|   2.9|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2019-01-23 15:52:34|   3.0|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_FeatureWriter -1 9 fo 0 SUMMARY  0  82e6c0cadb13ed9ffcc6bff074aa3866d33ffae5.ffsupdating'
+2019-01-23 15:52:35|   3.0|  0.0|INFORM|Processed 2 elements with mode CLASSIC
+2019-01-23 15:52:35|   3.0|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Summary -1 35 fo 0 ELEMENTS  0  a23fad3b8b979f513783e8540e12370b7e518964.ffsupdating'
+2019-01-23 15:52:35|   3.0|  0.0|INFORM|FeatureWriter_SUMMARY Feature Recorder -1 2147614729(RecorderFactory): Recorded 3 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_FeatureWriter -1 9 fo 0 SUMMARY  0  82e6c0cadb13ed9ffcc6bff074aa3866d33ffae5.ffsupdating'
+2019-01-23 15:52:35|   3.0|  0.0|STATS |FeatureWriter_SUMMARY Feature Counter -1 57(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-01-23 15:52:35|   3.0|  0.0|STATS |ListExploder_Summary(ElementFactory): Split out 3 list elements from 3 input features, using mode CLASSIC
+2019-01-23 15:52:35|   3.0|  0.0|INFORM|ListExploder_Summary_ELEMENTS Feature Recorder -1 2147614755(RecorderFactory): Recorded 3 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Summary -1 35 fo 0 ELEMENTS  0  a23fad3b8b979f513783e8540e12370b7e518964.ffsupdating'
+2019-01-23 15:52:35|   3.0|  0.0|INFORM|ListExploder_Summary_<REJECTED> Feature Recorder -1 2147680291(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Summary -1 35 fo 1 _lt_REJECTED_gt_  0  98f12a428acd40cf1ccb9744af7f3c9e7c69a5d0.ffsupdating'
+2019-01-23 15:52:35|   3.0|  0.0|STATS |ListExploder_Summary_ELEMENTS Feature Counter -1 84(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-01-23 15:52:35|   3.0|  0.0|STATS |ListExploder_Summary_<REJECTED> Feature Counter -1 2147680291(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:35|   3.0|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Aggregator -1 11 fo 0 AGGREGATE  0  da350ed363dd30aa3470694d8a1e74e1955aeadb.ffsupdating'
+2019-01-23 15:52:35|   3.0|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_FullName -1 42 fo 0 OUTPUT  0  ba78bf4b03b2edf28c8aab20928007673e8fc387.ffsupdating'
+2019-01-23 15:52:35|   3.1|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_PublicIpAddress -1 47 fo 0 OUTPUT  0  f9e5e941c8c696a2803a7107e361c07d9d8f68a9.ffsupdating'
+2019-01-23 15:52:40|   5.1|  2.1|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer -1 10 fo 0 Sent  0  f2437fa7f5cd1de663da31b097b66683ae6e2e14.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Storing feature(s) to FME feature store file `/Users/rcragg/Documents/GitHub/AWS/workspaces/VMCreator_log.ffs'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Emailer_Sent: EMAIL OUTPUT
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Feature Type: `Emailer_Sent_LOGGED'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `BCCEmail' has value `emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `CCEmail' has value `ryan.cragg@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `CourseType' has value `training'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `FileName' has value `3.85.211.109.rdp'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `FolderName' has value `Training/4495218b-3dc1-4678-be62-75ea3f985eb5/'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `FromEmail' has value `train@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `FullName' has value `ryan'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `PublicIpAddress' has value `3.85.211.109'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_dataset' has value `Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109.rdp'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit integer)         : `_element_index' has value `0'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(encoded: UTF-8)         : `_email_template' has value `Hello ryan,
+
+The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.
+
+Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.
+
+Please try 3.85.211.109.rdp first. 
+Double-click on 3.85.211.109.rdp to open it in Microsoft Remote Desktop.
+
+The username is administrator
+The password is FMElearnings#1
+
+Some organizations block the port used by RDP; port 3389.
+
+If 3.85.211.109.rdp does not work, please try the other two RDP files; 3.85.211.109Port8080.rdp and 3.85.211.109Port443.rdp.
+These RDP files use different ports that might not be blocked.
+
+If none of the RDP files will connect, then your Security Administrator is likely using a Web Security Gateway. This cannot be bypassed without contacting your IT Department. Please contact your IT Department, and tell them you need to use Remote Desktop to connect to 3.85.211.109 
+
+As a last-resort, you can try to use an HTML5 Remote Desktop Client.
+Go to http://54.205.104.160/myrtille
+Server: 3.85.211.109
+User: administrator
+Password: FMElearnings#1 
+
+Virtual Machine Disclaimer:
+This copy of Safe Software’s proprietary FME software, extensions, and related materials ('FME Training Materials') is provided solely for training purposes. The content of the FME Training Materials is intended only to demonstrate features available in FME. User may not copy the FME Training Materials or sell, rent, lease, sub-license, lend, timeshare or transfer, in whole or in part, or provide unlicensed Third Parties access to the prior or present versions of the FME Training Materials. User shall not reverse engineer, decompile, disassemble, alter, modify, or create any derivative works of the FME Training Materials. User shall not remove or obscure any Safe copyright or trademark notices. On completion of training, User shall delete or return to Safe the FME Training Materials and any whole or partial copies, codes, modifications, and merged portions in any form. .
+THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.
+
+Regards,
+Ryan Cragg
+--
+Training at Safe Software
+Safe Software Inc.
+train@safe.com | www.safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.BCCEmail' has value `emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.CCEmail' has value `ryan.cragg@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.CourseType' has value `training'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.FileName' has value `3.85.211.109.rdp'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.FolderName' has value `Training/4495218b-3dc1-4678-be62-75ea3f985eb5/'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.FromEmail' has value `train@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.FullName' has value `ryan'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.PublicIpAddress' has value `3.85.211.109'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}._dataset' has value `Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109.rdp'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit integer)         : `_files{0}._element_index' has value `0'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}._email_template' has value `Hello _FullName_,
+
+The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.
+
+Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.
+
+Please try _PublicIpAddress_.rdp first. 
+Double-click on _PublicIpAddress_.rdp to open it in Microsoft Remote Desktop.
+
+The username is administrator
+The password is FMElearnings#1
+
+Some organizations block the port used by RDP; port 3389.
+
+If _PublicIpAddress_.rdp does not work, please try the other two RDP files; _PublicIpAddress_Port8080.rdp and _PublicIpAddress_Port443.rdp.
+These RDP files use different ports that might not be blocked.
+
+If none of the RDP files will connect, then your Security Administrator is likely using a Web Security Gateway. This cannot be bypassed without contacting your IT Department. Please contact your IT Department, and tell them you need to use Remote Desktop to connect to _PublicIpAddress_ 
+
+As a last-resort, you can try to use an HTML5 Remote Desktop Client.
+Go to http://54.205.104.160/myrtille
+Server: _PublicIpAddress_
+User: administrator
+Password: FMElearnings#1 
+
+Virtual Machine Disclaimer:
+This copy of Safe Software’s proprietary FME software, extensions, and related materials ('FME Training Materials') is provided solely for training purposes. The content of the FME Training Materials is intended only to demonstrate features available in FME. User may not copy the FME Training Materials or sell, rent, lease, sub-license, lend, timeshare or transfer, in whole or in part, or provide unlicensed Third Parties access to the prior or present versions of the FME Training Materials. User shall not reverse engineer, decompile, disassemble, alter, modify, or create any derivative works of the FME Training Materials. User shall not remove or obscure any Safe copyright or trademark notices. On completion of training, User shall delete or return to Safe the FME Training Materials and any whole or partial copies, codes, modifications, and merged portions in any form. .
+THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.
+
+Regards,
+Ryan Cragg
+--
+Training at Safe Software
+Safe Software Inc.
+train@safe.com | www.safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit unsigned integer): `_files{0}._total_features_written' has value `1'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit unsigned integer): `_files{0}.count' has value `1'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.email' has value `ryan.cragg+8@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.fme_type' has value `fme_no_geom'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{0}.name' has value `text_line'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.BCCEmail' has value `emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.CCEmail' has value `ryan.cragg@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.CourseType' has value `training'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.FileName' has value `3.85.211.109.rdp'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.FolderName' has value `Training/4495218b-3dc1-4678-be62-75ea3f985eb5/'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.FromEmail' has value `train@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.FullName' has value `ryan'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.PublicIpAddress' has value `3.85.211.109'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}._dataset' has value `Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109Port8080.rdp'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit integer)         : `_files{1}._element_index' has value `0'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}._email_template' has value `Hello _FullName_,
+
+The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.
+
+Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.
+
+Please try _PublicIpAddress_.rdp first. 
+Double-click on _PublicIpAddress_.rdp to open it in Microsoft Remote Desktop.
+
+The username is administrator
+The password is FMElearnings#1
+
+Some organizations block the port used by RDP; port 3389.
+
+If _PublicIpAddress_.rdp does not work, please try the other two RDP files; _PublicIpAddress_Port8080.rdp and _PublicIpAddress_Port443.rdp.
+These RDP files use different ports that might not be blocked.
+
+If none of the RDP files will connect, then your Security Administrator is likely using a Web Security Gateway. This cannot be bypassed without contacting your IT Department. Please contact your IT Department, and tell them you need to use Remote Desktop to connect to _PublicIpAddress_ 
+
+As a last-resort, you can try to use an HTML5 Remote Desktop Client.
+Go to http://54.205.104.160/myrtille
+Server: _PublicIpAddress_
+User: administrator
+Password: FMElearnings#1 
+
+Virtual Machine Disclaimer:
+This copy of Safe Software’s proprietary FME software, extensions, and related materials ('FME Training Materials') is provided solely for training purposes. The content of the FME Training Materials is intended only to demonstrate features available in FME. User may not copy the FME Training Materials or sell, rent, lease, sub-license, lend, timeshare or transfer, in whole or in part, or provide unlicensed Third Parties access to the prior or present versions of the FME Training Materials. User shall not reverse engineer, decompile, disassemble, alter, modify, or create any derivative works of the FME Training Materials. User shall not remove or obscure any Safe copyright or trademark notices. On completion of training, User shall delete or return to Safe the FME Training Materials and any whole or partial copies, codes, modifications, and merged portions in any form. .
+THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.
+
+Regards,
+Ryan Cragg
+--
+Training at Safe Software
+Safe Software Inc.
+train@safe.com | www.safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit unsigned integer): `_files{1}._total_features_written' has value `1'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit unsigned integer): `_files{1}.count' has value `1'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.email' has value `ryan.cragg+8@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.fme_type' has value `fme_no_geom'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{1}.name' has value `text_line'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.BCCEmail' has value `emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.CCEmail' has value `ryan.cragg@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.CourseType' has value `training'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.FileName' has value `3.85.211.109.rdp'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.FolderName' has value `Training/4495218b-3dc1-4678-be62-75ea3f985eb5/'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.FromEmail' has value `train@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.FullName' has value `ryan'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.PublicIpAddress' has value `3.85.211.109'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}._dataset' has value `Training/4495218b-3dc1-4678-be62-75ea3f985eb5/3.85.211.109Port443.rdp'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit integer)         : `_files{2}._element_index' has value `0'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}._email_template' has value `Hello _FullName_,
+
+The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.
+
+Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.
+
+Please try _PublicIpAddress_.rdp first. 
+Double-click on _PublicIpAddress_.rdp to open it in Microsoft Remote Desktop.
+
+The username is administrator
+The password is FMElearnings#1
+
+Some organizations block the port used by RDP; port 3389.
+
+If _PublicIpAddress_.rdp does not work, please try the other two RDP files; _PublicIpAddress_Port8080.rdp and _PublicIpAddress_Port443.rdp.
+These RDP files use different ports that might not be blocked.
+
+If none of the RDP files will connect, then your Security Administrator is likely using a Web Security Gateway. This cannot be bypassed without contacting your IT Department. Please contact your IT Department, and tell them you need to use Remote Desktop to connect to _PublicIpAddress_ 
+
+As a last-resort, you can try to use an HTML5 Remote Desktop Client.
+Go to http://54.205.104.160/myrtille
+Server: _PublicIpAddress_
+User: administrator
+Password: FMElearnings#1 
+
+Virtual Machine Disclaimer:
+This copy of Safe Software’s proprietary FME software, extensions, and related materials ('FME Training Materials') is provided solely for training purposes. The content of the FME Training Materials is intended only to demonstrate features available in FME. User may not copy the FME Training Materials or sell, rent, lease, sub-license, lend, timeshare or transfer, in whole or in part, or provide unlicensed Third Parties access to the prior or present versions of the FME Training Materials. User shall not reverse engineer, decompile, disassemble, alter, modify, or create any derivative works of the FME Training Materials. User shall not remove or obscure any Safe copyright or trademark notices. On completion of training, User shall delete or return to Safe the FME Training Materials and any whole or partial copies, codes, modifications, and merged portions in any form. .
+THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.
+
+Regards,
+Ryan Cragg
+--
+Training at Safe Software
+Safe Software Inc.
+train@safe.com | www.safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit unsigned integer): `_files{2}._total_features_written' has value `1'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit unsigned integer): `_files{2}.count' has value `1'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.email' has value `ryan.cragg+8@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.fme_type' has value `fme_no_geom'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `_files{2}.name' has value `text_line'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit unsigned integer): `_total_features_written' has value `1'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(32 bit unsigned integer): `count' has value `1'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `email' has value `ryan.cragg+8@safe.com'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `fme_geometry' has value `fme_aggregate'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `fme_type' has value `fme_no_geom'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Attribute(string)                 : `name' has value `text_line'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Coordinate System: `'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Geometry Type: IFMEAggregate
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Front Appearance Reference: `<inherited_or_default_appearance>'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Back Appearance Reference: `<inherited_or_default_appearance>'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Number of Geometries: 3
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|--------------------------------------
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Geometry Number: 0
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|   Geometry Type: IFMENull
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|--------------------------------------
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Geometry Number: 1
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|   Geometry Type: IFMENull
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|--------------------------------------
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Geometry Number: 2
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|   Geometry Type: IFMENull
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|===========================================================================
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Storing feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer_Sent -1 12 fo 0 LOGGED  0  2eebc7ef2cad67519876b563962d4bae9ff44fde.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Aggregator(AggregateFactory): Combined 3 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Aggregator_AGGREGATE Feature Recorder -1 2147614731(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Aggregator -1 11 fo 0 AGGREGATE  0  da350ed363dd30aa3470694d8a1e74e1955aeadb.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Aggregator_AGGREGATE Feature Counter -1 59(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |StringReplacer_FullName(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|StringReplacer_FullName_OUTPUT Feature Recorder -1 2147614762(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_FullName -1 42 fo 0 OUTPUT  0  ba78bf4b03b2edf28c8aab20928007673e8fc387.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |StringReplacer_FullName_OUTPUT Feature Counter -1 83(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |StringReplacer_PublicIpAddress(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|StringReplacer_PublicIpAddress_OUTPUT Feature Recorder -1 2147614767(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_PublicIpAddress -1 47 fo 0 OUTPUT  0  f9e5e941c8c696a2803a7107e361c07d9d8f68a9.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |StringReplacer_PublicIpAddress_OUTPUT Feature Counter -1 86(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Emailer_CATCHER(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Emailer_ROUTER(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Emailer_Sent Feature Recorder -1 2147614730(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer -1 10 fo 0 Sent  0  f2437fa7f5cd1de663da31b097b66683ae6e2e14.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Emailer_<REJECTED> Feature Recorder -1 2147680266(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer -1 10 fo 1 _lt_REJECTED_gt_  0  6cdbbf65356a69b4618fe01e23b7ae6a93a7a790.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Emailer_Sent Feature Counter -1 58(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Emailer_<REJECTED> Feature Counter -1 2147680266(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Emailer_Sent_Logger(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Emailer_Sent_LOGGED Feature Recorder -1 2147614732(RecorderFactory): Recorded 1 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer_Sent -1 12 fo 0 LOGGED  0  2eebc7ef2cad67519876b563962d4bae9ff44fde.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Emailer_Sent_LOGGED Feature Counter -1 2147614732(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Logger_incomplete_loop_Logger(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Logger_incomplete_loop_LOGGED Feature Recorder -1 2147614752(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Logger_incomplete_loop -1 32 fo 0 LOGGED  0  ec4f0caf5b094d901183ae6ae3c9b67991a0257d.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Logger_incomplete_loop_LOGGED Feature Counter -1 72(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Emailer_fail_CATCHER(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Emailer_fail_ROUTER(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Emailer_fail_Sent Feature Recorder -1 2147614751(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer_fail -1 31 fo 0 Sent  0  022de2245af8b5cf3aef53c4b80e892d665d06b7.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRemover -1 150 fo 0 OUTPUT  0  a160a6a5f25c4b58b818f822267d4fd279a43f4a.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRemover -1 150 fo 0 OUTPUT  0  a160a6a5f25c4b58b818f822267d4fd279a43f4a.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRemover -1 150 fo 0 OUTPUT  0  a160a6a5f25c4b58b818f822267d4fd279a43f4a.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Reservations -1 24 fo 0 _lt_REJECTED_gt_  0  dd6e84fc2389ac1708d58813ccac881cbd92737e.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Reservations -1 24 fo 0 _lt_REJECTED_gt_  0  dd6e84fc2389ac1708d58813ccac881cbd92737e.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Reservations -1 24 fo 0 _lt_REJECTED_gt_  0  dd6e84fc2389ac1708d58813ccac881cbd92737e.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 3 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreator_Port_FileName -1 7 fo 0 OUTPUT  0  36230403583021e26587431ac5e7b2fba35a311a.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreator_Port_FileName -1 7 fo 0 OUTPUT  0  36230403583021e26587431ac5e7b2fba35a311a.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreator_Port_FileName -1 7 fo 0 OUTPUT  0  36230403583021e26587431ac5e7b2fba35a311a.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_TimeStamper_Created -1 14 fo 0 OUTPUT  0  e9e6674947f4c9c924537ac6f2b818cc3af3a6d8.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_TimeStamper_Created -1 14 fo 0 OUTPUT  0  e9e6674947f4c9c924537ac6f2b818cc3af3a6d8.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_TimeStamper_Created -1 14 fo 0 OUTPUT  0  e9e6674947f4c9c924537ac6f2b818cc3af3a6d8.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_3 -1 20 fo 0 Output  0  9ac1f08acaedb7d9a43fe79f9a1c69a4eb3c6f57.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_3 -1 20 fo 0 Output  0  9ac1f08acaedb7d9a43fe79f9a1c69a4eb3c6f57.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_3 -1 20 fo 0 Output  0  9ac1f08acaedb7d9a43fe79f9a1c69a4eb3c6f57.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_RandomNumberGenerator -1 167 fo 0 OUTPUT  0  ecc161b1abe9a6bce3b855dcb0c2fba5666bb656.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_RandomNumberGenerator -1 167 fo 0 OUTPUT  0  ecc161b1abe9a6bce3b855dcb0c2fba5666bb656.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_RandomNumberGenerator -1 167 fo 0 OUTPUT  0  ecc161b1abe9a6bce3b855dcb0c2fba5666bb656.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Tester_valid_email -1 37 fo 0 PASSED  0  4526679c757c8160f703c257561b572aa49cab58.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Tester_valid_email -1 37 fo 0 PASSED  0  4526679c757c8160f703c257561b572aa49cab58.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Tester_valid_email -1 37 fo 0 PASSED  0  4526679c757c8160f703c257561b572aa49cab58.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Input 0 2 0  0  .ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Input 0 2 0  0  .fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Input 0 2 0  0  .fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_FullName -1 42 fo 0 OUTPUT  0  ba78bf4b03b2edf28c8aab20928007673e8fc387.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_FullName -1 42 fo 0 OUTPUT  0  ba78bf4b03b2edf28c8aab20928007673e8fc387.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_FullName -1 42 fo 0 OUTPUT  0  ba78bf4b03b2edf28c8aab20928007673e8fc387.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer -1 10 fo 0 Sent  0  f2437fa7f5cd1de663da31b097b66683ae6e2e14.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer -1 10 fo 0 Sent  0  f2437fa7f5cd1de663da31b097b66683ae6e2e14.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer -1 10 fo 0 Sent  0  f2437fa7f5cd1de663da31b097b66683ae6e2e14.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_2 -1 19 fo 0 Output  0  428dc662bb42eea71660e200db37b42dd204da65.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_2 -1 19 fo 0 Output  0  428dc662bb42eea71660e200db37b42dd204da65.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Junction_2 -1 19 fo 0 Output  0  428dc662bb42eea71660e200db37b42dd204da65.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_describe_images -1 3 fo 0 OUTPUT  0  c7b7d8a3450fcf0beb974d286a8944b914c15894.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_describe_images -1 3 fo 0 OUTPUT  0  c7b7d8a3450fcf0beb974d286a8944b914c15894.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_describe_images -1 3 fo 0 OUTPUT  0  c7b7d8a3450fcf0beb974d286a8944b914c15894.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeManager_tags_and_stuff -1 15 fo 0 OUTPUT  0  3169f02b80369e78e7b2a0eceed3ec25adcf315a.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeManager_tags_and_stuff -1 15 fo 0 OUTPUT  0  3169f02b80369e78e7b2a0eceed3ec25adcf315a.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeManager_tags_and_stuff -1 15 fo 0 OUTPUT  0  3169f02b80369e78e7b2a0eceed3ec25adcf315a.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_3 -1 22 fo 0 OUTPUT  0  c50f8e01414a2eb7290c6cc36baa1f129435147e.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_3 -1 22 fo 0 OUTPUT  0  c50f8e01414a2eb7290c6cc36baa1f129435147e.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_3 -1 22 fo 0 OUTPUT  0  c50f8e01414a2eb7290c6cc36baa1f129435147e.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_run_instances -1 21 fo 0 OUTPUT  0  09211085e485c9ea1c104832ec1ad2463740ec11.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_run_instances -1 21 fo 0 OUTPUT  0  09211085e485c9ea1c104832ec1ad2463740ec11.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_run_instances -1 21 fo 0 OUTPUT  0  09211085e485c9ea1c104832ec1ad2463740ec11.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_PythonCaller_DescribeInstances_P 0 7 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_PythonCaller_DescribeInstances_P 0 7 fo 0 OUTPUT  0  .fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_PythonCaller_DescribeInstances_P 0 7 fo 0 OUTPUT  0  .fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_JSONFlattener_response 0 8 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_JSONFlattener_response 0 8 fo 0 OUTPUT  0  .fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_JSONFlattener_response 0 8 fo 0 OUTPUT  0  .fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeExposer_ImageId -1 5 fo 0 OUTPUT  0  fbbc233fe814a0353c6d8ac20d9d916fb5dc8690.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeExposer_ImageId -1 5 fo 0 OUTPUT  0  fbbc233fe814a0353c6d8ac20d9d916fb5dc8690.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeExposer_ImageId -1 5 fo 0 OUTPUT  0  fbbc233fe814a0353c6d8ac20d9d916fb5dc8690.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Creator_Begin -1 13 fo 0 CREATED  0  b2abcb87cdb718305fe945d4f5b62ccafdd94723.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Creator_Begin -1 13 fo 0 CREATED  0  b2abcb87cdb718305fe945d4f5b62ccafdd94723.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Creator_Begin -1 13 fo 0 CREATED  0  b2abcb87cdb718305fe945d4f5b62ccafdd94723.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRenamer -1 34 fo 0 OUTPUT  0  e82e9aa0d8e5d443d5f1c6172f7e00c056d2db8a.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRenamer -1 34 fo 0 OUTPUT  0  e82e9aa0d8e5d443d5f1c6172f7e00c056d2db8a.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeRenamer -1 34 fo 0 OUTPUT  0  e82e9aa0d8e5d443d5f1c6172f7e00c056d2db8a.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_PublicIpAddress -1 47 fo 0 OUTPUT  0  f9e5e941c8c696a2803a7107e361c07d9d8f68a9.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_PublicIpAddress -1 47 fo 0 OUTPUT  0  f9e5e941c8c696a2803a7107e361c07d9d8f68a9.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_StringReplacer_PublicIpAddress -1 47 fo 0 OUTPUT  0  f9e5e941c8c696a2803a7107e361c07d9d8f68a9.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_describe_images -1 2 fo 0 OUTPUT  0  f2f7e0cb8e8657dec90eb83d5a6aa5b47837bb93.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_describe_images -1 2 fo 0 OUTPUT  0  f2f7e0cb8e8657dec90eb83d5a6aa5b47837bb93.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_describe_images -1 2 fo 0 OUTPUT  0  f2f7e0cb8e8657dec90eb83d5a6aa5b47837bb93.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_TesterImageId -1 38 fo 0 PASSED  0  82c726cc4ac85e9a12ed78ed39d15343328f53c2.ffsupdating'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_TesterImageId -1 38 fo 0 PASSED  0  82c726cc4ac85e9a12ed78ed39d15343328f53c2.fsi'
+2019-01-23 15:52:40|   5.2|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_TesterImageId -1 38 fo 0 PASSED  0  82c726cc4ac85e9a12ed78ed39d15343328f53c2.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeRenamer_PublicIpAddress 0 9 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeRenamer_PublicIpAddress 0 9 fo 0 OUTPUT  0  .fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeRenamer_PublicIpAddress 0 9 fo 0 OUTPUT  0  .fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder -1 4 fo 0 ELEMENTS  0  71f9800b2dec14227210c5425e70c6559f0c16be.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder -1 4 fo 0 ELEMENTS  0  71f9800b2dec14227210c5425e70c6559f0c16be.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder -1 4 fo 0 ELEMENTS  0  71f9800b2dec14227210c5425e70c6559f0c16be.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListIndexer -1 168 fo 0 OUTPUT  0  646e33ccb6e2d98810eca67368aa2afea5bffe53.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListIndexer -1 168 fo 0 OUTPUT  0  646e33ccb6e2d98810eca67368aa2afea5bffe53.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListIndexer -1 168 fo 0 OUTPUT  0  646e33ccb6e2d98810eca67368aa2afea5bffe53.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_TesterInstanceId -1 40 fo 0 PASSED  0  2546117c5d484fb67e0aaa8a4b5d225094baad46.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_TesterInstanceId -1 40 fo 0 PASSED  0  2546117c5d484fb67e0aaa8a4b5d225094baad46.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_TesterInstanceId -1 40 fo 0 PASSED  0  2546117c5d484fb67e0aaa8a4b5d225094baad46.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_rdp_template -1 145 fo 0 OUTPUT  0  fdc1bf54a885b52b06723d6c0095778508f0b2c0.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_rdp_template -1 145 fo 0 OUTPUT  0  fdc1bf54a885b52b06723d6c0095778508f0b2c0.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_rdp_template -1 145 fo 0 OUTPUT  0  fdc1bf54a885b52b06723d6c0095778508f0b2c0.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener -1 45 fo 0 OUTPUT  0  733f6dd1b731f03a3a40d331e0ae9a52e67df775.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener -1 45 fo 0 OUTPUT  0  733f6dd1b731f03a3a40d331e0ae9a52e67df775.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener -1 45 fo 0 OUTPUT  0  733f6dd1b731f03a3a40d331e0ae9a52e67df775.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 3 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Summary -1 35 fo 0 ELEMENTS  0  a23fad3b8b979f513783e8540e12370b7e518964.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Summary -1 35 fo 0 ELEMENTS  0  a23fad3b8b979f513783e8540e12370b7e518964.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListExploder_Summary -1 35 fo 0 ELEMENTS  0  a23fad3b8b979f513783e8540e12370b7e518964.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListElementCounter -1 166 fo 0 OUTPUT  0  acf7be91b8adab381b327ebdc4afb806eff47462.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListElementCounter -1 166 fo 0 OUTPUT  0  acf7be91b8adab381b327ebdc4afb806eff47462.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListElementCounter -1 166 fo 0 OUTPUT  0  acf7be91b8adab381b327ebdc4afb806eff47462.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Logger_PublicIpAddress 0 29 fo 0 LOGGED  0  .ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Logger_PublicIpAddress 0 29 fo 0 LOGGED  0  .fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Logger_PublicIpAddress 0 29 fo 0 LOGGED  0  .fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 3 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Cloner -1 8 fo 0 COPY  0  5d789b05462f63c827060ebfaae2e6e7c5933896.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Cloner -1 8 fo 0 COPY  0  5d789b05462f63c827060ebfaae2e6e7c5933896.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Cloner -1 8 fo 0 COPY  0  5d789b05462f63c827060ebfaae2e6e7c5933896.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AWS_PublicIpAddress -1 33 fo 1 Output  0  597ca2c71135899ae3f4fd5ad567ddc1955caf41.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AWS_PublicIpAddress -1 33 fo 1 Output  0  597ca2c71135899ae3f4fd5ad567ddc1955caf41.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AWS_PublicIpAddress -1 33 fo 1 Output  0  597ca2c71135899ae3f4fd5ad567ddc1955caf41.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 3 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_FeatureWriter -1 9 fo 0 SUMMARY  0  82e6c0cadb13ed9ffcc6bff074aa3866d33ffae5.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_FeatureWriter -1 9 fo 0 SUMMARY  0  82e6c0cadb13ed9ffcc6bff074aa3866d33ffae5.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_FeatureWriter -1 9 fo 0 SUMMARY  0  82e6c0cadb13ed9ffcc6bff074aa3866d33ffae5.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_email_template -1 141 fo 0 OUTPUT  0  b1585960aef60808c179d030ff441e68f199912c.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_email_template -1 141 fo 0 OUTPUT  0  b1585960aef60808c179d030ff441e68f199912c.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_ListConcatenator_email_template -1 141 fo 0 OUTPUT  0  b1585960aef60808c179d030ff441e68f199912c.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_HTTPCaller_config.json -1 44 fo 0 Output  0  b136c8abc26f7421031c25f3d84e80c72fa1c52b.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_HTTPCaller_config.json -1 44 fo 0 Output  0  b136c8abc26f7421031c25f3d84e80c72fa1c52b.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_HTTPCaller_config.json -1 44 fo 0 Output  0  b136c8abc26f7421031c25f3d84e80c72fa1c52b.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_DescribeInstances -1 16 fo 0 OUTPUT  0  83cb5da13e0f8bea08c7ada56eae3161f9a92bff.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_DescribeInstances -1 16 fo 0 OUTPUT  0  83cb5da13e0f8bea08c7ada56eae3161f9a92bff.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_PythonCaller_DescribeInstances -1 16 fo 0 OUTPUT  0  83cb5da13e0f8bea08c7ada56eae3161f9a92bff.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 3 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreatorRDP -1 6 fo 0 OUTPUT  0  8b8ca05383fd3f136beca442b86c930c56d618f5.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreatorRDP -1 6 fo 0 OUTPUT  0  8b8ca05383fd3f136beca442b86c930c56d618f5.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_AttributeCreatorRDP -1 6 fo 0 OUTPUT  0  8b8ca05383fd3f136beca442b86c930c56d618f5.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Aggregator -1 11 fo 0 AGGREGATE  0  da350ed363dd30aa3470694d8a1e74e1955aeadb.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Aggregator -1 11 fo 0 AGGREGATE  0  da350ed363dd30aa3470694d8a1e74e1955aeadb.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Aggregator -1 11 fo 0 AGGREGATE  0  da350ed363dd30aa3470694d8a1e74e1955aeadb.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_DescribeInstances -1 17 fo 0 OUTPUT  0  a2380c10a922f9d43ab20e88ad38aa61aab248b4.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_DescribeInstances -1 17 fo 0 OUTPUT  0  a2380c10a922f9d43ab20e88ad38aa61aab248b4.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_JSONFlattener_DescribeInstances -1 17 fo 0 OUTPUT  0  a2380c10a922f9d43ab20e88ad38aa61aab248b4.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_UUIDGenerator -1 23 fo 0 OUTPUT  0  e14f4008a3ebc995015da036bd8a54104e8252da.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_UUIDGenerator -1 23 fo 0 OUTPUT  0  e14f4008a3ebc995015da036bd8a54104e8252da.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_UUIDGenerator -1 23 fo 0 OUTPUT  0  e14f4008a3ebc995015da036bd8a54104e8252da.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Tester_has_PublicIpAddress 0 10 fo 0 PASSED  0  .ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Tester_has_PublicIpAddress 0 10 fo 0 PASSED  0  .fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_Tester_has_PublicIpAddress 0 10 fo 0 PASSED  0  .fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeCreator_try 0 11 fo 0 OUTPUT  0  .ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeCreator_try 0 11 fo 0 OUTPUT  0  .fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/AWS_PublicIpAddress_AttributeCreator_try 0 11 fo 0 OUTPUT  0  .fsi'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer_Sent -1 12 fo 0 LOGGED  0  2eebc7ef2cad67519876b563962d4bae9ff44fde.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer_Sent -1 12 fo 0 LOGGED  0  2eebc7ef2cad67519876b563962d4bae9ff44fde.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Finished saving spatial index into file '/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer_Sent -1 12 fo 0 LOGGED  0  2eebc7ef2cad67519876b563962d4bae9ff44fde.fsi'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Emailer_fail_<REJECTED> Feature Recorder -1 2147680287(RecorderFactory): Recorded 0 feature(s) to file `/tmp/wb-cache-VMCreator-aQ4160/Main_Emailer_fail -1 31 fo 1 _lt_REJECTED_gt_  0  72ed9a57451ab71425a10218b43287b6f5da3c08.ffsupdating'
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Emailer_fail_Sent Feature Counter -1 2147614751(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Emailer_fail_<REJECTED> Feature Counter -1 2147680287(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-01-23 15:52:40|   5.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:40|   5.3|  0.0|STATS |                            Features Read Summary
+2019-01-23 15:52:40|   5.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:40|   5.3|  0.0|STATS |==============================================================================
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Total Features Read                                                          0
+2019-01-23 15:52:40|   5.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:40|   5.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:40|   5.3|  0.0|STATS |                           Features Written Summary
+2019-01-23 15:52:40|   5.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:40|   5.3|  0.0|STATS |==============================================================================
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Total Features Written                                                       0
+2019-01-23 15:52:40|   5.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-01-23 15:52:40|   5.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2019-01-23 15:52:40|   5.3|  0.0|WARN  |-~                                                                             ~-
+2019-01-23 15:52:40|   5.3|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2019-01-23 15:52:40|   5.3|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2019-01-23 15:52:40|   5.3|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2019-01-23 15:52:40|   5.3|  0.0|WARN  |-~                                                                             ~-
+2019-01-23 15:52:40|   5.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|Translation was SUCCESSFUL with 8 warning(s) (0 feature(s) output)
+2019-01-23 15:52:40|   5.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/Users/rcragg/Documents/GitHub/AWS/workspaces/VMCreator_log.ffs'
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|FME Session Duration: 14.3 seconds. (CPU: 4.3s user, 0.9s system)
+2019-01-23 15:52:40|   5.3|  0.0|INFORM|END - ProcessID: 14824, peak process memory usage: 178956 kB, current process memory usage: 176916 kB

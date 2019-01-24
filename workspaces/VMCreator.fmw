@@ -2,9 +2,9 @@
 #! <WORKSPACE
 #    Command-line to run this workspace:
 #        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/AWS/workspaces/VMCreator.fmw
-#              --CourseType ""
-#              --FullName ""
-#              --EmailAddress ""
+#              --CourseType "training"
+#              --FullName "ryan"
+#              --EmailAddress "ryan.cragg+8@safe.com"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-01-23T13:04:34"
+#!   LAST_SAVE_DATE="2019-01-23T16:47:44"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,7 +47,7 @@
 #!   TITLE="Amazon EC2 Virtual Machine Creator"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="-14220.8 1155.18"
+#!   VIEW_POSITION="7762.15 382.762"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="87"
@@ -177,17 +177,17 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_OR_ATTR CourseType AMI CourseType tag value:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="training"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_OR_ATTR FullName Enter your full name:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="ryan"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_OR_ATTR EmailAddress Enter your email address and press &apos;Request Virtual Machine&apos;:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="ryan.cragg+8@safe.com"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -197,7 +197,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL PASSWORD aws_secret_access_key aws_secret_access_key:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszOLFkfqMVtd0D9PJtdzJPjd3SIVZRkpxYu1Ii14mGriFigCXzZzLspI9iF9TQiffshdr1AixPLxslrKmuO5gMLx/z0bwy/klwnxEVnDdGVS8OGi/qJREPNJS1l7LPgHssfS/HSI04t55BfGhQTjLnOEcRwHX0XPIEH6pywJiqGSfNa6Xc8lX3TIdEwvPu4Hx3QR63k/6AG76GCExNJEe6eOBLAEOXMnLPDPYZVkPdcZEZUUdgRaNScDLc9imwljQh9MvsbxKZp5aD1kYcIPlSoMnJ8UshGm6JQrjBGcBXVvGY0SW+ZrCRkgqT0I/wONtBhXMWNVgsr3/LQxssonU3U3N2sOpEwhSl)"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -420,10 +420,10 @@
 #! <COMMENT
 #!   IDENTIFIER="130"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Check that email is valid. Has @ in it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-11785.937313234628 -665.55225664197042"
-#!   TOP_LEFT="-11785.937313234628 -665.55225664197042"
-#!   BOTTOM_RIGHT="-11140.487387210465 -664.55225664197042"
-#!   BOUNDING_RECT="-11785.937313234628 -665.55225664197042 645.44992602416278 -1"
+#!   POSITION="-12630.773347801869 -458.65363593162533"
+#!   TOP_LEFT="-12630.773347801869 -458.65363593162533"
+#!   BOTTOM_RIGHT="-11985.323421777706 -457.65363593162533"
+#!   BOUNDING_RECT="-12630.773347801869 -458.65363593162533 645.44992602416278 -1"
 #!   ORDER="500000000000093"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -434,10 +434,10 @@
 #! <COMMENT
 #!   IDENTIFIER="131"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sometimes the InstanceId doesnt&apos; get populated. No idea why. Problem on Amazon&apos;s side.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="11734.723025687455 -174.44899643171158"
-#!   TOP_LEFT="11734.723025687455 -174.44899643171158"
-#!   BOTTOM_RIGHT="12177.723025687455 -173.44899643171158"
-#!   BOUNDING_RECT="11734.723025687455 -174.44899643171158 443 -1"
+#!   POSITION="11965.759818814007 -591.69454819757402"
+#!   TOP_LEFT="11965.759818814007 -591.69454819757402"
+#!   BOTTOM_RIGHT="12408.759818814007 -590.69454819757402"
+#!   BOUNDING_RECT="11965.759818814007 -591.69454819757402 443 -1"
 #!   ORDER="500000000000098"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -514,20 +514,6 @@
 #!   COLOUR="1,1,0.78431372549019607,1"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="29"
-#! />
-#! <COMMENT
-#!   IDENTIFIER="158"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Someone could get creative and supply their own json file, and start up machines of different sizes in different regions. This tests the S3 bucket location so that can&apos;t happen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-12691.169555414232 -281.54841660356999"
-#!   TOP_LEFT="-12691.169555414232 -281.54841660356999"
-#!   BOTTOM_RIGHT="-12183.169555414232 -280.54841660356999"
-#!   BOUNDING_RECT="-12691.169555414232 -281.54841660356999 508 -1"
-#!   ORDER="500000000000150"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
-#!   SIZE_POLICY="10"
-#!   ANCHORED_NODE="156"
 #! />
 #! <COMMENT
 #!   IDENTIFIER="172"
@@ -625,7 +611,7 @@
 #!   BOUNDING_RECT="-14220.831863491048 13.432970150597027 9689.7520699344914 1835.839253914927"
 #!   STICKY="true"
 #!   COLOUR="0.77647058823529413,0.047058823529411764,0.45490196078431372"
-#!   CONTENTS="156 145 45 162 158 37 146 159 157 151 155 133 14 119 142 152 44 150 130 61 161 163 36 160 15 13 144 90 141 "
+#!   CONTENTS="145 45 162 37 146 151 155 133 14 119 142 152 44 150 130 61 163 36 15 13 144 90 141 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -651,7 +637,7 @@
 #!   BOUNDING_RECT="9384.4245939607026 384.00384003840048 3799.3645562881793 1694.0178801788018"
 #!   STICKY="true"
 #!   COLOUR="0.32941176470588235,0.22352941176470589,0.75686274509803919"
-#!   CONTENTS="96 131 22 85 154 153 123 71 69 127 21 41 73 40 34 33 "
+#!   CONTENTS="71 123 127 69 131 33 73 22 85 34 41 153 96 21 40 154 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -664,7 +650,7 @@
 #!   BOUNDING_RECT="-13003.578311645184 -171.54841660356999 2155.1939657327603 1293.9834800947074"
 #!   STICKY="true"
 #!   COLOUR="0.66274509803921566,0.23137254901960785,0.15686274509803921"
-#!   CONTENTS="159 160 37 130 161 158 90 156 36 "
+#!   CONTENTS="37 130 90 36 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -2000,11 +1986,11 @@
 #!   TYPE="JSONFlattener"
 #!   VERSION="4"
 #!   POSITION="10452.435274067504 66.999729997300278"
-#!   BOUNDING_RECT="10452.435274067504 66.999729997300278 430 71"
+#!   BOUNDING_RECT="10452.435274067504 66.999729997300278 758.0216580880242 71"
 #!   ORDER="500000000000034"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2085,7 +2071,7 @@
 #!     <XFORM_PARM PARM_NAME="PREFIX_STRING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFlattener_3"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFlattener_Run_instances"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="23"
@@ -2864,7 +2850,7 @@
 #!   POSITION="12268.682767780192 85.900905248707119"
 #!   BOUNDING_RECT="12268.682767780192 85.900905248707119 858.10581246299807 71"
 #!   ORDER="500000000000000"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18547"
 #!   OUTPUT_FT_ORDER="Failed%Output"
@@ -2948,7 +2934,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="DEF_InstanceId" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;InstanceId&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REGION_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;region_name&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="AWS_PublicIpAddress"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AWS_PublicIpAddress"/>
@@ -2961,8 +2946,8 @@
 #!   IDENTIFIER="34"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="11059.767910036478 44.000440004400218"
-#!   BOUNDING_RECT="11059.767910036478 44.000440004400218 562.5013250132597 71"
+#!   POSITION="11339.081047995445 172.99972999730051"
+#!   BOUNDING_RECT="11339.081047995445 172.99972999730051 562.5013250132597 71"
 #!   ORDER="500000000000080"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3081,8 +3066,8 @@
 #!   IDENTIFIER="37"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="-11761.937313234628 -850.55345665397044"
-#!   BOUNDING_RECT="-11761.937313234628 -850.55345665397044 645.44992602416278 71"
+#!   POSITION="-12606.773347801869 -643.65483594362536"
+#!   BOUNDING_RECT="-12606.773347801869 -643.65483594362536 645.44992602416278 71"
 #!   ORDER="500000000000091"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3660,44 +3645,6 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRemover"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="156"
-#!   TYPE="Tester"
-#!   VERSION="2"
-#!   POSITION="-12667.169555414232 -850.55345665397044"
-#!   BOUNDING_RECT="-12667.169555414232 -850.55345665397044 505.609375 71"
-#!   ORDER="500000000000148"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
-#! >
-#!     <OUTPUT_FEAT NAME="PASSED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <OUTPUT_FEAT NAME="FAILED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="CASE_INSENSITIVE_TEST $(CourseType) BEGINS_WITH $(BucketConfirmation)"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_bucket_match"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="159"
-#!   TYPE="Terminator"
-#!   VERSION="3"
-#!   POSITION="-12760.135762317679 -1208.9286694024941"
-#!   BOUNDING_RECT="-12760.135762317679 -1208.9286694024941 764.15993359386994 71"
-#!   ORDER="500000000000149"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
-#! >
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="S3ROOT&lt;space&gt;doesn&lt;apos&gt;t&lt;space&gt;contain&lt;space&gt;BucketConfirmation&lt;space&gt;value.&lt;space&gt;This&lt;space&gt;is&lt;space&gt;a&lt;space&gt;security&lt;space&gt;feature."/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_bucket_test"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="166"
 #!   TYPE="ListElementCounter"
 #!   VERSION="1"
@@ -3861,9 +3808,9 @@
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="157"
+#!   IDENTIFIER="176"
 #!   SOURCE_NODE="13"
-#!   TARGET_NODE="156"
+#!   TARGET_NODE="37"
 #!   SOURCE_PORT_DESC="fo 0 CREATED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -4323,17 +4270,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="161"
-#!   SOURCE_NODE="156"
-#!   TARGET_NODE="37"
-#!   SOURCE_PORT_DESC="fo 0 PASSED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="169"
 #!   SOURCE_NODE="166"
 #!   TARGET_NODE="167"
@@ -4447,17 +4383,6 @@
 #!   IDENTIFIER="96"
 #!   SOURCE_NODE="40"
 #!   TARGET_NODE="41"
-#!   SOURCE_PORT_DESC="fo 1 FAILED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="160"
-#!   SOURCE_NODE="156"
-#!   TARGET_NODE="159"
 #!   SOURCE_PORT_DESC="fo 1 FAILED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -4583,7 +4508,7 @@
 #!   TITLE="AWS_PublicIpAddress"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="-2358.02 432.004"
+#!   VIEW_POSITION="-129.001 33.0003"
 #!   XFORM_DEPRECATED="No"
 #!   ZOOM_SCALE="100"
 #! >
@@ -4600,17 +4525,12 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI OPTIONAL PASSWORD aws_secret_access_key aws_secret_access_key:"
-#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszGvCljdAjCaBTFDdplIMNbXE9twx5W+9jd5v8bIVBXzG5+s1X+GL9byILlA7DlfUnAGtyTSLW5jAlJid7U2+n8ZxCt9mFvvT4hVZKeEL2M0UEtGR8SQGNCIw4LtdGYHTzvBF7wlg5Px5UBpGsG7uSbp9kstaOzHEJoNGoQ0pAtJp4Fwir1OV0OdaI9xQGFkwRx+9veYYk3vjIZgmCh32k3srfskSw1SYFcnZts66t9Nu6o21YkpDtRsGScXhy9srboQClSlso+TGtMiZtU7F6rRu/RzDDF4GtNSdnq0h0wc7Cf0T+NgxwLPzUyxhjTv3ag3a/sXOIT+MRY3RcyiPS6/E2XN5MwpXd)"
+#!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR DEF_InstanceId &quot; &quot; Attribute Value:"
 #!   DEFAULT_VALUE=""
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR REGION_NAME Region Name:"
-#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;region_name&lt;closeparen&gt;"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -4649,9 +4569,15 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
@@ -4676,16 +4602,21 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4720,7 +4651,6 @@
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4749,7 +4679,6 @@
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4762,7 +4691,6 @@
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4792,7 +4720,6 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; _try SET_TO 0  InstanceId SET_TO $(DEF_InstanceId)"/>
@@ -4813,14 +4740,13 @@
 #!   ORDER="500000000000075"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4833,7 +4759,6 @@
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4843,7 +4768,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;_try&lt;closeparen&gt; &lt; 30"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;_try&lt;closeparen&gt; &lt; 100"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_try"/>
@@ -4862,6 +4787,15 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; _try SET_TO &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_try&lt;closeparen&gt;+1&lt;closeparen&gt;"/>
@@ -4887,6 +4821,15 @@
 #!     <OUTPUT_FEAT NAME="LOGGED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
@@ -4897,6 +4840,40 @@
 #!     <XFORM_PARM PARM_NAME="SEVERITY" PARM_VALUE="WARN"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Logger"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="29"
+#!   TYPE="Logger"
+#!   VERSION="4"
+#!   POSITION="1000.8436149717301 -1006.0119242993885"
+#!   BOUNDING_RECT="1000.8436149717301 -1006.0119242993885 -1 -1"
+#!   ORDER="500000000000081"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_try" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature&lt;space&gt;is:"/>
+#!     <XFORM_PARM PARM_NAME="MSG_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SEVERITY" PARM_VALUE="INFO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Logger_PublicIpAddress"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
@@ -4910,7 +4887,6 @@
 #!   IS_SOURCE="true"
 #!   ATTR_MODE="0"
 #! >
-#!     <XFORM_ATTR ATTR_NAME="region_name" ATTR_VALUE="$(REGION_NAME)" />
 #! </SUBDOCUMENT_IO>
 #! <SUBDOCUMENT_IO
 #!   IDENTIFIER="3"
@@ -4924,7 +4900,7 @@
 #! </SUBDOCUMENT_IO>
 #! <SUBDOCUMENT_IO
 #!   IDENTIFIER="4"
-#!   NAME="Input"
+#!   NAME="Try_again"
 #!   POSITION="4326.6530190973272 -499.00499004990081"
 #!   BOUNDING_RECT="4326.6530190973272 -499.00499004990081 -1 -1"
 #!   COLLAPSED="true"
@@ -4978,9 +4954,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="17"
+#!   IDENTIFIER="30"
 #!   SOURCE_NODE="7"
-#!   TARGET_NODE="8"
+#!   TARGET_NODE="29"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -5066,6 +5042,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="31"
+#!   SOURCE_NODE="29"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="fo 0 LOGGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="25"
 #!   SOURCE_NODE="8"
 #!   TARGET_NODE="9"
@@ -5110,15 +5097,15 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 27
-DEFAULT_MACRO CourseType 
+DEFAULT_MACRO CourseType training
 GUI TEXT CourseType AMI CourseType tag value:
-DEFAULT_MACRO FullName 
+DEFAULT_MACRO FullName ryan
 GUI TEXT FullName Enter your full name:
-DEFAULT_MACRO EmailAddress 
+DEFAULT_MACRO EmailAddress ryan.cragg+8@safe.com
 GUI TEXT EmailAddress Enter your email address and press 'Request Virtual Machine':
 DEFAULT_MACRO aws_access_key_id AKIAICERN4WDSWP5VUDQ
 GUI IGNORE OPTIONAL TEXT aws_access_key_id aws_access_key_id:
-DEFAULT_MACRO aws_secret_access_key 
+DEFAULT_MACRO aws_secret_access_key fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszOLFkfqMVtd0D9PJtdzJPjd3SIVZRkpxYu1Ii14mGriFigCXzZzLspI9iF9TQiffshdr1AixPLxslrKmuO5gMLx/z0bwy/klwnxEVnDdGVS8OGi/qJREPNJS1l7LPgHssfS/HSI04t55BfGhQTjLnOEcRwHX0XPIEH6pywJiqGSfNa6Xc8lX3TIdEwvPu4Hx3QR63k/6AG76GCExNJEe6eOBLAEOXMnLPDPYZVkPdcZEZUUdgRaNScDLc9imwljQh9MvsbxKZp5aD1kYcIPlSoMnJ8UshGm6JQrjBGcBXVvGY0SW+ZrCRkgqT0I/wONtBhXMWNVgsr3/LQxssonU3U3N2sOpEwhSl)
 GUI IGNORE OPTIONAL PASSWORD aws_secret_access_key aws_secret_access_key:
 DEFAULT_MACRO BucketConfirmation fmevm
 GUI IGNORE OPTIONAL TEXT BucketConfirmation The S3 bucket. This is a security feature so we read settings.json from correct bucket:
@@ -5169,21 +5156,11 @@ INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment 
 FACTORY_DEF $(Creator_Begin_XML) CreationFactory    FACTORY_NAME Creator_Begin_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
 FACTORY_DEF $(Creator_Begin_CLASSIC) CreationFactory    FACTORY_NAME Creator_Begin_CLASSIC_Creator    $(Creator_Begin_2D3D) $(Creator_Begin_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
 FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Begin_Cloner    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_Begin_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES 1    OUTPUT FEATURE_TYPE Creator_Begin_CREATED        fme_feature_type Creator_Begin
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_Begin_CREATED Brancher -1 157"   INPUT FEATURE_TYPE Creator_Begin_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_Begin_CREATED Brancher -1 176"   INPUT FEATURE_TYPE Creator_Begin_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_bucket_match    INPUT  FEATURE_TYPE Creator_Begin_CREATED    CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,$(CourseType$encode),Tester_bucket_match) BEGINS_WITH @EvaluateExpression(FDIV,STRING_ENCODED,$(BucketConfirmation$encode),Tester_bucket_match) ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_bucket_match_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_bucket_match_FAILED
-# -------------------------------------------------------------------------
-# The default behaviour is to abort on any feature entering the transformer.
-# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
-# then the features will instead be passed through with a feature type of
-# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
-# somesuch.
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_bucket_test    INPUT  FEATURE_TYPE Tester_bucket_match_FAILED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"S3ROOT<space>doesn<apos>t<space>contain<space>BucketConfirmation<space>value.<space>This<space>is<space>a<space>security<space>feature.")       @SupplyAttributes(_wb_termination_xformer,"Terminator_bucket_test")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"S3ROOT<space>doesn<apos>t<space>contain<space>BucketConfirmation<space>value.<space>This<space>is<space>a<space>security<space>feature.")
-# -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_valid_email    INPUT  FEATURE_TYPE Tester_bucket_match_PASSED    CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,$(EmailAddress$encode),Tester_valid_email) CONTAINS @EvaluateExpression(FDIV,STRING_ENCODED,<at>,Tester_valid_email) ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_valid_email_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_valid_email_FAILED
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester_valid_email    INPUT  FEATURE_TYPE Creator_Begin_CREATED    CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,$(EmailAddress$encode),Tester_valid_email) CONTAINS @EvaluateExpression(FDIV,STRING_ENCODED,<at>,Tester_valid_email) ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_valid_email_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_valid_email_FAILED
 # -------------------------------------------------------------------------
 # The default behaviour is to abort on any feature entering the transformer.
 # If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
@@ -5284,7 +5261,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_ImageId    INPUT  FEATURE_T
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_run_instances    INPUT  FEATURE_TYPE TesterImageId_PASSED    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=FME_MacroValues<openbracket><apos>aws_access_key_id<apos><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=FME_MacroValues<openbracket><apos>aws_secret_access_key<apos><closebracket><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.run_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>ImageId=<space>feature.getAttribute<openparen><apos>ImageId<apos><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceType=<space>feature.getAttribute<openparen><apos>InstanceType<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SubnetId=<space>feature.getAttribute<openparen><apos>SubnetId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>MinCount=<space>1<comma><space>MaxCount=<space>1<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>TagSpecifications=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>ResourceType<apos>:<space><apos>instance<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Tags<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Name<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>FullName<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Created<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>Created<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Created<space>By<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>CreatedBy<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Team<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>Team<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Owner<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>Owner<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Purpose<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>Purpose<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Email<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>email<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances<apos><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_3    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_3)"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_3_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_3_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_Run_instances    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_Run_instances)"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_Run_instances_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_Run_instances_<REJECTED>
 # -------------------------------------------------------------------------
 # The default behaviour is to abort on any feature entering the transformer.
 # If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
@@ -5292,9 +5269,9 @@ FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_3    INPUT  FEATURE
 # __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
 # somesuch.
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_run_instances    INPUT  FEATURE_TYPE JSONFlattener_3_<REJECTED>    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Something<space>went<space>wrong<space>starting<space>instance.<space>Probably<space>a<space>VPC<space>issue<semicolon><space>Check<space>that<space>there<space>is<space>a<space>default<space>VPC<space>in<space>your<space>region.")       @SupplyAttributes(_wb_termination_xformer,"Terminator_run_instances")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Something<space>went<space>wrong<space>starting<space>instance.<space>Probably<space>a<space>VPC<space>issue<semicolon><space>Check<space>that<space>there<space>is<space>a<space>default<space>VPC<space>in<space>your<space>region.")
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_run_instances    INPUT  FEATURE_TYPE JSONFlattener_Run_instances_<REJECTED>    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Something<space>went<space>wrong<space>starting<space>instance.<space>Probably<space>a<space>VPC<space>issue<semicolon><space>Check<space>that<space>there<space>is<space>a<space>default<space>VPC<space>in<space>your<space>region.")       @SupplyAttributes(_wb_termination_xformer,"Terminator_run_instances")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Something<space>went<space>wrong<space>starting<space>instance.<space>Probably<space>a<space>VPC<space>issue<semicolon><space>Check<space>that<space>there<space>is<space>a<space>default<space>VPC<space>in<space>your<space>region.")
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE JSONFlattener_3_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "Instances<opencurly>0<closecurly>.InstanceId" "InstanceId" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE JSONFlattener_Run_instances_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "Instances<opencurly>0<closecurly>.InstanceId" "InstanceId" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME TesterInstanceId    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    TEST InstanceId ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE TesterInstanceId_PASSED    OUTPUT FAILED FEATURE_TYPE TesterInstanceId_FAILED
 # -------------------------------------------------------------------------
@@ -5316,31 +5293,32 @@ MACRO $(AWS_PublicIpAddress_WORKSPACE_NAME)_region_name us-east-1
 MACRO $(AWS_PublicIpAddress_WORKSPACE_NAME)_aws_access_key_id $(aws_access_key_id)
 MACRO $(AWS_PublicIpAddress_WORKSPACE_NAME)_aws_secret_access_key $(aws_secret_access_key)
 MACRO $(AWS_PublicIpAddress_WORKSPACE_NAME)_DEF_InstanceId <at>Value<openparen>InstanceId<closeparen>
-MACRO $(AWS_PublicIpAddress_WORKSPACE_NAME)_REGION_NAME <at>Value<openparen>region_name<closeparen>
 DEFAULT_MACRO AWS_PublicIpAddress_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(AWS_PublicIpAddress_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(AWS_PublicIpAddress_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input1548277474 Input Splitter"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,region_name,$($(AWS_PublicIpAddress_WORKSPACE_NAME)_REGION_NAME), FEATURE_TYPE)"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548277474 Input Splitter"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input1548290864 Input Splitter"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548290864 Input Splitter"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_increment_try    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "_try" "SET_TO" "<at>Evaluate<openparen><at>Value<openparen>_try<closeparen>+1<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_increment_try_OUTPUT"
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_Logger    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_increment_try_OUTPUT"    OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_LOGGED"                  @Log(ENCODED, "<dollar><openparen>AWS_PublicIpAddress_WORKSPACE_NAME<closeparen>_Logger:<space>Feature<space>had<space>to<space>try<space>again:","20","20","",WARN,LOG_ONLY,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_740bb26a_efe8_4814_a243_9fc26dd7854a7)
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_Logger    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_increment_try_OUTPUT"    OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_LOGGED"                  @Log(ENCODED, "<dollar><openparen>AWS_PublicIpAddress_WORKSPACE_NAME<closeparen>_Logger:<space>Feature<space>had<space>to<space>try<space>again:","20","20","",WARN,LOG_ONLY,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_740bb26a_efe8_4814_a243_9fc26dd7854a28)
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_try    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "_try" "SET_TO" "0" }      ATTR_ACTION { "" "InstanceId" "SET_TO" "$($(AWS_PublicIpAddress_WORKSPACE_NAME)_DEF_InstanceId)" }    OUTPUT OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_try_OUTPUT"
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_PythonCaller_DescribeInstances_PublicIpAddress    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_try_OUTPUT"    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_LOGGED"    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=FME_MacroValues<openbracket><apos>aws_access_key_id<apos><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=FME_MacroValues<openbracket><apos>aws_secret_access_key<apos><closebracket><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.describe_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceIds=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>InstanceId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space><apos>error<space>in<space>PythonCaller_DescribeInstances_PublicIpAddress<apos><closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT"
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT"    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response)"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response_OUTPUT"    OUTPUT REJECTED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response_<REJECTED>"
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_Logger    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT"    OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_LOGGED"                  @Log(ENCODED, "<dollar><openparen>AWS_PublicIpAddress_WORKSPACE_NAME<closeparen>_Logger_PublicIpAddress:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_9c37ba48_c5a2_483c_8e89_a2885b40f32c15)
+# -------------------------------------------------------------------------
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_LOGGED"    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response)"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response_OUTPUT"    OUTPUT REJECTED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response_<REJECTED>"
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeRenamer_PublicIpAddress    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response_OUTPUT"    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response_<REJECTED>" 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "Reservations<opencurly>0<closecurly>.Instances<opencurly>0<closecurly>.PublicIpAddress" "PublicIpAddress" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeRenamer_PublicIpAddress_OUTPUT"
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeRenamer_PublicIpAddress_OUTPUT"    TEST PublicIpAddress ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_PASSED"    OUTPUT FAILED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_FAILED"
 # -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_FAILED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_try<closeparen>,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try) < 30 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_PASSED"    OUTPUT FAILED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_FAILED"
-FACTORY_DEF * BranchingFactory   TARGET_FACTORY "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input1548277474 Input Splitter"   FACTORY_NAME "Loop to $(AWS_PublicIpAddress_WORKSPACE_NAME)_Input1548277474 Input Splitter"   MAXIMUM_COUNT -1   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_PASSED"   OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Output1548277474 Output Collector"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_PASSED"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Output"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Failed1548277474 Output Collector"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_FAILED"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Failed"
+FACTORY_DEF * TestFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_FAILED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_try<closeparen>,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try) < 100 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_PASSED"    OUTPUT FAILED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_FAILED"
+FACTORY_DEF * BranchingFactory   TARGET_FACTORY "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548290864 Input Splitter"   FACTORY_NAME "Loop to $(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548290864 Input Splitter"   MAXIMUM_COUNT -1   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_PASSED"   OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Output1548290864 Output Collector"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_PASSED"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Output"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Failed1548290864 Output Collector"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_FAILED"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Failed"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(AWS_PublicIpAddress_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AWS_PublicIpAddress Output Output Renamer/Nuker"   INPUT FEATURE_TYPE AWS_PublicIpAddress_Output   OUTPUT FEATURE_TYPE AWS_PublicIpAddress_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AWS_PublicIpAddress Failed Output Renamer/Nuker"   INPUT FEATURE_TYPE AWS_PublicIpAddress_Failed   OUTPUT FEATURE_TYPE AWS_PublicIpAddress_Failed
@@ -5366,13 +5344,13 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_3b3b4137_d5be_427c_89d9_94440b09b1ff7_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_3b3b4137_d5be_427c_89d9_94440b09b1ff7_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_3b3b4137_d5be_427c_89d9_94440b09b1ff28_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_3b3b4137_d5be_427c_89d9_94440b09b1ff28_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_3b1540a1_c0c2_47d2_818b_14f572be40997_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_3b1540a1_c0c2_47d2_818b_14f572be40997_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_3b1540a1_c0c2_47d2_818b_14f572be409928_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_3b1540a1_c0c2_47d2_818b_14f572be409928_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
@@ -5382,10 +5360,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_CATCHER    INPUT  FEATURE_TYPE 
 FACTORY_DEF * PythonFactory    FACTORY_NAME Emailer_CALLER    INPUT FEATURE_TYPE Emailer_READY    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME Emailer.Emailer    OUTPUT PYOUTPUT FEATURE_TYPE Emailer_PROCESSED
 FACTORY_DEF * TestFactory    FACTORY_NAME Emailer_ROUTER    INPUT FEATURE_TYPE Emailer_PROCESSED    TEST &fme_rejection_code == ""    OUTPUT PASSED FEATURE_TYPE Emailer_Sent
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_RECORD,Emailer_Sent_f6b694bf_0c40_4b21_980e_67198a166e797)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_RECORD,Emailer_Sent_f6b694bf_0c40_4b21_980e_67198a166e7928)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer_Sent LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Emailer_Sent_LOGGED
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_incomplete_loop_Logger    INPUT  FEATURE_TYPE AWS_PublicIpAddress_Failed    OUTPUT FEATURE_TYPE Logger_incomplete_loop_LOGGED                  @Log(ENCODED, "Logger_incomplete_loop:<space>*******Incomplete<space>Loop*************","20","20","",WARN,LOG_ONLY,Logger_incomplete_loop_8c3a67b2_1f13_4e7e_b694_33b4a9a694e47)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_incomplete_loop_Logger    INPUT  FEATURE_TYPE AWS_PublicIpAddress_Failed    OUTPUT FEATURE_TYPE Logger_incomplete_loop_LOGGED                  @Log(ENCODED, "Logger_incomplete_loop:<space>*******Incomplete<space>Loop*************","20","20","",WARN,LOG_ONLY,Logger_incomplete_loop_8c3a67b2_1f13_4e7e_b694_33b4a9a694e428)
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose

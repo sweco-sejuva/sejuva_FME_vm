@@ -21,11 +21,40 @@ There are two files in the repository that need to be edited, and two workspaces
 
 # Steps
 ## Fork this Repository to your own account
+Click Fork.
+Once forked into your own account, click Settings.
+Change the repository name if desired.
 
 ### Create License Server machine for FME Desktop (if desired)
 Use Linux t3.nano in same VPC as training machines
 Use private IP address when licensing FME. That way machines outside the VPC cannot obtain a license.
 [Detailed instructions here](https://knowledge.safe.com/articles/82230/create-fme-license-server.html)
+
+## Create a VPC for the virtual machines to reside in
+Go to Services -> VPC in your desired region.
+Click on "Your VPCs"
+Click "Create VPC"
+Give it a good 'Name tag' like "Training Machines"
+IPv4 CIDR block = 172.31.0.0/16
+Click Create.
+
+Go to Subnets, and create subnets for the new VPC. Create a subnet for multiple Availability Zones; sometimes zones reach capacity.
+
+172.31.0.0/20
+172.31.16.0/20
+172.31.32.0/20
+
+Make sure to Enable auto-assign public IPv4 address for each subnet. Right click on the subnet to enable public ip addresses. 
+
+## Edit default security group for the VPC
+Edit the default security group for the VPC with the following ports open:
+80    HTTP
+8888  Used by Tomcat9.0 for some FME Server courses
+8080  Used as a forwarded port for RDP
+25    SMTP for FME Server
+7078  FME Server WebSocket Topic Monitoring
+3389  RDP Port
+443   Used as forwarded port for RDP
 
 ## Create image for virtual machine
 InitialConfiguration.bat is used to setup the image for the virtual machine.
@@ -65,6 +94,8 @@ The machine used for training could possibly do this. Turn off auto-shutdown.
 ## Edit /js/parameters.js
 The configuration for the webpage and VMCreator.fmw is done in parameters.js
 
-  
+## Creating additional courses
+Fork the current GitHub branch, and give it a name that matches the Course tag on the AMI.
+
 ## Set Calendar Reminders
 If you are not using a permanent license for FME Server, you'll have to re-license it on occasion. The FME Server token will also have to be refreshed.
