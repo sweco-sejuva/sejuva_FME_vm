@@ -15,11 +15,11 @@ var settings = {
 
 "region_name" : "us-east-1",
 "EC2Type"     : "t3",
-"EC2Size"     : "large",
+"EC2Size"     : "medium",
 "SubnetId"    : [ "subnet-0cea773b7c4d20a1f", "subnet-0c6ea1035fa36ecb4", "subnet-020753b43fc20f53b"  ],
 "Team"        : "Train",
 "Owner"       : "RCragg",
-"CourseType"  : "training",
+"CourseType"  : "certification",
 "FromEmail"   : "train@safe.com",
 "CCEmail"     : "ryan.cragg@safe.com",
 "BCCEmail"    : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
@@ -27,7 +27,7 @@ var settings = {
 "_email_template":[
 "Hello _FullName_,",
 "",
-"The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.",
+"The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically in 14 days.",
 "",
 "Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.",
 "",
@@ -64,7 +64,6 @@ var settings = {
 
 "_rdp_template":[
 "username:s:Administrator",
-"domain:s:FMETraining",
 "screen mode id:i:2",
 "use multimon:i:0",
 "session bpp:i:24",
