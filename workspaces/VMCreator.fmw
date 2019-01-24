@@ -3,8 +3,8 @@
 #    Command-line to run this workspace:
 #        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/AWS/workspaces/VMCreator.fmw
 #              --CourseType "training"
-#              --FullName "ryan"
-#              --EmailAddress "ryan.cragg+8@safe.com"
+#              --FullName ""
+#              --EmailAddress ""
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-01-23T16:47:44"
+#!   LAST_SAVE_DATE="2019-01-23T17:40:16"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,7 +47,7 @@
 #!   TITLE="Amazon EC2 Virtual Machine Creator"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="7762.15 382.762"
+#!   VIEW_POSITION="7755.25 382.762"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="87"
@@ -182,12 +182,12 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_OR_ATTR FullName Enter your full name:"
-#!   DEFAULT_VALUE="ryan"
+#!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_OR_ATTR EmailAddress Enter your email address and press &apos;Request Virtual Machine&apos;:"
-#!   DEFAULT_VALUE="ryan.cragg+8@safe.com"
+#!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -197,7 +197,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL PASSWORD aws_secret_access_key aws_secret_access_key:"
-#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszOLFkfqMVtd0D9PJtdzJPjd3SIVZRkpxYu1Ii14mGriFigCXzZzLspI9iF9TQiffshdr1AixPLxslrKmuO5gMLx/z0bwy/klwnxEVnDdGVS8OGi/qJREPNJS1l7LPgHssfS/HSI04t55BfGhQTjLnOEcRwHX0XPIEH6pywJiqGSfNa6Xc8lX3TIdEwvPu4Hx3QR63k/6AG76GCExNJEe6eOBLAEOXMnLPDPYZVkPdcZEZUUdgRaNScDLc9imwljQh9MvsbxKZp5aD1kYcIPlSoMnJ8UshGm6JQrjBGcBXVvGY0SW+ZrCRkgqT0I/wONtBhXMWNVgsr3/LQxssonU3U3N2sOpEwhSl)"
+#!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -4525,7 +4525,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI OPTIONAL PASSWORD aws_secret_access_key aws_secret_access_key:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszxcQ3R6fSxi7eNIah9/l0pmsKP2z1pUGCtekc9/bW+AlorkVFlHWQ0BiLcAGCwH8eNkh0OKsC//6W+LkjQwQ+VZyr86mqlI0bEeeeJUvhTFqDikxNFS5yMCknn7GSO3eTbCGpbjPKLr27mrJgq6LRPKakW1+2qhQAz21iBASj1tA56f+IYgez+LdnAfc89GNX8becLgrBZ8JQDmEI6YnArJUD2NfnWKyo4Z8rt6I6YyzkqgU5re+UajrlXadJ3cKEUZrP3IqYoNjCg+kq7vlzdXRvpDxEu+e2voNk9XTG3tGLbOMyzXFykr0MDWB42p+A7SEmi9UwbReR7MUFSDWEIGHg2rNhINRW)"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -5099,13 +5099,13 @@
 FME_PYTHON_VERSION 27
 DEFAULT_MACRO CourseType training
 GUI TEXT CourseType AMI CourseType tag value:
-DEFAULT_MACRO FullName ryan
+DEFAULT_MACRO FullName 
 GUI TEXT FullName Enter your full name:
-DEFAULT_MACRO EmailAddress ryan.cragg+8@safe.com
+DEFAULT_MACRO EmailAddress 
 GUI TEXT EmailAddress Enter your email address and press 'Request Virtual Machine':
 DEFAULT_MACRO aws_access_key_id AKIAICERN4WDSWP5VUDQ
 GUI IGNORE OPTIONAL TEXT aws_access_key_id aws_access_key_id:
-DEFAULT_MACRO aws_secret_access_key fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszOLFkfqMVtd0D9PJtdzJPjd3SIVZRkpxYu1Ii14mGriFigCXzZzLspI9iF9TQiffshdr1AixPLxslrKmuO5gMLx/z0bwy/klwnxEVnDdGVS8OGi/qJREPNJS1l7LPgHssfS/HSI04t55BfGhQTjLnOEcRwHX0XPIEH6pywJiqGSfNa6Xc8lX3TIdEwvPu4Hx3QR63k/6AG76GCExNJEe6eOBLAEOXMnLPDPYZVkPdcZEZUUdgRaNScDLc9imwljQh9MvsbxKZp5aD1kYcIPlSoMnJ8UshGm6JQrjBGcBXVvGY0SW+ZrCRkgqT0I/wONtBhXMWNVgsr3/LQxssonU3U3N2sOpEwhSl)
+DEFAULT_MACRO aws_secret_access_key 
 GUI IGNORE OPTIONAL PASSWORD aws_secret_access_key aws_secret_access_key:
 DEFAULT_MACRO BucketConfirmation fmevm
 GUI IGNORE OPTIONAL TEXT BucketConfirmation The S3 bucket. This is a security feature so we read settings.json from correct bucket:
@@ -5295,19 +5295,19 @@ MACRO $(AWS_PublicIpAddress_WORKSPACE_NAME)_aws_secret_access_key $(aws_secret_a
 MACRO $(AWS_PublicIpAddress_WORKSPACE_NAME)_DEF_InstanceId <at>Value<openparen>InstanceId<closeparen>
 DEFAULT_MACRO AWS_PublicIpAddress_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(AWS_PublicIpAddress_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(AWS_PublicIpAddress_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input1548290864 Input Splitter"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548290864 Input Splitter"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input1548294016 Input Splitter"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548294016 Input Splitter"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_increment_try    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "_try" "SET_TO" "<at>Evaluate<openparen><at>Value<openparen>_try<closeparen>+1<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_increment_try_OUTPUT"
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_Logger    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_increment_try_OUTPUT"    OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_LOGGED"                  @Log(ENCODED, "<dollar><openparen>AWS_PublicIpAddress_WORKSPACE_NAME<closeparen>_Logger:<space>Feature<space>had<space>to<space>try<space>again:","20","20","",WARN,LOG_ONLY,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_740bb26a_efe8_4814_a243_9fc26dd7854a28)
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_Logger    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_increment_try_OUTPUT"    OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_LOGGED"                  @Log(ENCODED, "<dollar><openparen>AWS_PublicIpAddress_WORKSPACE_NAME<closeparen>_Logger:<space>Feature<space>had<space>to<space>try<space>again:","20","20","",WARN,LOG_ONLY,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_740bb26a_efe8_4814_a243_9fc26dd7854a30)
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_try    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Input"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "_try" "SET_TO" "0" }      ATTR_ACTION { "" "InstanceId" "SET_TO" "$($(AWS_PublicIpAddress_WORKSPACE_NAME)_DEF_InstanceId)" }    OUTPUT OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_try_OUTPUT"
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_PythonCaller_DescribeInstances_PublicIpAddress    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeCreator_try_OUTPUT"    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_LOGGED"    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=FME_MacroValues<openbracket><apos>aws_access_key_id<apos><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=FME_MacroValues<openbracket><apos>aws_secret_access_key<apos><closebracket><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.describe_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceIds=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>InstanceId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space><apos>error<space>in<space>PythonCaller_DescribeInstances_PublicIpAddress<apos><closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT"
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_Logger    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT"    OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_LOGGED"                  @Log(ENCODED, "<dollar><openparen>AWS_PublicIpAddress_WORKSPACE_NAME<closeparen>_Logger_PublicIpAddress:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_9c37ba48_c5a2_483c_8e89_a2885b40f32c15)
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_Logger    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT"    OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_LOGGED"                  @Log(ENCODED, "<dollar><openparen>AWS_PublicIpAddress_WORKSPACE_NAME<closeparen>_Logger_PublicIpAddress:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_9c37ba48_c5a2_483c_8e89_a2885b40f32c17)
 # -------------------------------------------------------------------------
 FACTORY_DEF * JSONQueryFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Logger_PublicIpAddress_LOGGED"    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response)"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response_OUTPUT"    OUTPUT REJECTED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_JSONFlattener_response_<REJECTED>"
 # -------------------------------------------------------------------------
@@ -5316,9 +5316,9 @@ FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY
 FACTORY_DEF * TestFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_AttributeRenamer_PublicIpAddress_OUTPUT"    TEST PublicIpAddress ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_PASSED"    OUTPUT FAILED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_FAILED"
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME $(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try    INPUT  FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_FAILED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_try<closeparen>,$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try) < 100 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_PASSED"    OUTPUT FAILED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_FAILED"
-FACTORY_DEF * BranchingFactory   TARGET_FACTORY "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548290864 Input Splitter"   FACTORY_NAME "Loop to $(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548290864 Input Splitter"   MAXIMUM_COUNT -1   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_PASSED"   OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Output1548290864 Output Collector"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_PASSED"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Output"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Failed1548290864 Output Collector"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_FAILED"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Failed"
+FACTORY_DEF * BranchingFactory   TARGET_FACTORY "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548294016 Input Splitter"   FACTORY_NAME "Loop to $(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again1548294016 Input Splitter"   MAXIMUM_COUNT -1   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_PASSED"   OUTPUT PASSED FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Try_again"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Output1548294016 Output Collector"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_has_PublicIpAddress_PASSED"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Output"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Failed1548294016 Output Collector"   INPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Tester_try_FAILED"   OUTPUT FEATURE_TYPE "$(AWS_PublicIpAddress_WORKSPACE_NAME)_Failed"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(AWS_PublicIpAddress_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AWS_PublicIpAddress Output Output Renamer/Nuker"   INPUT FEATURE_TYPE AWS_PublicIpAddress_Output   OUTPUT FEATURE_TYPE AWS_PublicIpAddress_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AWS_PublicIpAddress Failed Output Renamer/Nuker"   INPUT FEATURE_TYPE AWS_PublicIpAddress_Failed   OUTPUT FEATURE_TYPE AWS_PublicIpAddress_Failed
@@ -5344,13 +5344,13 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_3b3b4137_d5be_427c_89d9_94440b09b1ff28_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_3b3b4137_d5be_427c_89d9_94440b09b1ff28_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_3b3b4137_d5be_427c_89d9_94440b09b1ff30_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_3b3b4137_d5be_427c_89d9_94440b09b1ff30_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_3b1540a1_c0c2_47d2_818b_14f572be409928_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_3b1540a1_c0c2_47d2_818b_14f572be409928_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_3b1540a1_c0c2_47d2_818b_14f572be409930_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_3b1540a1_c0c2_47d2_818b_14f572be409930_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
@@ -5360,10 +5360,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_CATCHER    INPUT  FEATURE_TYPE 
 FACTORY_DEF * PythonFactory    FACTORY_NAME Emailer_CALLER    INPUT FEATURE_TYPE Emailer_READY    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME Emailer.Emailer    OUTPUT PYOUTPUT FEATURE_TYPE Emailer_PROCESSED
 FACTORY_DEF * TestFactory    FACTORY_NAME Emailer_ROUTER    INPUT FEATURE_TYPE Emailer_PROCESSED    TEST &fme_rejection_code == ""    OUTPUT PASSED FEATURE_TYPE Emailer_Sent
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_RECORD,Emailer_Sent_f6b694bf_0c40_4b21_980e_67198a166e7928)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_RECORD,Emailer_Sent_f6b694bf_0c40_4b21_980e_67198a166e7930)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer_Sent LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Emailer_Sent_LOGGED
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_incomplete_loop_Logger    INPUT  FEATURE_TYPE AWS_PublicIpAddress_Failed    OUTPUT FEATURE_TYPE Logger_incomplete_loop_LOGGED                  @Log(ENCODED, "Logger_incomplete_loop:<space>*******Incomplete<space>Loop*************","20","20","",WARN,LOG_ONLY,Logger_incomplete_loop_8c3a67b2_1f13_4e7e_b694_33b4a9a694e428)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_incomplete_loop_Logger    INPUT  FEATURE_TYPE AWS_PublicIpAddress_Failed    OUTPUT FEATURE_TYPE Logger_incomplete_loop_LOGGED                  @Log(ENCODED, "Logger_incomplete_loop:<space>*******Incomplete<space>Loop*************","20","20","",WARN,LOG_ONLY,Logger_incomplete_loop_8c3a67b2_1f13_4e7e_b694_33b4a9a694e430)
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
