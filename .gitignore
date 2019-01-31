@@ -4,3 +4,4 @@ workspaces/GitClone2S3.fmw.recover
 workspaces/GitClone2S3.log
 workspaces/VMCreator.log
 workspaces/VMCreator_log.ffs
+workspaces/AWSCredentialSupplier.fmx.recover
