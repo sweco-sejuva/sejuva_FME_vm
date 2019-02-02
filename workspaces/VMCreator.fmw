@@ -13,7 +13,7 @@
 #!   DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workspace requires the following Python libraries:&lt;/p&gt;&#10;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&#10;    &lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;boto3 #need this for AWS access&lt;/li&gt;&#10;    &lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;json #AWS stuff creates json. Part of the Python Standard Library&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="46512.1 3106.53"
+#!   DOC_EXTENTS="46498.8 3106.53"
 #!   DOC_TOP_LEFT="-14220.8 -2457.02"
 #!   END_PYTHON=""
 #!   END_TCL=""
@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-01-31T15:16:48"
+#!   LAST_SAVE_DATE="2019-01-31T15:53:39"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,7 +47,7 @@
 #!   TITLE="Amazon EC2 Virtual Machine Creator"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="6207.42 489.711"
+#!   VIEW_POSITION="14241.3 917.656"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="68"
@@ -182,15 +182,20 @@
 #!   DEFAULT_VALUE="fmevm"
 #!   IS_STAND_ALONE="true"
 #! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL RANGE_SLIDER_OR_ATTR PublicIpAttempts &quot;RANGE:[,]&quot; How many times should we try to get a PublicIpAddress?"
+#!   DEFAULT_VALUE="60"
+#!   IS_STAND_ALONE="true"
+#! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! <COMMENT
 #!   IDENTIFIER="115"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:11px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11px;&quot;&gt;set the contents of the RDP file&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11px;&quot;&gt;Some useful info here:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11px;&quot;&gt;http://chall32.blogspot.ca/2012/04/fixing-remote-desktop-annoyances.html&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="25289.592152507917 -2186.6902242613214"
-#!   TOP_LEFT="25289.592152507917 -2186.6902242613214"
-#!   BOTTOM_RIGHT="25289.592152507917 -2186.6902242613214"
-#!   BOUNDING_RECT="25289.592152507917 -2186.6902242613214 0 0"
+#!   POSITION="25099.884373077188 -863.14757707014383"
+#!   TOP_LEFT="25099.884373077188 -863.14757707014383"
+#!   BOTTOM_RIGHT="25099.884373077188 -863.14757707014383"
+#!   BOUNDING_RECT="25099.884373077188 -863.14757707014383 0 0"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -201,10 +206,10 @@
 #! <COMMENT
 #!   IDENTIFIER="116"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11px;&quot;&gt;set the port numbers and output file names&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="24590.558704495234 -1215.6622548157641"
-#!   TOP_LEFT="24590.558704495234 -1215.6622548157641"
-#!   BOTTOM_RIGHT="24590.558704495234 -1215.6622548157641"
-#!   BOUNDING_RECT="24590.558704495234 -1215.6622548157641 0 0"
+#!   POSITION="24577.323278023323 -200.94622530252789"
+#!   TOP_LEFT="24577.323278023323 -200.94622530252789"
+#!   BOTTOM_RIGHT="24577.323278023323 -200.94622530252789"
+#!   BOUNDING_RECT="24577.323278023323 -200.94622530252789 0 0"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -215,10 +220,10 @@
 #! <COMMENT
 #!   IDENTIFIER="117"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;I need a feature for each RDP file,&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;so I create 3 features here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="23825.779064498834 -1306.4965248184646"
-#!   TOP_LEFT="23825.779064498834 -1306.4965248184646"
-#!   BOTTOM_RIGHT="23824.779064498834 -1305.4965248184646"
-#!   BOUNDING_RECT="23825.779064498834 -1306.4965248184646 -1 -1"
+#!   POSITION="23812.543638026924 -291.78049530522844"
+#!   TOP_LEFT="23812.543638026924 -291.78049530522844"
+#!   BOTTOM_RIGHT="23811.543638026924 -290.78049530522844"
+#!   BOUNDING_RECT="23812.543638026924 -291.78049530522844 -1 -1"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -229,10 +234,10 @@
 #! <COMMENT
 #!   IDENTIFIER="118"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt;&quot;&gt;Sending 3 emails would be bad. Let&apos;s only send one.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="27670.535847665684 -1252.2519548127641"
-#!   TOP_LEFT="27670.535847665684 -1252.2519548127641"
-#!   BOTTOM_RIGHT="28429.19918429905 -1339.2525248184641"
-#!   BOUNDING_RECT="27670.535847665684 -1252.2519548127641 758.66333663336627 87.000570005700055"
+#!   POSITION="27657.300421193773 -237.53592529952789"
+#!   TOP_LEFT="27657.300421193773 -237.53592529952789"
+#!   BOTTOM_RIGHT="28415.963757827139 -324.53649530522796"
+#!   BOUNDING_RECT="27657.300421193773 -237.53592529952789 758.66333663336627 87.000570005700055"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -271,10 +276,10 @@
 #! <COMMENT
 #!   IDENTIFIER="121"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Instance Exists&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="21157.338731391719 -1665.0357807935491"
-#!   TOP_LEFT="21157.338731391719 -1665.0357807935491"
-#!   BOTTOM_RIGHT="21472.338731391719 -1664.0357807935491"
-#!   BOUNDING_RECT="21157.338731391719 -1665.0357807935491 315 -1"
+#!   POSITION="22666.177349189667 -1272.3847954601667"
+#!   TOP_LEFT="22666.177349189667 -1272.3847954601667"
+#!   BOTTOM_RIGHT="22981.177349189667 -1271.3847954601667"
+#!   BOUNDING_RECT="22666.177349189667 -1272.3847954601667 315 -1"
 #!   ORDER="500000000000028"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -327,10 +332,10 @@
 #! <COMMENT
 #!   IDENTIFIER="125"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;unique value for temp folder&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="23179.84189874844 -2131.2789929059245"
-#!   TOP_LEFT="23179.84189874844 -2131.2789929059245"
-#!   BOTTOM_RIGHT="23609.84189874844 -2130.2789929059245"
-#!   BOUNDING_RECT="23179.84189874844 -2131.2789929059245 430 -1"
+#!   POSITION="23166.60647227653 -1116.5629633926883"
+#!   TOP_LEFT="23166.60647227653 -1116.5629633926883"
+#!   BOTTOM_RIGHT="23596.60647227653 -1115.5629633926883"
+#!   BOUNDING_RECT="23166.60647227653 -1116.5629633926883 430 -1"
 #!   ORDER="500000000000043"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -425,10 +430,10 @@
 #! <COMMENT
 #!   IDENTIFIER="134"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The template doesn&apos;t work if it has @Value in it, so we replace the FullName with the attribute value here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="28651.706514459431 -1383.4391252485759"
-#!   TOP_LEFT="28651.706514459431 -1383.4391252485759"
-#!   BOTTOM_RIGHT="29246.050264459431 -1382.4391252485759"
-#!   BOUNDING_RECT="28651.706514459431 -1383.4391252485759 594.34375 -1"
+#!   POSITION="28638.47108798752 -368.72309573533971"
+#!   TOP_LEFT="28638.47108798752 -368.72309573533971"
+#!   BOTTOM_RIGHT="29232.81483798752 -367.72309573533971"
+#!   BOUNDING_RECT="28638.47108798752 -368.72309573533971 594.34375 -1"
 #!   ORDER="500000000000138"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -523,10 +528,10 @@
 #! <COMMENT
 #!   IDENTIFIER="165"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The template doesn&apos;t work if it has @Value in it, so we replace the PublicIpAddress with the attribute value here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="29350.627391446018 -1671.9793240833994"
-#!   TOP_LEFT="29350.627391446018 -1671.9793240833994"
-#!   BOTTOM_RIGHT="30349.771325577283 -1670.9793240833994"
-#!   BOUNDING_RECT="29350.627391446018 -1671.9793240833994 999.14393413126527 -1"
+#!   POSITION="29337.391964974107 -657.26329457016323"
+#!   TOP_LEFT="29337.391964974107 -657.26329457016323"
+#!   BOTTOM_RIGHT="30336.535899105373 -656.26329457016323"
+#!   BOUNDING_RECT="29337.391964974107 -657.26329457016323 999.14393413126527 -1"
 #!   ORDER="500000000000162"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -565,10 +570,10 @@
 #! <COMMENT
 #!   IDENTIFIER="197"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Check to see if PublicIpAddress has been retrieved&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="15173.203766203915 -536.50176249992137"
-#!   TOP_LEFT="15173.203766203915 -536.50176249992137"
-#!   BOTTOM_RIGHT="15710.593990450985 -535.50176249992137"
-#!   BOUNDING_RECT="15173.203766203915 -536.50176249992137 537.39022424707036 -1"
+#!   POSITION="14820.259060286267 -602.67889485948012"
+#!   TOP_LEFT="14820.259060286267 -602.67889485948012"
+#!   BOTTOM_RIGHT="15357.649284533338 -601.67889485948012"
+#!   BOUNDING_RECT="14820.259060286267 -602.67889485948012 537.39022424707036 -1"
 #!   ORDER="500000000000174"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -577,26 +582,12 @@
 #!   ANCHORED_NODE="170"
 #! />
 #! <COMMENT
-#!   IDENTIFIER="198"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;test for PublicIpAddress. If we have a value, dispose of the remaining the features quickly&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="15916.837878918926 -344.49984248072133"
-#!   TOP_LEFT="15916.837878918926 -344.49984248072133"
-#!   BOTTOM_RIGHT="16346.837878918926 -343.49984248072133"
-#!   BOUNDING_RECT="15916.837878918926 -344.49984248072133 430 -1"
-#!   ORDER="500000000000175"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
-#!   SIZE_POLICY="10"
-#!   ANCHORED_NODE="190"
-#! />
-#! <COMMENT
 #!   IDENTIFIER="199"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;If we don&apos;t have PublicIpAddress yet, wait a beat and try again&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="16686.129401101272 -488.50128249512142"
-#!   TOP_LEFT="16686.129401101272 -488.50128249512142"
-#!   BOTTOM_RIGHT="17116.129401101272 -487.50128249512142"
-#!   BOUNDING_RECT="16686.129401101272 -488.50128249512142 430 -1"
+#!   POSITION="16822.895474644363 -648.32415013556249"
+#!   TOP_LEFT="16822.895474644363 -648.32415013556249"
+#!   BOTTOM_RIGHT="17252.895474644363 -647.32415013556249"
+#!   BOUNDING_RECT="16822.895474644363 -648.32415013556249 430 -1"
 #!   ORDER="500000000000176"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -646,6 +637,20 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="188"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="193"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;First, check that we haven&apos;t run out of attempts.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Second, check that PublicIpAddress has no value.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Third, discard extra features if we do have PublicIpAddress&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="15378.647912840765 -418.97117542934478"
+#!   TOP_LEFT="15378.647912840765 -418.97117542934478"
+#!   BOTTOM_RIGHT="16372.222545754865 -712.97381545574501"
+#!   BOUNDING_RECT="15378.647912840765 -418.97117542934478 993.57463291410022 294.00264002640023"
+#!   ORDER="500000000000188"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.78431372549019607,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="212"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -667,13 +672,13 @@
 #!   IDENTIFIER="137"
 #!   NAME="Create RDP File package"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="23068.403891164482 -1058.6332548157636"
+#!   TOP_LEFT="23055.168464692571 -43.917225302527413"
 #!   ORDER="500000000000082.13"
-#!   BOTTOM_RIGHT="32291.237746767489 -2439.7809901019905"
-#!   BOUNDING_RECT="23068.403891164482 -1058.6332548157636 9222.8338556030067 1381.1477352862269"
+#!   BOTTOM_RIGHT="32278.002320295578 -1425.0649605887543"
+#!   BOUNDING_RECT="23055.168464692571 -43.917225302527413 9222.8338556030067 1381.1477352862269"
 #!   STICKY="true"
 #!   COLOUR="0.043137254901960784,0.28235294117647058,0.5607843137254902"
-#!   CONTENTS="9 60 42 12 8 6 59 7 55 58 125 56 134 83 116 84 165 11 10 118 47 57 23 86 35 117 115 54 "
+#!   CONTENTS="9 210 60 42 12 8 211 6 59 7 55 209 125 56 134 83 116 84 165 11 10 118 47 57 23 86 35 117 115 54 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -760,24 +765,24 @@
 #!   DESCRIPTION=""
 #!   TOP_LEFT="13459.803417687239 649.50370234745787"
 #!   ORDER="500000000000182"
-#!   BOTTOM_RIGHT="22425.861761951826 -1081.589763266054"
-#!   BOUNDING_RECT="13459.803417687239 649.50370234745787 8966.0583442645893 1731.0934656135119"
+#!   BOTTOM_RIGHT="22425.861761951826 -1482.3677648541188"
+#!   BOUNDING_RECT="13459.803417687239 649.50370234745787 8966.0583442645893 2131.8714672015767"
 #!   STICKY="true"
 #!   COLOUR="0.89411764705882357,0.92549019607843142,0.29019607843137257"
-#!   CONTENTS="180 196 191 185 194 203 184 183 207 181 161 204 179 197 193 195 170 201 198 186 202 182 200 187 188 199 189 178 190 177 192 "
+#!   CONTENTS="180 196 185 194 190 203 184 183 207 181 161 212 204 179 197 193 195 170 201 186 202 182 200 187 213 188 199 189 178 177 191 208 192 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="207"
 #!   NAME="PublicIpAddress not found. Try again"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="15123.203766203915 -234.49984248072133"
+#!   TOP_LEFT="14739.853280885747 -234.49984248072133"
 #!   ORDER="500000000000183"
-#!   BOTTOM_RIGHT="17190.129401101265 -995.50344251672152"
-#!   BOUNDING_RECT="15123.203766203915 -234.49984248072133 2066.9256348973486 761.00360003600019"
+#!   BOTTOM_RIGHT="17572.234545874868 -1385.3079707267659"
+#!   BOUNDING_RECT="14739.853280885747 -234.49984248072133 2832.3812649891206 1150.8081282460446"
 #!   STICKY="true"
 #!   COLOUR="0.5490196078431373,0.058823529411764705,0.59607843137254901"
-#!   CONTENTS="199 193 190 170 192 197 198 191 "
+#!   CONTENTS="199 191 170 214 193 212 192 190 213 197 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1116,8 +1121,8 @@
 #!   IDENTIFIER="6"
 #!   TYPE="AttributeCreator"
 #!   VERSION="5"
-#!   POSITION="25879.62825449073 -1519.1369648028642"
-#!   BOUNDING_RECT="25879.62825449073 -1519.1369648028642 444.01600000000002 71"
+#!   POSITION="25866.392828018819 -504.42093528962801"
+#!   BOUNDING_RECT="25866.392828018819 -504.42093528962801 444.01600000000002 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1190,8 +1195,8 @@
 #!   IDENTIFIER="7"
 #!   TYPE="AttributeCreator"
 #!   VERSION="5"
-#!   POSITION="24562.608704495233 -1511.9982548157634"
-#!   BOUNDING_RECT="24562.608704495233 -1511.9982548157634 851.818406901451 71"
+#!   POSITION="24549.373278023322 -497.28222530252719"
+#!   BOUNDING_RECT="24549.373278023322 -497.28222530252719 851.818406901451 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1263,8 +1268,8 @@
 #!   IDENTIFIER="8"
 #!   TYPE="Cloner"
 #!   VERSION="0"
-#!   POSITION="23927.899064498833 -1478.9985248184641"
-#!   BOUNDING_RECT="23927.899064498833 -1478.9985248184641 430 71"
+#!   POSITION="23914.663638026923 -464.28249530522794"
+#!   BOUNDING_RECT="23914.663638026923 -464.28249530522794 430 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1377,8 +1382,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="FeatureWriter"
 #!   VERSION="0"
-#!   POSITION="26536.939844506611 -1252.2519548127641"
-#!   BOUNDING_RECT="26536.939844506611 -1252.2519548127641 -1 -1"
+#!   POSITION="26523.7044180347 -237.53592529952789"
+#!   BOUNDING_RECT="26523.7044180347 -237.53592529952789 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1395,6 +1400,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_feature_type{}.FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_feature_type{}.FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_feature_type{}.PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_feature_type{}._attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_feature_type{}._email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_feature_type{}.email" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1407,8 +1413,8 @@
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_LIST_ATTR" PARM_VALUE="_feature_type"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="TEXTLINE"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="RUNTIME_MACROS,OVERWRITE_FILE&lt;comma&gt;NO&lt;comma&gt;END_OF_LINE&lt;comma&gt;System&lt;comma&gt;WRITE_LAST_EOL&lt;comma&gt;YES&lt;comma&gt;ENCODING&lt;comma&gt;SYSTEM&lt;comma&gt;WRITE_UTF8_BOM&lt;comma&gt;YES&lt;comma&gt;MIME_TYPE&lt;comma&gt;application&lt;solidus&gt;octet-stream&lt;comma&gt;DESTINATION_DATASETTYPE_VALIDATION&lt;comma&gt;Yes&lt;comma&gt;COORDINATE_SYSTEM_GRANULARITY&lt;comma&gt;FEATURE,METAFILE,TEXTLINE"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="TEXTLINE_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;,TEXTLINE_OVERWRITE_FILE,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File:,TEXTLINE_WRITE_UTF8_BOM,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Write&lt;space&gt;UTF&lt;space&gt;Byte&lt;space&gt;Order&lt;space&gt;Mark,TEXTLINE_END_OF_LINE,&quot;OPTIONAL CHOICE System%Windows%Unix%Macintosh%Source%None&quot;,TEXTLINE&lt;space&gt;Line&lt;space&gt;Termination:,TEXTLINE_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING SYSTEM%*&quot;,TEXTLINE&lt;space&gt;Character&lt;space&gt;Encoding:,TEXTLINE_MIME_TYPE,&quot;OPTIONAL STRING_OR_CHOICE application/json%application/octet-stream%application/xml%application/x-www-form-urlencoded%image/gif%image/jpeg%image/png%image/tiff%multipart/mixed%multipart/alternative%multipart/related%text/html%text/plain%text/xml&quot;,TEXTLINE&lt;space&gt;MIME&lt;space&gt;Type:,TEXTLINE_WRITE_LAST_EOL,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Write&lt;space&gt;Last&lt;space&gt;Line&lt;space&gt;Terminator:,TEXTLINE_DESTINATION_DATASETTYPE_VALIDATION,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MORE_SUMMARY_ATTRS" PARM_VALUE="BCCEmail CCEmail CourseType FileName FolderName FromEmail FullName PublicIpAddress _email_template email"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="TEXTLINE_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING SYSTEM%*&quot;,TEXTLINE&lt;space&gt;Character&lt;space&gt;Encoding:,TEXTLINE_OVERWRITE_FILE,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File:,TEXTLINE_WRITE_LAST_EOL,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Write&lt;space&gt;Last&lt;space&gt;Line&lt;space&gt;Terminator:,TEXTLINE_MIME_TYPE,&quot;OPTIONAL STRING_OR_CHOICE application/json%application/octet-stream%application/xml%application/x-www-form-urlencoded%image/gif%image/jpeg%image/png%image/tiff%multipart/mixed%multipart/alternative%multipart/related%text/html%text/plain%text/xml&quot;,TEXTLINE&lt;space&gt;MIME&lt;space&gt;Type:,TEXTLINE_WRITE_UTF8_BOM,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Write&lt;space&gt;UTF&lt;space&gt;Byte&lt;space&gt;Order&lt;space&gt;Mark,TEXTLINE_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;,TEXTLINE_END_OF_LINE,&quot;OPTIONAL CHOICE System%Windows%Unix%Macintosh%Source%None&quot;,TEXTLINE&lt;space&gt;Line&lt;space&gt;Termination:,TEXTLINE_DESTINATION_DATASETTYPE_VALIDATION,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MORE_SUMMARY_ATTRS" PARM_VALUE="BCCEmail CCEmail CourseType FileName FolderName FromEmail FullName PublicIpAddress _attempt _email_template email"/>
 #!     <XFORM_PARM PARM_NAME="NO_OUTPUT_PORTS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS" PARM_VALUE="&quot;&quot;"/>
@@ -1436,8 +1442,8 @@
 #!   IDENTIFIER="10"
 #!   TYPE="Emailer"
 #!   VERSION="1"
-#!   POSITION="30779.853289609418 -1844.9810041001995"
-#!   BOUNDING_RECT="30779.853289609418 -1844.9810041001995 430 71"
+#!   POSITION="30766.617863137508 -830.26497458696326"
+#!   BOUNDING_RECT="30766.617863137508 -830.26497458696326 430 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1456,6 +1462,7 @@
 #!     <XFORM_ATTR ATTR_NAME="FileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1470,6 +1477,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_files{}._attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.email" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1488,6 +1496,7 @@
 #!     <XFORM_ATTR ATTR_NAME="FileName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1502,6 +1511,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FromEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FullName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_files{}._attempt" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._email_template" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.email" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1528,8 +1538,8 @@
 #!   IDENTIFIER="11"
 #!   TYPE="Aggregator"
 #!   VERSION="14"
-#!   POSITION="28086.289327700477 -1436.2995948091618"
-#!   BOUNDING_RECT="28086.289327700477 -1436.2995948091618 430 71"
+#!   POSITION="28073.053901228566 -421.58356529592561"
+#!   BOUNDING_RECT="28073.053901228566 -421.58356529592561 430 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1548,6 +1558,7 @@
 #!     <XFORM_ATTR ATTR_NAME="FileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1562,6 +1573,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_files{}._attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.email" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1601,12 +1613,12 @@
 #!   IDENTIFIER="12"
 #!   TYPE="Logger"
 #!   VERSION="4"
-#!   POSITION="31597.822105840161 -1904.9810041001995"
-#!   BOUNDING_RECT="31597.822105840161 -1904.9810041001995 430 71"
+#!   POSITION="31796.353502918835 -625.55644514872779"
+#!   BOUNDING_RECT="31796.353502918835 -625.55644514872779 430 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="LOGGED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -1614,34 +1626,12 @@
 #!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CCEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.CCEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.FileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}._email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}.email" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}._dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}._total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_files{}._element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_RECORD"/>
+#!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="EMAIL&lt;space&gt;OUTPUT"/>
@@ -2161,8 +2151,8 @@
 #!   IDENTIFIER="19"
 #!   TYPE="Junction"
 #!   VERSION="0"
-#!   POSITION="21289.340051404921 -2241.2801929179241"
-#!   BOUNDING_RECT="21289.340051404921 -2241.2801929179241 40 40"
+#!   POSITION="22798.178669202869 -1848.6292075845417"
+#!   BOUNDING_RECT="22798.178669202869 -1848.6292075845417 40 40"
 #!   ORDER="500000000000027"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -2441,8 +2431,8 @@
 #!   IDENTIFIER="23"
 #!   TYPE="UUIDGenerator"
 #!   VERSION="0"
-#!   POSITION="23179.84189874844 -1849.0998238326804"
-#!   BOUNDING_RECT="23179.84189874844 -1849.0998238326804 430 71"
+#!   POSITION="23166.60647227653 -834.38379431944418"
+#!   BOUNDING_RECT="23166.60647227653 -834.38379431944418 430 71"
 #!   ORDER="500000000000042"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3230,8 +3220,8 @@
 #!   IDENTIFIER="35"
 #!   TYPE="ListExploder"
 #!   VERSION="6"
-#!   POSITION="27047.291314521317 -1552.7781598348136"
-#!   BOUNDING_RECT="27047.291314521317 -1552.7781598348136 526.25106825772946 71"
+#!   POSITION="27034.055888049406 -538.06213032157734"
+#!   BOUNDING_RECT="27034.055888049406 -538.06213032157734 526.25106825772946 71"
 #!   ORDER="500000000000089"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3249,6 +3239,7 @@
 #!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3266,6 +3257,7 @@
 #!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3553,8 +3545,8 @@
 #!   IDENTIFIER="42"
 #!   TYPE="StringReplacer"
 #!   VERSION="4"
-#!   POSITION="28554.809783104058 -1900.5033473833344"
-#!   BOUNDING_RECT="28554.809783104058 -1900.5033473833344 594.34375 71"
+#!   POSITION="28541.574356632147 -885.78731787009838"
+#!   BOUNDING_RECT="28541.574356632147 -885.78731787009838 594.34375 71"
 #!   ORDER="500000000000125"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3573,6 +3565,7 @@
 #!     <XFORM_ATTR ATTR_NAME="FileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3587,6 +3580,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_files{}._attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.email" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3607,8 +3601,8 @@
 #!   IDENTIFIER="47"
 #!   TYPE="StringReplacer"
 #!   VERSION="4"
-#!   POSITION="29374.627391446018 -1904.9810041001995"
-#!   BOUNDING_RECT="29374.627391446018 -1904.9810041001995 999.14393413126527 71"
+#!   POSITION="29361.391964974107 -890.26497458696349"
+#!   BOUNDING_RECT="29361.391964974107 -890.26497458696349 999.14393413126527 71"
 #!   ORDER="500000000000137"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3627,6 +3621,7 @@
 #!     <XFORM_ATTR ATTR_NAME="FileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3641,6 +3636,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_files{}._attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}.email" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_files{}._dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4207,7 +4203,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="60"/>
+#!     <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="$(PublicIpAttempts)"/>
 #!     <XFORM_PARM PARM_NAME="COPYATT" PARM_VALUE="_attempt"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -4217,8 +4213,8 @@
 #!   IDENTIFIER="170"
 #!   TYPE="VariableRetriever"
 #!   VERSION="3"
-#!   POSITION="15197.203766203915 -769.50344251672141"
-#!   BOUNDING_RECT="15197.203766203915 -769.50344251672141 537.39022424707036 71"
+#!   POSITION="14844.259060286267 -835.68057487628016"
+#!   BOUNDING_RECT="14844.259060286267 -835.68057487628016 537.39022424707036 71"
 #!   ORDER="500000000000169"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4729,114 +4725,11 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_has_PublicIpAddress"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="190"
-#!   TYPE="Tester"
-#!   VERSION="2"
-#!   POSITION="16051.183809964448 -769.50344251672141"
-#!   BOUNDING_RECT="16051.183809964448 -769.50344251672141 -1 -1"
-#!   ORDER="500000000000171"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
-#!   OUTPUT_FT_ORDER="FAILED%PASSED"
-#! >
-#!     <OUTPUT_FEAT NAME="FAILED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CreatedBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Team" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SubnetId{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CCEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_rdp_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_random_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Created" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="PASSED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="CreatedBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Team" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Owner" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="SubnetId{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="CCEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_rdp_template" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_random_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Created" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST PublicIpAddress ATTRIBUTE_HAS_A_VALUE &quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="192"
 #!   TYPE="Decelerator"
 #!   VERSION="0"
-#!   POSITION="16710.129401101265 -769.50344251672141"
-#!   BOUNDING_RECT="16710.129401101265 -769.50344251672141 -1 -1"
+#!   POSITION="16846.895474644356 -929.32631015716242"
+#!   BOUNDING_RECT="16846.895474644356 -929.32631015716242 -1 -1"
 #!   ORDER="500000000000172"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4998,6 +4891,192 @@
 #!     <XFORM_PARM PARM_NAME="VARNAME" PARM_VALUE="aVariable"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VariableSetter"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="209"
+#!   TYPE="AttributeKeeper"
+#!   VERSION="3"
+#!   POSITION="31290.044352144272 -727.91070986784553"
+#!   BOUNDING_RECT="31290.044352144272 -727.91070986784553 -1 -1"
+#!   ORDER="500000000000185"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="CourseType,FullName,PublicIpAddress,email,FileName,FolderName,_attempt,name"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="212"
+#!   TYPE="TestFilter"
+#!   VERSION="1"
+#!   POSITION="15539.413986383854 -929.32631015716242"
+#!   BOUNDING_RECT="15539.413986383854 -929.32631015716242 -1 -1"
+#!   ORDER="500000000000186"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="Error"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CreatedBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Team" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CCEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_rdp_template" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_random_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Created" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="No&lt;space&gt;PublicIpAddress&lt;space&gt;Yet"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CreatedBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Team" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Owner" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CCEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_rdp_template" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_random_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Created" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="CreatedBy" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Purpose" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Team" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Owner" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="FullName" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="CCEmail" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_email_template" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_rdp_template" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_random_number" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Created" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;&lt;Unused&gt;&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_attempt&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Evaluate&lt;lt&gt;openparen&lt;gt&gt;$(PublicIpAttempts)-1&lt;lt&gt;closeparen&lt;gt&gt;&lt;lf&gt;TEST&lt;space&gt;PublicIpAddress&lt;space&gt;NOT_ATTRIBUTE_HAS_A_VALUE&lt;space&gt;&lt;quote&gt;&lt;quote&gt;&quot;,Error,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;&lt;Unused&gt;&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;PublicIpAddress&lt;space&gt;NOT_ATTRIBUTE_HAS_A_VALUE&lt;space&gt;&lt;quote&gt;&lt;quote&gt;&quot;,No&lt;space&gt;PublicIpAddress&lt;space&gt;Yet"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="190"
+#!   TYPE="Terminator"
+#!   VERSION="3"
+#!   POSITION="16431.257297565404 -346.96754539304436"
+#!   BOUNDING_RECT="16431.257297565404 -346.96754539304436 845.63817707895214 71"
+#!   ORDER="500000000000187"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Translation&lt;space&gt;Terminated.&lt;space&gt;Something&lt;space&gt;went&lt;space&gt;wrong.&lt;space&gt;Cannot&lt;space&gt;obtain&lt;space&gt;PublicIpAddress.&lt;space&gt;Tried&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_attempt&lt;closeparen&gt;&lt;space&gt;times"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_NoPublicIpAddress"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -5100,9 +5179,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="58"
+#!   IDENTIFIER="210"
 #!   SOURCE_NODE="10"
-#!   TARGET_NODE="12"
+#!   TARGET_NODE="209"
 #!   SOURCE_PORT_DESC="fo 0 Sent"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -5474,9 +5553,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="191"
+#!   IDENTIFIER="213"
 #!   SOURCE_NODE="170"
-#!   TARGET_NODE="190"
+#!   TARGET_NODE="212"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -5554,6 +5633,17 @@
 #!   IDENTIFIER="205"
 #!   SOURCE_NODE="195"
 #!   TARGET_NODE="19"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="211"
+#!   SOURCE_NODE="209"
+#!   TARGET_NODE="12"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -5661,10 +5751,10 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="193"
-#!   SOURCE_NODE="190"
-#!   TARGET_NODE="192"
-#!   SOURCE_PORT_DESC="fo 0 FAILED"
+#!   IDENTIFIER="191"
+#!   SOURCE_NODE="212"
+#!   TARGET_NODE="190"
+#!   SOURCE_PORT_DESC="fo 0 Error"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -5687,6 +5777,17 @@
 #!   SOURCE_NODE="28"
 #!   TARGET_NODE="29"
 #!   SOURCE_PORT_DESC="fo 2 &lt;lt&gt;lt&lt;gt&gt;NULL&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="214"
+#!   SOURCE_NODE="212"
+#!   TARGET_NODE="192"
+#!   SOURCE_PORT_DESC="fo 1 No&lt;lt&gt;space&lt;gt&gt;PublicIpAddress&lt;lt&gt;space&lt;gt&gt;Yet"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -5790,6 +5891,8 @@ DEFAULT_MACRO EmailAddress
 GUI TEXT EmailAddress Enter your email address and press 'Request Virtual Machine':
 DEFAULT_MACRO BucketConfirmation fmevm
 GUI IGNORE OPTIONAL TEXT BucketConfirmation The S3 bucket. This is a security feature so we read settings.json from correct bucket:
+DEFAULT_MACRO PublicIpAttempts 60
+GUI IGNORE OPTIONAL RANGE_SLIDER PublicIpAttempts "RANGE:[,]" How many times should we try to get a PublicIpAddress?
 INCLUDE [ if {{$(CourseType)} == {}} { puts_real {Parameter 'CourseType' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(FullName)} == {}} { puts_real {Parameter 'FullName' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(EmailAddress)} == {}} { puts_real {Parameter 'EmailAddress' must be given a value.}; exit 1; }; ]
@@ -5977,7 +6080,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME TesterInstanceId    INPUT  FEATURE_TYP
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_InstanceId    INPUT  FEATURE_TYPE TesterInstanceId_FAILED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,InstanceId<space>failed<space>to<space>populate.<space><at>Value<openparen>_response<closeparen>,Terminator_InstanceId)")       @SupplyAttributes(_wb_termination_xformer,"Terminator_InstanceId")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,InstanceId<space>failed<space>to<space>populate.<space><at>Value<openparen>_response<closeparen>,Terminator_InstanceId)")
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Cloner_PublicIpAddress_Cloner    INPUT  FEATURE_TYPE TesterInstanceId_PASSED    NUMBER_OF_COPIES "60"    COPY_NUMBER_ATTRIBUTE _attempt    REJECT_INVALID YES    OUTPUT COPY Cloner_PublicIpAddress_COPY
+FACTORY_DEF * TeeFactory    FACTORY_NAME Cloner_PublicIpAddress_Cloner    INPUT  FEATURE_TYPE TesterInstanceId_PASSED    NUMBER_OF_COPIES "@EvaluateExpression(FDIV,FLOAT,$(PublicIpAttempts$encode),Cloner_PublicIpAddress)"    COPY_NUMBER_ATTRIBUTE _attempt    REJECT_INVALID YES    OUTPUT COPY Cloner_PublicIpAddress_COPY
 # -------------------------------------------------------------------------
 # If we're doing LAST N features, then the multiplier comes in as 0.
 # If we're doing First N, multiplier is -1.
@@ -5994,7 +6097,11 @@ MACRO VariableRetriever_VAR aVariable
 INCLUDE [if {{Global} == {Local}} {   puts {MACRO VariableRetriever_VAR $(WB_CURRENT_CONTEXT)_aVariable}; };
 FACTORY_DEF * TeeFactory    FACTORY_NAME VariableRetriever    INPUT  FEATURE_TYPE Sampler_First_IP_attempt_NOT_SAMPLED    OUTPUT FEATURE_TYPE VariableRetriever_OUTPUT        @GlobalVariable(fme_encoded,$(VariableRetriever_VAR),fme_result_attribute,PublicIpAddress)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE VariableRetriever_OUTPUT    TEST PublicIpAddress ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter    INPUT  FEATURE_TYPE VariableRetriever_OUTPUT    OUTPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_Condition_1 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_attempt<closeparen>,TestFilter) = @EvaluateExpression(FDIV,STRING_ENCODED,<at>Evaluate<openparen>$(PublicIpAttempts$encode)-1<closeparen>,TestFilter) ENCODED TEST PublicIpAddress NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED BOOLEAN_OPERATOR AND COMPOSITE_TEST_EXPR "<Unused>" OUTPUT PASSED FEATURE_TYPE TestFilter_Error OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_Condition_2 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1 TEST PublicIpAddress NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "<Unused>" OUTPUT PASSED FEATURE_TYPE TestFilter_No<space>PublicIpAddress<space>Yet OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_2
+FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_<lt>UNFILTERED<gt> INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_2 OUTPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
 # This is just a simple delay, which is given a # of seconds to stall
 Tcl2 proc Decelerator_delay {seconds unused} {     after [expr round($seconds * 1000)]; }
@@ -6005,10 +6112,18 @@ Tcl2 proc Decelerator_maxpersecond {unused maxFeaturesPerSecond} {     global De
 # use by renaming the one we want to "Decelerator_Waiter"
 # Then that is what we'll actually call when a feature goes by.
 Tcl2 if { {Per Feature Delay} == {Per Feature Delay} } {         rename Decelerator_delay Decelerator_Waiter;      } else {         rename Decelerator_maxpersecond Decelerator_Waiter;      };
-FACTORY_DEF * TestFactory    FACTORY_NAME Decelerator_DelayRejector    INPUT  FEATURE_TYPE Tester_FAILED    TEST "1" TYPE NUM ENCODED    TEST PERFEATDELAY != PERFEATDELAY    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE Decelerator_<REJECTED>       fme_rejection_code "INVALID_PARAMETER_DELAY_PER_FEATURE"    OUTPUT PASSED FEATURE_TYPE Decelerator__toMaximumRejector__
+FACTORY_DEF * TestFactory    FACTORY_NAME Decelerator_DelayRejector    INPUT  FEATURE_TYPE TestFilter_No<space>PublicIpAddress<space>Yet    TEST "1" TYPE NUM ENCODED    TEST PERFEATDELAY != PERFEATDELAY    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE Decelerator_<REJECTED>       fme_rejection_code "INVALID_PARAMETER_DELAY_PER_FEATURE"    OUTPUT PASSED FEATURE_TYPE Decelerator__toMaximumRejector__
 FACTORY_DEF * TestFactory    FACTORY_NAME Decelerator_MaximumRejector    INPUT FEATURE_TYPE Decelerator__toMaximumRejector__    TEST "<Unused>" TYPE NUM ENCODED    TEST PERFEATDELAY != FEATPERSEC    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE Decelerator_<REJECTED>       fme_rejection_code "INVALID_PARAMETER_MAXIMUM_FEATURES_PER_SECOND"    OUTPUT PASSED FEATURE_TYPE Decelerator__toOutput__
 FACTORY_DEF * TeeFactory    FACTORY_NAME Decelerator_Decelerator    INPUT FEATURE_TYPE Decelerator__toOutput__    OUTPUT FEATURE_TYPE Decelerator_OUTPUT         @Tcl2("Decelerator_Waiter {1} {<Unused>}")
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Decelerator <REJECTED> Transformer Output Nuker"   INPUT FEATURE_TYPE Decelerator_<REJECTED>
+# -------------------------------------------------------------------------
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_NoPublicIpAddress    INPUT  FEATURE_TYPE TestFilter_Error    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space>Something<space>went<space>wrong.<space>Cannot<space>obtain<space>PublicIpAddress.<space>Tried<space><at>Value<openparen>_attempt<closeparen><space>times,Terminator_NoPublicIpAddress)")       @SupplyAttributes(_wb_termination_xformer,"Terminator_NoPublicIpAddress")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space>Something<space>went<space>wrong.<space>Cannot<space>obtain<space>PublicIpAddress.<space>Tried<space><at>Value<openparen>_attempt<closeparen><space>times,Terminator_NoPublicIpAddress)")
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_DescribeInstances_PublicIpAddress    INPUT  FEATURE_TYPE Sampler_First_IP_attempt_SAMPLED    INPUT  FEATURE_TYPE Decelerator_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.describe_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceIds=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>InstanceId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space><apos>error<space>in<space>PythonCaller_DescribeInstances_PublicIpAddress:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT
@@ -6035,7 +6150,7 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_Port_FileName ATTRSET
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreatorRDP ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeCreator_Port_FileName_OUTPUT ATTR text_line_data full<space>address:s:<at>Value<openparen>PublicIpAddress<closeparen>:<at>Value<openparen>PORT<closeparen><lf><at>Value<openparen>_rdp_template<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreatorRDP_OUTPUT 
 # -------------------------------------------------------------------------
 INCLUDE [    puts {DEFAULT_MACRO FeatureWriterDataset_FeatureWriter @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FolderName<closeparen><at>Value<openparen>FileName<closeparen>,FeatureWriter)}; ]
-FACTORY_DEF * WriterFactory    FACTORY_NAME FeatureWriter    WRITER_TYPE TEXTLINE    WRITER_DATASET "$(FeatureWriterDataset_FeatureWriter)"    WRITER_SETTINGS RUNTIME_MACROS,OVERWRITE_FILE<comma>NO<comma>END_OF_LINE<comma>System<comma>WRITE_LAST_EOL<comma>YES<comma>ENCODING<comma>SYSTEM<comma>WRITE_UTF8_BOM<comma>YES<comma>MIME_TYPE<comma>application<solidus>octet-stream<comma>DESTINATION_DATASETTYPE_VALIDATION<comma>Yes<comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE,METAFILE,TEXTLINE    WRITER_METAFILE ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,,ATTRIBUTE_LENGTH,60,ATTR_TYPE_MAP,char<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>buffer<comma>fme_buffer<comma>buffer<comma>fme_binarybuffer<comma>buffer<comma>fme_xml<comma>buffer<comma>fme_json<comma>char<openparen>20<closeparen><comma>fme_datetime<comma>char<openparen>12<closeparen><comma>fme_time<comma>char<openparen>8<closeparen><comma>fme_date<comma><quote>number<openparen>31<comma>15<closeparen><quote><comma>fme_real64<comma><quote>number<openparen>15<comma>7<closeparen><quote><comma>fme_real32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_int32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_uint32<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_int64<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_uint64<comma>logical<comma>fme_boolean<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_int16<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_uint16<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_int8<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_uint8<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<solidus>TEXTLINE.fmf,FORMAT_NAME,TEXTLINE,GEOM_MAP,text_line_none<comma>fme_no_geom<comma>text_line_none<comma>fme_point<comma>text_line_none<comma>fme_line<comma>text_line_none<comma>fme_polygon<comma>text_line_none<comma>fme_text<comma>text_line_none<comma>fme_ellipse<comma>text_line_none<comma>fme_arc<comma>text_line_none<comma>fme_rectangle<comma>text_line_none<comma>fme_rounded_rectangle<comma>text_line_none<comma>fme_collection<comma>text_line_none<comma>fme_raster<comma>text_line_none<comma>fme_surface<comma>text_line_none<comma>fme_solid<comma>text_line_none<comma>fme_point_cloud<comma>text_line_none<comma>fme_feature_table,READER_ATTR_INDEX_TYPES,,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,no,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,textline.sch,WRITER,TEXTLINE,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly>,WRITER_FORMAT_PARAMETER,READER_FEATURE_TYPE_EDITING<comma>NO<comma>WRITER_FEATURE_TYPE_EDITING<comma>NO<comma>MIME_TYPE<comma>application<solidus>octet-stream<comma>DATASET_NAME<comma><quote>txt<space>file<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>text_line<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>Text<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>name<space>for<space>the<space>Text<space>file<quote>,WRITER_HAS_DEFLINE_ATTRS,yes    WRITER_FEATURE_TYPES text_line:text_line,ftp_feature_type_name,text_line,ftp_writer,TEXTLINE,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,text_line_data<comma>buffer    WRITER_PARAMS COORDINATE_SYSTEM_GRANULARITY,FEATURE,OVERWRITE_FILE,NO,WRITE_UTF8_BOM,YES,END_OF_LINE,System,ENCODING,SYSTEM,MIME_TYPE,application<solidus>octet-stream,WRITE_LAST_EOL,YES,DESTINATION_DATASETTYPE_VALIDATION,Yes    DATASET_ATTR _dataset    FEATURE_TYPE_LIST_ATTR _feature_type    TOTAL_FEATURES_WRITTEN_ATTR _total_features_written    ADDITIONAL_SUMMARY_ATTRS BCCEmail CCEmail CourseType FileName FolderName FromEmail FullName PublicIpAddress _email_template email    OUTPUT_PORTS ""    INPUT text_line FEATURE_TYPE AttributeCreatorRDP_OUTPUT  @FeatureType(ENCODED,text_line)    OUTPUT SUMMARY FEATURE_TYPE FeatureWriter_SUMMARY
+FACTORY_DEF * WriterFactory    FACTORY_NAME FeatureWriter    WRITER_TYPE TEXTLINE    WRITER_DATASET "$(FeatureWriterDataset_FeatureWriter)"    WRITER_SETTINGS RUNTIME_MACROS,OVERWRITE_FILE<comma>NO<comma>END_OF_LINE<comma>System<comma>WRITE_LAST_EOL<comma>YES<comma>ENCODING<comma>SYSTEM<comma>WRITE_UTF8_BOM<comma>YES<comma>MIME_TYPE<comma>application<solidus>octet-stream<comma>DESTINATION_DATASETTYPE_VALIDATION<comma>Yes<comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE,METAFILE,TEXTLINE    WRITER_METAFILE ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,,ATTRIBUTE_LENGTH,60,ATTR_TYPE_MAP,char<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>buffer<comma>fme_buffer<comma>buffer<comma>fme_binarybuffer<comma>buffer<comma>fme_xml<comma>buffer<comma>fme_json<comma>char<openparen>20<closeparen><comma>fme_datetime<comma>char<openparen>12<closeparen><comma>fme_time<comma>char<openparen>8<closeparen><comma>fme_date<comma><quote>number<openparen>31<comma>15<closeparen><quote><comma>fme_real64<comma><quote>number<openparen>15<comma>7<closeparen><quote><comma>fme_real32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_int32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_uint32<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_int64<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_uint64<comma>logical<comma>fme_boolean<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_int16<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_uint16<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_int8<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_uint8<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<solidus>TEXTLINE.fmf,FORMAT_NAME,TEXTLINE,GEOM_MAP,text_line_none<comma>fme_no_geom<comma>text_line_none<comma>fme_point<comma>text_line_none<comma>fme_line<comma>text_line_none<comma>fme_polygon<comma>text_line_none<comma>fme_text<comma>text_line_none<comma>fme_ellipse<comma>text_line_none<comma>fme_arc<comma>text_line_none<comma>fme_rectangle<comma>text_line_none<comma>fme_rounded_rectangle<comma>text_line_none<comma>fme_collection<comma>text_line_none<comma>fme_raster<comma>text_line_none<comma>fme_surface<comma>text_line_none<comma>fme_solid<comma>text_line_none<comma>fme_point_cloud<comma>text_line_none<comma>fme_feature_table,READER_ATTR_INDEX_TYPES,,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,no,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,textline.sch,WRITER,TEXTLINE,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly>,WRITER_FORMAT_PARAMETER,READER_FEATURE_TYPE_EDITING<comma>NO<comma>WRITER_FEATURE_TYPE_EDITING<comma>NO<comma>MIME_TYPE<comma>application<solidus>octet-stream<comma>DATASET_NAME<comma><quote>txt<space>file<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>text_line<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>Text<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>name<space>for<space>the<space>Text<space>file<quote>,WRITER_HAS_DEFLINE_ATTRS,yes    WRITER_FEATURE_TYPES text_line:text_line,ftp_feature_type_name,text_line,ftp_writer,TEXTLINE,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,text_line_data<comma>buffer    WRITER_PARAMS ENCODING,SYSTEM,OVERWRITE_FILE,NO,WRITE_LAST_EOL,YES,MIME_TYPE,application<solidus>octet-stream,WRITE_UTF8_BOM,YES,COORDINATE_SYSTEM_GRANULARITY,FEATURE,END_OF_LINE,System,DESTINATION_DATASETTYPE_VALIDATION,Yes    DATASET_ATTR _dataset    FEATURE_TYPE_LIST_ATTR _feature_type    TOTAL_FEATURES_WRITTEN_ATTR _total_features_written    ADDITIONAL_SUMMARY_ATTRS BCCEmail CCEmail CourseType FileName FolderName FromEmail FullName PublicIpAddress _attempt _email_template email    OUTPUT_PORTS ""    INPUT text_line FEATURE_TYPE AttributeCreatorRDP_OUTPUT  @FeatureType(ENCODED,text_line)    OUTPUT SUMMARY FEATURE_TYPE FeatureWriter_SUMMARY
 # -------------------------------------------------------------------------
 FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder_Summary    INPUT  FEATURE_TYPE FeatureWriter_SUMMARY    LIST_NAME "_feature_type{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_Summary_ELEMENTS         @RemoveAttributes(ElementFactory.baseCloned)
 # -------------------------------------------------------------------------
@@ -6045,13 +6160,13 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_f969cc22_3e35_4faf_aaf2_76f2b09b678358_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_f969cc22_3e35_4faf_aaf2_76f2b09b678358_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_f969cc22_3e35_4faf_aaf2_76f2b09b678373_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_f969cc22_3e35_4faf_aaf2_76f2b09b678373_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_da06021c_1539_4e6b_8fed_bd0872fd82a058_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_da06021c_1539_4e6b_8fed_bd0872fd82a058_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_da06021c_1539_4e6b_8fed_bd0872fd82a073_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_da06021c_1539_4e6b_8fed_bd0872fd82a073_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
@@ -6061,7 +6176,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_CATCHER    INPUT  FEATURE_TYPE 
 FACTORY_DEF * PythonFactory    FACTORY_NAME Emailer_CALLER    INPUT FEATURE_TYPE Emailer_READY    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME Emailer.Emailer    OUTPUT PYOUTPUT FEATURE_TYPE Emailer_PROCESSED
 FACTORY_DEF * TestFactory    FACTORY_NAME Emailer_ROUTER    INPUT FEATURE_TYPE Emailer_PROCESSED    TEST &fme_rejection_code == ""    OUTPUT PASSED FEATURE_TYPE Emailer_Sent
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_RECORD,Emailer_Sent_f87468c5_fdad_4132_bd49_685458d31dea58)
+INCLUDE [    set macroLine "MACRO AttributeKeeper_a30a3c4c_ab5c_493c_882f_c64ec9bc6d609_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,CourseType,FullName,PublicIpAddress,email,FileName,FolderName,_attempt,name,fme_pcre_match,"^fme_$(AttributeKeeper_a30a3c4c_ab5c_493c_882f_c64ec9bc6d609_LIST_EXP)")         }
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_ONLY,Emailer_Sent_f87468c5_fdad_4132_bd49_685458d31dea73)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer_Sent LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Emailer_Sent_LOGGED
 # -------------------------------------------------------------------------
 
