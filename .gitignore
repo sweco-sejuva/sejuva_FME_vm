@@ -5,3 +5,8 @@ workspaces/GitClone2S3.log
 workspaces/VMCreator.log
 workspaces/VMCreator_log.ffs
 workspaces/AWSCredentialSupplier.fmx.recover
+workspaces/CreateLicenseServer.fmw.recover
+workspaces/CreateLicenseServer.log
+workspaces/CreateVPC.fmw.recover
+workspaces/CreateVPC.log
+workspaces/SubnetId.txt
