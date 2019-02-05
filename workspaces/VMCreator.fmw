@@ -2,7 +2,7 @@
 #! <WORKSPACE
 #    Command-line to run this workspace:
 #        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/AWS/workspaces/VMCreator.fmw
-#              --CourseType "training"
+#              --CourseType "development"
 #              --FullName "Ryan"
 #              --EmailAddress "rjcragg+5@gmail.com"
 #    
@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-02-04T15:37:39"
+#!   LAST_SAVE_DATE="2019-02-05T15:14:29"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,7 +47,7 @@
 #!   TITLE="Amazon EC2 Virtual Machine Creator"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="-5373.58 260.297"
+#!   VIEW_POSITION="-14779.6 326.474"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="68"
@@ -169,7 +169,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_OR_ATTR CourseType AMI CourseType tag value:"
-#!   DEFAULT_VALUE="training"
+#!   DEFAULT_VALUE="development"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -4168,7 +4168,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="JSONFeature"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -7186,7 +7185,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 27
-DEFAULT_MACRO CourseType training
+DEFAULT_MACRO CourseType development
 GUI TEXT CourseType AMI CourseType tag value:
 DEFAULT_MACRO FullName Ryan
 GUI TEXT FullName Enter your full name:
@@ -7497,13 +7496,13 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_f969cc22_3e35_4faf_aaf2_76f2b09b678384_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_f969cc22_3e35_4faf_aaf2_76f2b09b678384_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_f969cc22_3e35_4faf_aaf2_76f2b09b678385_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_f969cc22_3e35_4faf_aaf2_76f2b09b678385_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_da06021c_1539_4e6b_8fed_bd0872fd82a084_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_da06021c_1539_4e6b_8fed_bd0872fd82a084_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_da06021c_1539_4e6b_8fed_bd0872fd82a085_replacer { findText replaceText invalidValue} {     set attrs [split \"_email_template\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_da06021c_1539_4e6b_8fed_bd0872fd82a085_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
@@ -7513,10 +7512,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_CATCHER    INPUT  FEATURE_TYPE 
 FACTORY_DEF * PythonFactory    FACTORY_NAME Emailer_CALLER    INPUT FEATURE_TYPE Emailer_READY    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME Emailer.Emailer    OUTPUT PYOUTPUT FEATURE_TYPE Emailer_PROCESSED
 FACTORY_DEF * TestFactory    FACTORY_NAME Emailer_ROUTER    INPUT FEATURE_TYPE Emailer_PROCESSED    TEST &fme_rejection_code == ""    OUTPUT PASSED FEATURE_TYPE Emailer_Sent
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_a30a3c4c_ab5c_493c_882f_c64ec9bc6d6020_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,CourseType,FullName,PublicIpAddress,email,FileName,FolderName,_attempt,name,fme_pcre_match,"^fme_$(AttributeKeeper_a30a3c4c_ab5c_493c_882f_c64ec9bc6d6020_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_a30a3c4c_ab5c_493c_882f_c64ec9bc6d6021_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,CourseType,FullName,PublicIpAddress,email,FileName,FolderName,_attempt,name,fme_pcre_match,"^fme_$(AttributeKeeper_a30a3c4c_ab5c_493c_882f_c64ec9bc6d6021_LIST_EXP)")         }
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_ONLY,Emailer_Sent_f87468c5_fdad_4132_bd49_685458d31dea84)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_ONLY,Emailer_Sent_f87468c5_fdad_4132_bd49_685458d31dea85)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer_Sent LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Emailer_Sent_LOGGED
 # -------------------------------------------------------------------------
 
