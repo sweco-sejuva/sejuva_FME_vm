@@ -12,3 +12,4 @@ workspaces/CreateVPC.log
 workspaces/SubnetId.txt
 workspaces/LicenseServerInfo.txt
 workspaces/VpcId.json
+workspaces/CreateFMEServer.fmw.recover
