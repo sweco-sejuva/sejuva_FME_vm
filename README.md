@@ -40,10 +40,7 @@ Click Fork.
 Once forked into your own account, click Settings.
 Change the repository name if desired.
 
-### Create License Server machine for FME Desktop (if desired)
-Use Linux t3.nano in same VPC as training machines
-Use private IP address when licensing FME. That way machines outside the VPC cannot obtain a license.
-[Detailed instructions here](https://knowledge.safe.com/articles/82230/create-fme-license-server.html)
+
 
 ## Create a VPC for the virtual machines to reside in
 Go to Services -> VPC in your desired region.
@@ -63,15 +60,11 @@ Make sure to Enable auto-assign public IPv4 address for each subnet. Right click
 
 Go to Internet Gateways. Create internet gateway, give it a good name like Training Machines, then attach the new Internet Gateway to your VPC.
 
-## Edit default security group for the VPC
-Edit the default security group for the VPC with the following ports open:
-80    HTTP
-8888  Used by Tomcat9.0 for some FME Server courses
-8080  Used as a forwarded port for RDP
-25    SMTP for FME Server
-7078  FME Server WebSocket Topic Monitoring
-3389  RDP Port
-443   Used as forwarded port for RDP
+### Create License Server machine for FME Desktop (if desired)
+1. Edit and run CreateLicenseServer.fmw
+1. Open LicenseServerInfo.txt and follow instructions to obtain license file safe.lic
+1. Stop the license server virtual machine, and edit the User Data to so that `wget https://licensing.safe.com/licenses/fme/float/` contains the entire path listed in the email from Codes.
+
 
 ## Create image for virtual machine
 InitialConfiguration.bat is used to setup the image for the virtual machine.

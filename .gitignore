@@ -10,3 +10,5 @@ workspaces/CreateLicenseServer.log
 workspaces/CreateVPC.fmw.recover
 workspaces/CreateVPC.log
 workspaces/SubnetId.txt
+workspaces/LicenseServerInfo.txt
+workspaces/VpcId.json
