@@ -8,9 +8,24 @@ A basic understanding of GitHub, Amazon AWS, FME Desktop, and FME Server is requ
 
 Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines. At Safe Software, we have a limit of 500.
 
+Also be aware that the default VPC limit is 5. If you currently have 5 VPCs in your desired region, you will have to request an increase in the VPC limit.
+
 ![EC2 Service Increase](/images/EC2Limits.png)
 
 ## Overview
+1. Fork this Repository to your own account
+1. Configure AWS VPC, Subnet, Internet Gateway, Security Group, and S3 Bucket
+1. Edit settings.json
+1. Install and edit AWSCredentialSupplier.fmx
+1. Run GitClone2S3.fmw in FME Desktop to mirror GitHub to S3
+1. <license server>.fmw in FME Desktop to create license server
+1. <fme server on linux>.fmw in FME Desktop to create FME Server installation, if not using FME Cloud
+1. <AMI Template.fmw> in FME Desktop to create instance to use as AMI
+1. Publish VMCreator.fmw and GitClone2S3.fmw with AWSCredentialSupplier.fmx to FME Server/Cloud
+1. Configure GitHub webhook to run GitClone2s3.fmw
+
+
+
 1. (optional) Configure a floating license server to license FME Desktop. The other option is to have the students request an evaluation license when they start FME Desktop.
 1. Configure an image that has everything you need installed. If you are happy creating student virtual machines manually, this is the only required step.
 1. (optional) Set up an installation of FME Server to allow students to request a virtual machine
@@ -21,11 +36,35 @@ There are two files in the repository that need to be edited, and two workspaces
 
 # Steps
 ## Fork this Repository to your own account
+Click Fork.
+Once forked into your own account, click Settings.
+Change the repository name if desired.
+
+
+
+## Create a VPC for the virtual machines to reside in
+Go to Services -> VPC in your desired region.
+Click on "Your VPCs"
+Click "Create VPC"
+Give it a good 'Name tag' like "Training Machines"
+IPv4 CIDR block = 172.31.0.0/16
+Click Create.
+
+Go to Subnets, and create subnets for the new VPC. Create a subnet for multiple Availability Zones; sometimes zones reach capacity.
+
+172.31.0.0/20
+172.31.16.0/20
+172.31.32.0/20
+
+Make sure to Enable auto-assign public IPv4 address for each subnet. Right click on the subnet to enable public ip addresses.
+
+Go to Internet Gateways. Create internet gateway, give it a good name like Training Machines, then attach the new Internet Gateway to your VPC.
 
 ### Create License Server machine for FME Desktop (if desired)
-Use Linux t3.nano in same VPC as training machines
-Use private IP address when licensing FME. That way machines outside the VPC cannot obtain a license.
-[Detailed instructions here](https://knowledge.safe.com/articles/82230/create-fme-license-server.html)
+1. Edit and run CreateLicenseServer.fmw
+1. Open LicenseServerInfo.txt and follow instructions to obtain license file safe.lic
+1. Stop the license server virtual machine, and edit the User Data to so that `wget https://licensing.safe.com/licenses/fme/float/` contains the entire path listed in the email from Codes.
+
 
 ## Create image for virtual machine
 InitialConfiguration.bat is used to setup the image for the virtual machine.
@@ -65,6 +104,8 @@ The machine used for training could possibly do this. Turn off auto-shutdown.
 ## Edit /js/parameters.js
 The configuration for the webpage and VMCreator.fmw is done in parameters.js
 
-  
+## Creating additional courses
+Fork the current GitHub branch, and give it a name that matches the Course tag on the AMI.
+
 ## Set Calendar Reminders
 If you are not using a permanent license for FME Server, you'll have to re-license it on occasion. The FME Server token will also have to be refreshed.

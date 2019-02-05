@@ -6,10 +6,13 @@
 
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
-		setx /m EC2PASSWORD %1
-		setx /m FMELICENSEIP %2
-		setx /m FMESERVERSERIAL %3
+
+		set EC2PASSWORD=%1
+		::"Pacific Standard Time"
+		set TimeZone="Pacific Standard Time"
+		::https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
 		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
+		
 		set FMEDownloadInstall=https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDownloadInstall.bat
 		set PORTFORWARDING=81;82;443;8080;8081
 		set Oracle64InstantClient=https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip
@@ -20,6 +23,7 @@
 	::Make required folders and get into it
 		md %TEMP%
 		pushd %TEMP%
+
 	:::::::::::::::::Here are the procedure calls:::::::::::::::::
 	:: Start Logging, and call sub routines for configuring the computer
 	::basicSetup sets things like license files. Always necessary
@@ -62,7 +66,7 @@ goto :eof
 :ec2Setup
 	::::CONFIGURE WINDOWS SETTINGS::::
 	:: Set the time zone
-		tzutil /s "Pacific Standard Time"
+		tzutil /s %TimeZone%
 	:: The purpose of this section is to configure proxy ports for Remote Desktop
 	:: It must be run with elevated permissions (right-click and run as administrator)
 	:: The batch file assumes the computer name will not change.

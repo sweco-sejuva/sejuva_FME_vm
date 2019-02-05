@@ -5,26 +5,49 @@
 //For _rdp_template, only the username and domain lines might need to be changed, but the current settings are probabaly ok.
 //CourseType is the Course tag for the AMI. It should also be the GITBRANCH, and the S3 folder within the bucket.
 
+
+//InstanceInitiatedShutdownBehavior : terminate|stop   This determines if training machines will automatically terminate or stop when shut down.
 var settings = {
+
+"aws_name_tag": "FME Virtual Machines",
+"region_name" : "us-east-2",
+"vpc_cidr"    : "172.31.0.0/16",
+"subnet_cidr" : ["172.31.0.0/20","172.31.16.0/20","172.31.32.0/20"],
+"Vpc.VpcId"   : "vpc-07fd9d433dcb66131",
+
+"linux.ami"   : "Amazon Linux 2 AMI*",
+
+
+"CourseType"  : "training",
+"GitBranch.CourseType"   : "training",
+"S3_BUCKET_NAME": "fmevm",
+
+"windows.ami" : "Microsoft Windows Server 2019 Base*",
+
+"InstanceInitiatedShutdownBehavior" : "terminate",
+
 "repository"  : "FMETraining",
 "workspace"   : "VMCreator.fmw",
 "server"      : "https://demos-safe-software.fmecloud.com",
 "token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",
 
-"S3_BUCKET_NAME": "fmevm",
+
 
 "S3ROOT"      : "https://s3.amazonaws.com/fmevm/training",
 
 "region_name" : "us-east-2",
+"vpc_cidr"    : "172.31.0.0/16",
+"subnet_cidr" : ["172.31.0.0/20","172.31.16.0/20","172.31.32.0/20"],
+
 "EC2Type"     : "t3",
 "EC2Size"     : "large",
-"SubnetId"    : [ "subnet-08964761", "subnet-177f996c", "subnet-b6999dfc"  ],
-"Team"        : "Train",
-"Owner"       : "RCragg",
-"CourseType"  : "training",
+
+
 "FromEmail"   : "train@safe.com",
 "CCEmail"     : "ryan.cragg@safe.com",
 "BCCEmail"    : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
+
+"SubnetId"    : [ "subnet-08964761", "subnet-177f996c", "subnet-b6999dfc"  ],
 
 "_email_template":[
 "Hello _FullName_,",
