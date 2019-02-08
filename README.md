@@ -5,6 +5,7 @@ The webpage used for requesting the virtual machines is a static page hosted on 
 
 ## Prerequisites
 A basic understanding of GitHub, Amazon AWS, FME Desktop, and FME Server is required.
+An installation of GitHub Desktop and FME Desktop.
 
 Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines. At Safe Software, we have a limit of 500.
 
@@ -14,21 +15,18 @@ Also be aware that the default VPC limit is 5. If you currently have 5 VPCs in y
 
 ## Overview
 1. Fork this Repository to your own account
-1. Configure AWS VPC, Subnet, Internet Gateway, Security Group, and S3 Bucket
+1. Install and update AWSCredentialSupplier.fmx
+1. Create and configure S3 Bucket
 1. Edit settings.json
-1. Install and edit AWSCredentialSupplier.fmx
-1. Run GitClone2S3.fmw in FME Desktop to mirror GitHub to S3
-1. <license server>.fmw in FME Desktop to create license server
-1. <fme server on linux>.fmw in FME Desktop to create FME Server installation, if not using FME Cloud
-1. <AMI Template.fmw> in FME Desktop to create instance to use as AMI
+1. Edit and run GitClone2S3.fmw in FME Desktop to mirror GitHub to S3
+1. Run CreateVPC.fmw in FME Desktop
+1. Run CreateLicenseServer.fmw in FME Desktop to create license server
+1. Use FME Cloud or Run CreateFMEServer.fmw in FME Desktop to create FME Server installation
+1. Run InitialMachineCreator.fmw in FME Desktop to create instance to use as AMI
+1. Create and tag AMI
 1. Publish VMCreator.fmw and GitClone2S3.fmw with AWSCredentialSupplier.fmx to FME Server/Cloud
 1. Configure GitHub webhook to run GitClone2s3.fmw
 
-
-
-1. (optional) Configure a floating license server to license FME Desktop. The other option is to have the students request an evaluation license when they start FME Desktop.
-1. Configure an image that has everything you need installed. If you are happy creating student virtual machines manually, this is the only required step.
-1. (optional) Set up an installation of FME Server to allow students to request a virtual machine
 
 There are two files in the repository that need to be edited, and two workspaces that need to be edited and published to FME Server. The two files you will eventually edit are:
 1. InitialConfiguration.bat
@@ -41,29 +39,19 @@ Once forked into your own account, click Settings.
 Change the repository name if desired.
 
 
-
-## Create a VPC for the virtual machines to reside in
-Go to Services -> VPC in your desired region.
-Click on "Your VPCs"
-Click "Create VPC"
-Give it a good 'Name tag' like "Training Machines"
-IPv4 CIDR block = 172.31.0.0/16
-Click Create.
-
-Go to Subnets, and create subnets for the new VPC. Create a subnet for multiple Availability Zones; sometimes zones reach capacity.
-
-172.31.0.0/20
-172.31.16.0/20
-172.31.32.0/20
-
-Make sure to Enable auto-assign public IPv4 address for each subnet. Right click on the subnet to enable public ip addresses.
-
-Go to Internet Gateways. Create internet gateway, give it a good name like Training Machines, then attach the new Internet Gateway to your VPC.
-
 ### Create License Server machine for FME Desktop (if desired)
 1. Edit and run CreateLicenseServer.fmw
 1. Open LicenseServerInfo.txt and follow instructions to obtain license file safe.lic
 1. Stop the license server virtual machine, and edit the User Data to so that `wget https://licensing.safe.com/licenses/fme/float/` contains the entire path listed in the email from Codes.
+
+
+### FME Server
+1. Run CreateFMEServer.fmw
+1. Go to the public IP address
+1. Activate FME Server
+1. Change the admin Password
+1. Create FMETraining repository
+1. Create a new user that only has read and run permissions for the FMETraining repository
 
 
 ## Create image for virtual machine

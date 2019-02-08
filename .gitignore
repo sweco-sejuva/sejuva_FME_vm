@@ -13,3 +13,6 @@ workspaces/SubnetId.txt
 workspaces/LicenseServerInfo.txt
 workspaces/VpcId.json
 workspaces/CreateFMEServer.fmw.recover
+workspaces/CreateFMEServer.log
+workspaces/InitialMachineCreator.fmw.recover
+workspaces/InitialMachineCreator.log

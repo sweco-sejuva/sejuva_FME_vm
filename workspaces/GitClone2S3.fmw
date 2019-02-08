@@ -1,8 +1,8 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2019.0/fme /Users/rcragg/Documents/GitHub/AWS/workspaces/GitClone2S3.fmw
-#              --GITBRANCH "training"
+#        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/GitClone2S3.fmw
+#              --GITBRANCH "development"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -16,9 +16,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19151"
-#!   FME_DOCUMENT_GUID="c84a4ad9-dd23-42d6-8ba6-70a1d6905514"
-#!   FME_DOCUMENT_PRIORGUID="fb6d43ff-11ac-4960-93f3-d14cdb70f2c2,61101b1a-0f4e-43b5-981d-8e960522a08a,185d2865-c010-4019-a3d8-f54e10c4eda4"
+#!   FME_BUILD_NUM="18547"
+#!   FME_DOCUMENT_GUID="e4824c23-7e80-46b7-8edc-00a048540685"
+#!   FME_DOCUMENT_PRIORGUID="fb6d43ff-11ac-4960-93f3-d14cdb70f2c2,61101b1a-0f4e-43b5-981d-8e960522a08a,185d2865-c010-4019-a3d8-f54e10c4eda4,c84a4ad9-dd23-42d6-8ba6-70a1d6905514"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,8 +26,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.0.0.0 (20181109 - Build 19151 - macosx)"
-#!   LAST_SAVE_DATE="2019-01-28T17:49:19"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
+#!   LAST_SAVE_DATE="2019-02-05T16:22:39"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -37,7 +37,6 @@
 #!   PASSWORD=""
 #!   PYTHON_COMPATIBILITY="27"
 #!   REDIRECT_TERMINATORS="NONE"
-#!   SAVE_ON_PROMPT_AND_RUN="Yes"
 #!   SHOW_ANNOTATIONS="true"
 #!   SHOW_INFO_NODES="true"
 #!   SOURCE="NONE"
@@ -46,7 +45,7 @@
 #!   TITLE="FMEDataGit2S3"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="-3534.04 561.006"
+#!   VIEW_POSITION="-2049.02 1293.01"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -152,7 +151,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR GITBRANCH MAX%MAX Git Branch:"
-#!   DEFAULT_VALUE="training"
+#!   DEFAULT_VALUE="development"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -217,10 +216,10 @@
 #! <COMMENT
 #!   IDENTIFIER="26"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The branch will be the CourseType. Make sure they are the same when forking the repository&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-2626.5249105835796 -320.50464004639935"
-#!   TOP_LEFT="-2626.5249105835796 -320.50464004639935"
-#!   BOTTOM_RIGHT="-2154.5249105835796 -319.50464004639935"
-#!   BOUNDING_RECT="-2626.5249105835796 -320.50464004639935 472 -1"
+#!   POSITION="-2105.0201502015029 -452.50596005959943"
+#!   TOP_LEFT="-2105.0201502015029 -452.50596005959943"
+#!   BOTTOM_RIGHT="-1633.0201502015029 -451.50596005959943"
+#!   BOUNDING_RECT="-2105.0201502015029 -452.50596005959943 472 -1"
 #!   ORDER="500000000000126"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -245,10 +244,10 @@
 #! <COMMENT
 #!   IDENTIFIER="11"
 #!   COMMENT_VALUE="&lt;b&gt;SystemCaller&amp;nbsp;[SystemCaller]&lt;/b&gt;&lt;br&gt;Parameters:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Command&amp;nbsp;Line:&amp;nbsp;@Value(_command)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Exit&amp;nbsp;Code&amp;nbsp;Attribute:&amp;nbsp;&amp;lt;not&amp;nbsp;set&amp;gt;"
-#!   POSITION="-2150.0215002150026 -797.50881008810109"
-#!   TOP_LEFT="-2150.0215002150026 -797.50881008810109"
-#!   BOTTOM_RIGHT="-2151.0215002150026 -796.50881008810109"
-#!   BOUNDING_RECT="-2150.0215002150026 -797.50881008810109 -1 -1"
+#!   POSITION="-1466.0146601466017 -941.51025010250112"
+#!   TOP_LEFT="-1466.0146601466017 -941.51025010250112"
+#!   BOTTOM_RIGHT="-1467.0146601466017 -940.51025010250112"
+#!   BOUNDING_RECT="-1466.0146601466017 -941.51025010250112 -1 -1"
 #!   ORDER="500000000000101"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="true"
@@ -256,7 +255,7 @@
 #! />
 #! <COMMENT
 #!   IDENTIFIER="12"
-#!   COMMENT_VALUE="&lt;b&gt;AttributeManager&amp;nbsp;[AttributeManager]&lt;/b&gt;&lt;br&gt;Attribute&amp;nbsp;Actions:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;Input&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Output&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Attribute&amp;nbsp;Value&lt;/td&gt;&lt;td&gt;Action&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;GITUSER&lt;/td&gt;&lt;td&gt;$(GITUSER)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;GITREPOSITORY&lt;/td&gt;&lt;td&gt;$(GITREPOSITORY)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;GITBRANCH&lt;/td&gt;&lt;td&gt;$(GITBRANCH)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_s3_bucket_name&lt;/td&gt;&lt;td&gt;@Value(S3_BUCKET_NAME)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_s3_object_key&lt;/td&gt;&lt;td&gt;$(GITBRANCH)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TempFolder&lt;/td&gt;&lt;td&gt;$(FME_SHAREDRESOURCE_TEMP)/@UUID()/@Value(_s3_object_key)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;_command&lt;/td&gt;&lt;td&gt;git&amp;nbsp;clone&amp;nbsp;-b&amp;nbsp;@Value(GITBRANCH)&amp;nbsp;https://github.com/@Value(GITUSER)/@Value(GITREPOSITORY).git&amp;nbsp;@Value(TempFolder)/&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+#!   COMMENT_VALUE="&lt;b&gt;AttributeManager&amp;nbsp;[AttributeManager]&lt;/b&gt;&lt;br&gt;Attribute&amp;nbsp;Actions:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;Input&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Output&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Attribute&amp;nbsp;Value&lt;/td&gt;&lt;td&gt;Action&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;GITUSER&lt;/td&gt;&lt;td&gt;$(GITUSER)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;GITREPOSITORY&lt;/td&gt;&lt;td&gt;$(GITREPOSITORY)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;GITBRANCH&lt;/td&gt;&lt;td&gt;$(GITBRANCH)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;_s3_bucket_name&lt;/td&gt;&lt;td&gt;@Value(S3_BUCKET_NAME)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;_s3_object_key&lt;/td&gt;&lt;td&gt;$(GITBRANCH)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;TempFolder&lt;/td&gt;&lt;td&gt;$(FME_SHAREDRESOURCE_TEMP)/@UUID()/@Value(_s3_object_key)&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;td&gt;_command&lt;/td&gt;&lt;td&gt;git&amp;nbsp;clone&amp;nbsp;-b&amp;nbsp;@Value(GITBRANCH)&amp;nbsp;https://github.com/@Value(GITUSER)/@Value(GITREPOSITORY).git&amp;nbsp;@Value(TempFolder)/&lt;/td&gt;&lt;td&gt;Set&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
 #!   POSITION="-2396.0239602396023 1293.0122801228013"
 #!   TOP_LEFT="-2396.0239602396023 1293.0122801228013"
 #!   BOTTOM_RIGHT="-2397.0239602396023 1294.0122801228013"
@@ -273,39 +272,39 @@
 #! <BOOKMARK
 #!   IDENTIFIER="71"
 #!   NAME="Upload updated folders and the zip file to S3"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="1400.5303053030584 -90.000900009000304"
 #!   ORDER="500000000000062"
 #!   BOTTOM_RIGHT="4932.0493204932045 -1542.0154201542016"
 #!   BOUNDING_RECT="1400.5303053030584 -90.000900009000304 3531.5190151901461 1452.0145201452012"
 #!   STICKY="true"
-#!   COLOUR="0.59999999999999998,0.52156862745098043,0.53725490196078429,0.39215686274509803"
-#!   CONTENTS="90 91 28 88 21 "
+#!   COLOUR="0.59999999999999998,0.52156862745098043,0.53725490196078429"
+#!   CONTENTS="90 28 21 91 88 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="54"
 #!   NAME="Clone FMEData GitHub repository"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-3684.0368403684033 593.0041800418004"
 #!   ORDER="500000000000114"
 #!   BOTTOM_RIGHT="1296.012960129603 -1404.0140401404014"
 #!   BOUNDING_RECT="-3684.0368403684033 593.0041800418004 4980.0498004980063 1997.0182201822017"
 #!   STICKY="true"
-#!   COLOUR="0.38823529411764707,0.58431372549019611,0.21568627450980393,0.39215686274509803"
-#!   CONTENTS="95 94 8 92 11 3 56 81 93 2 31 26 "
+#!   COLOUR="0.38823529411764707,0.58431372549019611,0.21568627450980393"
+#!   CONTENTS="8 94 92 56 26 93 30 27 31 81 29 11 2 95 33 3 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="101"
 #!   NAME="Documentation"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-2671.5262605970793 -1485.0094055957647"
 #!   ORDER="500000000000101.13"
 #!   BOTTOM_RIGHT="-742.50697040417731 -2631.0208657103658"
 #!   BOUNDING_RECT="-2671.5262605970793 -1485.0094055957647 1929.019290192902 1146.0114601146011"
 #!   STICKY="true"
-#!   COLOUR="0.035294117647058823,0.47450980392156861,0.015686274509803921,0.39215686274509803"
+#!   COLOUR="0.035294117647058823,0.47450980392156861,0.015686274509803921"
 #!   CONTENTS="100 "
 #! >
 #! </BOOKMARK>
@@ -315,8 +314,8 @@
 #!   IDENTIFIER="2"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="-3533.0353303533043 -47.000470004699963"
-#!   BOUNDING_RECT="-3533.0353303533043 -47.000470004699963 -1 -1"
+#!   POSITION="-3590.0359003590047 31.000310003100111"
+#!   BOUNDING_RECT="-3590.0359003590047 31.000310003100111 -1 -1"
 #!   ORDER="500000000000095"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -357,11 +356,12 @@
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -402,11 +402,12 @@
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -421,7 +422,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; GITUSER $(GITUSER) SET_TO  GITREPOSITORY $(GITREPOSITORY) SET_TO  GITBRANCH $(GITBRANCH) SET_TO  _s3_bucket_name &lt;at&gt;Value&lt;openparen&gt;S3_BUCKET_NAME&lt;closeparen&gt; SET_TO  _s3_object_key $(GITBRANCH) SET_TO  TempFolder $(FME_SHAREDRESOURCE_TEMP)&lt;solidus&gt;&lt;at&gt;UUID&lt;openparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;_s3_object_key&lt;closeparen&gt; SET_TO  _command git&lt;space&gt;clone&lt;space&gt;-b&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;GITBRANCH&lt;closeparen&gt;&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;github.com&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;GITUSER&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;GITREPOSITORY&lt;closeparen&gt;.git&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;TempFolder&lt;closeparen&gt;&lt;solidus&gt; SET_TO _response_body _response_body  NO_OP _http_status_code _http_status_code  NO_OP CourseType CourseType  NO_OP S3_BUCKET_NAME S3_BUCKET_NAME  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; GITUSER $(GITUSER) SET_TO  GITREPOSITORY $(GITREPOSITORY) SET_TO  GITBRANCH $(GITBRANCH) SET_TO  _s3_bucket_name &lt;at&gt;Value&lt;openparen&gt;S3_BUCKET_NAME&lt;closeparen&gt; SET_TO  _s3_object_key $(GITBRANCH) SET_TO  TempFolder $(FME_SHAREDRESOURCE_TEMP)&lt;solidus&gt;&lt;at&gt;UUID&lt;openparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;_s3_object_key&lt;closeparen&gt; SET_TO  _command git&lt;space&gt;clone&lt;space&gt;-b&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;GITBRANCH&lt;closeparen&gt;&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;github.com&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;GITUSER&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;GITREPOSITORY&lt;closeparen&gt;.git&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;TempFolder&lt;closeparen&gt;&lt;solidus&gt; SET_TO CourseType CourseType  NO_OP S3_BUCKET_NAME S3_BUCKET_NAME  NO_OP AWS_ACCESS_KEY_ID AWS_ACCESS_KEY_ID  NO_OP AWS_SECRET_ACCESS_KEY AWS_SECRET_ACCESS_KEY  NO_OP repository repository  NO_OP workspace workspace  NO_OP server server  NO_OP token token  NO_OP region_name region_name  NO_OP EC2Type EC2Type  NO_OP EC2Size EC2Size  NO_OP SubnetId&lt;opencurly&gt;&lt;closecurly&gt; SubnetId&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP Team Team  NO_OP Owner Owner  NO_OP FromEmail FromEmail  NO_OP CCEmail CCEmail  NO_OP BCCEmail BCCEmail  NO_OP _email_template&lt;opencurly&gt;&lt;closecurly&gt; _email_template&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP _rdp_template&lt;opencurly&gt;&lt;closecurly&gt; _rdp_template&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt;  NO_OP fme_geometry&lt;opencurly&gt;&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -439,7 +440,7 @@
 #!   ORDER="500000000000016"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19151"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -452,11 +453,12 @@
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -481,11 +483,12 @@
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -499,10 +502,10 @@
 #!     <XFORM_ATTR ATTR_NAME="_rdp_template{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="AWS_ACCESS_KEY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AWS_CONNECTION" PARM_VALUE="VM Amazon Web Services"/>
-#!     <XFORM_PARM PARM_NAME="AWS_SECRET_KEY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="EMBED_CONNECTION_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="AWS_ACCESS_KEY" PARM_VALUE="@Value(AWS_ACCESS_KEY_ID)"/>
+#!     <XFORM_PARM PARM_NAME="AWS_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AWS_SECRET_KEY" PARM_VALUE="@Value(AWS_SECRET_ACCESS_KEY)"/>
+#!     <XFORM_PARM PARM_NAME="EMBED_CONNECTION_GROUP" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="S3_ACCELERATION" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="S3_AWS_REGION" PARM_VALUE="US East, N. Virginia (us-east-1)"/>
 #!     <XFORM_PARM PARM_NAME="S3_BUCKET_GROUP" PARM_VALUE=""/>
@@ -549,11 +552,12 @@
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -600,11 +604,12 @@
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -651,11 +656,12 @@
 #!     <XFORM_ATTR ATTR_NAME="_command" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -683,15 +689,17 @@
 #!   IDENTIFIER="31"
 #!   TYPE="FeatureReader"
 #!   VERSION="11"
-#!   POSITION="-2671.5262605970793 384.00384003840043"
-#!   BOUNDING_RECT="-2671.5262605970793 384.00384003840043 430 71"
+#!   POSITION="-2150.0215002150026 252.00252002520034"
+#!   BOUNDING_RECT="-2150.0215002150026 252.00252002520034 430 71"
 #!   ORDER="500000000000128"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19151"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -701,12 +709,13 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="JSONFeature"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -722,16 +731,22 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;repository,workspace,server,token,S3_BUCKET_NAME,S3ROOT,region_name,EC2Type,EC2Size,SubnetId{},Team,Owner,CourseType,FromEmail,CCEmail,BCCEmail,_email_template{},_rdp_template{},fme_geometry{0}&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;repository,workspace,server,token,S3_BUCKET_NAME,region_name,EC2Type,EC2Size,SubnetId{},Team,Owner,CourseType,FromEmail,CCEmail,BCCEmail,_email_template{},_rdp_template{},fme_geometry{0}&quot;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%JSONFeature"/>
 #!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
@@ -744,7 +759,7 @@
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="JSON"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceSCAN_MODE&lt;comma&gt;AUTO&lt;comma&gt;SourceQUERY_TABLE&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceFLATTEN_MODE&lt;comma&gt;ALL_LEVELS&lt;comma&gt;SourceFEATURE_TYPE_KEY&lt;comma&gt;json_featuretype&lt;comma&gt;SourceGEOMETRY_FORMAT&lt;comma&gt;None&lt;comma&gt;SourceGEOMETRY_KEY&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceCOORDINATE_SYSTEM_KEY&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceSAVE_FRAGMENTS&lt;comma&gt;NO&lt;comma&gt;SourceDECODE_TEXT_STRINGS&lt;comma&gt;Yes&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourceJSON_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_BASENAME_AS_DEFAULT_FEATURE_TYPE&lt;comma&gt;No&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceNETWORK_AUTHENTICATION&lt;comma&gt;,METAFILE,JSON"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="JSON_DECODE_TEXT_STRINGS,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_FEATURE_TYPE_KEY,&quot;OPTIONAL TEXT&quot;,JSON&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Key&lt;space&gt;Name:,JSON_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,JSON&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_FLATTEN_MODE,&quot;OPTIONAL LOOKUP_CHOICE Yes,ALL_LEVELS%No,ONE_LEVEL&quot;,JSON&lt;space&gt;Flatten&lt;space&gt;Nested&lt;space&gt;JSON&lt;space&gt;Values&lt;space&gt;into&lt;space&gt;Attributes:,JSON_NETWORK_AUTHENTICATION,&quot;OPTIONAL AUTHENTICATOR CONTAINER%ACTIVEDISCLOSUREGROUP%CONTAINER_TITLE%Use Network Authentication%PROMPT_TYPE%NETWORK&quot;,JSON&lt;space&gt;Use&lt;space&gt;Network&lt;space&gt;Authentication,JSON_SAVE_FRAGMENTS,&quot;OPTIONAL LOOKUP_CHOICE Yes,YES%No,NO&quot;,JSON&lt;space&gt;Read&lt;space&gt;Entire&lt;space&gt;Feature&lt;space&gt;as&lt;space&gt;JSON&lt;space&gt;Fragment:,JSON_JSON_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS JSON%Source&quot;,JSON&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,JSON_GEOMETRY_FORMAT,&quot;OPTIONAL ACTIVECHOICE GeoJSON%OGC-WKT%None,GEOMETRY_KEY,COORDINATE_SYSTEM_KEY&quot;,JSON&lt;space&gt;Geometry&lt;space&gt;Format:,JSON_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP JSON_EXPOSE_FORMAT_ATTRS&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Attributes,JSON_SCAN_MODE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Auto,AUTO,QUERY_TABLE%JSON&lt;space&gt;Query,QUERY&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Scan&lt;space&gt;Mode"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="JSON_SAVE_FRAGMENTS,&quot;OPTIONAL LOOKUP_CHOICE Yes,YES%No,NO&quot;,JSON&lt;space&gt;Read&lt;space&gt;Entire&lt;space&gt;Feature&lt;space&gt;as&lt;space&gt;JSON&lt;space&gt;Fragment:,JSON_NETWORK_AUTHENTICATION,&quot;OPTIONAL AUTHENTICATOR CONTAINER%ACTIVEDISCLOSUREGROUP%CONTAINER_TITLE%Use Network Authentication%PROMPT_TYPE%NETWORK&quot;,JSON&lt;space&gt;Use&lt;space&gt;Network&lt;space&gt;Authentication,JSON_JSON_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS JSON%Source&quot;,JSON&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,JSON_FEATURE_TYPE_KEY,&quot;OPTIONAL TEXT&quot;,JSON&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Key&lt;space&gt;Name:,JSON_DECODE_TEXT_STRINGS,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP JSON_EXPOSE_FORMAT_ATTRS&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Attributes,JSON_SCAN_MODE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Auto,AUTO,QUERY_TABLE%JSON&lt;space&gt;Query,QUERY&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Scan&lt;space&gt;Mode,JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_GEOMETRY_FORMAT,&quot;OPTIONAL ACTIVECHOICE GeoJSON%OGC-WKT%None,GEOMETRY_KEY,COORDINATE_SYSTEM_KEY&quot;,JSON&lt;space&gt;Geometry&lt;space&gt;Format:,JSON_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,JSON&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,JSON_FLATTEN_MODE,&quot;OPTIONAL LOOKUP_CHOICE Yes,ALL_LEVELS%No,ONE_LEVEL&quot;,JSON&lt;space&gt;Flatten&lt;space&gt;Nested&lt;space&gt;JSON&lt;space&gt;Values&lt;space&gt;into&lt;space&gt;Attributes:"/>
 #!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
 #!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
@@ -760,7 +775,7 @@
 #!     <XFORM_PARM PARM_NAME="JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="JSON_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
 #!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
@@ -776,14 +791,35 @@
 #!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="AWSCredentialSupplier"
+#!   VERSION="1"
+#!   POSITION="-2954.0295402954039 141.50141501415021"
+#!   BOUNDING_RECT="-2954.0295402954039 141.50141501415021 -1 -1"
+#!   ORDER="500000000000129"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="AWS_ACCESS_KEY_ID" PARM_VALUE="AKIAICERN4WDSWP5VUDQ"/>
+#!     <XFORM_PARM PARM_NAME="AWS_SECRET_ACCESS_KEY" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszd6ht4bVmyf7AYkBUHSfX5VdRcrDmSPRhTe9s/lB1Hzmzl5yWgFMc7fElLkf2e7dyDLFiReD40qhaFyasAzd5uZeEOHPj+iEY0Uu2FpOqto02lcr5GKztM6hI1Hz9sF9i//2fdxLputH3j4mDy1RZUJ/3fJ5bgkXmqxX73L17uLV/kFNbclbGP2yb8uH0l7NMq9FbqH1BzjiEFT+Mgctq0vFdkM5ogemMPpPCTFY5EJFrzSUokD29NINzqDMKdff+PiFh//R3QAeT6P1ahUes7/z+e/CE/mqAXuVwvQRJnA53GjxmssBCsiAOX81WGDCOg0PWPqbez20kP/orEYtf0KDmmvFfKOdp)"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AWSCredentialSupplier"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="32"
+#!   IDENTIFIER="29"
 #!   SOURCE_NODE="2"
-#!   TARGET_NODE="31"
+#!   TARGET_NODE="27"
 #!   SOURCE_PORT_DESC="fo 0 CREATED"
-#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 Input"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -817,6 +853,17 @@
 #!   TARGET_NODE="90"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="31"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -867,7 +914,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 27
-DEFAULT_MACRO GITBRANCH training
+DEFAULT_MACRO GITBRANCH development
 GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE GITBRANCH MAX%MAX Git Branch:
 DEFAULT_MACRO GITUSER safesoftware
 GUI IGNORE OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE GITUSER MAX%MAX GIT user:
@@ -919,19 +966,29 @@ INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment 
 FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
 FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
 FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES 1    OUTPUT FEATURE_TYPE Creator_CREATED        fme_feature_type Creator
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 32"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 29"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AWSCredentialSupplier Input Input Collector"   INPUT FEATURE_TYPE Creator_CREATED   OUTPUT FEATURE_TYPE AWSCredentialSupplier_Input
+MACRO AWSCredentialSupplier_WORKSPACE_NAME AWSCredentialSupplier
+MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_XFORMER_NAME AWSCredentialSupplier
+MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_ACCESS_KEY_ID AKIAICERN4WDSWP5VUDQ
+MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_SECRET_ACCESS_KEY fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszd6ht4bVmyf7AYkBUHSfX5VdRcrDmSPRhTe9s/lB1Hzmzl5yWgFMc7fElLkf2e7dyDLFiReD40qhaFyasAzd5uZeEOHPj+iEY0Uu2FpOqto02lcr5GKztM6hI1Hz9sF9i//2fdxLputH3j4mDy1RZUJ/3fJ5bgkXmqxX73L17uLV/kFNbclbGP2yb8uH0l7NMq9FbqH1BzjiEFT+Mgctq0vFdkM5ogemMPpPCTFY5EJFrzSUokD29NINzqDMKdff+PiFh//R3QAeT6P1ahUes7/z+e/CE/mqAXuVwvQRJnA53GjxmssBCsiAOX81WGDCOg0PWPqbez20kP/orEYtf0KDmmvFfKOdp)
+INCLUDE_CUSTOM_TRANSFORMER_VER AWSCredentialSupplier:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AWSCredentialSupplier Output Output Renamer/Nuker"   INPUT FEATURE_TYPE AWSCredentialSupplier_Output   OUTPUT FEATURE_TYPE AWSCredentialSupplier_Output
+# -------------------------------------------------------------------------
 MACRO FeatureReader_OUTPUT_PORTS_ENCODED JSONFeature
-MACRO FeatureReader_DIRECTIVES DECODE_TEXT_STRINGS,Yes,FEATURE_TYPE_KEY,json_featuretype,USE_SEARCH_ENVELOPE,NO,USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,FLATTEN_MODE,ALL_LEVELS,SAVE_FRAGMENTS,NO,GEOMETRY_FORMAT,None,SCAN_MODE,AUTO
+MACRO FeatureReader_DIRECTIVES SAVE_FRAGMENTS,NO,FEATURE_TYPE_KEY,json_featuretype,DECODE_TEXT_STRINGS,Yes,SCAN_MODE,AUTO,USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,GEOMETRY_FORMAT,None,USE_SEARCH_ENVELOPE,NO,FLATTEN_MODE,ALL_LEVELS
 # Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
 INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
 # Consolidate the attribute merge options to what the factory expects
 DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
-INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS RESULT_ONLY";       };    ]
+INCLUDE [       if { {MERGE} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS PREFER_RESULT";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS MERGE";       };    ]
 INCLUDE [    puts {DEFAULT_MACRO FeatureReaderDataset_FeatureReader @EvaluateExpression(FDIV,STRING_ENCODED,https:<solidus><solidus>raw.githubusercontent.com<solidus>$(GITUSER)<solidus>$(GITREPOSITORY)<solidus>$(GITBRANCH)<solidus>settings.json,FeatureReader)}; ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE Creator_CREATED    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         JSON    READER_DATASET      "$(FeatureReaderDataset_FeatureReader)"    QUERYFCT_IDS        ""    READER_DIRECTIVES META_MACROS,SourceSCAN_MODE<comma>AUTO<comma>SourceQUERY_TABLE<comma><lt>Unused<gt><comma>SourceFLATTEN_MODE<comma>ALL_LEVELS<comma>SourceFEATURE_TYPE_KEY<comma>json_featuretype<comma>SourceGEOMETRY_FORMAT<comma>None<comma>SourceGEOMETRY_KEY<comma><lt>Unused<gt><comma>SourceCOORDINATE_SYSTEM_KEY<comma><lt>Unused<gt><comma>SourceSAVE_FRAGMENTS<comma>NO<comma>SourceDECODE_TEXT_STRINGS<comma>Yes<comma>SourceEXPOSE_ATTRS_GROUP<comma><comma>SourceJSON_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_BASENAME_AS_DEFAULT_FEATURE_TYPE<comma>No<comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceNETWORK_AUTHENTICATION<comma>,METAFILE,JSON    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_DIRECTIVES)    TREAT_READER_PARAM_AMPERSANDS_AS_LITERALS YES    OUTPUT READER_ERROR FEATURE_TYPE FeatureReader_<REJECTED>    OUTPUT JSONFeature FEATURE_TYPE FeatureReader_JSONFeature
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE AWSCredentialSupplier_Output    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         JSON    READER_DATASET      "$(FeatureReaderDataset_FeatureReader)"    QUERYFCT_IDS        ""    READER_DIRECTIVES META_MACROS,SourceSCAN_MODE<comma>AUTO<comma>SourceQUERY_TABLE<comma><lt>Unused<gt><comma>SourceFLATTEN_MODE<comma>ALL_LEVELS<comma>SourceFEATURE_TYPE_KEY<comma>json_featuretype<comma>SourceGEOMETRY_FORMAT<comma>None<comma>SourceGEOMETRY_KEY<comma><lt>Unused<gt><comma>SourceCOORDINATE_SYSTEM_KEY<comma><lt>Unused<gt><comma>SourceSAVE_FRAGMENTS<comma>NO<comma>SourceDECODE_TEXT_STRINGS<comma>Yes<comma>SourceEXPOSE_ATTRS_GROUP<comma><comma>SourceJSON_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_BASENAME_AS_DEFAULT_FEATURE_TYPE<comma>No<comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceNETWORK_AUTHENTICATION<comma>,METAFILE,JSON    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_DIRECTIVES)    TREAT_READER_PARAM_AMPERSANDS_AS_LITERALS YES    OUTPUT READER_ERROR FEATURE_TYPE FeatureReader_<REJECTED>    OUTPUT JSONFeature FEATURE_TYPE FeatureReader_JSONFeature
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -939,17 +996,17 @@ FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_Temp_41dcdf53_c66b_4197_ba9f_dbb33322fbe83_replacer { findText replaceText invalidValue} {     set attrs [split \"TempFolder\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_Temp    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_Temp_OUTPUT         @Tcl2("StringReplacer_Temp_41dcdf53_c66b_4197_ba9f_dbb33322fbe83_replacer {<solidus><solidus>} {<solidus>} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_Temp_8cc56d30_96ee_4b4a_b4bd_6e8ff8a832412_replacer { findText replaceText invalidValue} {     set attrs [split \"TempFolder\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_Temp    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_Temp_OUTPUT         @Tcl2("StringReplacer_Temp_8cc56d30_96ee_4b4a_b4bd_6e8ff8a832412_replacer {<solidus><solidus>} {<solidus>} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME SystemCaller    INPUT  FEATURE_TYPE StringReplacer_Temp_OUTPUT    OUTPUT FEATURE_TYPE SystemCaller_OUTPUT         @System(LOG_PREFIX,SystemCaller,ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_command<closeparen>,SystemCaller)")
 # -------------------------------------------------------------------------
-FACTORY_DEF * COM.safe.fme.factory.S3Factory    FACTORY_NAME S3Uploader       INPUT  FEATURE_TYPE SystemCaller_OUTPUT    S3_MODE S3_PUT    S3_NAMED_CONNECTION "VM Amazon Web Services"    S3_AWS_REGION "US_EAST_1"    S3_BUCKET_NAME "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>_s3_bucket_name<closeparen>,S3Uploader)"    S3_OBJECT_KEY "/"    S3_DATA_FOLDER "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>TempFolder<closeparen>,S3Uploader)"    S3_UPLOAD_SUBFOLDERS "Yes"    S3_CUSTOM_HEADERS    S3_REQUEST_HEADER_LIST_ATTR "<Unused>"    S3_ACCELERATION "Suspended"    S3_UPLOAD_ENCRYPTION "NONE"    S3_URI_ATTRIBUTE "_s3_object_uri"    S3_ERROR_ATTRIBUTE "fme_rejection_message"    OUTPUT OUTPUT FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT REJECTED FEATURE_TYPE S3Uploader_<REJECTED>
+FACTORY_DEF * COM.safe.fme.factory.S3Factory    FACTORY_NAME S3Uploader       INPUT  FEATURE_TYPE SystemCaller_OUTPUT    S3_MODE S3_PUT    S3_ACCESS_KEY_ID "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>AWS_ACCESS_KEY_ID<closeparen>,S3Uploader)"    S3_SECRET_ACCESS_KEY "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>AWS_SECRET_ACCESS_KEY<closeparen>,S3Uploader)"    S3_AWS_REGION "US_EAST_1"    S3_BUCKET_NAME "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>_s3_bucket_name<closeparen>,S3Uploader)"    S3_OBJECT_KEY "/"    S3_DATA_FOLDER "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>TempFolder<closeparen>,S3Uploader)"    S3_UPLOAD_SUBFOLDERS "Yes"    S3_CUSTOM_HEADERS    S3_REQUEST_HEADER_LIST_ATTR "<Unused>"    S3_ACCELERATION "Suspended"    S3_UPLOAD_ENCRYPTION "NONE"    S3_URI_ATTRIBUTE "_s3_object_uri"    S3_ERROR_ATTRIBUTE "fme_rejection_message"    OUTPUT OUTPUT FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT REJECTED FEATURE_TYPE S3Uploader_<REJECTED>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Uploader_Rejected_Logger    INPUT  FEATURE_TYPE S3Uploader_<REJECTED>    OUTPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED                  @Log(ENCODED, "Logger_S3Uploader_Rejected:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,Logger_S3Uploader_Rejected_2df4dd75_99ac_4ee5_8944_9234f58ba5b13)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Uploader_Rejected_Logger    INPUT  FEATURE_TYPE S3Uploader_<REJECTED>    OUTPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED                  @Log(ENCODED, "Logger_S3Uploader_Rejected:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,Logger_S3Uploader_Rejected_ab92ef9e_e3ee_439b_8314_4e6880f691372)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger_S3Uploader_Rejected LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Output_Logger    INPUT  FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT FEATURE_TYPE Logger_S3Output_LOGGED                  @Log(ENCODED, "Logger_S3Output:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_S3Output_b8f97855_3f3a_4763_882d_d55d551a93aa3)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Output_Logger    INPUT  FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT FEATURE_TYPE Logger_S3Output_LOGGED                  @Log(ENCODED, "Logger_S3Output:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_S3Output_33d937fb_7ee5_4bd0_a1cd_025c6a178d882)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger_S3Output LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_S3Output_LOGGED
 # -------------------------------------------------------------------------
 

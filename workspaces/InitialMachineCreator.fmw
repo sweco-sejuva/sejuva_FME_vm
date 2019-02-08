@@ -1,15 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/AWS/workspaces/InitialMachineCreator.fmw
-#              --AMI_ImageId "ami-0c96d9489fa933423"
-#              --Name "Test<space>New<space>AMI"
-#              --UserData "<lt>script<gt>powershell<space>-Command<space><quote>Invoke-WebRequest<space>https:<solidus><solidus>s3.amazonaws.com<solidus>fmevm<solidus>training<solidus>InitialConfiguration.bat<space>-OutFile<space>InitialConfiguration.bat<quote><space><amp><amp><space>InitialConfiguration.bat<space>FMElearnings#1<space>fmelicenseip<space>fmeserverserial<lt><solidus>script<gt><lf><lt>persist<gt>true<lt>persist<gt>"
-#              --SubnetId "subnet-7f0c3757"
-#              --region_name "us-east-1"
-#              --EC2Type "t3"
-#              --EC2Size "large"
-#              --VolumeSize "80"
+#        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/InitialMachineCreator.fmw
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -18,14 +10,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="3501.03 331.002"
-#!   DOC_TOP_LEFT="-345.503 -599.005"
+#!   DOC_EXTENTS="8498.08 1008.01"
+#!   DOC_TOP_LEFT="-1979.52 -854.006"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="a79d2ad6-cba9-4a10-ac81-acb4b9703e89"
-#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_DOCUMENT_GUID="88332b33-350f-440a-85ed-3423022786b2"
+#!   FME_DOCUMENT_PRIORGUID="a79d2ad6-cba9-4a10-ac81-acb4b9703e89"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -34,7 +26,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-02-02T12:16:49"
+#!   LAST_SAVE_DATE="2019-02-08T14:27:04"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -52,7 +44,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-549.005 -72.0007"
+#!   VIEW_POSITION="-2214.02 903.009"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -66,57 +58,24 @@
 #! <FEATURE_TYPES>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET 
+#!   NAME="FeatureReader"
+#!   OVERRIDE="--FeatureReaderDataset_FeatureReader"
+#!   DATASET="FeatureReader/settings.json"
+#! />
+#! </READER_DATASETS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR AMI_ImageId &quot; &quot; Current ImageId (Microsoft Windows Server Base):"
-#!   DEFAULT_VALUE="ami-0c96d9489fa933423"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR Name &quot; &quot; Name Tag Value:"
-#!   DEFAULT_VALUE="Test&lt;space&gt;New&lt;space&gt;AMI"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR UserData &quot; &quot; User Data Script:"
-#!   DEFAULT_VALUE="&lt;lt&gt;script&lt;gt&gt;powershell&lt;space&gt;-Command&lt;space&gt;&lt;quote&gt;Invoke-WebRequest&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;s3.amazonaws.com&lt;solidus&gt;fmevm&lt;solidus&gt;training&lt;solidus&gt;InitialConfiguration.bat&lt;space&gt;-OutFile&lt;space&gt;InitialConfiguration.bat&lt;quote&gt;&lt;space&gt;&lt;amp&gt;&lt;amp&gt;&lt;space&gt;InitialConfiguration.bat&lt;space&gt;FMElearnings#1&lt;space&gt;fmelicenseip&lt;space&gt;fmeserverserial&lt;lt&gt;&lt;solidus&gt;script&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;persist&lt;gt&gt;true&lt;lt&gt;persist&lt;gt&gt;"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR SubnetId &quot; &quot; SubnetId:"
-#!   DEFAULT_VALUE="subnet-7f0c3757"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR region_name &quot; &quot; Region Name:"
-#!   DEFAULT_VALUE="us-east-1"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR EC2Type &quot; &quot; EC2 Type:"
-#!   DEFAULT_VALUE="t3"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR EC2Size &quot; &quot; EC2 Size:"
-#!   DEFAULT_VALUE="large"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR VolumeSize &quot; &quot; Drive Volume Size in GB:"
-#!   DEFAULT_VALUE="80"
-#!   IS_STAND_ALONE="false"
-#! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! <COMMENT
 #!   IDENTIFIER="3"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get aws_access_key_id and aws_secret_access_key&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="456.07810306324768 -268.00333003330047"
-#!   TOP_LEFT="456.07810306324768 -268.00333003330047"
-#!   BOTTOM_RIGHT="1031.9459307070445 -267.00333003330047"
-#!   BOUNDING_RECT="456.07810306324768 -268.00333003330047 575.86782764379677 -1"
+#!   POSITION="-1106.9375270930539 43.999789997899825"
+#!   TOP_LEFT="-1106.9375270930539 43.999789997899825"
+#!   BOTTOM_RIGHT="-531.06969944925709 44.999789997899825"
+#!   BOUNDING_RECT="-1106.9375270930539 43.999789997899825 575.86782764379677 -1"
 #!   ORDER="500000000000190"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -124,18 +83,71 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="2"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="13"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get existing VpcId and region_name&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-7.9956996225233183 58.499429659824159"
+#!   TOP_LEFT="-7.9956996225233183 58.499429659824159"
+#!   BOTTOM_RIGHT="464.00430037747668 59.499429659824159"
+#!   BOUNDING_RECT="-7.9956996225233183 58.499429659824159 472 -1"
+#!   ORDER="500000000000230"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.78431372549019607,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="12"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
 #! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="25"
+#!   NAME="Get the most recent by CreationDate"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="3659.5356810408502 -483.00624142410823"
+#!   ORDER="500000000000240.25"
+#!   BOTTOM_RIGHT="4737.5353810378501 -819.00624142410823"
+#!   BOUNDING_RECT="3659.5356810408502 -483.00624142410823 1077.9996999970001 336"
+#!   STICKY="true"
+#!   COLOUR="0.90588235294117647,0.14509803921568629,0.15686274509803921"
+#!   CONTENTS="20 19 24 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="26"
+#!   NAME="Find the most recent Amazon Linux 2 AMI for this region"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="1440.5261404454491 -346.00552141690866"
+#!   ORDER="500000000000240.13"
+#!   BOTTOM_RIGHT="4787.5353810378492 -854.00624142410868"
+#!   BOUNDING_RECT="1440.5261404454491 -346.00552141690866 3347.0092405924006 508.00072000720002"
+#!   STICKY="true"
+#!   COLOUR="0.16470588235294117,0.78823529411764703,0.96470588235294119"
+#!   CONTENTS="17 20 21 19 22 18 16 23 25 24 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="30"
+#!   NAME="Get parameters"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="-1979.5188751887515 153.99978999789982"
+#!   ORDER="500000000000244.25"
+#!   BOTTOM_RIGHT="1158.2505052643112 -824.50364037087627"
+#!   BOUNDING_RECT="-1979.5188751887515 153.99978999789982 3137.7693804530627 978.50343036877609"
+#!   STICKY="true"
+#!   COLOUR="0.89411764705882357,0.5607843137254902,0.79607843137254897"
+#!   CONTENTS="13 12 2 3 14 27 4 5 28 "
+#! >
+#! </BOOKMARK>
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
 #! <TRANSFORMER
 #!   IDENTIFIER="2"
 #!   TYPE="AWSCredentialSupplier"
 #!   VERSION="1"
-#!   POSITION="456.07810306324768 -501.00501005010062"
-#!   BOUNDING_RECT="456.07810306324768 -501.00501005010062 575.86782764379677 71"
+#!   POSITION="-1106.9375270930539 -189.00189001890033"
+#!   BOUNDING_RECT="-1106.9375270930539 -189.00189001890033 575.86782764379677 71"
 #!   ORDER="500000000000165"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -154,8 +166,8 @@
 #!   IDENTIFIER="4"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="-345.50345503455026 -501.00501005010062"
-#!   BOUNDING_RECT="-345.50345503455026 -501.00501005010062 -1 -1"
+#!   POSITION="-1887.5188751887515 -321.00321003210047"
+#!   BOUNDING_RECT="-1887.5188751887515 -321.00321003210047 -1 -1"
 #!   ORDER="500000000000192"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -175,46 +187,11 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="6"
-#!   TYPE="AttributeManager"
-#!   VERSION="2"
-#!   POSITION="1611.9504907526452 -528.00528005280069"
-#!   BOUNDING_RECT="1611.9504907526452 -528.00528005280069 -1 -1"
-#!   ORDER="500000000000193"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="VolumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="AWS_ACCESS_KEY_ID AWS_ACCESS_KEY_ID  NO_OP AWS_SECRET_ACCESS_KEY AWS_SECRET_ACCESS_KEY  NO_OP  ImageId $(AMI_ImageId) SET_TO  EC2Type $(EC2Type) SET_TO  EC2Size $(EC2Size) SET_TO  InstanceType &lt;at&gt;Value&lt;openparen&gt;EC2Type&lt;closeparen&gt;.&lt;at&gt;Value&lt;openparen&gt;EC2Size&lt;closeparen&gt; SET_TO  Name $(Name) SET_TO  UserData $(UserData) SET_TO  SubnetId $(SubnetId) SET_TO  region_name $(region_name) SET_TO  VolumeSize $(VolumeSize) SET_TO"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="8"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="2224.5207177660527 -528.00528005280069"
-#!   BOUNDING_RECT="2224.5207177660527 -528.00528005280069 807.00774057740045 71"
+#!   POSITION="5587.5543481023542 -427.00624142410817"
+#!   BOUNDING_RECT="5587.5543481023542 -427.00624142410817 807.00774057740045 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -224,16 +201,19 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="VolumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
@@ -248,8 +228,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="Logger"
 #!   VERSION="4"
-#!   POSITION="3155.5284583434532 -546.50528005280069"
-#!   BOUNDING_RECT="3155.5284583434532 -546.50528005280069 -1 -1"
+#!   POSITION="6518.5620886797551 -445.50624142410817"
+#!   BOUNDING_RECT="6518.5620886797551 -445.50624142410817 -1 -1"
 #!   ORDER="500000000000196"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -259,16 +239,19 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="VolumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
@@ -279,6 +262,379 @@
 #!     <XFORM_PARM PARM_NAME="SEVERITY" PARM_VALUE="WARN"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller_run_instances_Output"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="12"
+#!   TYPE="FeatureReader"
+#!   VERSION="11"
+#!   POSITION="33.977270107173979 -220.50226035707612"
+#!   BOUNDING_RECT="33.977270107173979 -220.50226035707612 -1 -1"
+#!   ORDER="500000000000229"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="JSONFeature"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="S3_BUCKET_NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FromEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CCEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="server" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_email_template{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_rdp_template{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;S3_BUCKET_NAME,region_name,aws_name_tag,vpc_cidr,subnet_cidr{},Vpc.VpcId,linux.ami,CourseType,GitBranch.CourseType,windows.ami,EC2Type,EC2Size,InstanceInitiatedShutdownBehavior,FromEmail,CCEmail,BCCEmail,repository,workspace,server,token,_email_template{},_rdp_template{},fme_geometry{0}&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%JSONFeature"/>
+#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Initiator"/>
+#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="..&lt;solidus&gt;settings.json"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="JSON"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceSCAN_MODE&lt;comma&gt;AUTO&lt;comma&gt;SourceQUERY_TABLE&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceFLATTEN_MODE&lt;comma&gt;ALL_LEVELS&lt;comma&gt;SourceFEATURE_TYPE_KEY&lt;comma&gt;json_featuretype&lt;comma&gt;SourceGEOMETRY_FORMAT&lt;comma&gt;None&lt;comma&gt;SourceGEOMETRY_KEY&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceCOORDINATE_SYSTEM_KEY&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceSAVE_FRAGMENTS&lt;comma&gt;NO&lt;comma&gt;SourceDECODE_TEXT_STRINGS&lt;comma&gt;Yes&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourceJSON_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_BASENAME_AS_DEFAULT_FEATURE_TYPE&lt;comma&gt;No&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO,METAFILE,JSON"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_JSON_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS JSON%Source&quot;,JSON&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,JSON_GEOMETRY_FORMAT,&quot;OPTIONAL ACTIVECHOICE GeoJSON%OGC-WKT%None,GEOMETRY_KEY,COORDINATE_SYSTEM_KEY&quot;,JSON&lt;space&gt;Geometry&lt;space&gt;Format:,JSON_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP JSON_EXPOSE_FORMAT_ATTRS&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Attributes,JSON_SAVE_FRAGMENTS,&quot;OPTIONAL LOOKUP_CHOICE Yes,YES%No,NO&quot;,JSON&lt;space&gt;Read&lt;space&gt;Entire&lt;space&gt;Feature&lt;space&gt;as&lt;space&gt;JSON&lt;space&gt;Fragment:,JSON_DECODE_TEXT_STRINGS,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_FLATTEN_MODE,&quot;OPTIONAL LOOKUP_CHOICE Yes,ALL_LEVELS%No,ONE_LEVEL&quot;,JSON&lt;space&gt;Flatten&lt;space&gt;Nested&lt;space&gt;JSON&lt;space&gt;Values&lt;space&gt;into&lt;space&gt;Attributes:,JSON_FEATURE_TYPE_KEY,&quot;OPTIONAL TEXT&quot;,JSON&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Key&lt;space&gt;Name:,JSON_SCAN_MODE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Auto,AUTO,QUERY_TABLE%JSON&lt;space&gt;Query,QUERY&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Scan&lt;space&gt;Mode,JSON_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,JSON&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope"/>
+#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JSON_DECODE_TEXT_STRINGS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="JSON_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_FEATURE_TYPE_KEY" PARM_VALUE="json_featuretype"/>
+#!     <XFORM_PARM PARM_NAME="JSON_FLATTEN_MODE" PARM_VALUE="ALL_LEVELS"/>
+#!     <XFORM_PARM PARM_NAME="JSON_GEOMETRY_FORMAT" PARM_VALUE="None"/>
+#!     <XFORM_PARM PARM_NAME="JSON_JSON_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_SAVE_FRAGMENTS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="JSON_SCAN_MODE" PARM_VALUE="AUTO"/>
+#!     <XFORM_PARM PARM_NAME="JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JSON_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="16"
+#!   TYPE="PythonCaller"
+#!   VERSION="4"
+#!   POSITION="1511.5261104451488 -593.00624142410834"
+#!   BOUNDING_RECT="1511.5261104451488 -593.00624142410834 834.49734978945366 71"
+#!   ORDER="500000000000004"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="_response"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;boto3&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#need&lt;space&gt;this&lt;space&gt;for&lt;space&gt;AWS&lt;space&gt;access&lt;lf&gt;import&lt;space&gt;json&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#AWS&lt;space&gt;stuff&lt;space&gt;creates&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;lf&gt;def&lt;space&gt;AWSCall&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;client&lt;space&gt;=&lt;space&gt;boto3.client&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;ec2&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;region_name=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;region_name&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_access_key_id=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_ACCESS_KEY_ID&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_secret_access_key=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_SECRET_ACCESS_KEY&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;response&lt;space&gt;=&lt;space&gt;client.describe_images&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ExecutableUsers=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;all&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Filters=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;state&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Values&lt;apos&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;available&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;platform&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Values&lt;apos&gt;:&lt;space&gt;&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;windows&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;architecture&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Values&lt;apos&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;x86_64&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;image-type&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Values&lt;apos&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;machine&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;virtualization-type&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Values&lt;apos&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;hvm&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;block-device-mapping.volume-type&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Values&lt;apos&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;gp2&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;description&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Values&lt;apos&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;windows.ami&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_response&lt;quote&gt;&lt;comma&gt;&lt;space&gt;json.dumps&lt;openparen&gt;response&lt;comma&gt;&lt;space&gt;default=str&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;#https:&lt;solidus&gt;&lt;solidus&gt;stackoverflow.com&lt;solidus&gt;questions&lt;solidus&gt;11875770&lt;solidus&gt;how-to-overcome-datetime-datetime-not-json-serializable&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;e:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_response&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;error&lt;space&gt;in&lt;space&gt;PythonCaller_run_instances:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;repr&lt;openparen&gt;e&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="AWSCall"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller_Describe_decribe_images"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="17"
+#!   TYPE="JSONFlattener"
+#!   VERSION="5"
+#!   POSITION="2448.5339110231498 -593.00624142410834"
+#!   BOUNDING_RECT="2448.5339110231498 -593.00624142410834 -1 -1"
+#!   ORDER="500000000000233.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Images{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ERROR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ERROR_LIST_ATTR" PARM_VALUE="_json_error"/>
+#!     <XFORM_PARM PARM_NAME="FILEPATH_OR_URL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FLATTEN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INPUT_SETTINGS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_DOCUMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_response&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="Images&lt;opencurly&gt;&lt;closecurly&gt; Description ImageId CreationDate"/>
+#!     <XFORM_PARM PARM_NAME="PREFIX_STRING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_FROM_FILE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFlattener_describe_images"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="ListExploder"
+#!   VERSION="6"
+#!   POSITION="3024.5341310253507 -593.00624142410834"
+#!   BOUNDING_RECT="3024.5341310253507 -593.00624142410834 551.51265475459741 71"
+#!   ORDER="500000000000234.13"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="ELEMENTS"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge List Attributes"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use List Attribute Values"/>
+#!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="Images{}"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder_images"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="19"
+#!   TYPE="Sorter"
+#!   VERSION="2"
+#!   POSITION="3733.5356810408502 -593.00624142410834"
+#!   BOUNDING_RECT="3733.5356810408502 -593.00624142410834 -1 -1"
+#!   ORDER="500000000000235.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="SORTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="CreationDate ALPHA DESCENDING"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="20"
+#!   TYPE="Sampler"
+#!   VERSION="4"
+#!   POSITION="4257.5353810378474 -593.00624142410834"
+#!   BOUNDING_RECT="4257.5353810378474 -593.00624142410834 -1 -1"
+#!   ORDER="500000000000236.13"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="SAMPLED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="NOT_SAMPLED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RATE" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="SAMPLE_MODE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SAMPLE_TYPE_LONG" PARM_VALUE="First N Features"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sampler"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="AttributeKeeper"
+#!   VERSION="3"
+#!   POSITION="663.25035526281147 -363.00189001890033"
+#!   BOUNDING_RECT="663.25035526281147 -363.00189001890033 -1 -1"
+#!   ORDER="500000000000242.25"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws_name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="aws_name_tag,GitBranch.CourseType,AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,windows.ami,Vpc.VpcId,EC2Type,region_name,EC2Size"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -294,22 +650,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="7"
+#!   IDENTIFIER="14"
 #!   SOURCE_NODE="2"
-#!   TARGET_NODE="6"
+#!   TARGET_NODE="12"
 #!   SOURCE_PORT_DESC="fo 0 Output"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="10"
-#!   SOURCE_NODE="6"
-#!   TARGET_NODE="8"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -320,6 +665,83 @@
 #!   SOURCE_NODE="8"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="21"
+#!   SOURCE_NODE="16"
+#!   TARGET_NODE="17"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="22"
+#!   SOURCE_NODE="17"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="23"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="19"
+#!   SOURCE_PORT_DESC="fo 0 ELEMENTS"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="20"
+#!   SOURCE_PORT_DESC="fo 0 SORTED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="31"
+#!   SOURCE_NODE="20"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="fo 0 SAMPLED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="28"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="27"
+#!   SOURCE_PORT_DESC="fo 1 JSONFeature"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -338,23 +760,6 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 36
-DEFAULT_MACRO AMI_ImageId ami-0c96d9489fa933423
-GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE AMI_ImageId " " Current ImageId (Microsoft Windows Server Base):
-DEFAULT_MACRO Name Test<space>New<space>AMI
-GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE Name " " Name Tag Value:
-DEFAULT_MACRO UserData <lt>script<gt>powershell<space>-Command<space><quote>Invoke-WebRequest<space>https:<solidus><solidus>s3.amazonaws.com<solidus>fmevm<solidus>training<solidus>InitialConfiguration.bat<space>-OutFile<space>InitialConfiguration.bat<quote><space><amp><amp><space>InitialConfiguration.bat<space>FMElearnings#1<space>fmelicenseip<space>fmeserverserial<lt><solidus>script<gt><lf><lt>persist<gt>true<lt>persist<gt>
-GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE UserData " " User Data Script:
-DEFAULT_MACRO SubnetId subnet-7f0c3757
-GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE SubnetId " " SubnetId:
-DEFAULT_MACRO region_name us-east-1
-GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE region_name " " Region Name:
-DEFAULT_MACRO EC2Type t3
-GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE EC2Type " " EC2 Type:
-DEFAULT_MACRO EC2Size large
-GUI OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE EC2Size " " EC2 Size:
-DEFAULT_MACRO VolumeSize 80
-GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE VolumeSize " " Drive Volume Size in GB:
-INCLUDE [ if {{$(VolumeSize)} == {}} { puts_real {Parameter 'VolumeSize' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
@@ -411,12 +816,48 @@ MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_SECRET_ACCESS_KEY fme_decrypt(
 INCLUDE_CUSTOM_TRANSFORMER_VER AWSCredentialSupplier:1
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AWSCredentialSupplier Output Output Renamer/Nuker"   INPUT FEATURE_TYPE AWSCredentialSupplier_Output   OUTPUT FEATURE_TYPE AWSCredentialSupplier_Output
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE AWSCredentialSupplier_Output    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "ImageId" "$(AMI_ImageId)" "SET_TO" }      ATTR_ACTION { "" "EC2Type" "$(EC2Type)" "SET_TO" }      ATTR_ACTION { "" "EC2Size" "$(EC2Size)" "SET_TO" }      ATTR_ACTION { "" "InstanceType" "<at>Value<openparen>EC2Type<closeparen>.<at>Value<openparen>EC2Size<closeparen>" "SET_TO" }      ATTR_ACTION { "" "Name" "$(Name)" "SET_TO" }      ATTR_ACTION { "" "UserData" "$(UserData)" "SET_TO" }      ATTR_ACTION { "" "SubnetId" "$(SubnetId)" "SET_TO" }      ATTR_ACTION { "" "region_name" "$(region_name)" "SET_TO" }      ATTR_ACTION { "" "VolumeSize" "$(VolumeSize)" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+MACRO FeatureReader_OUTPUT_PORTS_ENCODED JSONFeature
+MACRO FeatureReader_DIRECTIVES USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,GEOMETRY_FORMAT,None,SAVE_FRAGMENTS,NO,DECODE_TEXT_STRINGS,Yes,FLATTEN_MODE,ALL_LEVELS,FEATURE_TYPE_KEY,json_featuretype,SCAN_MODE,AUTO,USE_SEARCH_ENVELOPE,NO
+# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
+INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
+# Consolidate the attribute merge options to what the factory expects
+DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
+INCLUDE [       if { {MERGE} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS PREFER_RESULT";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS MERGE";       };    ]
+INCLUDE [    puts {DEFAULT_MACRO FeatureReaderDataset_FeatureReader ..<solidus>settings.json}; ]
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE AWSCredentialSupplier_Output    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    QUERY_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         JSON    READER_DATASET      "$(FeatureReaderDataset_FeatureReader)"    QUERYFCT_IDS        ""    READER_DIRECTIVES META_MACROS,SourceSCAN_MODE<comma>AUTO<comma>SourceQUERY_TABLE<comma><lt>Unused<gt><comma>SourceFLATTEN_MODE<comma>ALL_LEVELS<comma>SourceFEATURE_TYPE_KEY<comma>json_featuretype<comma>SourceGEOMETRY_FORMAT<comma>None<comma>SourceGEOMETRY_KEY<comma><lt>Unused<gt><comma>SourceCOORDINATE_SYSTEM_KEY<comma><lt>Unused<gt><comma>SourceSAVE_FRAGMENTS<comma>NO<comma>SourceDECODE_TEXT_STRINGS<comma>Yes<comma>SourceEXPOSE_ATTRS_GROUP<comma><comma>SourceJSON_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_BASENAME_AS_DEFAULT_FEATURE_TYPE<comma>No<comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO,METAFILE,JSON    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_DIRECTIVES)    TREAT_READER_PARAM_AMPERSANDS_AS_LITERALS YES    OUTPUT READER_ERROR FEATURE_TYPE FeatureReader_<REJECTED>    OUTPUT JSONFeature FEATURE_TYPE FeatureReader_JSONFeature
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+INCLUDE [    set macroLine "MACRO AttributeKeeper_593b7fcd_3774_4728_ace9_f98d2a25201c2_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,aws_name_tag,GitBranch.CourseType,AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,windows.ami,Vpc.VpcId,EC2Type,region_name,EC2Size,fme_pcre_match,"^fme_$(AttributeKeeper_593b7fcd_3774_4728_ace9_f98d2a25201c2_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_run_instances    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.run_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>BlockDeviceMappings=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>DeviceName<apos>:<space><apos><solidus>dev<solidus>sda1<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Ebs<apos>:<space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>DeleteOnTermination<apos>:<space>True<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>VolumeSize<apos>:<space>feature.getAttribute<openparen><apos>VolumeSize<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>VolumeType<apos>:<space><apos>gp2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>ImageId=<space>feature.getAttribute<openparen><apos>ImageId<apos><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceType=<space>feature.getAttribute<openparen><apos>InstanceType<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SubnetId=<space>feature.getAttribute<openparen><apos>SubnetId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>MinCount=<space>1<comma><space>MaxCount=<space>1<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>UserData=feature.getAttribute<openparen><apos>UserData<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>TagSpecifications=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>ResourceType<apos>:<space><apos>instance<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Tags<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Name<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>Name<apos><closeparen><closecurly><comma><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_Describe_decribe_images    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_images<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>ExecutableUsers=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>all<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>state<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>available<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>platform<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>windows<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>architecture<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>x86_64<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>image-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>machine<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>virtualization-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>hvm<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><lf><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>block-device-mapping.volume-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>gp2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>description<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>windows.ami<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><lf><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME PythonCaller_run_instances_Output_Logger    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT    OUTPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED                  @Log(ENCODED, "PythonCaller_run_instances_Output:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,PythonCaller_run_instances_Output_95677184_4b9a_4ec6_b619_3bd3ca878ed97)
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_describe_images    INPUT  FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_describe_images)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_describe_images_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_describe_images_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_describe_images_<Rejected> INPUT FEATURE_TYPE JSONFlattener_describe_images_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_describe_images<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder_images    INPUT  FEATURE_TYPE JSONFlattener_describe_images_OUTPUT    LIST_NAME "Images{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_images_ELEMENTS         @RemoveAttributes(ElementFactory.baseCloned)    OUTPUT NOLIST FEATURE_TYPE ListExploder_images_<REJECTED>         @RemoveAttributes(ElementFactory.baseCloned)         fme_rejection_code MISSING_PARAMETER_LIST
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME ListExploder_images_<Rejected> INPUT FEATURE_TYPE ListExploder_images_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ListExploder_images<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * SortFactory    FACTORY_NAME Sorter    INPUT  FEATURE_TYPE ListExploder_images_ELEMENTS    SORT_BY CreationDate ALPHA DESCENDING    OUTPUT SORTED FEATURE_TYPE Sorter_SORTED
+# -------------------------------------------------------------------------
+# If we're doing LAST N features, then the multiplier comes in as 0.
+# If we're doing First N, multiplier is -1.
+# For RANDOM, we need to treat LAST N as if it was first N (i.e. have a -1)
+# That is what the ? : does in the rate multiplier.
+INCLUDE [ if { {-1} == {0} && {ORIGINAL} == {ORIGINAL} } {              puts "MACRO REAL_MODE LAST"; 	         puts "MACRO REAL_RATE 1"; 	      } else {              puts "MACRO REAL_MODE ORIGINAL";              puts "MACRO REAL_RATE [expr 1 * ( -1 ? -1 : -1 ) ]"; 	      } ]
+FACTORY_DEF {*} SamplingFactory    FACTORY_NAME Sampler    COMMAND_PARM_EVALUATION SINGLE_PASS    SAMPLE_RATE $(REAL_RATE)    SAMPLE_ORDER $(REAL_MODE)    INPUT  FEATURE_TYPE Sorter_SORTED    OUTPUT SAMPLED FEATURE_TYPE ___SAMPLED___
+# This TeeFactory is needed because Sampler will still output features if it has no OUTPUT clauses specified.
+# This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
+FACTORY_DEF * TeeFactory    FACTORY_NAME Sampler_Sampled    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT FEATURE_TYPE Sampler_SAMPLED
+# -------------------------------------------------------------------------
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_run_instances    INPUT  FEATURE_TYPE Sampler_SAMPLED    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.run_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>BlockDeviceMappings=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>DeviceName<apos>:<space><apos><solidus>dev<solidus>sda1<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Ebs<apos>:<space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>DeleteOnTermination<apos>:<space>True<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>VolumeSize<apos>:<space>feature.getAttribute<openparen><apos>VolumeSize<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>VolumeType<apos>:<space><apos>gp2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>ImageId=<space>feature.getAttribute<openparen><apos>ImageId<apos><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceType=<space>feature.getAttribute<openparen><apos>InstanceType<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SubnetId=<space>feature.getAttribute<openparen><apos>SubnetId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>MinCount=<space>1<comma><space>MaxCount=<space>1<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>UserData=feature.getAttribute<openparen><apos>UserData<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>TagSpecifications=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>ResourceType<apos>:<space><apos>instance<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Tags<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Name<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>Name<apos><closeparen><closecurly><comma><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME PythonCaller_run_instances_Output_Logger    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT    OUTPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED                  @Log(ENCODED, "PythonCaller_run_instances_Output:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,PythonCaller_run_instances_Output_bcee2235_2d6f_4882_8121_719a9252e6690)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_run_instances_Output LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED
 # -------------------------------------------------------------------------
 

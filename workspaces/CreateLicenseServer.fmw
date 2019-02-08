@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/AWS/workspaces/CreateLicenseServer.fmw
+#        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/CreateLicenseServer.fmw
 #              --EC2Size "nano"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -17,8 +17,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="3fb21e13-b1a8-4ceb-b357-1bbbece82886"
-#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609"
+#!   FME_DOCUMENT_GUID="bd7bed3e-73ca-4de6-9b8e-93baac30c1a3"
+#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,3fb21e13-b1a8-4ceb-b357-1bbbece82886"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -27,7 +27,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-02-05T15:11:52"
+#!   LAST_SAVE_DATE="2019-02-08T13:40:11"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,7 +45,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="8318.65 150.002"
+#!   VIEW_POSITION="-2130.02 1247.16"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="70"
@@ -185,20 +185,6 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="57"
 #! />
-#! <COMMENT
-#!   IDENTIFIER="63"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get list of subnets&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="39.500604878003969 -326.00304613718163"
-#!   TOP_LEFT="39.500604878003969 -326.00304613718163"
-#!   BOTTOM_RIGHT="846.50834545540442 -325.00304613718163"
-#!   BOUNDING_RECT="39.500604878003969 -326.00304613718163 807.00774057740045 -1"
-#!   ORDER="500000000000221"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
-#!   SIZE_POLICY="10"
-#!   ANCHORED_NODE="61"
-#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -213,7 +199,7 @@
 #!   BOUNDING_RECT="3568.5364241175739 -152.50186225586629 7851.5777770244358 2020.0194479572356"
 #!   STICKY="true"
 #!   COLOUR="0.9882352941176471,0.78431372549019607,0.35686274509803922"
-#!   CONTENTS="37 42 33 44 32 53 31 52 50 45 36 34 46 43 49 38 29 51 40 39 35 22 28 30 "
+#!   CONTENTS="36 30 22 42 50 51 28 49 35 29 39 46 34 31 37 40 45 43 33 32 38 44 53 52 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -226,7 +212,7 @@
 #!   BOUNDING_RECT="3643.5371741250738 -318.50277002770008 4371.5429766764337 1479.0125301253011"
 #!   STICKY="true"
 #!   COLOUR="0.81176470588235294,0.53725490196078429,0.36862745098039218"
-#!   CONTENTS="33 22 30 50 51 28 32 31 34 35 49 29 "
+#!   CONTENTS="51 50 29 30 33 28 49 31 22 35 34 32 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -239,7 +225,7 @@
 #!   BOUNDING_RECT="8161.5824075074024 -335.00335003350034 3083.5300436171083 1635.0163501635018"
 #!   STICKY="true"
 #!   COLOUR="0.73725490196078436,0.70196078431372544,0.42745098039215684"
-#!   CONTENTS="53 40 43 52 42 39 38 44 36 "
+#!   CONTENTS="43 44 36 53 38 42 40 39 52 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -252,7 +238,7 @@
 #!   BOUNDING_RECT="11578.617024923582 -730.00855232276786 2366.5224264709304 475.0034977977333"
 #!   STICKY="true"
 #!   COLOUR="0.27843137254901962,0.68627450980392157,0.023529411764705882"
-#!   CONTENTS="5 14 15 "
+#!   CONTENTS="14 5 15 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -265,33 +251,33 @@
 #!   BOUNDING_RECT="14010.140101401013 -680.50824231966715 4665.0466504665037 1065.5077100771009"
 #!   STICKY="true"
 #!   COLOUR="0.62352941176470589,0.13725490196078433,0.72549019607843135"
-#!   CONTENTS="17 54 60 62 56 "
+#!   CONTENTS="54 17 56 62 60 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="73"
 #!   NAME="Get the most recent"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="2208.5101454734049 -353.00376614438119"
 #!   ORDER="500000000000240.25"
 #!   BOTTOM_RIGHT="3286.5098454704048 -689.00376614438119"
 #!   BOUNDING_RECT="2208.5101454734049 -353.00376614438119 1077.9996999970001 336"
 #!   STICKY="true"
 #!   COLOUR="0.90588235294117647,0.14509803921568629,0.15686274509803921"
-#!   CONTENTS="71 72 69 "
+#!   CONTENTS="72 69 71 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="74"
 #!   NAME="Find the most recent Amazon Linux 2 AMI for this region"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-10.499395121996031 -216.00304613718163"
 #!   ORDER="500000000000240.13"
 #!   BOTTOM_RIGHT="3336.5098454704048 -724.00376614438164"
 #!   BOUNDING_RECT="-10.499395121996031 -216.00304613718163 3347.0092405924006 508.00072000720002"
 #!   STICKY="true"
 #!   COLOUR="0.16470588235294117,0.78823529411764703,0.96470588235294119"
-#!   CONTENTS="63 73 71 61 67 66 72 69 65 68 70 "
+#!   CONTENTS="72 70 69 68 65 66 73 61 67 71 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -355,7 +341,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -368,14 +353,14 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="AWS_ACCESS_KEY_ID AWS_ACCESS_KEY_ID  NO_OP AWS_SECRET_ACCESS_KEY AWS_SECRET_ACCESS_KEY  NO_OP  EC2Size $(EC2Size) SET_TO  InstanceType &lt;at&gt;Value&lt;openparen&gt;EC2Type&lt;closeparen&gt;.&lt;at&gt;Value&lt;openparen&gt;EC2Size&lt;closeparen&gt; SET_TO  Name &lt;at&gt;Value&lt;openparen&gt;aws_name_tag&lt;closeparen&gt; SET_TO  UserData $(UserData) SET_TO Vpc.VpcId Vpc.VpcId  NO_OP fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt;  REMOVE fme_geometry&lt;opencurly&gt;&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE region_name region_name  NO_OP aws_name_tag aws_name_tag  NO_OP vpc_cidr vpc_cidr  REMOVE subnet_cidr&lt;opencurly&gt;&lt;closecurly&gt; subnet_cidr&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE CourseType CourseType  NO_OP GitBranch GitBranch  NO_OP S3_BUCKET_NAME S3_BUCKET_NAME  NO_OP repository repository  NO_OP workspace workspace  NO_OP server server  NO_OP token token  NO_OP S3ROOT S3ROOT  NO_OP EC2Type EC2Type  NO_OP EC2Size EC2Size  NO_OP FromEmail FromEmail  REMOVE CCEmail CCEmail  REMOVE BCCEmail BCCEmail  REMOVE SubnetId&lt;opencurly&gt;&lt;closecurly&gt; SubnetId&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE _email_template&lt;opencurly&gt;&lt;closecurly&gt; _email_template&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE _rdp_template&lt;opencurly&gt;&lt;closecurly&gt; _rdp_template&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="AWS_ACCESS_KEY_ID AWS_ACCESS_KEY_ID  NO_OP AWS_SECRET_ACCESS_KEY AWS_SECRET_ACCESS_KEY  NO_OP  EC2Size $(EC2Size) SET_TO  InstanceType &lt;at&gt;Value&lt;openparen&gt;EC2Type&lt;closeparen&gt;.&lt;at&gt;Value&lt;openparen&gt;EC2Size&lt;closeparen&gt; SET_TO  UserData $(UserData) SET_TO Vpc.VpcId Vpc.VpcId  NO_OP fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt;  REMOVE fme_geometry&lt;opencurly&gt;&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE region_name region_name  NO_OP aws_name_tag aws_name_tag  NO_OP vpc_cidr vpc_cidr  REMOVE subnet_cidr&lt;opencurly&gt;&lt;closecurly&gt; subnet_cidr&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE CourseType CourseType  NO_OP S3_BUCKET_NAME S3_BUCKET_NAME  NO_OP repository repository  NO_OP workspace workspace  NO_OP server server  NO_OP token token  NO_OP S3ROOT S3ROOT  NO_OP EC2Type EC2Type  NO_OP EC2Size EC2Size  NO_OP FromEmail FromEmail  REMOVE CCEmail CCEmail  REMOVE BCCEmail BCCEmail  REMOVE SubnetId&lt;opencurly&gt;&lt;closecurly&gt; SubnetId&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE _email_template&lt;opencurly&gt;&lt;closecurly&gt; _email_template&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE _rdp_template&lt;opencurly&gt;&lt;closecurly&gt; _rdp_template&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE linux.ami linux.ami  NO_OP GitBranch.CourseType GitBranch.CourseType  NO_OP windows.ami windows.ami  NO_OP InstanceInitiatedShutdownBehavior InstanceInitiatedShutdownBehavior  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -400,7 +385,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -413,8 +397,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -455,7 +439,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -468,8 +451,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -490,7 +473,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -503,8 +485,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -557,7 +539,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -570,8 +551,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -613,7 +594,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -626,8 +606,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -662,7 +642,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -675,8 +654,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -693,7 +672,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -706,8 +684,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -753,7 +731,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -766,8 +743,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -784,7 +761,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -797,8 +773,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -837,7 +813,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -850,8 +825,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -868,7 +843,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -881,8 +855,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -917,7 +891,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -930,8 +903,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -948,7 +921,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -961,8 +933,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -998,7 +970,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1011,8 +982,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1050,7 +1021,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1063,8 +1033,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1084,7 +1054,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1097,8 +1066,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1147,7 +1116,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1160,8 +1128,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1181,7 +1149,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1194,8 +1161,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1233,7 +1200,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1246,8 +1212,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1267,7 +1233,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1280,8 +1245,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1326,7 +1291,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1339,8 +1303,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1537,7 +1501,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1550,8 +1513,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1582,7 +1545,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1595,8 +1557,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1609,7 +1571,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1622,8 +1583,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1665,7 +1626,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1678,8 +1638,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1693,7 +1653,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1706,8 +1665,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1742,7 +1701,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1755,8 +1713,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1786,7 +1744,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1799,8 +1756,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1814,7 +1771,6 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1827,8 +1783,8 @@
 #!     <XFORM_ATTR ATTR_NAME="token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="S3ROOT" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="EC2Size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="linux.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GitBranch.CourseType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="windows.ami" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2173,7 +2129,7 @@ FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "EC2Size" "$(EC2Size)" "SET_TO" }      ATTR_ACTION { "" "InstanceType" "<at>Value<openparen>EC2Type<closeparen>.<at>Value<openparen>EC2Size<closeparen>" "SET_TO" }      ATTR_ACTION { "" "Name" "<at>Value<openparen>aws_name_tag<closeparen>" "SET_TO" }      ATTR_ACTION { "" "UserData" "$(UserData)" "SET_TO" }      ATTR_ACTION { "fme_geometry<opencurly>0<closecurly>" "fme_geometry<opencurly>0<closecurly>" "" "REMOVE" }      ATTR_ACTION { "fme_geometry<opencurly><closecurly>" "fme_geometry<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "vpc_cidr" "vpc_cidr" "" "REMOVE" }      ATTR_ACTION { "subnet_cidr<opencurly><closecurly>" "subnet_cidr<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "FromEmail" "FromEmail" "" "REMOVE" }      ATTR_ACTION { "CCEmail" "CCEmail" "" "REMOVE" }      ATTR_ACTION { "BCCEmail" "BCCEmail" "" "REMOVE" }      ATTR_ACTION { "SubnetId<opencurly><closecurly>" "SubnetId<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "_email_template<opencurly><closecurly>" "_email_template<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "_rdp_template<opencurly><closecurly>" "_rdp_template<opencurly><closecurly>" "" "REMOVE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "EC2Size" "$(EC2Size)" "SET_TO" }      ATTR_ACTION { "" "InstanceType" "<at>Value<openparen>EC2Type<closeparen>.<at>Value<openparen>EC2Size<closeparen>" "SET_TO" }      ATTR_ACTION { "" "UserData" "$(UserData)" "SET_TO" }      ATTR_ACTION { "fme_geometry<opencurly>0<closecurly>" "fme_geometry<opencurly>0<closecurly>" "" "REMOVE" }      ATTR_ACTION { "fme_geometry<opencurly><closecurly>" "fme_geometry<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "vpc_cidr" "vpc_cidr" "" "REMOVE" }      ATTR_ACTION { "subnet_cidr<opencurly><closecurly>" "subnet_cidr<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "FromEmail" "FromEmail" "" "REMOVE" }      ATTR_ACTION { "CCEmail" "CCEmail" "" "REMOVE" }      ATTR_ACTION { "BCCEmail" "BCCEmail" "" "REMOVE" }      ATTR_ACTION { "SubnetId<opencurly><closecurly>" "SubnetId<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "_email_template<opencurly><closecurly>" "_email_template<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "_rdp_template<opencurly><closecurly>" "_rdp_template<opencurly><closecurly>" "" "REMOVE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_Describe_decribe_images    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_images<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>ExecutableUsers=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>all<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>state<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>available<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>architecture<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>x86_64<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>image-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>machine<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>virtualization-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>hvm<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>description<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>linux.ami<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>block-device-mapping.volume-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>gp2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Owners=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>amazon<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT
@@ -2245,10 +2201,10 @@ FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_b5b5f11d_871a_43e5_bbac_6c86076b0cce10_replacer { findText replaceText invalidValue} {     set attrs [split \"MacAddress\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_b5b5f11d_871a_43e5_bbac_6c86076b0cce10_replacer {:} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_922138d4_cff3_45ed_b1fd_b41ce3ba6fa81_replacer { findText replaceText invalidValue} {     set attrs [split \"MacAddress\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_922138d4_cff3_45ed_b1fd_b41ce3ba6fa81_replacer {:} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME text_line_FeatureWriter_74f91c44_cd15_40dc_baed_a2e3cb0ba75c10 INPUT FEATURE_TYPE StringReplacer_OUTPUT MULTI_FEATURE_MODE NO NULL_ATTR_MODE NO_OP ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV ATTR text_line_data Instance<space>ID<space>is<space><at>Value<openparen>InstanceId<closeparen>.<space>You<space>don<apos>t<space>need<space>this<space>to<space>request<space>the<space>license<space>file.<space>Use<space>localhost<space>instead.<lf>The<space>MAC<space>address<space>is<space><at>Value<openparen>MacAddress<closeparen><lf><lf>Go<space>to<space>https:<solidus><solidus>www.safe.com<solidus>activation<solidus>floating<solidus><space>and<space>fill<space>in<space>the<space>form.<lf>Enter<space>your<space>Product<space>Serial<space>Number<lf>Select<space>the<space>Version<space>of<space>FME<space><openparen>Most<space>likely<space>the<space>top<space>option<closeparen><lf>Hostname<space>is<space>localhost<lf>Host<space>ID<space>is<space><at>Value<openparen>MacAddress<closeparen><lf>Enter<space>your<space>email<space>address<lf>Click<space>Submit<space>Floating<space>License<space>Request<lf><lf>The<space>email<space>will<space>take<space>around<space>5<space>minutes<space>to<space>arrive.<lf><lf>When<space>licensing<space>FME<space>Desktop<space>from<space>virtual<space>machines<space>in<space>the<space>same<space>VPC<comma><space>use<space>the<space>IP<space>Address<space><at>Value<openparen>PrivateIpAddress<closeparen> OUTPUT OUTPUT FEATURE_TYPE *
+FACTORY_DEF * AttrSetFactory FACTORY_NAME text_line_FeatureWriter_fbd9fc68_a35a_445a_8982_9f1f9b2774fc1 INPUT FEATURE_TYPE StringReplacer_OUTPUT MULTI_FEATURE_MODE NO NULL_ATTR_MODE NO_OP ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV ATTR text_line_data Instance<space>ID<space>is<space><at>Value<openparen>InstanceId<closeparen>.<space>You<space>don<apos>t<space>need<space>this<space>to<space>request<space>the<space>license<space>file.<space>Use<space>localhost<space>instead.<lf>The<space>MAC<space>address<space>is<space><at>Value<openparen>MacAddress<closeparen><lf><lf>Go<space>to<space>https:<solidus><solidus>www.safe.com<solidus>activation<solidus>floating<solidus><space>and<space>fill<space>in<space>the<space>form.<lf>Enter<space>your<space>Product<space>Serial<space>Number<lf>Select<space>the<space>Version<space>of<space>FME<space><openparen>Most<space>likely<space>the<space>top<space>option<closeparen><lf>Hostname<space>is<space>localhost<lf>Host<space>ID<space>is<space><at>Value<openparen>MacAddress<closeparen><lf>Enter<space>your<space>email<space>address<lf>Click<space>Submit<space>Floating<space>License<space>Request<lf><lf>The<space>email<space>will<space>take<space>around<space>5<space>minutes<space>to<space>arrive.<lf><lf>When<space>licensing<space>FME<space>Desktop<space>from<space>virtual<space>machines<space>in<space>the<space>same<space>VPC<comma><space>use<space>the<space>IP<space>Address<space><at>Value<openparen>PrivateIpAddress<closeparen> OUTPUT OUTPUT FEATURE_TYPE *
 INCLUDE [    puts {DEFAULT_MACRO FeatureWriterDataset_FeatureWriter LicenseServerInfo.txt}; ]
 FACTORY_DEF * WriterFactory    FACTORY_NAME FeatureWriter    WRITER_TYPE TEXTLINE    WRITER_DATASET "$(FeatureWriterDataset_FeatureWriter)"    WRITER_SETTINGS RUNTIME_MACROS,OVERWRITE_FILE<comma>YES<comma>END_OF_LINE<comma>System<comma>WRITE_LAST_EOL<comma>YES<comma>ENCODING<comma>SYSTEM<comma>WRITE_UTF8_BOM<comma>YES<comma>MIME_TYPE<comma>text<solidus>plain<comma>DESTINATION_DATASETTYPE_VALIDATION<comma>Yes<comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE,METAFILE,TEXTLINE    WRITER_METAFILE ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,,ATTRIBUTE_LENGTH,60,ATTR_TYPE_MAP,char<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>buffer<comma>fme_buffer<comma>buffer<comma>fme_binarybuffer<comma>buffer<comma>fme_xml<comma>buffer<comma>fme_json<comma>char<openparen>20<closeparen><comma>fme_datetime<comma>char<openparen>12<closeparen><comma>fme_time<comma>char<openparen>8<closeparen><comma>fme_date<comma><quote>number<openparen>31<comma>15<closeparen><quote><comma>fme_real64<comma><quote>number<openparen>15<comma>7<closeparen><quote><comma>fme_real32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_int32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_uint32<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_int64<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_uint64<comma>logical<comma>fme_boolean<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_int16<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_uint16<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_int8<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_uint8<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<solidus>TEXTLINE.fmf,FORMAT_NAME,TEXTLINE,GEOM_MAP,text_line_none<comma>fme_no_geom<comma>text_line_none<comma>fme_point<comma>text_line_none<comma>fme_line<comma>text_line_none<comma>fme_polygon<comma>text_line_none<comma>fme_text<comma>text_line_none<comma>fme_ellipse<comma>text_line_none<comma>fme_arc<comma>text_line_none<comma>fme_rectangle<comma>text_line_none<comma>fme_rounded_rectangle<comma>text_line_none<comma>fme_collection<comma>text_line_none<comma>fme_raster<comma>text_line_none<comma>fme_surface<comma>text_line_none<comma>fme_solid<comma>text_line_none<comma>fme_point_cloud<comma>text_line_none<comma>fme_feature_table,READER_ATTR_INDEX_TYPES,,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,no,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,textline.sch,WRITER,TEXTLINE,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly>,WRITER_FORMAT_PARAMETER,READER_FEATURE_TYPE_EDITING<comma>NO<comma>WRITER_FEATURE_TYPE_EDITING<comma>NO<comma>MIME_TYPE<comma>text<solidus>plain<comma>DATASET_NAME<comma><quote>txt<space>file<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>text_line<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>Text<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>name<space>for<space>the<space>Text<space>file<quote>,WRITER_HAS_DEFLINE_ATTRS,yes    WRITER_FEATURE_TYPES text_line:text_line,ftp_feature_type_name,text_line,ftp_writer,TEXTLINE,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,text_line_data<comma>buffer,ftp_user_attribute_values,Instance<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>InstanceId<lt>lt<gt>closeparen<lt>gt<gt>.<lt>lt<gt>space<lt>gt<gt>You<lt>lt<gt>space<lt>gt<gt>don<lt>lt<gt>apos<lt>gt<gt>t<lt>lt<gt>space<lt>gt<gt>need<lt>lt<gt>space<lt>gt<gt>this<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>request<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>license<lt>lt<gt>space<lt>gt<gt>file.<lt>lt<gt>space<lt>gt<gt>Use<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>space<lt>gt<gt>instead.<lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>MAC<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Go<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>https:<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt>www.safe.com<lt>lt<gt>solidus<lt>gt<gt>activation<lt>lt<gt>solidus<lt>gt<gt>floating<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>and<lt>lt<gt>space<lt>gt<gt>fill<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>form.<lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>Product<lt>lt<gt>space<lt>gt<gt>Serial<lt>lt<gt>space<lt>gt<gt>Number<lt>lt<gt>lf<lt>gt<gt>Select<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>Version<lt>lt<gt>space<lt>gt<gt>of<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>openparen<lt>gt<gt>Most<lt>lt<gt>space<lt>gt<gt>likely<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>top<lt>lt<gt>space<lt>gt<gt>option<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Hostname<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>lf<lt>gt<gt>Host<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>lf<lt>gt<gt>Click<lt>lt<gt>space<lt>gt<gt>Submit<lt>lt<gt>space<lt>gt<gt>Floating<lt>lt<gt>space<lt>gt<gt>License<lt>lt<gt>space<lt>gt<gt>Request<lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>will<lt>lt<gt>space<lt>gt<gt>take<lt>lt<gt>space<lt>gt<gt>around<lt>lt<gt>space<lt>gt<gt>5<lt>lt<gt>space<lt>gt<gt>minutes<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>arrive.<lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>When<lt>lt<gt>space<lt>gt<gt>licensing<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt>Desktop<lt>lt<gt>space<lt>gt<gt>from<lt>lt<gt>space<lt>gt<gt>virtual<lt>lt<gt>space<lt>gt<gt>machines<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>same<lt>lt<gt>space<lt>gt<gt>VPC<lt>lt<gt>comma<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>use<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>IP<lt>lt<gt>space<lt>gt<gt>Address<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>PrivateIpAddress<lt>lt<gt>closeparen<lt>gt<gt>    WRITER_PARAMS WRITE_UTF8_BOM,YES,MIME_TYPE,text<solidus>plain,ENCODING,SYSTEM,DESTINATION_DATASETTYPE_VALIDATION,Yes,END_OF_LINE,System,COORDINATE_SYSTEM_GRANULARITY,FEATURE,OVERWRITE_FILE,YES,WRITE_LAST_EOL,YES    DATASET_ATTR _dataset    FEATURE_TYPE_LIST_ATTR _feature_type    TOTAL_FEATURES_WRITTEN_ATTR _total_features_written    OUTPUT_PORTS ""    INPUT text_line FEATURE_TYPE StringReplacer_OUTPUT  @FeatureType(ENCODED,text_line)
 # -------------------------------------------------------------------------
