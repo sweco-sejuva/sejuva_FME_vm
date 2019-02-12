@@ -15,10 +15,9 @@ Also be aware that the default VPC limit is 5. If you currently have 5 VPCs in y
 
 ## Overview
 1. Fork this Repository to your own account
-1. Install and update AWSCredentialSupplier.fmx
 1. Create and configure S3 Bucket
+1. Install and update AWSCredentialSupplier.fmx
 1. Edit settings.json
-1. Edit and run GitClone2S3.fmw in FME Desktop to mirror GitHub to S3
 1. Run CreateVPC.fmw in FME Desktop
 1. Run CreateLicenseServer.fmw in FME Desktop to create license server
 1. Use FME Cloud or Run CreateFMEServer.fmw in FME Desktop to create FME Server installation
