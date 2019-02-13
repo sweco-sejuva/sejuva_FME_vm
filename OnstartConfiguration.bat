@@ -1,5 +1,6 @@
 ::::ONSTART ONLY!::::
-:: These are things that should always be done ONSTART, but are too big to fit into a Scheduled Task.
+:: These are things that should always be done ONSTART
+:: We call this instead of just using UserData so that we can update this while machines are running
 
 :: Set the VM password. That way you don't need to create a new VM just to update the password.
 :: Fix the PostGres bug that breaks FME Server
@@ -13,13 +14,42 @@
 md %TEMP%
 pushd %TEMP%
 
-call :vnc > %LOG%
-call :main >>%LOG%
+::set EC2PASSWORD=pwd
+::setx /m EC2PASSWORD %EC2PASSWORD%
+
+call :LaunchConfig > C:\ProgramData\Amazon\EC2-Windows\Launch\Config\LaunchConfig.json
+call :ec2launch-config > %LOG%
+call :vnc >> %LOG%
 call :urls >>%LOG%
-::call :autoshutdown >>%LOG%
+call :autoshutdown >>%LOG%
 call :fmedatadownload >>%LOG%
 
-exit /b
+
+:: Indicate the end of the log file.
+	echo "Onstart Configuration complete" >>%LOG%
+	exit /b
+
+
+:LaunchConfig
+	@echo off
+
+		echo {
+		echo "setComputerName": false,
+		echo "setWallpaper": true,
+		echo "addDnsSuffixList": true,
+		echo "extendBootVolumeSize": true,
+		echo "handleUserData": true,
+		echo "adminPasswordType": "Specify",
+		echo "adminPassword":  "%EC2PASSWORD%"
+		echo }
+
+	@echo on
+@goto :eof
+
+:ec2launch-config
+
+	powershell -Command "C:\ProgramData\Amazon\EC2-Windows\Launch\Scripts\InitializeInstance.ps1 -SchedulePerBoot"
+goto :eof
 
 :vnc
     taskkill /f /t /fi "USERNAME eq SYSTEM" /im winvnc.exe
@@ -27,40 +57,6 @@ exit /b
     echo "C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 > "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\vncpassword.bat"
     echo start "" "C:\Program Files\uvnc bvba\UltraVnc\winvnc.exe" >> "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\vncpassword.bat"
 goto :eof
-
-:main
-:: fix esri license issue
-	del c:\ProgramData\FLEXnet\*.* /Q /F /A:H
-	del c:\ProgramData\FLEXnet\*.* /Q /F
-
-:: get any extra Chocolatey apps
-::	choco install postman -y
-	choco install openoffice -y
-
-::Update Firewall
-netsh firewall add portopening TCP 8888 "Extra Tomcat webservice port"
-
-
-:: Your Computer DNS Name
-	echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
-	echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\public\desktop\Your Computer DNS Name.url"
-
-
-:: Configure the TaskBar
-	call :taskbarPinning >taskbarPinning.ps1
-	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
-
-:: Download Current FME uninstaller and installer, and post creation steps. We don't run them automatically, but nice to have.
-	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEUninstall.bat --allow-overwrite=true
-	aria2c https://github.com/rjcragg/AWS/raw/master/FMEInstalls/FMEDownloadInstall.bat --allow-overwrite=true
-	aria2c https://github.com/rjcragg/AWS/raw/master/PostCreationSteps.txt --allow-overwrite=true
-
-
-
-:: Indicate the end of the log file.
-	echo "Onstart Configuration complete"
-goto :eof
-
 
 
 :urls
@@ -92,7 +88,29 @@ goto :eof
 goto :eof
 
 
+
 ::Junk section
+
+:: fix esri license issue
+::	del c:\ProgramData\FLEXnet\*.* /Q /F /A:H
+::	del c:\ProgramData\FLEXnet\*.* /Q /F
+
+:: get any extra Chocolatey apps
+::	choco install postman -y
+::	choco install openoffice -y
+
+::Update Firewall
+::netsh firewall add portopening TCP 8888 "Extra Tomcat webservice port"
+
+
+:: Your Computer DNS Name
+::	echo [InternetShortcut] > "c:\users\public\desktop\Your Computer DNS Name.url"
+::	echo URL=http://169.254.169.254/latest/meta-data/public-hostname >>"c:\users\public\desktop\Your Computer DNS Name.url"
+
+:: Configure the TaskBar
+::	call :taskbarPinning >taskbarPinning.ps1
+::	powershell -NoProfile -executionpolicy bypass -File taskbarPinning.ps1
+
 :: Everything below here is deprecated stuff that might still be useful in the future.
 :taskbarPinning
 @echo off

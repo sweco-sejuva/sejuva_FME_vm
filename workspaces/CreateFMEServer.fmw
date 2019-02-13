@@ -10,8 +10,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="14216.6 2646.52"
-#!   DOC_TOP_LEFT="-2706.53 -2322.52"
+#!   DOC_EXTENTS="17814.7 2020.02"
+#!   DOC_TOP_LEFT="-3554.53 -1672.52"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -26,7 +26,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-02-11T17:44:44"
+#!   LAST_SAVE_DATE="2019-02-12T10:24:35"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -44,10 +44,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="6035.06 -45.0005"
+#!   VIEW_POSITION="-2751.03 636.006"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="60"
+#!   ZOOM_SCALE="100"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -72,10 +72,10 @@
 #! <COMMENT
 #!   IDENTIFIER="11"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get aws_access_key_id and aws_secret_access_key&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-2207.946510988435 -479.50578229506664"
-#!   TOP_LEFT="-2207.946510988435 -479.50578229506664"
-#!   BOTTOM_RIGHT="-1632.0786833446382 -478.50578229506664"
-#!   BOUNDING_RECT="-2207.946510988435 -479.50578229506664 575.86782764379677 -1"
+#!   POSITION="-2963.9540710640358 -78.999551357207736"
+#!   TOP_LEFT="-2963.9540710640358 -78.999551357207736"
+#!   BOTTOM_RIGHT="-2388.086243420239 -77.999551357207736"
+#!   BOUNDING_RECT="-2963.9540710640358 -78.999551357207736 575.86782764379677 -1"
 #!   ORDER="500000000000190"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -86,10 +86,10 @@
 #! <COMMENT
 #!   IDENTIFIER="49"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get list of subnets&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="1559.5177965030148 -1276.5126523637682"
-#!   TOP_LEFT="1559.5177965030148 -1276.5126523637682"
-#!   BOTTOM_RIGHT="2366.5255370804152 -1275.5126523637682"
-#!   BOUNDING_RECT="1559.5177965030148 -1276.5126523637682 807.00774057740045 -1"
+#!   POSITION="4429.546496790018 -626.50615229876803"
+#!   TOP_LEFT="4429.546496790018 -626.50615229876803"
+#!   BOTTOM_RIGHT="5236.554237367418 -625.50615229876803"
+#!   BOUNDING_RECT="4429.546496790018 -626.50615229876803 807.00774057740045 -1"
 #!   ORDER="500000000000221"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -100,10 +100,10 @@
 #! <COMMENT
 #!   IDENTIFIER="51"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;We only need one&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="3630.5337345906737 -761.50810231826711"
-#!   TOP_LEFT="3630.5337345906737 -761.50810231826711"
-#!   BOTTOM_RIGHT="4060.5337345906737 -760.50810231826711"
-#!   BOUNDING_RECT="3630.5337345906737 -761.50810231826711 430 -1"
+#!   POSITION="6500.5624348776773 -111.50160225326681"
+#!   TOP_LEFT="6500.5624348776773 -111.50160225326681"
+#!   BOTTOM_RIGHT="6930.5624348776773 -110.50160225326681"
+#!   BOUNDING_RECT="6500.5624348776773 -111.50160225326681 430 -1"
 #!   ORDER="500000000000224"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -114,10 +114,10 @@
 #! <COMMENT
 #!   IDENTIFIER="52"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Find the security groups&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="5741.5577072603974 -770.0077723149667"
-#!   TOP_LEFT="5741.5577072603974 -770.0077723149667"
-#!   BOTTOM_RIGHT="6635.5577072603974 -769.0077723149667"
-#!   BOUNDING_RECT="5741.5577072603974 -770.0077723149667 894 -1"
+#!   POSITION="8611.5864075473983 -120.00127224996641"
+#!   TOP_LEFT="8611.5864075473983 -120.00127224996641"
+#!   BOTTOM_RIGHT="9505.5864075473983 -119.00127224996641"
+#!   BOUNDING_RECT="8611.5864075473983 -120.00127224996641 894 -1"
 #!   ORDER="500000000000226"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -127,11 +127,11 @@
 #! />
 #! <COMMENT
 #!   IDENTIFIER="59"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get existing VpcId and region_name&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-1541.9879698796985 -433.5057722949665"
-#!   TOP_LEFT="-1541.9879698796985 -433.5057722949665"
-#!   BOTTOM_RIGHT="-1069.9879698796985 -432.5057722949665"
-#!   BOUNDING_RECT="-1541.9879698796985 -433.5057722949665 472 -1"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get settings from settings.json&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-2297.9955299552994 -35.999571357407604"
+#!   TOP_LEFT="-2297.9955299552994 -35.999571357407604"
+#!   BOTTOM_RIGHT="-1825.9955299552994 -34.999571357407604"
+#!   BOUNDING_RECT="-2297.9955299552994 -35.999571357407604 472 -1"
 #!   ORDER="500000000000230"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -142,16 +142,44 @@
 #! <COMMENT
 #!   IDENTIFIER="62"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Find VPC via Name tag&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="609.50829640801362 -751.0071461781821"
-#!   TOP_LEFT="609.50829640801362 -751.0071461781821"
-#!   BOTTOM_RIGHT="1416.5160369854141 -750.0071461781821"
-#!   BOUNDING_RECT="609.50829640801362 -751.0071461781821 807.00774057740045 -1"
+#!   POSITION="3479.5369966950166 -101.00064611318157"
+#!   TOP_LEFT="3479.5369966950166 -101.00064611318157"
+#!   BOTTOM_RIGHT="4286.5447372724175 -100.00064611318157"
+#!   BOUNDING_RECT="3479.5369966950166 -101.00064611318157 807.00774057740045 -1"
 #!   ORDER="500000000000221"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   COLOUR="1,1,0.78431372549019607,1"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="56"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="86"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;clean up settings.json&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1743.7564881882151 -236.50090137070802"
+#!   TOP_LEFT="-1743.7564881882151 -236.50090137070802"
+#!   BOTTOM_RIGHT="-1300.7564881882151 -235.50090137070802"
+#!   BOUNDING_RECT="-1743.7564881882151 -236.50090137070802 443 -1"
+#!   ORDER="500000000000252.25"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.78431372549019607,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="54"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="87"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Create UserData&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1191.4900161468281 -284.50138137550806"
+#!   TOP_LEFT="-1191.4900161468281 -284.50138137550806"
+#!   BOTTOM_RIGHT="-748.49001614682811 -283.50138137550806"
+#!   BOUNDING_RECT="-1191.4900161468281 -284.50138137550806 443 -1"
+#!   ORDER="500000000000253.25"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.78431372549019607,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="58"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -161,36 +189,36 @@
 #!   IDENTIFIER="27"
 #!   NAME="Use VPCId to find subnets an security groups"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="225.00225002250019 -302.50336227086643"
+#!   TOP_LEFT="3095.0309503095032 347.50313779413409"
 #!   ORDER="500000000000232.13"
-#!   BOTTOM_RIGHT="8905.0890508905177 -2322.5228102281021"
-#!   BOUNDING_RECT="225.00225002250019 -302.50336227086643 8680.0868008680172 2020.0194479572356"
+#!   BOTTOM_RIGHT="11775.11775117752 -1672.5163101631015"
+#!   BOUNDING_RECT="3095.0309503095032 347.50313779413409 8680.0868008680172 2020.0194479572356"
 #!   STICKY="true"
 #!   COLOUR="0.9882352941176471,0.78431372549019607,0.35686274509803922"
-#!   CONTENTS="31 34 46 77 49 29 28 45 36 76 81 30 39 56 52 22 37 82 78 74 38 51 62 79 80 "
+#!   CONTENTS="31 34 46 77 49 29 28 45 36 76 81 30 39 56 52 22 37 82 78 74 38 51 62 79 80 84 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="45"
 #!   NAME="Find Subnet"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="295.00295002950025 -468.50427004270023"
+#!   TOP_LEFT="3165.0316503165031 181.50223002230018"
 #!   ORDER="500000000000232.25"
-#!   BOTTOM_RIGHT="5500.0550005500036 -1947.5168001680013"
-#!   BOUNDING_RECT="295.00295002950025 -468.50427004270023 5205.0520505205031 1479.0125301253011"
+#!   BOTTOM_RIGHT="8370.0837008370072 -1297.5103001030009"
+#!   BOUNDING_RECT="3165.0316503165031 181.50223002230018 5205.0520505205031 1479.0125301253011"
 #!   STICKY="true"
 #!   COLOUR="0.81176470588235294,0.53725490196078429,0.36862745098039218"
-#!   CONTENTS="31 34 77 28 49 29 76 30 56 22 78 74 51 62 79 80 "
+#!   CONTENTS="31 34 77 28 49 29 76 30 56 22 78 74 51 62 79 80 84 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="46"
 #!   NAME="Find Security Group"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="5646.5572572558976 -485.00485004850049"
+#!   TOP_LEFT="8516.5859575428985 165.00165001649998"
 #!   ORDER="500000000000232.25"
-#!   BOTTOM_RIGHT="8730.087300873005 -2120.0212002120024"
-#!   BOUNDING_RECT="5646.5572572558976 -485.00485004850049 3083.5300436171083 1635.0163501635018"
+#!   BOTTOM_RIGHT="11600.116001160008 -1470.0147001470018"
+#!   BOUNDING_RECT="8516.5859575428985 165.00165001649998 3083.5300436171083 1635.0163501635018"
 #!   STICKY="true"
 #!   COLOUR="0.73725490196078436,0.70196078431372544,0.42745098039215684"
 #!   CONTENTS="82 36 52 81 38 39 "
@@ -200,10 +228,10 @@
 #!   IDENTIFIER="47"
 #!   NAME="Start License Server machine"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="9143.5926746800778 -595.00720230926777"
+#!   TOP_LEFT="11893.620174955082 -575.00700230726784"
 #!   ORDER="500000000000218"
-#!   BOTTOM_RIGHT="11510.115101151008 -1070.010700107001"
-#!   BOUNDING_RECT="9143.5926746800778 -595.00720230926777 2366.5224264709304 475.0034977977333"
+#!   BOTTOM_RIGHT="14260.142601426012 -1050.010500105001"
+#!   BOUNDING_RECT="11893.620174955082 -575.00700230726784 2366.5224264709304 475.0034977977333"
 #!   STICKY="true"
 #!   COLOUR="0.27843137254901962,0.68627450980392157,0.023529411764705882"
 #!   CONTENTS="15 5 14 "
@@ -239,13 +267,26 @@
 #!   IDENTIFIER="78"
 #!   NAME="Find VPC"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="400.50694639451353 -641.0071461781821"
-#!   ORDER="500000000000249.38"
-#!   BOTTOM_RIGHT="1490.5160369854141 -1728.5151873891182"
-#!   BOUNDING_RECT="400.50694639451353 -641.0071461781821 1090.0090905909005 1087.508041210936"
+#!   TOP_LEFT="3270.5356466815165 8.999353886818426"
+#!   ORDER="500000000000250.38"
+#!   BOTTOM_RIGHT="4360.5447372724175 -1078.5086873241175"
+#!   BOUNDING_RECT="3270.5356466815165 8.999353886818426 1090.0090905909005 1087.508041210936"
 #!   STICKY="true"
 #!   COLOUR="0.27058823529411763,0.23921568627450981,0.40000000000000002"
 #!   CONTENTS="79 74 62 77 76 56 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="85"
+#!   NAME="Set Parameters"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="-3554.5325991315326 77.000458642892397"
+#!   ORDER="500000000000251.25"
+#!   BOTTOM_RIGHT="-687.49001614682811 -778.00123137400783"
+#!   BOUNDING_RECT="-3554.5325991315326 77.000458642892397 2867.0425829847045 855.00169001690017"
+#!   STICKY="true"
+#!   COLOUR="0.41176470588235292,0.47843137254901963,0.2627450980392157"
+#!   CONTENTS="3 54 60 58 86 57 2 55 87 7 8 59 11 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -254,8 +295,8 @@
 #!   IDENTIFIER="2"
 #!   TYPE="AWSCredentialSupplier"
 #!   VERSION="1"
-#!   POSITION="-2207.946510988435 -712.50746231186679"
-#!   BOUNDING_RECT="-2207.946510988435 -712.50746231186679 575.86782764379677 71"
+#!   POSITION="-2963.9540710640358 -312.00123137400783"
+#!   BOUNDING_RECT="-2963.9540710640358 -312.00123137400783 575.86782764379677 71"
 #!   ORDER="500000000000165"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -274,8 +315,8 @@
 #!   IDENTIFIER="3"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="-2706.5250390559318 -712.50746231186679"
-#!   BOUNDING_RECT="-2706.5250390559318 -712.50746231186679 -1 -1"
+#!   POSITION="-3462.5325991315326 -312.00123137400783"
+#!   BOUNDING_RECT="-3462.5325991315326 -312.00123137400783 -1 -1"
 #!   ORDER="500000000000192"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -298,8 +339,8 @@
 #!   IDENTIFIER="5"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="9217.5926746800778 -705.00720230926765"
-#!   BOUNDING_RECT="9217.5926746800778 -705.00720230926765 807.00774057740045 71"
+#!   POSITION="11967.620174955082 -685.00700230726773"
+#!   BOUNDING_RECT="11967.620174955082 -685.00700230726773 807.00774057740045 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -330,7 +371,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -355,8 +395,8 @@
 #!   IDENTIFIER="14"
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
-#!   POSITION="10157.101045013778 -705.00720230926765"
-#!   BOUNDING_RECT="10157.101045013778 -705.00720230926765 -1 -1"
+#!   POSITION="12907.128545288782 -685.00700230726773"
+#!   BOUNDING_RECT="12907.128545288782 -685.00700230726773 -1 -1"
 #!   ORDER="500000000000200"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -387,7 +427,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -424,7 +463,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -458,8 +496,8 @@
 #!   IDENTIFIER="22"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="1583.5177965030148 -1413.5133723709685"
-#!   BOUNDING_RECT="1583.5177965030148 -1413.5133723709685 807.00774057740045 71"
+#!   POSITION="4453.546496790018 -763.50687230596805"
+#!   BOUNDING_RECT="4453.546496790018 -763.50687230596805 807.00774057740045 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -489,7 +527,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -509,8 +546,8 @@
 #!   IDENTIFIER="28"
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
-#!   POSITION="2292.5213544668723 -898.50882232546712"
-#!   BOUNDING_RECT="2292.5213544668723 -898.50882232546712 -1 -1"
+#!   POSITION="5162.5500547538759 -248.50232226046677"
+#!   BOUNDING_RECT="5162.5500547538759 -248.50232226046677 -1 -1"
 #!   ORDER="500000000000206"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -540,7 +577,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -573,7 +609,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -604,8 +639,8 @@
 #!   IDENTIFIER="30"
 #!   TYPE="ListExploder"
 #!   VERSION="6"
-#!   POSITION="2941.5278445317726 -898.50882232546712"
-#!   BOUNDING_RECT="2941.5278445317726 -898.50882232546712 -1 -1"
+#!   POSITION="5811.5565448187763 -248.50232226046677"
+#!   BOUNDING_RECT="5811.5565448187763 -248.50232226046677 -1 -1"
 #!   ORDER="500000000000210"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -635,7 +670,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -668,7 +702,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -692,8 +725,8 @@
 #!   IDENTIFIER="34"
 #!   TYPE="Sampler"
 #!   VERSION="4"
-#!   POSITION="3654.5337345906737 -898.50882232546712"
-#!   BOUNDING_RECT="3654.5337345906737 -898.50882232546712 -1 -1"
+#!   POSITION="6524.5624348776773 -248.50232226046677"
+#!   BOUNDING_RECT="6524.5624348776773 -248.50232226046677 -1 -1"
 #!   ORDER="500000000000212"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -723,7 +756,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -756,7 +788,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -777,8 +808,8 @@
 #!   IDENTIFIER="36"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="5765.5577072603974 -907.00849232216683"
-#!   BOUNDING_RECT="5765.5577072603974 -907.00849232216683 893.60149057740045 71"
+#!   POSITION="8635.5864075473983 -257.00199225716636"
+#!   BOUNDING_RECT="8635.5864075473983 -257.00199225716636 893.60149057740045 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -808,7 +839,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -831,8 +861,8 @@
 #!   IDENTIFIER="38"
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
-#!   POSITION="6831.5667978512975 -907.00849232216683"
-#!   BOUNDING_RECT="6831.5667978512975 -907.00849232216683 573.234375 71"
+#!   POSITION="9701.5954981382965 -257.00199225716636"
+#!   BOUNDING_RECT="9701.5954981382965 -257.00199225716636 573.234375 71"
 #!   ORDER="500000000000213"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -862,7 +892,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -898,7 +927,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -932,8 +960,8 @@
 #!   IDENTIFIER="57"
 #!   TYPE="FeatureReader"
 #!   VERSION="11"
-#!   POSITION="-1500.0150001500012 -712.50746231186679"
-#!   BOUNDING_RECT="-1500.0150001500012 -712.50746231186679 -1 -1"
+#!   POSITION="-2256.0225602256023 -312.00123137400783"
+#!   BOUNDING_RECT="-2256.0225602256023 -312.00123137400783 -1 -1"
 #!   ORDER="500000000000229"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1091,7 +1119,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
@@ -1137,7 +1164,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1165,7 +1191,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1222,7 +1247,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1251,7 +1275,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1301,7 +1324,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1346,7 +1368,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1375,7 +1396,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1393,8 +1413,8 @@
 #!   IDENTIFIER="54"
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
-#!   POSITION="-963.74892811261429 -822.00833232056698"
-#!   BOUNDING_RECT="-963.74892811261429 -822.00833232056698 -1 -1"
+#!   POSITION="-1719.7564881882151 -421.50210138270813"
+#!   BOUNDING_RECT="-1719.7564881882151 -421.50210138270813 -1 -1"
 #!   ORDER="500000000000241.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1422,8 +1442,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE="fme.vm.template.email&lt;opencurly&gt;&lt;closecurly&gt; fme.vm.template.rdp&lt;opencurly&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE="fme.vm.template.email&lt;opencurly&gt;&lt;closecurly&gt; fme.vm.template.rdp&lt;opencurly&gt;&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="web.token,flexnet.ec2type,fme.timezone,fme.ec2size,fme.vm.fromEmail,fme.vm.BCCEmail,ami.windows,flexnet.volumeSize,flexnet.ec2size,fme.vm.CCEmail,fme.vm.template.email&lt;opencurly&gt;0&lt;closecurly&gt;,flexnet.securityGroup,fme.installApps,fme.vm.template.rdp&lt;opencurly&gt;0&lt;closecurly&gt;,fme.volumeSize,web.workspace,fme.ec2type,fme.portForarding,fme.vm.instanceInitiatedShutdownBehavior,web.server,fme.securityGroup,web.repository,fme.password"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -1433,8 +1452,8 @@
 #!   IDENTIFIER="58"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="-411.48245607122726 -822.00833232056698"
-#!   BOUNDING_RECT="-411.48245607122726 -822.00833232056698 -1 -1"
+#!   POSITION="-1167.4900161468281 -421.50210138270813"
+#!   BOUNDING_RECT="-1167.4900161468281 -421.50210138270813 -1 -1"
 #!   ORDER="500000000000243.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1463,7 +1482,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; UserData SET_TO Content-Type:&lt;space&gt;multipart&lt;solidus&gt;mixed&lt;semicolon&gt;&lt;space&gt;boundary=&lt;quote&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;Content-Type:&lt;space&gt;text&lt;solidus&gt;cloud-config&lt;semicolon&gt;&lt;space&gt;charset=&lt;quote&gt;us-ascii&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;Content-Transfer-Encoding:&lt;space&gt;7bit&lt;lf&gt;Content-Disposition:&lt;space&gt;attachment&lt;semicolon&gt;&lt;space&gt;filename=&lt;quote&gt;cloud-config.txt&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;#cloud-config&lt;lf&gt;cloud_final_modules:&lt;lf&gt;-&lt;space&gt;&lt;openbracket&gt;scripts-user&lt;comma&gt;&lt;space&gt;always&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;Content-Type:&lt;space&gt;text&lt;solidus&gt;x-shellscript&lt;semicolon&gt;&lt;space&gt;charset=&lt;quote&gt;us-ascii&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;Content-Transfer-Encoding:&lt;space&gt;7bit&lt;lf&gt;Content-Disposition:&lt;space&gt;attachment&lt;semicolon&gt;&lt;space&gt;filename=&lt;quote&gt;userdata.txt&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;#!&lt;solidus&gt;bin&lt;solidus&gt;bash&lt;lf&gt;&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;update&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;install&lt;space&gt;redhat-lsb-core&lt;lf&gt;amazon-linux-extras&lt;space&gt;install&lt;space&gt;docker&lt;space&gt;-y&lt;lf&gt;service&lt;space&gt;docker&lt;space&gt;start&lt;lf&gt;curl&lt;space&gt;-L&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;github.com&lt;solidus&gt;docker&lt;solidus&gt;compose&lt;solidus&gt;releases&lt;solidus&gt;download&lt;solidus&gt;1.22.0&lt;solidus&gt;docker-compose-&lt;dollar&gt;&lt;openparen&gt;uname&lt;space&gt;-s&lt;closeparen&gt;-&lt;dollar&gt;&lt;openparen&gt;uname&lt;space&gt;-m&lt;closeparen&gt;&lt;space&gt;-o&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;solidus&gt;docker-compose&lt;lf&gt;chmod&lt;space&gt;+x&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;solidus&gt;docker-compose&lt;lf&gt;&lt;lf&gt;cd&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;lf&gt;wget&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;fmeserver.docker-compose.yaml&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;sed&lt;space&gt;-i&lt;space&gt;&lt;apos&gt;&lt;solidus&gt;-&lt;space&gt;80:8080&lt;solidus&gt;d&lt;apos&gt;&lt;space&gt;.&lt;solidus&gt;docker-compose.yaml&lt;lf&gt;export&lt;space&gt;WEBPROTOCOL=http&lt;lf&gt;export&lt;space&gt;EXTERNALPORT=80&lt;lf&gt;&lt;lf&gt;.&lt;solidus&gt;docker-compose&lt;space&gt;up&lt;space&gt;-d&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;"/>
@@ -1479,8 +1497,8 @@
 #!   IDENTIFIER="56"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="633.50829640801362 -888.00786618538211"
-#!   BOUNDING_RECT="633.50829640801362 -888.00786618538211 807.00774057740045 71"
+#!   POSITION="3503.5369966950166 -238.00136612038204"
+#!   BOUNDING_RECT="3503.5369966950166 -238.00136612038204 807.00774057740045 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1509,7 +1527,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1529,8 +1546,8 @@
 #!   IDENTIFIER="76"
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
-#!   POSITION="474.50694639451353 -1231.5122023592676"
-#!   BOUNDING_RECT="474.50694639451353 -1231.5122023592676 640.50420371698738 71"
+#!   POSITION="3344.5356466815165 -581.50570229426739"
+#!   BOUNDING_RECT="3344.5356466815165 -581.50570229426739 640.50420371698738 71"
 #!   ORDER="500000000000244.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1559,7 +1576,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1588,7 +1604,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1616,8 +1631,8 @@
 #!   IDENTIFIER="74"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="474.50694639451353 -1562.5151873891177"
-#!   BOUNDING_RECT="474.50694639451353 -1562.5151873891177 750.50530372798744 71"
+#!   POSITION="3344.5356466815165 -912.50868732411709"
+#!   BOUNDING_RECT="3344.5356466815165 -912.50868732411709 750.50530372798744 71"
 #!   ORDER="500000000000246.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1647,7 +1662,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1662,8 +1676,8 @@
 #!   IDENTIFIER="81"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="7623.5754862231879 -1006.0098473357175"
-#!   BOUNDING_RECT="7623.5754862231879 -1006.0098473357175 615.421875 71"
+#!   POSITION="10493.604186510187 -356.00334727071726"
+#!   BOUNDING_RECT="10493.604186510187 -356.00334727071726 615.421875 71"
 #!   ORDER="500000000000247.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1694,7 +1708,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2023,7 +2036,7 @@ FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeRemover_LIST_EXP ";    foreach attr [split "fme.vm.template.email<opencurly><closecurly> fme.vm.template.rdp<opencurly><closecurly>"] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeRemover_LIST_EXP ";    foreach attr [split "fme.vm.template.email<opencurly><closecurly> fme.vm.template.rdp<opencurly><closecurly> fme_geometry<opencurly><closecurly>"] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeRemover    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    OUTPUT { FEATURE_TYPE AttributeRemover_OUTPUT        @RemoveAttributes(fme_encoded,web.token,flexnet.ec2type,fme.timezone,fme.ec2size,fme.vm.fromEmail,fme.vm.BCCEmail,ami.windows,flexnet.volumeSize,flexnet.ec2size,fme.vm.CCEmail,fme.vm.template.email<opencurly>0<closecurly>,flexnet.securityGroup,fme.installApps,fme.vm.template.rdp<opencurly>0<closecurly>,fme.volumeSize,web.workspace,fme.ec2type,fme.portForarding,fme.vm.instanceInitiatedShutdownBehavior,web.server,fme.securityGroup,web.repository,fme.password)        @RemoveAttributes(fme_pcre_match"$(AttributeRemover_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "UserData" "SET_TO" "Content-Type:<space>multipart<solidus>mixed<semicolon><space>boundary=<quote><solidus><solidus><quote><lf>MIME-Version:<space>1.0<lf><lf>--<solidus><solidus><lf>Content-Type:<space>text<solidus>cloud-config<semicolon><space>charset=<quote>us-ascii<quote><lf>MIME-Version:<space>1.0<lf>Content-Transfer-Encoding:<space>7bit<lf>Content-Disposition:<space>attachment<semicolon><space>filename=<quote>cloud-config.txt<quote><lf><lf>#cloud-config<lf>cloud_final_modules:<lf>-<space><openbracket>scripts-user<comma><space>always<closebracket><lf><lf>--<solidus><solidus><lf>Content-Type:<space>text<solidus>x-shellscript<semicolon><space>charset=<quote>us-ascii<quote><lf>MIME-Version:<space>1.0<lf>Content-Transfer-Encoding:<space>7bit<lf>Content-Disposition:<space>attachment<semicolon><space>filename=<quote>userdata.txt<quote><lf><lf>#!<solidus>bin<solidus>bash<lf><lf>yum<space>-y<space>update<lf>yum<space>-y<space>install<space>redhat-lsb-core<lf>amazon-linux-extras<space>install<space>docker<space>-y<lf>service<space>docker<space>start<lf>curl<space>-L<space>https:<solidus><solidus>github.com<solidus>docker<solidus>compose<solidus>releases<solidus>download<solidus>1.22.0<solidus>docker-compose-<dollar><openparen>uname<space>-s<closeparen>-<dollar><openparen>uname<space>-m<closeparen><space>-o<space><solidus>usr<solidus>local<solidus>bin<solidus>docker-compose<lf>chmod<space>+x<space><solidus>usr<solidus>local<solidus>bin<solidus>docker-compose<lf><lf>cd<space><solidus>usr<solidus>local<solidus>bin<lf>wget<space><at>Value<openparen>fmeserver.docker-compose.yaml<closeparen><lf><lf>sed<space>-i<space><apos><solidus>-<space>80:8080<solidus>d<apos><space>.<solidus>docker-compose.yaml<lf>export<space>WEBPROTOCOL=http<lf>export<space>EXTERNALPORT=80<lf><lf>.<solidus>docker-compose<space>up<space>-d<lf><lf><lf>--<solidus><solidus>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
