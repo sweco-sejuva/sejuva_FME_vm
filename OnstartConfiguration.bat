@@ -14,8 +14,9 @@
 md %TEMP%
 pushd %TEMP%
 
-::set EC2PASSWORD=pwd
-::setx /m EC2PASSWORD %EC2PASSWORD%
+:: set EC2PASSWORD=pwd
+:: setx /m EC2PASSWORD %EC2PASSWORD%
+:: net user Administrator %EC2PASSWORD%
 
 call :LaunchConfig > C:\ProgramData\Amazon\EC2-Windows\Launch\Config\LaunchConfig.json
 call :ec2launch-config > %LOG%
@@ -29,27 +30,6 @@ call :fmedatadownload >>%LOG%
 	echo "Onstart Configuration complete" >>%LOG%
 	exit /b
 
-
-:LaunchConfig
-	@echo off
-
-		echo {
-		echo "setComputerName": false,
-		echo "setWallpaper": true,
-		echo "addDnsSuffixList": true,
-		echo "extendBootVolumeSize": true,
-		echo "handleUserData": true,
-		echo "adminPasswordType": "Specify",
-		echo "adminPassword":  "%EC2PASSWORD%"
-		echo }
-
-	@echo on
-@goto :eof
-
-:ec2launch-config
-
-	powershell -Command "C:\ProgramData\Amazon\EC2-Windows\Launch\Scripts\InitializeInstance.ps1 -SchedulePerBoot"
-goto :eof
 
 :vnc
     taskkill /f /t /fi "USERNAME eq SYSTEM" /im winvnc.exe

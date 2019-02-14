@@ -4,7 +4,7 @@
 #        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/VMCreator.fmw
 #              --git.branch "development"
 #              --FullName "Ryan"
-#              --EmailAddress "rjcragg+5@gmail.com"
+#              --EmailAddress "rjcragg+7@gmail.com"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-02-12T18:49:52"
+#!   LAST_SAVE_DATE="2019-02-13T16:57:48"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,7 +47,7 @@
 #!   TITLE="Amazon EC2 Virtual Machine Creator"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="13231 388.239"
+#!   VIEW_POSITION="27666.5 -714.713"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="68"
@@ -170,7 +170,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_OR_ATTR EmailAddress Enter your email address and press &apos;Request Virtual Machine&apos;:"
-#!   DEFAULT_VALUE="rjcragg+5@gmail.com"
+#!   DEFAULT_VALUE="rjcragg+7@gmail.com"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -694,6 +694,20 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="218"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="215"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set most tags and UserData&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-11927.776280736531 -497.83049828848391"
+#!   TOP_LEFT="-11927.776280736531 -497.83049828848391"
+#!   BOTTOM_RIGHT="-11269.700692301038 -496.83049828848391"
+#!   BOUNDING_RECT="-11927.776280736531 -497.83049828848391 658.07558843549305 -1"
+#!   ORDER="500000000000260.25"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.78431372549019607,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="257"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -734,7 +748,7 @@
 #!   BOUNDING_RECT="-14779.559560301483 13.432970150597027 16857.36968171833 5422.3105883385424"
 #!   STICKY="true"
 #!   COLOUR="0.77647058823529413,0.047058823529411764,0.45490196078431372"
-#!   CONTENTS="144 260 220 261 263 231 241 158 244 242 223 246 250 233 235 249 225 141 174 234 251 147 245 219 152 221 227 13 150 145 218 258 217 259 232 130 228 236 175 37 257 224 239 90 146 240 262 226 36 222 163 15 "
+#!   CONTENTS="144 260 215 220 261 263 231 241 158 244 242 223 246 250 233 235 249 225 141 174 234 251 147 245 219 152 221 227 13 150 145 218 258 217 259 232 130 228 236 175 37 257 224 239 90 146 240 262 226 36 222 163 15 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -910,14 +924,17 @@
 #!   IDENTIFIER="266"
 #!   NAME="Error in PythonCaller"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="13032.483266009131 -1941.1958825470601"
-#!   ORDER="500000000000257.25"
-#!   BOTTOM_RIGHT="17122.230045829871 -3802.9792062626498"
-#!   BOUNDING_RECT="13032.483266009131 -1941.1958825470601 4089.7467798207399 1861.7833237155896"
+#!   TOP_LEFT="29673.947349040103 -2210.3162208092667"
+#!   ORDER="500000000000261.25"
+#!   COLLAPSED="true"
+#!   UNCOLLAPSED_SIZE="4089.7467798207399 1861.7833237155896"
+#!   BOTTOM_RIGHT="30510.947349040103 -2285.3162208092667"
+#!   BOUNDING_RECT="29673.947349040103 -2210.3162208092667 837 75"
 #!   STICKY="true"
 #!   COLOUR="0.98431372549019602,0.0039215686274509803,0.023529411764705882"
 #!   CONTENTS="269 270 267 "
 #! >
+#!     <BOOKMARK_FEAT NAME="Tester_has_exception" SOURCE_NODE="267" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -973,9 +990,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1043,9 +1059,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1093,9 +1108,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1169,9 +1183,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1255,9 +1268,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1340,9 +1352,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1401,9 +1412,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1835,9 +1845,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; tag.team Train SET_TO  tag.owner &lt;at&gt;Value&lt;openparen&gt;fme.vm.fromEmail&lt;closeparen&gt; SET_TO AWS_ACCESS_KEY_ID AWS_ACCESS_KEY_ID  NO_OP AWS_SECRET_ACCESS_KEY AWS_SECRET_ACCESS_KEY  NO_OP _response _response  NO_OP Subnets Subnets  NO_OP State State  NO_OP SubnetId SubnetId  NO_OP _element_index _element_index  NO_OP GroupId GroupId  NO_OP GroupName GroupName  NO_OP VpcId VpcId  NO_OP git.username git.username  NO_OP git.repository git.repository  NO_OP git.branch git.branch  NO_OP EmailAddress EmailAddress  NO_OP aws.name_tag aws.name_tag  NO_OP aws.s3_bucket_name aws.s3_bucket_name  NO_OP aws.region_name aws.region_name  NO_OP aws.vpc_cidr aws.vpc_cidr  NO_OP aws.subnet_cidr&lt;opencurly&gt;&lt;closecurly&gt; aws.subnet_cidr&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP fme.ec2type fme.ec2type  NO_OP fme.ec2size fme.ec2size  NO_OP fme.volumeSize fme.volumeSize  NO_OP fme.securityGroup fme.securityGroup  NO_OP fme.timezone fme.timezone  NO_OP fme.portForwarding fme.portForwarding  NO_OP fme.password fme.password  NO_OP fme.installApps fme.installApps  NO_OP fme.vm.instanceInitiatedShutdownBehavior fme.vm.instanceInitiatedShutdownBehavior  NO_OP fme.vm.fromEmail fme.vm.fromEmail  NO_OP fme.vm.CCEmail fme.vm.CCEmail  NO_OP fme.vm.BCCEmail fme.vm.BCCEmail  NO_OP fme.vm.template.email fme.vm.template.email  NO_OP fme.vm.template.rdp fme.vm.template.rdp  NO_OP SecurityGroups&lt;opencurly&gt;&lt;closecurly&gt; SecurityGroups&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP FullName FullName  NO_OP email email  NO_OP tag.created tag.created  NO_OP tag.createdBy tag.createdBy  NO_OP tag.purpose tag.purpose  NO_OP  GroupId &lt;at&gt;Value&lt;openparen&gt;SecurityGroups&lt;opencurly&gt;0&lt;closecurly&gt;.GroupId&lt;closeparen&gt; SET_TO"/>
@@ -1901,9 +1910,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
@@ -1966,9 +1974,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
@@ -2011,9 +2018,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2083,9 +2089,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2131,9 +2136,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2179,9 +2183,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2227,9 +2230,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2275,9 +2277,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -2323,9 +2324,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="5" />
@@ -2389,9 +2389,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2461,9 +2460,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2524,9 +2522,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2539,7 +2536,7 @@
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="_response _exception"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;boto3&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#need&lt;space&gt;this&lt;space&gt;for&lt;space&gt;AWS&lt;space&gt;access&lt;lf&gt;import&lt;space&gt;json&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#AWS&lt;space&gt;stuff&lt;space&gt;creates&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;lf&gt;def&lt;space&gt;AWSCall&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ec2&lt;space&gt;=&lt;space&gt;boto3.client&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;ec2&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;region_name=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;aws.region_name&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_access_key_id=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_ACCESS_KEY_ID&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_secret_access_key=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_SECRET_ACCESS_KEY&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;response&lt;space&gt;=&lt;space&gt;ec2.run_instances&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ImageId=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;ImageId&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;InstanceType=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;fme.ec2type&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;.&lt;apos&gt;&lt;space&gt;+&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;fme.ec2size&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SubnetId=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;SubnetId&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;MinCount=&lt;space&gt;1&lt;comma&gt;&lt;space&gt;MaxCount=&lt;space&gt;1&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;UserData=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;UserData&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SecurityGroupIds=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;GroupId&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;InstanceInitiatedShutdownBehavior=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;fme.vm.instanceInitiatedShutdownBehavior&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;TagSpecifications=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;ResourceType&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;instance&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Tags&lt;apos&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;FullName&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Created&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.created&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Created&lt;space&gt;By&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.createdBy&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Team&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.team&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Owner&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.owner&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Purpose&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.purpose&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Email&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;email&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_response&lt;quote&gt;&lt;comma&gt;&lt;space&gt;json.dumps&lt;openparen&gt;response&lt;comma&gt;&lt;space&gt;default=str&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;#https:&lt;solidus&gt;&lt;solidus&gt;stackoverflow.com&lt;solidus&gt;questions&lt;solidus&gt;11875770&lt;solidus&gt;how-to-overcome-datetime-datetime-not-json-serializable&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;e:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_exception&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;error&lt;space&gt;in&lt;space&gt;PythonCaller_run_instances:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;repr&lt;openparen&gt;e&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;boto3&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#need&lt;space&gt;this&lt;space&gt;for&lt;space&gt;AWS&lt;space&gt;access&lt;lf&gt;import&lt;space&gt;json&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#AWS&lt;space&gt;stuff&lt;space&gt;creates&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;lf&gt;def&lt;space&gt;AWSCall&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ec2&lt;space&gt;=&lt;space&gt;boto3.client&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;ec2&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;region_name=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;aws.region_name&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_access_key_id=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_ACCESS_KEY_ID&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_secret_access_key=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_SECRET_ACCESS_KEY&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;response&lt;space&gt;=&lt;space&gt;ec2.run_instances&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ImageId=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;ImageId&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;InstanceType=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;fme.ec2type&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;.&lt;apos&gt;&lt;space&gt;+&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;fme.ec2size&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SubnetId=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;SubnetId&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;MinCount=&lt;space&gt;1&lt;comma&gt;&lt;space&gt;MaxCount=&lt;space&gt;1&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SecurityGroupIds=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;GroupId&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;InstanceInitiatedShutdownBehavior=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;fme.vm.instanceInitiatedShutdownBehavior&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;TagSpecifications=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;ResourceType&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;instance&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Tags&lt;apos&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;FullName&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Created&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.created&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Created&lt;space&gt;By&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.createdBy&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Team&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.team&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Owner&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.owner&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Purpose&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;tag.purpose&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Email&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;email&lt;apos&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_response&lt;quote&gt;&lt;comma&gt;&lt;space&gt;json.dumps&lt;openparen&gt;response&lt;comma&gt;&lt;space&gt;default=str&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;#https:&lt;solidus&gt;&lt;solidus&gt;stackoverflow.com&lt;solidus&gt;questions&lt;solidus&gt;11875770&lt;solidus&gt;how-to-overcome-datetime-datetime-not-json-serializable&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;e:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_exception&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;error&lt;space&gt;in&lt;space&gt;PythonCaller_run_instances:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;repr&lt;openparen&gt;e&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="AWSCall"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller_run_instances"/>
@@ -2597,9 +2594,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2650,9 +2646,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2728,9 +2723,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2805,9 +2799,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="ELEMENTS"/>
@@ -2851,9 +2844,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge List Attributes"/>
@@ -2917,9 +2909,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Instances{}"/>
@@ -2978,9 +2969,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
@@ -3024,9 +3014,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3092,9 +3081,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3155,9 +3143,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3203,9 +3190,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3251,9 +3237,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -3299,9 +3284,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -3347,9 +3331,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -3395,9 +3378,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="5" />
@@ -3461,9 +3443,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3523,9 +3504,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3571,9 +3551,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3640,9 +3619,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3827,9 +3805,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3878,9 +3855,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3964,9 +3940,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4017,9 +3992,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4226,7 +4200,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4299,7 +4272,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4389,7 +4361,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4439,7 +4410,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4460,7 +4430,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4513,7 +4482,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -4527,7 +4495,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
@@ -4542,7 +4509,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;git.username,git.repository,git.branch,aws.name_tag,aws.s3_bucket_name,aws.region_name,aws.vpc_cidr,aws.subnet_cidr{},ami.linux,ami.windows,flexnet.ec2type,flexnet.ec2size,flexnet.volumeSize,flexnet.securityGroup,fmeserver.ec2type,fmeserver.ec2size,fmeserver.volumeSize,fmeserver.securityGroup,fmeserver.docker-compose.yaml,fmeserver.vm.repository,fmeserver.vm.workspace,fmeserver.vm.server,fmeserver.vm.token,fme.ec2type,fme.ec2size,fme.volumeSize,fme.securityGroup,fme.timezone,fme.portForwarding,fme.password,fme.installApps,fme.vm.instanceInitiatedShutdownBehavior,fme.vm.fromEmail,fme.vm.CCEmail,fme.vm.BCCEmail,web.repository,web.workspace,web.server,web.token,fme.vm.template.email{},fme.vm.template.rdp{},fme_geometry{0}&quot;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
@@ -4646,9 +4612,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4700,9 +4665,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4770,9 +4734,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4842,9 +4805,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4896,9 +4858,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4969,9 +4930,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5044,9 +5004,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5100,9 +5059,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -5183,9 +5141,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5258,9 +5215,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5317,9 +5273,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -5393,9 +5348,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5447,9 +5401,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -5520,9 +5473,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5622,9 +5574,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5676,9 +5627,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -5730,9 +5680,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -5788,7 +5737,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5844,7 +5792,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5882,7 +5829,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -5949,7 +5895,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5988,7 +5933,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -6048,7 +5992,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6087,7 +6030,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -6144,7 +6086,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6183,7 +6124,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -6241,7 +6181,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6301,7 +6240,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6343,7 +6281,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -6461,9 +6398,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6474,8 +6410,8 @@
 #!   IDENTIFIER="257"
 #!   TYPE="AttributeManager"
 #!   VERSION="2"
-#!   POSITION="-11903.776280736531 -655.19994651146624"
-#!   BOUNDING_RECT="-11903.776280736531 -655.19994651146624 658.07558843549305 71"
+#!   POSITION="-11903.776280736531 -634.83121829568404"
+#!   BOUNDING_RECT="-11903.776280736531 -634.83121829568404 658.07558843549305 71"
 #!   ORDER="500000000000235"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -6494,10 +6430,9 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="AWS_ACCESS_KEY_ID AWS_ACCESS_KEY_ID  NO_OP AWS_SECRET_ACCESS_KEY AWS_SECRET_ACCESS_KEY  NO_OP  git.username $(git.username) SET_TO  git.repository $(git.repository) SET_TO  git.branch $(git.branch) SET_TO  FullName $(FullName) SET_TO  EmailAddress $(EmailAddress) SET_TO  email &lt;at&gt;ReplaceString&lt;openparen&gt;$(EmailAddress)&lt;comma&gt;&lt;quote&gt;&lt;space&gt;&lt;quote&gt;&lt;comma&gt;+&lt;closeparen&gt; SET_TO  tag.created &lt;at&gt;DateTimeNow&lt;openparen&gt;&lt;closeparen&gt; SET_TO  tag.createdBy &lt;at&gt;Value&lt;openparen&gt;git.branch&lt;closeparen&gt;&lt;space&gt;virtual&lt;space&gt;machine&lt;space&gt;generator SET_TO  tag.purpose Used&lt;space&gt;for&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;git.branch&lt;closeparen&gt;&lt;space&gt;by&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;EmailAddress&lt;closeparen&gt; SET_TO  UserData &lt;lt&gt;script&lt;gt&gt;&lt;lf&gt;set&lt;space&gt;TEMP=c:&lt;backslash&gt;temp&lt;lf&gt;&lt;tab&gt;::Make&lt;space&gt;required&lt;space&gt;folders&lt;space&gt;and&lt;space&gt;get&lt;space&gt;into&lt;space&gt;it&lt;lf&gt;&lt;tab&gt;&lt;tab&gt;md&lt;space&gt;%TEMP%&lt;lf&gt;&lt;tab&gt;&lt;tab&gt;pushd&lt;space&gt;%TEMP%&lt;lf&gt;aria2c.exe&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;raw.githubusercontent.com&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;git.username&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;git.repository&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;git.branch&lt;closeparen&gt;&lt;solidus&gt;OnstartConfiguration.bat&lt;space&gt;--dir=&lt;solidus&gt;temp&lt;space&gt;--allow-overwrite=true&lt;space&gt;&lt;amp&gt;&lt;amp&gt;&lt;space&gt;c:&lt;backslash&gt;temp&lt;backslash&gt;OnstartConfiguration.bat&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;script&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;persist&lt;gt&gt;true&lt;lt&gt;&lt;solidus&gt;persist&lt;gt&gt; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="AWS_ACCESS_KEY_ID AWS_ACCESS_KEY_ID  NO_OP AWS_SECRET_ACCESS_KEY AWS_SECRET_ACCESS_KEY  NO_OP  git.username $(git.username) SET_TO  git.repository $(git.repository) SET_TO  git.branch $(git.branch) SET_TO  FullName $(FullName) SET_TO  EmailAddress $(EmailAddress) SET_TO  email &lt;at&gt;ReplaceString&lt;openparen&gt;$(EmailAddress)&lt;comma&gt;&lt;quote&gt;&lt;space&gt;&lt;quote&gt;&lt;comma&gt;+&lt;closeparen&gt; SET_TO  tag.created &lt;at&gt;DateTimeNow&lt;openparen&gt;&lt;closeparen&gt; SET_TO  tag.createdBy &lt;at&gt;Value&lt;openparen&gt;git.branch&lt;closeparen&gt;&lt;space&gt;virtual&lt;space&gt;machine&lt;space&gt;generator SET_TO  tag.purpose Used&lt;space&gt;for&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;git.branch&lt;closeparen&gt;&lt;space&gt;by&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;EmailAddress&lt;closeparen&gt; SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -6530,7 +6465,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6585,7 +6519,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6619,7 +6552,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -6683,7 +6615,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6838,9 +6769,8 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6856,8 +6786,8 @@
 #!   IDENTIFIER="267"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="13808.961619027952 -2629.438059086473"
-#!   BOUNDING_RECT="13808.961619027952 -2629.438059086473 697.06579418735782 71"
+#!   POSITION="30450.425702058925 -2898.5583973486796"
+#!   BOUNDING_RECT="30450.425702058925 -2898.5583973486796 697.06579418735782 71"
 #!   ORDER="500000000000258.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -6877,7 +6807,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6906,8 +6835,8 @@
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6931,7 +6860,6 @@
 #!     <XFORM_ATTR ATTR_NAME="tag.created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.createdBy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.purpose" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -6960,8 +6888,8 @@
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Reservations" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Instances" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -6982,8 +6910,8 @@
 #!   IDENTIFIER="269"
 #!   TYPE="Terminator"
 #!   VERSION="3"
-#!   POSITION="14713.851780870753 -2687.6443385022071"
-#!   BOUNDING_RECT="14713.851780870753 -2687.6443385022071 -1 -1"
+#!   POSITION="31355.315863901724 -2956.7646767644142"
+#!   BOUNDING_RECT="31355.315863901724 -2956.7646767644142 -1 -1"
 #!   ORDER="500000000000259.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -7969,7 +7897,7 @@ DEFAULT_MACRO git.branch development
 GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE git.branch " " GitHub Branch. Also AMI Tag:
 DEFAULT_MACRO FullName Ryan
 GUI TEXT FullName Enter your full name:
-DEFAULT_MACRO EmailAddress rjcragg+5@gmail.com
+DEFAULT_MACRO EmailAddress rjcragg+7@gmail.com
 GUI TEXT EmailAddress Enter your email address and press 'Request Virtual Machine':
 DEFAULT_MACRO git.username safesoftware
 GUI IGNORE OPTIONAL TEXT_EDIT_OR_NUM_MULTI_FEATURE git.username " " GitHub Username:
@@ -8048,7 +7976,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Tester_valid_email    INPUT  FEATURE_T
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TestFactory    FACTORY_NAME Terminator    INPUT  FEATURE_TYPE Tester_valid_email_FAILED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Invalid<space>email<space>address")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Invalid<space>email<space>address")
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Tester_valid_email_PASSED    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "git.username" "$(git.username)" "SET_TO" }      ATTR_ACTION { "" "git.repository" "$(git.repository)" "SET_TO" }      ATTR_ACTION { "" "git.branch" "$(git.branch)" "SET_TO" }      ATTR_ACTION { "" "FullName" "$(FullName$encode)" "SET_TO" }      ATTR_ACTION { "" "EmailAddress" "$(EmailAddress$encode)" "SET_TO" }      ATTR_ACTION { "" "email" "<at>ReplaceString<openparen>$(EmailAddress$encode)<comma><quote><space><quote><comma>+<closeparen>" "SET_TO" }      ATTR_ACTION { "" "tag.created" "<at>DateTimeNow<openparen><closeparen>" "SET_TO" }      ATTR_ACTION { "" "tag.createdBy" "<at>Value<openparen>git.branch<closeparen><space>virtual<space>machine<space>generator" "SET_TO" }      ATTR_ACTION { "" "tag.purpose" "Used<space>for<space><at>Value<openparen>git.branch<closeparen><space>by<space><at>Value<openparen>EmailAddress<closeparen>" "SET_TO" }      ATTR_ACTION { "" "UserData" "<lt>script<gt><lf>set<space>TEMP=c:<backslash>temp<lf><tab>::Make<space>required<space>folders<space>and<space>get<space>into<space>it<lf><tab><tab>md<space>%TEMP%<lf><tab><tab>pushd<space>%TEMP%<lf>aria2c.exe<space>https:<solidus><solidus>raw.githubusercontent.com<solidus><at>Value<openparen>git.username<closeparen><solidus><at>Value<openparen>git.repository<closeparen><solidus><at>Value<openparen>git.branch<closeparen><solidus>OnstartConfiguration.bat<space>--dir=<solidus>temp<space>--allow-overwrite=true<space><amp><amp><space>c:<backslash>temp<backslash>OnstartConfiguration.bat<quote><lf><lf><lt><solidus>script<gt><lf><lt>persist<gt>true<lt><solidus>persist<gt>" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Tester_valid_email_PASSED    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "git.username" "$(git.username)" "SET_TO" }      ATTR_ACTION { "" "git.repository" "$(git.repository)" "SET_TO" }      ATTR_ACTION { "" "git.branch" "$(git.branch)" "SET_TO" }      ATTR_ACTION { "" "FullName" "$(FullName$encode)" "SET_TO" }      ATTR_ACTION { "" "EmailAddress" "$(EmailAddress$encode)" "SET_TO" }      ATTR_ACTION { "" "email" "<at>ReplaceString<openparen>$(EmailAddress$encode)<comma><quote><space><quote><comma>+<closeparen>" "SET_TO" }      ATTR_ACTION { "" "tag.created" "<at>DateTimeNow<openparen><closeparen>" "SET_TO" }      ATTR_ACTION { "" "tag.createdBy" "<at>Value<openparen>git.branch<closeparen><space>virtual<space>machine<space>generator" "SET_TO" }      ATTR_ACTION { "" "tag.purpose" "Used<space>for<space><at>Value<openparen>git.branch<closeparen><space>by<space><at>Value<openparen>EmailAddress<closeparen>" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
 # -------------------------------------------------------------------------
 MACRO FeatureReader_OUTPUT_PORTS_ENCODED JSONFeature
 MACRO FeatureReader_DIRECTIVES SCAN_MODE,AUTO,SAVE_FRAGMENTS,NO,USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,DECODE_TEXT_STRINGS,Yes,USE_SEARCH_ENVELOPE,NO,FLATTEN_MODE,ALL_LEVELS,GEOMETRY_FORMAT,None,FEATURE_TYPE_KEY,json_featuretype
@@ -8166,7 +8094,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_ImageId    INPUT  FEATURE_TYPE TesterImageId_FAILED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"ImageID<space>not<space>found")       @SupplyAttributes(_wb_termination_xformer,"Terminator_ImageId")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"ImageID<space>not<space>found")
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_run_instances    INPUT  FEATURE_TYPE TesterImageId_PASSED    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.run_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>ImageId=<space>feature.getAttribute<openparen><apos>ImageId<apos><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceType=<space>feature.getAttribute<openparen><apos>fme.ec2type<apos><closeparen><space>+<space><apos>.<apos><space>+<space>feature.getAttribute<openparen><apos>fme.ec2size<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SubnetId=<space>feature.getAttribute<openparen><apos>SubnetId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>MinCount=<space>1<comma><space>MaxCount=<space>1<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>UserData=feature.getAttribute<openparen><apos>UserData<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SecurityGroupIds=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>GroupId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceInitiatedShutdownBehavior=<space>feature.getAttribute<openparen><apos>fme.vm.instanceInitiatedShutdownBehavior<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>TagSpecifications=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>ResourceType<apos>:<space><apos>instance<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Tags<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Name<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>FullName<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Created<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.created<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Created<space>By<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.createdBy<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Team<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.team<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Owner<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.owner<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Purpose<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.purpose<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Email<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>email<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_run_instances    INPUT  FEATURE_TYPE TesterImageId_PASSED    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.run_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>ImageId=<space>feature.getAttribute<openparen><apos>ImageId<apos><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceType=<space>feature.getAttribute<openparen><apos>fme.ec2type<apos><closeparen><space>+<space><apos>.<apos><space>+<space>feature.getAttribute<openparen><apos>fme.ec2size<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SubnetId=<space>feature.getAttribute<openparen><apos>SubnetId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>MinCount=<space>1<comma><space>MaxCount=<space>1<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SecurityGroupIds=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>GroupId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceInitiatedShutdownBehavior=<space>feature.getAttribute<openparen><apos>fme.vm.instanceInitiatedShutdownBehavior<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>TagSpecifications=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>ResourceType<apos>:<space><apos>instance<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Tags<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Name<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>FullName<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Created<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.created<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Created<space>By<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.createdBy<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Team<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.team<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Owner<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.owner<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Purpose<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>tag.purpose<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Email<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>email<apos><closeparen><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_run_instances OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT_0_yFPhZzzjS6s=   OUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT_1_nMoh3RUxP8Q=
 # -------------------------------------------------------------------------
 FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_Run_instances    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT_0_yFPhZzzjS6s=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_Run_instances)"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_Run_instances_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_Run_instances_<REJECTED>
@@ -8282,18 +8210,18 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_d9ff148e_0af5_40f1_b2b9_2af84fe8b5825_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_d9ff148e_0af5_40f1_b2b9_2af84fe8b5825_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_d9ff148e_0af5_40f1_b2b9_2af84fe8b58210_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_d9ff148e_0af5_40f1_b2b9_2af84fe8b58210_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_1c3c2e99_a48f_4ef5_812b_f3307ec2f75a6_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_1c3c2e99_a48f_4ef5_812b_f3307ec2f75a6_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_1c3c2e99_a48f_4ef5_812b_f3307ec2f75a11_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_1c3c2e99_a48f_4ef5_812b_f3307ec2f75a11_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_password_9e3e4912_d15e_43be_9290_2f7d3c1eb6443_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_OUTPUT         @Tcl2("StringReplacer_password_9e3e4912_d15e_43be_9290_2f7d3c1eb6443_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_password_9e3e4912_d15e_43be_9290_2f7d3c1eb6448_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_OUTPUT         @Tcl2("StringReplacer_password_9e3e4912_d15e_43be_9290_2f7d3c1eb6448_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
@@ -8303,10 +8231,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_CATCHER    INPUT  FEATURE_TYPE 
 FACTORY_DEF * PythonFactory    FACTORY_NAME Emailer_CALLER    INPUT FEATURE_TYPE Emailer_READY    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME Emailer.Emailer    OUTPUT PYOUTPUT FEATURE_TYPE Emailer_PROCESSED
 FACTORY_DEF * TestFactory    FACTORY_NAME Emailer_ROUTER    INPUT FEATURE_TYPE Emailer_PROCESSED    TEST &fme_rejection_code == ""    OUTPUT PASSED FEATURE_TYPE Emailer_Sent
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_96c5e093_c40b_406b_b757_a1b39b96fb085_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,CourseType,FullName,PublicIpAddress,email,FileName,FolderName,_attempt,name,fme_pcre_match,"^fme_$(AttributeKeeper_96c5e093_c40b_406b_b757_a1b39b96fb085_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_96c5e093_c40b_406b_b757_a1b39b96fb0810_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,CourseType,FullName,PublicIpAddress,email,FileName,FolderName,_attempt,name,fme_pcre_match,"^fme_$(AttributeKeeper_96c5e093_c40b_406b_b757_a1b39b96fb0810_LIST_EXP)")         }
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_ONLY,Emailer_Sent_53ac775e_4b03_47b2_ab31_bcc2fc9824a85)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_ONLY,Emailer_Sent_53ac775e_4b03_47b2_ab31_bcc2fc9824a810)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer_Sent LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Emailer_Sent_LOGGED
 # -------------------------------------------------------------------------
 

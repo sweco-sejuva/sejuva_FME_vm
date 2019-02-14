@@ -16,8 +16,8 @@ var settings = {
 "aws.name_tag"        : "FME Virtual Machines",
 "aws.s3_bucket_name"  : "fmevm",
 "aws.region_name"     : "us-east-2",
-"aws.vpc_cidr"        : "172.31.0.0/16",
-"aws.subnet_cidr"     : ["172.31.0.0/20","172.31.16.0/20","172.31.32.0/20"],
+"aws.vpc_cidr"        : "10.0.0.0/16",
+"aws.subnet_cidr"     : ["10.0.0.0/19","10.0.32.0/19","10.0.64.0/19","10.0.96.0/19"],
 
 "ami.linux"           : "Amazon Linux 2 AMI*",
 "ami.windows"         : "Microsoft Windows Server 2019 with Desktop Experience Locale English AMI provided by Amazon",
@@ -28,7 +28,7 @@ var settings = {
 "flexnet.securityGroup"  : "flexnet",
 
 "fmeserver.ec2type"     : "t3",
-"fmeserver.ec2size"     : "small",
+"fmeserver.ec2size"     : "medium",
 "fmeserver.volumeSize"  : 40,
 "fmeserver.securityGroup"  : "fmeserver",
 "fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2018.1.1/docker-compose.yaml",
@@ -43,6 +43,7 @@ var settings = {
 "fme.securityGroup" : "fme",
 "fme.timezone"      : "Pacific Standard Time",
 "fme.portForwarding" : "81;82;443;8080;8081",
+"fme.firewall"       : "80;25;5900;5800;7078",
 "fme.password"      : "FMElearnings#1",
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
