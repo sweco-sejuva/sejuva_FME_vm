@@ -16,8 +16,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="66aa0403-d44a-405a-9a7e-2fd1b8757abb"
-#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,60458a80-2aad-4eeb-9257-5192adfb8cb6,e54b6f8d-03ca-48a4-8f58-0ad54e69ba4e"
+#!   FME_DOCUMENT_GUID="9d6df054-03d1-4aaf-a191-37dcbdaec95c"
+#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,60458a80-2aad-4eeb-9257-5192adfb8cb6,e54b6f8d-03ca-48a4-8f58-0ad54e69ba4e,66aa0403-d44a-405a-9a7e-2fd1b8757abb"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,7 +26,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-02-14T14:54:35"
+#!   LAST_SAVE_DATE="2019-02-19T15:50:36"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -44,7 +44,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="5652.06 -1914.02"
+#!   VIEW_POSITION="5493.05 -429.004"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -321,7 +321,7 @@
 #!   BOUNDING_RECT="3921.1901630218181 -861.50779231516697 4299.606297295727 975.00975009750096"
 #!   STICKY="true"
 #!   COLOUR="0.61960784313725492,0.50588235294117645,0.43529411764705883"
-#!   CONTENTS="19 20 17 30 21 29 61 62 22 60 "
+#!   CONTENTS="30 17 61 19 29 62 20 21 22 60 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -334,7 +334,7 @@
 #!   BOUNDING_RECT="648.0064800648006 -584.00746231186702 2993.0142143954708 957.00957009570106"
 #!   STICKY="true"
 #!   COLOUR="0.55686274509803924,0.4823529411764706,0.8666666666666667"
-#!   CONTENTS="25 55 26 27 18 24 "
+#!   CONTENTS="25 24 18 27 55 26 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -347,7 +347,7 @@
 #!   BOUNDING_RECT="3883.5436767618176 873.00873008730059 4018.5353440283898 537.00537005370052"
 #!   STICKY="true"
 #!   COLOUR="0.90980392156862744,0.17647058823529413,0.058823529411764705"
-#!   CONTENTS="98 99 96 100 92 "
+#!   CONTENTS="96 92 98 100 99 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -360,7 +360,7 @@
 #!   BOUNDING_RECT="3883.5436767618176 1848.0184801848018 4012.5352840277901 915.00915009150106"
 #!   STICKY="true"
 #!   COLOUR="0.90980392156862744,0.17647058823529413,0.058823529411764705"
-#!   CONTENTS="88 90 79 93 94 "
+#!   CONTENTS="88 79 90 93 94 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -373,7 +373,7 @@
 #!   BOUNDING_RECT="3533.4720334875801 -2181.7885737680904 11346.676768000434 1161.0116101161009"
 #!   STICKY="true"
 #!   COLOUR="0.10196078431372549,0.2196078431372549,0.0078431372549019607"
-#!   CONTENTS="46 48 52 47 40 42 74 54 39 122 69 126 53 70 128 56 127 51 45 85 57 63 32 86 141 68 75 43 76 41 72 71 50 36 77 73 44 "
+#!   CONTENTS="53 45 126 52 70 72 57 42 63 54 86 71 48 51 73 122 43 127 56 128 74 39 41 50 46 36 32 68 44 77 76 40 47 85 69 75 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -386,7 +386,7 @@
 #!   BOUNDING_RECT="8814.802400376946 -867.77543363668906 4164.0416404164025 960.0096000960009"
 #!   STICKY="true"
 #!   COLOUR="0.63921568627450975,0.62745098039215685,0.48627450980392156"
-#!   CONTENTS="111 119 115 110 118 112 116 114 "
+#!   CONTENTS="119 116 118 115 110 111 114 112 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -399,7 +399,7 @@
 #!   BOUNDING_RECT="3889.9792148844435 253.50308692173797 4003.0997159048638 976.5103169940387"
 #!   STICKY="true"
 #!   COLOUR="0.90980392156862744,0.17647058823529413,0.058823529411764705"
-#!   CONTENTS="133 134 129 132 130 "
+#!   CONTENTS="129 132 133 130 134 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -414,34 +414,21 @@
 #!   BOUNDING_RECT="15890.162839556675 -1352.5131768434994 837 205"
 #!   STICKY="true"
 #!   COLOUR="0.98431372549019602,0.0039215686274509803,0.023529411764705882"
-#!   CONTENTS="131 176 113 138 123 "
+#!   CONTENTS="131 176 113 123 138 "
 #! >
 #!     <BOOKMARK_FEAT NAME="AttributeExposer" SOURCE_NODE="131" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="140"
 #!   NAME="Get parameters"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-2274.5197990035317 -300.50509228816668"
 #!   ORDER="500000000000264.25"
 #!   BOTTOM_RIGHT="572.00522005220046 -1178.5074623118671"
 #!   BOUNDING_RECT="-2274.5197990035317 -300.50509228816668 2846.5250190557322 878.00237002370045"
 #!   STICKY="true"
 #!   COLOUR="0.63529411764705879,0.32156862745098042,0.2196078431372549"
-#!   CONTENTS="11 150 124 120 3 121 125 2 7 149 "
-#! >
-#! </BOOKMARK>
-#! <BOOKMARK
-#!   IDENTIFIER="141"
-#!   NAME="Filter out wrong"
-#!   DESCRIPTION=""
-#!   TOP_LEFT="8787.0878708787095 -2398.2914905089888"
-#!   ORDER="500000000000265.25"
-#!   BOTTOM_RIGHT="9366.093660936609 -2898.0289802898028"
-#!   BOUNDING_RECT="8787.0878708787095 -2398.2914905089888 579.0057900578995 499.73748978081403"
-#!   STICKY="false"
-#!   COLOUR="0.82745098039215681,0.72549019607843135,0.54509803921568623"
-#!   CONTENTS=""
+#!   CONTENTS="150 7 120 121 11 2 124 3 149 125 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -2401,7 +2388,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2411,27 +2397,27 @@
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2441,23 +2427,24 @@
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2495,7 +2482,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2505,23 +2491,24 @@
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_exception"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
@@ -3371,7 +3358,7 @@ FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_route    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_route<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>DestinationCidrBlock=<apos>0.0.0.0<solidus>0<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>GatewayId=feature.getAttribute<openparen><apos>InternetGateway.InternetGatewayId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>RouteTableId=feature.getAttribute<openparen><apos>RouteTableId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_route_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE PythonCaller_enable_public_ip_addresses_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_1_MK/KGxC3Sqw=    INPUT  FEATURE_TYPE PythonCaller_modify_FlexNet_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_subnets_OUTPUT_1_aBPui4SEWdk=    INPUT  FEATURE_TYPE PythonCaller_modify_fme_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_1_W4EPtbCBuPw=    INPUT  FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_1_CG28K+AM5uM=    INPUT  FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT_1_2E9rPeaZlQc=    INPUT  FEATURE_TYPE PythonCaller_create_route_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_1_725bmk55g78=    INPUT  FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT_1_oXoSYy9Hx04=    INPUT  FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_1_EprFU1kg14U=    INPUT  FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT_1_/xyuvnLiYjM=    INPUT  FEATURE_TYPE PythonCaller_modify_fmeserver_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_subnet_tags_OUTPUT_1_PQSR88kae5c=    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_5_y4r1VYtgWqY=    INPUT  FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT_1_uTBuVB4f3C0=    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_1_MK/KGxC3Sqw=    INPUT  FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_1_EprFU1kg14U=    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_1_W4EPtbCBuPw=    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_5_y4r1VYtgWqY=    INPUT  FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_1_CG28K+AM5uM=    INPUT  FEATURE_TYPE PythonCaller_create_subnets_OUTPUT_1_aBPui4SEWdk=    INPUT  FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT_1_uTBuVB4f3C0=    INPUT  FEATURE_TYPE PythonCaller_create_subnet_tags_OUTPUT_1_PQSR88kae5c=    INPUT  FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT_1_/xyuvnLiYjM=    INPUT  FEATURE_TYPE PythonCaller_enable_public_ip_addresses_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT_1_2E9rPeaZlQc=    INPUT  FEATURE_TYPE PythonCaller_modify_FlexNet_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_modify_fme_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_route_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_1_725bmk55g78=    INPUT  FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT_1_oXoSYy9Hx04=    INPUT  FEATURE_TYPE PythonCaller_modify_fmeserver_OUTPUT    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_has_exception    INPUT  FEATURE_TYPE AttributeExposer_OUTPUT    TEST _exception ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_has_exception_PASSED
 # -------------------------------------------------------------------------
