@@ -16,8 +16,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="ed108a7a-c064-40ec-af27-470abe5cc3cd"
-#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,1cdcad21-4c0d-45ec-bae9-5f86f6c1c1f3,6595d0cc-87fd-4f66-8df5-fb1225111bb3,67bad8d8-852d-456c-88aa-926c62ee189e"
+#!   FME_DOCUMENT_GUID="c2997883-555a-491c-8cbe-1c8247143ae5"
+#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,1cdcad21-4c0d-45ec-bae9-5f86f6c1c1f3,6595d0cc-87fd-4f66-8df5-fb1225111bb3,67bad8d8-852d-456c-88aa-926c62ee189e,ed108a7a-c064-40ec-af27-470abe5cc3cd"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,7 +26,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-02-14T15:26:40"
+#!   LAST_SAVE_DATE="2019-02-20T17:28:44"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -44,7 +44,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="10098.1 165.002"
+#!   VIEW_POSITION="-2013.02 522.005"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -195,7 +195,7 @@
 #!   BOUNDING_RECT="3095.0309503095032 347.50313779413409 8680.0868008680172 2020.0194479572356"
 #!   STICKY="true"
 #!   COLOUR="0.9882352941176471,0.78431372549019607,0.35686274509803922"
-#!   CONTENTS="77 38 82 37 56 30 31 79 51 36 76 46 22 81 78 80 39 29 62 45 49 28 74 84 52 34 "
+#!   CONTENTS="82 22 37 46 80 52 45 74 36 39 31 79 49 76 34 56 78 38 28 77 62 81 30 84 51 29 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -208,7 +208,7 @@
 #!   BOUNDING_RECT="3165.0316503165031 181.50223002230018 5205.0520505205031 1479.0125301253011"
 #!   STICKY="true"
 #!   COLOUR="0.81176470588235294,0.53725490196078429,0.36862745098039218"
-#!   CONTENTS="49 78 22 76 84 56 28 80 30 31 34 62 74 77 51 79 29 "
+#!   CONTENTS="31 74 78 62 30 49 34 22 84 80 51 28 76 79 77 29 56 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -221,7 +221,7 @@
 #!   BOUNDING_RECT="8516.5859575428985 165.00165001649998 3083.5300436171083 1635.0163501635018"
 #!   STICKY="true"
 #!   COLOUR="0.73725490196078436,0.70196078431372544,0.42745098039215684"
-#!   CONTENTS="82 81 38 36 39 52 "
+#!   CONTENTS="39 36 81 38 82 52 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -234,7 +234,7 @@
 #!   BOUNDING_RECT="11893.620174955082 -575.00700230726784 2366.5224264709304 475.0034977977333"
 #!   STICKY="true"
 #!   COLOUR="0.27843137254901962,0.68627450980392157,0.023529411764705882"
-#!   CONTENTS="15 5 14 "
+#!   CONTENTS="14 5 15 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -247,7 +247,7 @@
 #!   BOUNDING_RECT="1733.5270845241732 187.0004586428924 1077.9996999970001 336"
 #!   STICKY="true"
 #!   COLOUR="0.90588235294117647,0.14509803921568629,0.15686274509803921"
-#!   CONTENTS="66 65 70 "
+#!   CONTENTS="66 70 65 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -260,7 +260,7 @@
 #!   BOUNDING_RECT="-485.48245607122726 324.00117865009196 3347.0092405924006 508.00072000720002"
 #!   STICKY="true"
 #!   COLOUR="0.16470588235294117,0.78823529411764703,0.96470588235294119"
-#!   CONTENTS="68 66 67 69 64 72 61 65 70 63 "
+#!   CONTENTS="69 66 70 61 72 65 67 64 68 63 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -273,7 +273,7 @@
 #!   BOUNDING_RECT="3270.5356466815165 8.999353886818426 1090.0090905909005 1087.508041210936"
 #!   STICKY="true"
 #!   COLOUR="0.27058823529411763,0.23921568627450981,0.40000000000000002"
-#!   CONTENTS="76 56 62 74 77 79 "
+#!   CONTENTS="74 62 76 79 77 56 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -286,7 +286,7 @@
 #!   BOUNDING_RECT="-3554.5325991315326 77.000458642892397 2867.0425829847045 855.00169001690017"
 #!   STICKY="true"
 #!   COLOUR="0.41176470588235292,0.47843137254901963,0.2627450980392157"
-#!   CONTENTS="2 55 11 60 57 87 58 7 59 3 86 8 54 "
+#!   CONTENTS="8 59 54 11 7 58 57 86 55 60 2 87 3 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -301,7 +301,7 @@
 #!   BOUNDING_RECT="12350.451212537211 -1369.3978533042991 837 205"
 #!   STICKY="true"
 #!   COLOUR="0.98431372549019602,0.0039215686274509803,0.023529411764705882"
-#!   CONTENTS="91 90 92 88 89 "
+#!   CONTENTS="89 90 91 88 92 "
 #! >
 #!     <BOOKMARK_FEAT NAME="AttributeExposer" SOURCE_NODE="90" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
@@ -1500,7 +1500,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; UserData SET_TO Content-Type:&lt;space&gt;multipart&lt;solidus&gt;mixed&lt;semicolon&gt;&lt;space&gt;boundary=&lt;quote&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;Content-Type:&lt;space&gt;text&lt;solidus&gt;cloud-config&lt;semicolon&gt;&lt;space&gt;charset=&lt;quote&gt;us-ascii&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;Content-Transfer-Encoding:&lt;space&gt;7bit&lt;lf&gt;Content-Disposition:&lt;space&gt;attachment&lt;semicolon&gt;&lt;space&gt;filename=&lt;quote&gt;cloud-config.txt&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;#cloud-config&lt;lf&gt;cloud_final_modules:&lt;lf&gt;-&lt;space&gt;&lt;openbracket&gt;scripts-user&lt;comma&gt;&lt;space&gt;always&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;Content-Type:&lt;space&gt;text&lt;solidus&gt;x-shellscript&lt;semicolon&gt;&lt;space&gt;charset=&lt;quote&gt;us-ascii&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;Content-Transfer-Encoding:&lt;space&gt;7bit&lt;lf&gt;Content-Disposition:&lt;space&gt;attachment&lt;semicolon&gt;&lt;space&gt;filename=&lt;quote&gt;userdata.txt&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;#!&lt;solidus&gt;bin&lt;solidus&gt;bash&lt;lf&gt;&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;update&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;install&lt;space&gt;redhat-lsb-core&lt;lf&gt;amazon-linux-extras&lt;space&gt;install&lt;space&gt;docker&lt;space&gt;-y&lt;lf&gt;service&lt;space&gt;docker&lt;space&gt;start&lt;lf&gt;curl&lt;space&gt;-L&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;github.com&lt;solidus&gt;docker&lt;solidus&gt;compose&lt;solidus&gt;releases&lt;solidus&gt;download&lt;solidus&gt;1.22.0&lt;solidus&gt;docker-compose-&lt;dollar&gt;&lt;openparen&gt;uname&lt;space&gt;-s&lt;closeparen&gt;-&lt;dollar&gt;&lt;openparen&gt;uname&lt;space&gt;-m&lt;closeparen&gt;&lt;space&gt;-o&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;solidus&gt;docker-compose&lt;lf&gt;chmod&lt;space&gt;+x&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;solidus&gt;docker-compose&lt;lf&gt;&lt;lf&gt;cd&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;lf&gt;wget&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;fmeserver.docker-compose.yaml&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;sed&lt;space&gt;-i&lt;space&gt;&lt;apos&gt;&lt;solidus&gt;-&lt;space&gt;80:8080&lt;solidus&gt;d&lt;apos&gt;&lt;space&gt;.&lt;solidus&gt;docker-compose.yaml&lt;lf&gt;export&lt;space&gt;WEBPROTOCOL=http&lt;lf&gt;export&lt;space&gt;EXTERNALPORT=80&lt;lf&gt;&lt;lf&gt;.&lt;solidus&gt;docker-compose&lt;space&gt;up&lt;space&gt;-d&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; UserData SET_TO Content-Type:&lt;space&gt;multipart&lt;solidus&gt;mixed&lt;semicolon&gt;&lt;space&gt;boundary=&lt;quote&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;Content-Type:&lt;space&gt;text&lt;solidus&gt;cloud-config&lt;semicolon&gt;&lt;space&gt;charset=&lt;quote&gt;us-ascii&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;Content-Transfer-Encoding:&lt;space&gt;7bit&lt;lf&gt;Content-Disposition:&lt;space&gt;attachment&lt;semicolon&gt;&lt;space&gt;filename=&lt;quote&gt;cloud-config.txt&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;#cloud-config&lt;lf&gt;cloud_final_modules:&lt;lf&gt;-&lt;space&gt;&lt;openbracket&gt;scripts-user&lt;comma&gt;&lt;space&gt;always&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;Content-Type:&lt;space&gt;text&lt;solidus&gt;x-shellscript&lt;semicolon&gt;&lt;space&gt;charset=&lt;quote&gt;us-ascii&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;Content-Transfer-Encoding:&lt;space&gt;7bit&lt;lf&gt;Content-Disposition:&lt;space&gt;attachment&lt;semicolon&gt;&lt;space&gt;filename=&lt;quote&gt;userdata.txt&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;#!&lt;solidus&gt;bin&lt;solidus&gt;bash&lt;lf&gt;&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;update&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;install&lt;space&gt;redhat-lsb-core&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;install&lt;space&gt;git&lt;space&gt;&lt;lf&gt;amazon-linux-extras&lt;space&gt;install&lt;space&gt;docker&lt;space&gt;-y&lt;lf&gt;service&lt;space&gt;docker&lt;space&gt;start&lt;lf&gt;curl&lt;space&gt;-L&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;github.com&lt;solidus&gt;docker&lt;solidus&gt;compose&lt;solidus&gt;releases&lt;solidus&gt;download&lt;solidus&gt;1.22.0&lt;solidus&gt;docker-compose-&lt;dollar&gt;&lt;openparen&gt;uname&lt;space&gt;-s&lt;closeparen&gt;-&lt;dollar&gt;&lt;openparen&gt;uname&lt;space&gt;-m&lt;closeparen&gt;&lt;space&gt;-o&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;solidus&gt;docker-compose&lt;lf&gt;chmod&lt;space&gt;+x&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;solidus&gt;docker-compose&lt;lf&gt;&lt;lf&gt;cd&lt;space&gt;&lt;solidus&gt;usr&lt;solidus&gt;local&lt;solidus&gt;bin&lt;lf&gt;wget&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;fmeserver.docker-compose.yaml&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;sed&lt;space&gt;-i&lt;space&gt;&lt;apos&gt;&lt;solidus&gt;-&lt;space&gt;80:8080&lt;solidus&gt;d&lt;apos&gt;&lt;space&gt;.&lt;solidus&gt;docker-compose.yaml&lt;lf&gt;export&lt;space&gt;WEBPROTOCOL=http&lt;lf&gt;export&lt;space&gt;EXTERNALPORT=80&lt;lf&gt;&lt;lf&gt;.&lt;solidus&gt;docker-compose&lt;space&gt;up&lt;space&gt;-d&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1752,6 +1752,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1782,12 +1783,12 @@
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1818,7 +1819,6 @@
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1858,6 +1858,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1888,7 +1889,6 @@
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2289,7 +2289,7 @@ FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYP
 INCLUDE [    set macroLine "MACRO AttributeRemover_LIST_EXP ";    foreach attr [split "fme.vm.template.email<opencurly><closecurly> fme.vm.template.rdp<opencurly><closecurly> fme_geometry<opencurly><closecurly>"] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeRemover    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    OUTPUT { FEATURE_TYPE AttributeRemover_OUTPUT        @RemoveAttributes(fme_encoded,web.token,flexnet.ec2type,fme.timezone,fme.ec2size,fme.vm.fromEmail,fme.vm.BCCEmail,ami.windows,flexnet.volumeSize,flexnet.ec2size,fme.vm.CCEmail,fme.vm.template.email<opencurly>0<closecurly>,flexnet.securityGroup,fme.installApps,fme.vm.template.rdp<opencurly>0<closecurly>,fme.volumeSize,web.workspace,fme.ec2type,fme.portForarding,fme.vm.instanceInitiatedShutdownBehavior,web.server,fme.securityGroup,web.repository,fme.password)        @RemoveAttributes(fme_pcre_match"$(AttributeRemover_LIST_EXP)")         }
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "UserData" "SET_TO" "Content-Type:<space>multipart<solidus>mixed<semicolon><space>boundary=<quote><solidus><solidus><quote><lf>MIME-Version:<space>1.0<lf><lf>--<solidus><solidus><lf>Content-Type:<space>text<solidus>cloud-config<semicolon><space>charset=<quote>us-ascii<quote><lf>MIME-Version:<space>1.0<lf>Content-Transfer-Encoding:<space>7bit<lf>Content-Disposition:<space>attachment<semicolon><space>filename=<quote>cloud-config.txt<quote><lf><lf>#cloud-config<lf>cloud_final_modules:<lf>-<space><openbracket>scripts-user<comma><space>always<closebracket><lf><lf>--<solidus><solidus><lf>Content-Type:<space>text<solidus>x-shellscript<semicolon><space>charset=<quote>us-ascii<quote><lf>MIME-Version:<space>1.0<lf>Content-Transfer-Encoding:<space>7bit<lf>Content-Disposition:<space>attachment<semicolon><space>filename=<quote>userdata.txt<quote><lf><lf>#!<solidus>bin<solidus>bash<lf><lf>yum<space>-y<space>update<lf>yum<space>-y<space>install<space>redhat-lsb-core<lf>amazon-linux-extras<space>install<space>docker<space>-y<lf>service<space>docker<space>start<lf>curl<space>-L<space>https:<solidus><solidus>github.com<solidus>docker<solidus>compose<solidus>releases<solidus>download<solidus>1.22.0<solidus>docker-compose-<dollar><openparen>uname<space>-s<closeparen>-<dollar><openparen>uname<space>-m<closeparen><space>-o<space><solidus>usr<solidus>local<solidus>bin<solidus>docker-compose<lf>chmod<space>+x<space><solidus>usr<solidus>local<solidus>bin<solidus>docker-compose<lf><lf>cd<space><solidus>usr<solidus>local<solidus>bin<lf>wget<space><at>Value<openparen>fmeserver.docker-compose.yaml<closeparen><lf><lf>sed<space>-i<space><apos><solidus>-<space>80:8080<solidus>d<apos><space>.<solidus>docker-compose.yaml<lf>export<space>WEBPROTOCOL=http<lf>export<space>EXTERNALPORT=80<lf><lf>.<solidus>docker-compose<space>up<space>-d<lf><lf><lf>--<solidus><solidus>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "UserData" "SET_TO" "Content-Type:<space>multipart<solidus>mixed<semicolon><space>boundary=<quote><solidus><solidus><quote><lf>MIME-Version:<space>1.0<lf><lf>--<solidus><solidus><lf>Content-Type:<space>text<solidus>cloud-config<semicolon><space>charset=<quote>us-ascii<quote><lf>MIME-Version:<space>1.0<lf>Content-Transfer-Encoding:<space>7bit<lf>Content-Disposition:<space>attachment<semicolon><space>filename=<quote>cloud-config.txt<quote><lf><lf>#cloud-config<lf>cloud_final_modules:<lf>-<space><openbracket>scripts-user<comma><space>always<closebracket><lf><lf>--<solidus><solidus><lf>Content-Type:<space>text<solidus>x-shellscript<semicolon><space>charset=<quote>us-ascii<quote><lf>MIME-Version:<space>1.0<lf>Content-Transfer-Encoding:<space>7bit<lf>Content-Disposition:<space>attachment<semicolon><space>filename=<quote>userdata.txt<quote><lf><lf>#!<solidus>bin<solidus>bash<lf><lf>yum<space>-y<space>update<lf>yum<space>-y<space>install<space>redhat-lsb-core<lf>yum<space>-y<space>install<space>git<space><lf>amazon-linux-extras<space>install<space>docker<space>-y<lf>service<space>docker<space>start<lf>curl<space>-L<space>https:<solidus><solidus>github.com<solidus>docker<solidus>compose<solidus>releases<solidus>download<solidus>1.22.0<solidus>docker-compose-<dollar><openparen>uname<space>-s<closeparen>-<dollar><openparen>uname<space>-m<closeparen><space>-o<space><solidus>usr<solidus>local<solidus>bin<solidus>docker-compose<lf>chmod<space>+x<space><solidus>usr<solidus>local<solidus>bin<solidus>docker-compose<lf><lf>cd<space><solidus>usr<solidus>local<solidus>bin<lf>wget<space><at>Value<openparen>fmeserver.docker-compose.yaml<closeparen><lf><lf>sed<space>-i<space><apos><solidus>-<space>80:8080<solidus>d<apos><space>.<solidus>docker-compose.yaml<lf>export<space>WEBPROTOCOL=http<lf>export<space>EXTERNALPORT=80<lf><lf>.<solidus>docker-compose<space>up<space>-d<lf><lf><lf>--<solidus><solidus>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_Describe_decribe_images    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_images<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>ExecutableUsers=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>all<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>state<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>available<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>architecture<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>x86_64<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>image-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>machine<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>virtualization-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>hvm<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>description<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>ami.linux<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>block-device-mapping.volume-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>gp2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Owners=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>amazon<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_Describe_decribe_images:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT
