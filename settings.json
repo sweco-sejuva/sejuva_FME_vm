@@ -53,8 +53,8 @@ var settings = {
 
 "web.repository"  : "FMETraining",
 "web.workspace"   : "VMCreator.fmw",
-"web.server"      : "http://18.221.39.239",
-"web.token"       : "a7a687aa31b7174d4adc9740ac92bc76fae52a08",
+"web.server"      : "https://demos-safe-software.fmecloud.com",
+"web.token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",
 
 "git.aws.files"   : ["index.html", "/images/FMEServerLoader.gif", "/js/PythonVMCreator.js"],
 
