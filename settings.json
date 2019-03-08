@@ -56,7 +56,7 @@ var settings = {
 "web.server"      : "https://demos-safe-software.fmecloud.com",
 "web.token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",
 
-"git.aws.files"   : ["settings.json","index.html", "/images/FMEServerLoader.gif", "/js/PythonVMCreator.js"],
+"git.aws.files"   : ["settings.json","index.html", "images/FMEServerLoader.gif", "js/PythonVMCreator.js"],
 
 "fme.vm.template.email":[
 "Hello _FullName_,",
