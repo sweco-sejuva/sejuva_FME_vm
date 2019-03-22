@@ -17,6 +17,10 @@ request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 
+request.onload = function() {
+  var settings = request.response;
+}
+
 	</script>
 	<!-- This creates the form contents, and shows results -->
 	<script type="text/javascript" src="./js/PythonVMCreator.js"></script>
