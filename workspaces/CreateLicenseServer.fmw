@@ -10,14 +10,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="24660.9 2442.86"
+#!   DOC_EXTENTS="25530.3 2442.86"
 #!   DOC_TOP_LEFT="-4542.9 -2522.5"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="51b4a5ab-36ca-4208-a5e5-557946c19cce"
-#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,3fb21e13-b1a8-4ceb-b357-1bbbece82886,bd7bed3e-73ca-4de6-9b8e-93baac30c1a3,b990fb5a-6c06-469a-be51-d39f1a9e3063"
+#!   FME_DOCUMENT_GUID="c4dc99b1-7961-407a-9979-0550617538d7"
+#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,3fb21e13-b1a8-4ceb-b357-1bbbece82886,bd7bed3e-73ca-4de6-9b8e-93baac30c1a3,b990fb5a-6c06-469a-be51-d39f1a9e3063,51b4a5ab-36ca-4208-a5e5-557946c19cce"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,7 +26,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-02-14T15:03:20"
+#!   LAST_SAVE_DATE="2019-03-21T18:54:28"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -44,7 +44,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="15064.4 17.143"
+#!   VIEW_POSITION="15801.6 17.143"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="70"
@@ -202,7 +202,7 @@
 #!   BOUNDING_RECT="3398.6054146255751 -79.643990820009066 9061.0193508754091 2020.0194479572356"
 #!   STICKY="true"
 #!   COLOUR="0.9882352941176471,0.78431372549019607,0.35686274509803922"
-#!   CONTENTS="64 36 25 33 81 90 32 49 38 28 79 35 76 39 22 78 50 52 82 88 37 29 51 46 31 45 30 80 34 "
+#!   CONTENTS="37 46 64 76 22 88 29 28 25 81 80 35 33 82 30 90 32 49 45 79 34 52 78 39 36 31 51 38 50 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -215,7 +215,7 @@
 #!   BOUNDING_RECT="4683.0477384840469 -245.64489859184283 4371.5429766764337 1479.0125301253011"
 #!   STICKY="true"
 #!   COLOUR="0.81176470588235294,0.53725490196078429,0.36862745098039218"
-#!   CONTENTS="29 33 49 22 50 35 32 30 31 28 51 34 "
+#!   CONTENTS="33 29 30 32 22 50 31 35 49 28 34 51 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -228,7 +228,7 @@
 #!   BOUNDING_RECT="9201.0929718663756 -262.14547859764315 3083.5300436171083 1635.0163501635018"
 #!   STICKY="true"
 #!   COLOUR="0.73725490196078436,0.70196078431372544,0.42745098039215684"
-#!   CONTENTS="39 52 90 36 88 38 "
+#!   CONTENTS="88 39 90 52 36 38 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -241,7 +241,7 @@
 #!   BOUNDING_RECT="12551.483896449443 -825.24634770157206 2362.9509621848611 475.0034977977333"
 #!   STICKY="true"
 #!   COLOUR="0.27843137254901962,0.68627450980392157,0.023529411764705882"
-#!   CONTENTS="14 15 5 "
+#!   CONTENTS="5 14 15 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -254,7 +254,7 @@
 #!   BOUNDING_RECT="14953.00667292387 -509.07795658823846 3394.3196574822923 1065.5077100771009"
 #!   STICKY="true"
 #!   COLOUR="0.62352941176470589,0.13725490196078433,0.72549019607843135"
-#!   CONTENTS="54 17 60 56 62 "
+#!   CONTENTS="54 56 103 62 108 106 17 60 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -267,7 +267,7 @@
 #!   BOUNDING_RECT="2208.5101454734049 -353.00376614438119 1077.9996999970001 336"
 #!   STICKY="true"
 #!   COLOUR="0.90588235294117647,0.14509803921568629,0.15686274509803921"
-#!   CONTENTS="69 71 72 "
+#!   CONTENTS="71 72 69 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -280,7 +280,7 @@
 #!   BOUNDING_RECT="-278.5742143135717 -216.00304613718163 3615.0840597839751 508.00072000720002"
 #!   STICKY="true"
 #!   COLOUR="0.16470588235294117,0.78823529411764703,0.96470588235294119"
-#!   CONTENTS="61 69 67 73 68 66 70 71 65 72 "
+#!   CONTENTS="66 70 61 68 73 71 67 72 65 69 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -293,30 +293,30 @@
 #!   BOUNDING_RECT="3500.7547011308425 -284.4316518518097 1090.0090905909005 1087.508041210936"
 #!   STICKY="true"
 #!   COLOUR="0.27058823529411763,0.23921568627450981,0.40000000000000002"
-#!   CONTENTS="64 79 80 81 78 76 "
+#!   CONTENTS="81 79 80 64 78 76 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="77"
 #!   NAME="Get Parameters"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-4542.9025718828616 -203.50457228296636"
 #!   ORDER="500000000000252.38"
 #!   BOTTOM_RIGHT="-349.4888563063214 -1389.5840016486886"
 #!   BOUNDING_RECT="-4542.9025718828616 -203.50457228296636 4193.4137155765402 1186.0794293657223"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.25098039215686274,0.16470588235294117"
-#!   CONTENTS="8 63 84 57 3 85 75 87 2 7 11 59 "
+#!   CONTENTS="7 11 3 85 59 63 75 8 57 2 87 84 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="89"
 #!   NAME="Future: automatically request license file"
-#!   DESCRIPTION=""
-#!   TOP_LEFT="18351.612087549445 -522.86237148085763"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="19547.338330526163 -540.00540005400046"
 #!   ORDER="500000000000266.38"
-#!   BOTTOM_RIGHT="19791.626487693447 -1542.8725715828587"
-#!   BOUNDING_RECT="18351.612087549445 -522.86237148085763 1440.0144001440021 1020.010200102001"
+#!   BOTTOM_RIGHT="20987.352730670165 -1560.0156001560015"
+#!   BOUNDING_RECT="19547.338330526163 -540.00540005400046 1440.0144001440021 1020.010200102001"
 #!   STICKY="false"
 #!   COLOUR="0.41568627450980394,0.29803921568627451,0.95294117647058818"
 #!   CONTENTS=""
@@ -334,7 +334,7 @@
 #!   BOUNDING_RECT="18436.604817100142 -1763.2610810014003 837 205"
 #!   STICKY="true"
 #!   COLOUR="0.98431372549019602,0.0039215686274509803,0.023529411764705882"
-#!   CONTENTS="94 93 92 95 96 "
+#!   CONTENTS="96 95 94 92 93 "
 #! >
 #!     <BOOKMARK_FEAT NAME="AttributeExposer" SOURCE_NODE="94" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
@@ -415,6 +415,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -466,6 +469,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -497,6 +503,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -560,6 +569,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -611,6 +623,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -656,6 +671,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -683,6 +701,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -739,6 +760,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -766,6 +790,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -815,6 +842,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -842,6 +872,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -887,6 +920,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -914,6 +950,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -960,6 +999,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1008,6 +1050,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1038,6 +1083,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1101,6 +1149,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1170,7 +1221,8 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.timezone" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme.portForarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.password" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.installApps" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.instanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1181,6 +1233,7 @@
 #!     <XFORM_ATTR ATTR_NAME="web.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="web.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="web.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.template.email{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.template.rdp{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1198,7 +1251,7 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;git.username,git.repository,git.branch,aws.name_tag,aws.s3_bucket_name,aws.region_name,aws.vpc_cidr,aws.subnet_cidr{},ami.linux,ami.windows,flexnet.ec2type,flexnet.ec2size,flexnet.volumeSize,flexnet.securityGroup,fmeserver.ec2type,fmeserver.ec2size,fmeserver.volumeSize,fmeserver.securityGroup,fmeserver.docker-compose.yaml,fmeserver.vm.repository,fmeserver.vm.workspace,fmeserver.vm.server,fmeserver.vm.token,fme.ec2type,fme.ec2size,fme.volumeSize,fme.securityGroup,fme.timezone,fme.portForarding,fme.password,fme.installApps,fme.vm.instanceInitiatedShutdownBehavior,fme.vm.fromEmail,fme.vm.CCEmail,fme.vm.BCCEmail,web.repository,web.workspace,web.server,web.token,fme.vm.template.email{},fme.vm.template.rdp{},fme_geometry{0}&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;git.username,git.repository,git.branch,aws.name_tag,aws.s3_bucket_name,aws.region_name,aws.vpc_cidr,aws.subnet_cidr{},ami.linux,ami.windows,flexnet.ec2type,flexnet.ec2size,flexnet.volumeSize,flexnet.securityGroup,fmeserver.ec2type,fmeserver.ec2size,fmeserver.volumeSize,fmeserver.securityGroup,fmeserver.docker-compose.yaml,fmeserver.vm.repository,fmeserver.vm.workspace,fmeserver.vm.server,fmeserver.vm.token,fme.ec2type,fme.ec2size,fme.volumeSize,fme.securityGroup,fme.timezone,fme.portForwarding,fme.firewall,fme.password,fme.installApps,fme.vm.instanceInitiatedShutdownBehavior,fme.vm.fromEmail,fme.vm.CCEmail,fme.vm.BCCEmail,web.repository,web.workspace,web.server,web.token,git.aws.files{},fme.vm.template.email{},fme.vm.template.rdp{},fme_geometry{0}&quot;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
@@ -1214,7 +1267,7 @@
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="JSON"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceSCAN_MODE&lt;comma&gt;AUTO&lt;comma&gt;SourceQUERY_TABLE&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceFLATTEN_MODE&lt;comma&gt;ALL_LEVELS&lt;comma&gt;SourceFEATURE_TYPE_KEY&lt;comma&gt;json_featuretype&lt;comma&gt;SourceGEOMETRY_FORMAT&lt;comma&gt;None&lt;comma&gt;SourceGEOMETRY_KEY&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceCOORDINATE_SYSTEM_KEY&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceSAVE_FRAGMENTS&lt;comma&gt;NO&lt;comma&gt;SourceDECODE_TEXT_STRINGS&lt;comma&gt;Yes&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourceJSON_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_BASENAME_AS_DEFAULT_FEATURE_TYPE&lt;comma&gt;No&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO,METAFILE,JSON"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="JSON_FLATTEN_MODE,&quot;OPTIONAL LOOKUP_CHOICE Yes,ALL_LEVELS%No,ONE_LEVEL&quot;,JSON&lt;space&gt;Flatten&lt;space&gt;Nested&lt;space&gt;JSON&lt;space&gt;Values&lt;space&gt;into&lt;space&gt;Attributes:,JSON_SAVE_FRAGMENTS,&quot;OPTIONAL LOOKUP_CHOICE Yes,YES%No,NO&quot;,JSON&lt;space&gt;Read&lt;space&gt;Entire&lt;space&gt;Feature&lt;space&gt;as&lt;space&gt;JSON&lt;space&gt;Fragment:,JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_SCAN_MODE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Auto,AUTO,QUERY_TABLE%JSON&lt;space&gt;Query,QUERY&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Scan&lt;space&gt;Mode,JSON_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP JSON_EXPOSE_FORMAT_ATTRS&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Attributes,JSON_GEOMETRY_FORMAT,&quot;OPTIONAL ACTIVECHOICE GeoJSON%OGC-WKT%None,GEOMETRY_KEY,COORDINATE_SYSTEM_KEY&quot;,JSON&lt;space&gt;Geometry&lt;space&gt;Format:,JSON_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,JSON&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,JSON_DECODE_TEXT_STRINGS,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_JSON_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS JSON%Source&quot;,JSON&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,JSON_FEATURE_TYPE_KEY,&quot;OPTIONAL TEXT&quot;,JSON&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Key&lt;space&gt;Name:"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="JSON_SAVE_FRAGMENTS,&quot;OPTIONAL LOOKUP_CHOICE Yes,YES%No,NO&quot;,JSON&lt;space&gt;Read&lt;space&gt;Entire&lt;space&gt;Feature&lt;space&gt;as&lt;space&gt;JSON&lt;space&gt;Fragment:,JSON_DECODE_TEXT_STRINGS,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP JSON_EXPOSE_FORMAT_ATTRS&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Attributes,JSON_SCAN_MODE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Auto,AUTO,QUERY_TABLE%JSON&lt;space&gt;Query,QUERY&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Scan&lt;space&gt;Mode,JSON_FEATURE_TYPE_KEY,&quot;OPTIONAL TEXT&quot;,JSON&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Key&lt;space&gt;Name:,JSON_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,JSON&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,JSON_GEOMETRY_FORMAT,&quot;OPTIONAL ACTIVECHOICE GeoJSON%OGC-WKT%None,GEOMETRY_KEY,COORDINATE_SYSTEM_KEY&quot;,JSON&lt;space&gt;Geometry&lt;space&gt;Format:,JSON_FLATTEN_MODE,&quot;OPTIONAL LOOKUP_CHOICE Yes,ALL_LEVELS%No,ONE_LEVEL&quot;,JSON&lt;space&gt;Flatten&lt;space&gt;Nested&lt;space&gt;JSON&lt;space&gt;Values&lt;space&gt;into&lt;space&gt;Attributes:,JSON_JSON_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS JSON%Source&quot;,JSON&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
 #!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1249,8 +1302,8 @@
 #!   IDENTIFIER="60"
 #!   TYPE="FeatureWriter"
 #!   VERSION="0"
-#!   POSITION="17612.688273040079 -825.24634770157206"
-#!   BOUNDING_RECT="17612.688273040079 -825.24634770157206 -1 -1"
+#!   POSITION="17839.83340163422 -825.24634770157206"
+#!   BOUNDING_RECT="17839.83340163422 -825.24634770157206 -1 -1"
 #!   ORDER="500000000000231"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1324,6 +1377,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
@@ -1364,6 +1420,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1386,6 +1445,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1437,6 +1499,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1460,6 +1525,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1504,6 +1572,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1543,6 +1614,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1566,6 +1640,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1607,6 +1684,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE="fme.vm.template.email&lt;opencurly&gt;&lt;closecurly&gt; fme.vm.template.rdp&lt;opencurly&gt;&lt;closecurly&gt; fme_geometry&lt;opencurly&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="fme.securityGroup,fme.vm.instanceInitiatedShutdownBehavior,fmeserver.ec2type,fme.volumeSize,fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt;,fme.vm.template.email&lt;opencurly&gt;0&lt;closecurly&gt;,web.workspace,fmeserver.docker-compose.yaml,ami.windows,fme.password,fme.vm.template.rdp&lt;opencurly&gt;0&lt;closecurly&gt;,fme.timezone,fme.ec2type,fmeserver.ec2size,fmeserver.securityGroup,fme.ec2size,fme.vm.BCCEmail,web.repository,fme.installApps,fmeserver.vm.repository,fmeserver.volumeSize,fme.vm.fromEmail,fme.vm.CCEmail,fmeserver.vm.server,fmeserver.vm.token,web.server,fme.portForarding,fmeserver.vm.workspace,web.token"/>
@@ -1642,6 +1722,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1686,6 +1769,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1709,6 +1795,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1762,6 +1851,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1801,6 +1893,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; UserData SET_TO Content-Type:&lt;space&gt;multipart&lt;solidus&gt;mixed&lt;semicolon&gt;&lt;space&gt;boundary=&lt;quote&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;Content-Type:&lt;space&gt;text&lt;solidus&gt;cloud-config&lt;semicolon&gt;&lt;space&gt;charset=&lt;quote&gt;us-ascii&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;Content-Transfer-Encoding:&lt;space&gt;7bit&lt;lf&gt;Content-Disposition:&lt;space&gt;attachment&lt;semicolon&gt;&lt;space&gt;filename=&lt;quote&gt;cloud-config.txt&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;#cloud-config&lt;lf&gt;cloud_final_modules:&lt;lf&gt;-&lt;space&gt;&lt;openbracket&gt;scripts-user&lt;comma&gt;&lt;space&gt;always&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;Content-Type:&lt;space&gt;text&lt;solidus&gt;x-shellscript&lt;semicolon&gt;&lt;space&gt;charset=&lt;quote&gt;us-ascii&lt;quote&gt;&lt;lf&gt;MIME-Version:&lt;space&gt;1.0&lt;lf&gt;Content-Transfer-Encoding:&lt;space&gt;7bit&lt;lf&gt;Content-Disposition:&lt;space&gt;attachment&lt;semicolon&gt;&lt;space&gt;filename=&lt;quote&gt;userdata.txt&lt;quote&gt;&lt;lf&gt;&lt;lf&gt;#!&lt;solidus&gt;bin&lt;solidus&gt;bash&lt;lf&gt;cd&lt;space&gt;&lt;solidus&gt;opt&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;update&lt;lf&gt;yum&lt;space&gt;-y&lt;space&gt;install&lt;space&gt;redhat-lsb-core&lt;lf&gt;wget&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;downloads.safe.com&lt;solidus&gt;fme&lt;solidus&gt;floatingLicense&lt;solidus&gt;fme-flexnet-linux-x64.tar.gz&lt;lf&gt;mkdir&lt;space&gt;flexnet&lt;lf&gt;tar&lt;space&gt;-xzf&lt;space&gt;fme-flexnet-linux-x64.tar.gz&lt;space&gt;-C&lt;space&gt;.&lt;solidus&gt;flexnet&lt;space&gt;--strip-components=1&lt;lf&gt;rm&lt;space&gt;fme-flexnet-linux-x64.tar.gz&lt;lf&gt;cd&lt;space&gt;flexnet&lt;lf&gt;rm&lt;space&gt;safe.lic&lt;lf&gt;wget&lt;space&gt;&lt;space&gt;https:&lt;solidus&gt;&lt;solidus&gt;raw.githubusercontent.com&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;git.username&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;git.repository&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;git.branch&lt;closeparen&gt;&lt;solidus&gt;safe.lic&lt;lf&gt;sed&lt;space&gt;-i&lt;space&gt;&lt;apos&gt;2s&lt;solidus&gt;.*&lt;solidus&gt;VENDOR&lt;space&gt;safe&lt;space&gt;port=27010&lt;solidus&gt;&lt;apos&gt;&lt;space&gt;safe.lic&lt;lf&gt;.&lt;solidus&gt;lmgrd&lt;space&gt;-c&lt;space&gt;.&lt;solidus&gt;safe.lic&lt;space&gt;-l&lt;space&gt;safe.log&lt;lf&gt;python&lt;space&gt;-m&lt;space&gt;&lt;quote&gt;SimpleHTTPServer&lt;quote&gt;&lt;space&gt;80&lt;lf&gt;&lt;lf&gt;--&lt;solidus&gt;&lt;solidus&gt;"/>
@@ -1843,6 +1938,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1871,7 +1969,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1888,11 +1985,15 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1902,7 +2003,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1919,11 +2019,15 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1967,6 +2071,59 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ami.linux" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_exception"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeExposer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="106"
+#!   TYPE="AttributeFileWriter"
+#!   VERSION="4"
+#!   POSITION="17371.311030253168 -1235.655028693144"
+#!   BOUNDING_RECT="17371.311030253168 -1235.655028693144 -1 -1"
+#!   ORDER="500000000000268.38"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="MacAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PrivateIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1984,6 +2141,9 @@
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1992,13 +2152,206 @@
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_exception"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeExposer"/>
+#!     <XFORM_ATTR ATTR_NAME="_file_contents" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="MacAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="PrivateIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ami.linux" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_file_contents" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="CHAR_ENCODING" PARM_VALUE="fme-system"/>
+#!     <XFORM_PARM PARM_NAME="FILE_NAME" PARM_VALUE="..&lt;solidus&gt;settings.json"/>
+#!     <XFORM_PARM PARM_NAME="OVERWRITE_FILE" PARM_VALUE="Overwrite file"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SOURCE_ATTR" PARM_VALUE="_file_contents"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFileWriter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="108"
+#!   TYPE="AttributeFileReader"
+#!   VERSION="4"
+#!   POSITION="16050.16050160502 -1235.655028693144"
+#!   BOUNDING_RECT="16050.16050160502 -1235.655028693144 -1 -1"
+#!   ORDER="500000000000271.38"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="MacAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PrivateIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ami.linux" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_file_contents" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="MacAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="PrivateIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ami.linux" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_file_contents" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="CHAR_ENCODING" PARM_VALUE="fme-system"/>
+#!     <XFORM_PARM PARM_NAME="DEST_ATTR" PARM_VALUE="_file_contents"/>
+#!     <XFORM_PARM PARM_NAME="FILE_NAME" PARM_VALUE="..&lt;solidus&gt;settings.json"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFileReader"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="103"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="16714.452858814304 -1235.655028693144"
+#!   BOUNDING_RECT="16714.452858814304 -1235.655028693144 -1 -1"
+#!   ORDER="500000000000272.38"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="MacAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PrivateIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ami.linux" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.ec2size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_file_contents" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="fme.license.+?&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="fme.license&lt;quote&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;PrivateIpAddress&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="_file_contents"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_fme.license"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2058,11 +2411,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="62"
+#!   IDENTIFIER="109"
 #!   SOURCE_NODE="17"
-#!   TARGET_NODE="60"
+#!   TARGET_NODE="108"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 text_line"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -2344,6 +2697,39 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="105"
+#!   SOURCE_NODE="103"
+#!   TARGET_NODE="106"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="62"
+#!   SOURCE_NODE="106"
+#!   TARGET_NODE="60"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 text_line"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="104"
+#!   SOURCE_NODE="108"
+#!   TARGET_NODE="103"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="75"
 #!   SOURCE_NODE="57"
 #!   TARGET_NODE="63"
@@ -2423,7 +2809,7 @@ INCLUDE_CUSTOM_TRANSFORMER_VER AWSCredentialSupplier:1
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AWSCredentialSupplier Output Output Renamer/Nuker"   INPUT FEATURE_TYPE AWSCredentialSupplier_Output   OUTPUT FEATURE_TYPE AWSCredentialSupplier_Output
 # -------------------------------------------------------------------------
 MACRO FeatureReader_OUTPUT_PORTS_ENCODED JSONFeature
-MACRO FeatureReader_DIRECTIVES FLATTEN_MODE,ALL_LEVELS,SAVE_FRAGMENTS,NO,USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,SCAN_MODE,AUTO,GEOMETRY_FORMAT,None,USE_SEARCH_ENVELOPE,NO,DECODE_TEXT_STRINGS,Yes,FEATURE_TYPE_KEY,json_featuretype
+MACRO FeatureReader_DIRECTIVES SAVE_FRAGMENTS,NO,DECODE_TEXT_STRINGS,Yes,SCAN_MODE,AUTO,FEATURE_TYPE_KEY,json_featuretype,USE_SEARCH_ENVELOPE,NO,GEOMETRY_FORMAT,None,FLATTEN_MODE,ALL_LEVELS,USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No
 # Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
 INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
 # Consolidate the attribute merge options to what the factory expects
@@ -2511,7 +2897,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_run_instances    INPUT  FEATURE_TYPE AttributeRenamer_GroupId_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.run_instances<openparen><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space>ImageId=<space>feature.getAttribute<openparen><apos>ImageId<apos><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceType=<space>feature.getAttribute<openparen><apos>flexnet.ec2type<apos><closeparen><space>+<space><apos>.<apos><space>+<space>feature.getAttribute<openparen><apos>flexnet.ec2size<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SubnetId=<space>feature.getAttribute<openparen><apos>SubnetId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>MinCount=<space>1<comma><space>MaxCount=<space>1<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>DisableApiTermination=True<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>UserData=feature.getAttribute<openparen><apos>UserData<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SecurityGroupIds=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>GroupId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>TagSpecifications=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>ResourceType<apos>:<space><apos>instance<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Tags<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><apos>Key<apos>:<space><apos>Name<apos><comma><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>aws.name_tag<apos><closeparen><space>+<space><apos><space>Floating<space>License<space>Server<apos><closecurly><comma><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_run_instances OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT_0_yFPhZzzjS6s=   OUTPUT FEATURE_TYPE PythonCaller_run_instances_OUTPUT_1_nMoh3RUxP8Q=
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT_1_nMoh3RUxP8Q=    INPUT  FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT_1_ST5fwnV5KBI=    INPUT  FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT_1_sTREnuX8u3k=    INPUT  FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT_1_z4XpeqRk4XM=    INPUT  FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT_1_D+7rPVJLF2M=    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT_1_nMoh3RUxP8Q=    INPUT  FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT_1_sTREnuX8u3k=    INPUT  FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT_1_ST5fwnV5KBI=    INPUT  FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT_1_D+7rPVJLF2M=    INPUT  FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT_1_z4XpeqRk4XM=    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_has_exception    INPUT  FEATURE_TYPE AttributeExposer_OUTPUT    TEST _exception ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_has_exception_PASSED
 # -------------------------------------------------------------------------
@@ -2531,12 +2917,29 @@ FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_474ccc77_16fa_499e_8b26_dd2339e1c21411_replacer { findText replaceText invalidValue} {     set attrs [split \"MacAddress\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_474ccc77_16fa_499e_8b26_dd2339e1c21411_replacer {:} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_b95180b4_4c1e_4be1_b59a_07d43bda45392_replacer { findText replaceText invalidValue} {     set attrs [split \"MacAddress\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_b95180b4_4c1e_4be1_b59a_07d43bda45392_replacer {:} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME text_line_FeatureWriter_52eec3c3_980d_4839_bc03_a6cf0d6e8b8b11 INPUT FEATURE_TYPE StringReplacer_OUTPUT MULTI_FEATURE_MODE NO NULL_ATTR_MODE NO_OP ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV ATTR text_line_data Instance<space>ID<space>is<space><at>Value<openparen>InstanceId<closeparen>.<space>You<space>don<apos>t<space>need<space>this<space>to<space>request<space>the<space>license<space>file.<space>Use<space>localhost<space>instead.<lf>The<space>MAC<space>address<space>is<space><at>Value<openparen>MacAddress<closeparen><lf><lf>Go<space>to<space>https:<solidus><solidus>www.safe.com<solidus>activation<solidus>floating<solidus><space>and<space>fill<space>in<space>the<space>form.<lf>Enter<space>your<space>Product<space>Serial<space>Number<lf>Select<space>the<space>Version<space>of<space>FME<space><openparen>Most<space>likely<space>the<space>top<space>option<closeparen><lf>Hostname<space>is<space>localhost<lf>Host<space>ID<space>is<space><at>Value<openparen>MacAddress<closeparen><lf>Enter<space>your<space>email<space>address<lf>Click<space>Submit<space>Floating<space>License<space>Request<lf><lf>The<space>email<space>will<space>take<space>around<space>5<space>minutes<space>to<space>arrive.<space><lf>Download<space>the<space>safe.lic.<lf>Edit<space>out<space>the<space>last<space>line<space>that<space>contains<space>your<space>serial<space>number!<lf>Save<space>the<space>safe.lic<space>file<space>to<space>GitHub.<space><at>Value<openparen>git.username<closeparen><solidus><at>Value<openparen>git.repository<closeparen><solidus><at>Value<openparen>git.branch<closeparen><lf><lf>When<space>licensing<space>FME<space>Desktop<space>from<space>virtual<space>machines<space>in<space>the<space>same<space>VPC<comma><space>use<space>the<space>IP<space>Address<space><at>Value<openparen>PrivateIpAddress<closeparen> OUTPUT OUTPUT FEATURE_TYPE *
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFileReader_AttributeFileReaderInput    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    OUTPUT FEATURE_TYPE ___TOATTRIBUTEFILEREADER___
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFileReader    INPUT FEATURE_TYPE ___TOATTRIBUTEFILEREADER___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @File(REJECTABLE,ENCODED_PARAMS,DestReadSrcWrite,_file_contents,"..<solidus>settings.json",fme-system)
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeFileReader_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE AttributeFileReader_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE AttributeFileReader_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME AttributeFileReader_<Rejected> INPUT FEATURE_TYPE AttributeFileReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AttributeFileReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_fme.license_1c66c37b_df4f_4d37_9e04_834296e73d1a6_replacer { findText replaceText invalidValue} {     set attrs [split \"_file_contents\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{YES} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_fme.license    INPUT  FEATURE_TYPE AttributeFileReader_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_fme.license_OUTPUT         @Tcl2("StringReplacer_fme.license_1c66c37b_df4f_4d37_9e04_834296e73d1a6_replacer {fme.license.+?<comma>} {@EvaluateExpression(FDIV,STRING_ENCODED,fme.license<quote><space><space><space>:<space><space><space><quote><at>Value<openparen>PrivateIpAddress<closeparen><quote><comma>,StringReplacer_fme.license)} {_FME_NO_OP_}")
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFileWriter_AttributeFileWriterInput    INPUT  FEATURE_TYPE StringReplacer_fme.license_OUTPUT    OUTPUT FEATURE_TYPE ___TOATTRIBUTEFILEWRITER___
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFileWriter    INPUT FEATURE_TYPE ___TOATTRIBUTEFILEWRITER___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @File(REJECTABLE,ENCODED_PARAMS,DestWriteSrcRead,_file_contents,"..<solidus>settings.json",fme-system)
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeFileWriter_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE AttributeFileWriter_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE AttributeFileWriter_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME AttributeFileWriter_<Rejected> INPUT FEATURE_TYPE AttributeFileWriter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AttributeFileWriter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME text_line_FeatureWriter_c0b57ed9_42b2_4f05_9509_605de99e77066 INPUT FEATURE_TYPE AttributeFileWriter_OUTPUT MULTI_FEATURE_MODE NO NULL_ATTR_MODE NO_OP ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV ATTR text_line_data Instance<space>ID<space>is<space><at>Value<openparen>InstanceId<closeparen>.<space>You<space>don<apos>t<space>need<space>this<space>to<space>request<space>the<space>license<space>file.<space>Use<space>localhost<space>instead.<lf>The<space>MAC<space>address<space>is<space><at>Value<openparen>MacAddress<closeparen><lf><lf>Go<space>to<space>https:<solidus><solidus>www.safe.com<solidus>activation<solidus>floating<solidus><space>and<space>fill<space>in<space>the<space>form.<lf>Enter<space>your<space>Product<space>Serial<space>Number<lf>Select<space>the<space>Version<space>of<space>FME<space><openparen>Most<space>likely<space>the<space>top<space>option<closeparen><lf>Hostname<space>is<space>localhost<lf>Host<space>ID<space>is<space><at>Value<openparen>MacAddress<closeparen><lf>Enter<space>your<space>email<space>address<lf>Click<space>Submit<space>Floating<space>License<space>Request<lf><lf>The<space>email<space>will<space>take<space>around<space>5<space>minutes<space>to<space>arrive.<space><lf>Download<space>the<space>safe.lic.<lf>Edit<space>out<space>the<space>last<space>line<space>that<space>contains<space>your<space>serial<space>number!<lf>Save<space>the<space>safe.lic<space>file<space>to<space>GitHub.<space><at>Value<openparen>git.username<closeparen><solidus><at>Value<openparen>git.repository<closeparen><solidus><at>Value<openparen>git.branch<closeparen><lf><lf>When<space>licensing<space>FME<space>Desktop<space>from<space>virtual<space>machines<space>in<space>the<space>same<space>VPC<comma><space>use<space>the<space>IP<space>Address<space><at>Value<openparen>PrivateIpAddress<closeparen> OUTPUT OUTPUT FEATURE_TYPE *
 INCLUDE [    puts {DEFAULT_MACRO FeatureWriterDataset_FeatureWriter LicenseServerInfo.txt}; ]
-FACTORY_DEF * WriterFactory    FACTORY_NAME FeatureWriter    WRITER_TYPE TEXTLINE    WRITER_DATASET "$(FeatureWriterDataset_FeatureWriter)"    WRITER_SETTINGS RUNTIME_MACROS,OVERWRITE_FILE<comma>YES<comma>END_OF_LINE<comma>System<comma>WRITE_LAST_EOL<comma>YES<comma>ENCODING<comma>SYSTEM<comma>WRITE_UTF8_BOM<comma>YES<comma>MIME_TYPE<comma>text<solidus>plain<comma>DESTINATION_DATASETTYPE_VALIDATION<comma>Yes<comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE,METAFILE,TEXTLINE    WRITER_METAFILE ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,,ATTRIBUTE_LENGTH,60,ATTR_TYPE_MAP,char<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>buffer<comma>fme_buffer<comma>buffer<comma>fme_binarybuffer<comma>buffer<comma>fme_xml<comma>buffer<comma>fme_json<comma>char<openparen>20<closeparen><comma>fme_datetime<comma>char<openparen>12<closeparen><comma>fme_time<comma>char<openparen>8<closeparen><comma>fme_date<comma><quote>number<openparen>31<comma>15<closeparen><quote><comma>fme_real64<comma><quote>number<openparen>15<comma>7<closeparen><quote><comma>fme_real32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_int32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_uint32<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_int64<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_uint64<comma>logical<comma>fme_boolean<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_int16<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_uint16<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_int8<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_uint8<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<solidus>TEXTLINE.fmf,FORMAT_NAME,TEXTLINE,GEOM_MAP,text_line_none<comma>fme_no_geom<comma>text_line_none<comma>fme_point<comma>text_line_none<comma>fme_line<comma>text_line_none<comma>fme_polygon<comma>text_line_none<comma>fme_text<comma>text_line_none<comma>fme_ellipse<comma>text_line_none<comma>fme_arc<comma>text_line_none<comma>fme_rectangle<comma>text_line_none<comma>fme_rounded_rectangle<comma>text_line_none<comma>fme_collection<comma>text_line_none<comma>fme_raster<comma>text_line_none<comma>fme_surface<comma>text_line_none<comma>fme_solid<comma>text_line_none<comma>fme_point_cloud<comma>text_line_none<comma>fme_feature_table,READER_ATTR_INDEX_TYPES,,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,no,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,textline.sch,WRITER,TEXTLINE,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly>,WRITER_FORMAT_PARAMETER,READER_FEATURE_TYPE_EDITING<comma>NO<comma>WRITER_FEATURE_TYPE_EDITING<comma>NO<comma>MIME_TYPE<comma>text<solidus>plain<comma>DATASET_NAME<comma><quote>txt<space>file<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>text_line<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>Text<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>name<space>for<space>the<space>Text<space>file<quote>,WRITER_HAS_DEFLINE_ATTRS,yes    WRITER_FEATURE_TYPES text_line:text_line,ftp_feature_type_name,text_line,ftp_writer,TEXTLINE,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,text_line_data<comma>buffer,ftp_user_attribute_values,Instance<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>InstanceId<lt>lt<gt>closeparen<lt>gt<gt>.<lt>lt<gt>space<lt>gt<gt>You<lt>lt<gt>space<lt>gt<gt>don<lt>lt<gt>apos<lt>gt<gt>t<lt>lt<gt>space<lt>gt<gt>need<lt>lt<gt>space<lt>gt<gt>this<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>request<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>license<lt>lt<gt>space<lt>gt<gt>file.<lt>lt<gt>space<lt>gt<gt>Use<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>space<lt>gt<gt>instead.<lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>MAC<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Go<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>https:<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt>www.safe.com<lt>lt<gt>solidus<lt>gt<gt>activation<lt>lt<gt>solidus<lt>gt<gt>floating<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>and<lt>lt<gt>space<lt>gt<gt>fill<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>form.<lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>Product<lt>lt<gt>space<lt>gt<gt>Serial<lt>lt<gt>space<lt>gt<gt>Number<lt>lt<gt>lf<lt>gt<gt>Select<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>Version<lt>lt<gt>space<lt>gt<gt>of<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>openparen<lt>gt<gt>Most<lt>lt<gt>space<lt>gt<gt>likely<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>top<lt>lt<gt>space<lt>gt<gt>option<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Hostname<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>lf<lt>gt<gt>Host<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>lf<lt>gt<gt>Click<lt>lt<gt>space<lt>gt<gt>Submit<lt>lt<gt>space<lt>gt<gt>Floating<lt>lt<gt>space<lt>gt<gt>License<lt>lt<gt>space<lt>gt<gt>Request<lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>will<lt>lt<gt>space<lt>gt<gt>take<lt>lt<gt>space<lt>gt<gt>around<lt>lt<gt>space<lt>gt<gt>5<lt>lt<gt>space<lt>gt<gt>minutes<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>arrive.<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Download<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>safe.lic.<lt>lt<gt>lf<lt>gt<gt>Edit<lt>lt<gt>space<lt>gt<gt>out<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>last<lt>lt<gt>space<lt>gt<gt>line<lt>lt<gt>space<lt>gt<gt>that<lt>lt<gt>space<lt>gt<gt>contains<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>serial<lt>lt<gt>space<lt>gt<gt>number!<lt>lt<gt>lf<lt>gt<gt>Save<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>safe.lic<lt>lt<gt>space<lt>gt<gt>file<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>GitHub.<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.username<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.repository<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.branch<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>When<lt>lt<gt>space<lt>gt<gt>licensing<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt>Desktop<lt>lt<gt>space<lt>gt<gt>from<lt>lt<gt>space<lt>gt<gt>virtual<lt>lt<gt>space<lt>gt<gt>machines<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>same<lt>lt<gt>space<lt>gt<gt>VPC<lt>lt<gt>comma<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>use<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>IP<lt>lt<gt>space<lt>gt<gt>Address<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>PrivateIpAddress<lt>lt<gt>closeparen<lt>gt<gt>    WRITER_PARAMS ENCODING,SYSTEM,WRITE_LAST_EOL,YES,END_OF_LINE,System,COORDINATE_SYSTEM_GRANULARITY,FEATURE,WRITE_UTF8_BOM,YES,OVERWRITE_FILE,YES,DESTINATION_DATASETTYPE_VALIDATION,Yes,MIME_TYPE,text<solidus>plain    DATASET_ATTR _dataset    FEATURE_TYPE_LIST_ATTR _feature_type    TOTAL_FEATURES_WRITTEN_ATTR _total_features_written    OUTPUT_PORTS ""    INPUT text_line FEATURE_TYPE StringReplacer_OUTPUT  @FeatureType(ENCODED,text_line)
+FACTORY_DEF * WriterFactory    FACTORY_NAME FeatureWriter    WRITER_TYPE TEXTLINE    WRITER_DATASET "$(FeatureWriterDataset_FeatureWriter)"    WRITER_SETTINGS RUNTIME_MACROS,OVERWRITE_FILE<comma>YES<comma>END_OF_LINE<comma>System<comma>WRITE_LAST_EOL<comma>YES<comma>ENCODING<comma>SYSTEM<comma>WRITE_UTF8_BOM<comma>YES<comma>MIME_TYPE<comma>text<solidus>plain<comma>DESTINATION_DATASETTYPE_VALIDATION<comma>Yes<comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE,METAFILE,TEXTLINE    WRITER_METAFILE ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,,ATTRIBUTE_LENGTH,60,ATTR_TYPE_MAP,char<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>buffer<comma>fme_buffer<comma>buffer<comma>fme_binarybuffer<comma>buffer<comma>fme_xml<comma>buffer<comma>fme_json<comma>char<openparen>20<closeparen><comma>fme_datetime<comma>char<openparen>12<closeparen><comma>fme_time<comma>char<openparen>8<closeparen><comma>fme_date<comma><quote>number<openparen>31<comma>15<closeparen><quote><comma>fme_real64<comma><quote>number<openparen>15<comma>7<closeparen><quote><comma>fme_real32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_int32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_uint32<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_int64<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_uint64<comma>logical<comma>fme_boolean<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_int16<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_uint16<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_int8<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_uint8<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<solidus>TEXTLINE.fmf,FORMAT_NAME,TEXTLINE,GEOM_MAP,text_line_none<comma>fme_no_geom<comma>text_line_none<comma>fme_point<comma>text_line_none<comma>fme_line<comma>text_line_none<comma>fme_polygon<comma>text_line_none<comma>fme_text<comma>text_line_none<comma>fme_ellipse<comma>text_line_none<comma>fme_arc<comma>text_line_none<comma>fme_rectangle<comma>text_line_none<comma>fme_rounded_rectangle<comma>text_line_none<comma>fme_collection<comma>text_line_none<comma>fme_raster<comma>text_line_none<comma>fme_surface<comma>text_line_none<comma>fme_solid<comma>text_line_none<comma>fme_point_cloud<comma>text_line_none<comma>fme_feature_table,READER_ATTR_INDEX_TYPES,,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,no,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,textline.sch,WRITER,TEXTLINE,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly>,WRITER_FORMAT_PARAMETER,READER_FEATURE_TYPE_EDITING<comma>NO<comma>WRITER_FEATURE_TYPE_EDITING<comma>NO<comma>MIME_TYPE<comma>text<solidus>plain<comma>DATASET_NAME<comma><quote>txt<space>file<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>text_line<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>Text<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>name<space>for<space>the<space>Text<space>file<quote>,WRITER_HAS_DEFLINE_ATTRS,yes    WRITER_FEATURE_TYPES text_line:text_line,ftp_feature_type_name,text_line,ftp_writer,TEXTLINE,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,text_line_data<comma>buffer,ftp_user_attribute_values,Instance<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>InstanceId<lt>lt<gt>closeparen<lt>gt<gt>.<lt>lt<gt>space<lt>gt<gt>You<lt>lt<gt>space<lt>gt<gt>don<lt>lt<gt>apos<lt>gt<gt>t<lt>lt<gt>space<lt>gt<gt>need<lt>lt<gt>space<lt>gt<gt>this<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>request<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>license<lt>lt<gt>space<lt>gt<gt>file.<lt>lt<gt>space<lt>gt<gt>Use<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>space<lt>gt<gt>instead.<lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>MAC<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Go<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>https:<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt>www.safe.com<lt>lt<gt>solidus<lt>gt<gt>activation<lt>lt<gt>solidus<lt>gt<gt>floating<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>and<lt>lt<gt>space<lt>gt<gt>fill<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>form.<lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>Product<lt>lt<gt>space<lt>gt<gt>Serial<lt>lt<gt>space<lt>gt<gt>Number<lt>lt<gt>lf<lt>gt<gt>Select<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>Version<lt>lt<gt>space<lt>gt<gt>of<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>openparen<lt>gt<gt>Most<lt>lt<gt>space<lt>gt<gt>likely<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>top<lt>lt<gt>space<lt>gt<gt>option<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Hostname<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>lf<lt>gt<gt>Host<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>lf<lt>gt<gt>Click<lt>lt<gt>space<lt>gt<gt>Submit<lt>lt<gt>space<lt>gt<gt>Floating<lt>lt<gt>space<lt>gt<gt>License<lt>lt<gt>space<lt>gt<gt>Request<lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>will<lt>lt<gt>space<lt>gt<gt>take<lt>lt<gt>space<lt>gt<gt>around<lt>lt<gt>space<lt>gt<gt>5<lt>lt<gt>space<lt>gt<gt>minutes<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>arrive.<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Download<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>safe.lic.<lt>lt<gt>lf<lt>gt<gt>Edit<lt>lt<gt>space<lt>gt<gt>out<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>last<lt>lt<gt>space<lt>gt<gt>line<lt>lt<gt>space<lt>gt<gt>that<lt>lt<gt>space<lt>gt<gt>contains<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>serial<lt>lt<gt>space<lt>gt<gt>number!<lt>lt<gt>lf<lt>gt<gt>Save<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>safe.lic<lt>lt<gt>space<lt>gt<gt>file<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>GitHub.<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.username<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.repository<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.branch<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>When<lt>lt<gt>space<lt>gt<gt>licensing<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt>Desktop<lt>lt<gt>space<lt>gt<gt>from<lt>lt<gt>space<lt>gt<gt>virtual<lt>lt<gt>space<lt>gt<gt>machines<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>same<lt>lt<gt>space<lt>gt<gt>VPC<lt>lt<gt>comma<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>use<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>IP<lt>lt<gt>space<lt>gt<gt>Address<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>PrivateIpAddress<lt>lt<gt>closeparen<lt>gt<gt>    WRITER_PARAMS ENCODING,SYSTEM,WRITE_LAST_EOL,YES,END_OF_LINE,System,COORDINATE_SYSTEM_GRANULARITY,FEATURE,WRITE_UTF8_BOM,YES,OVERWRITE_FILE,YES,DESTINATION_DATASETTYPE_VALIDATION,Yes,MIME_TYPE,text<solidus>plain    DATASET_ATTR _dataset    FEATURE_TYPE_LIST_ATTR _feature_type    TOTAL_FEATURES_WRITTEN_ATTR _total_features_written    OUTPUT_PORTS ""    INPUT text_line FEATURE_TYPE AttributeFileWriter_OUTPUT  @FeatureType(ENCODED,text_line)
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")

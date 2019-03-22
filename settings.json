@@ -1,13 +1,4 @@
-//The json in this file is used to configure both the static webpage and the VMCreator.fmw workspace.
-// For S3ROOT, make sure there is no / at the end of the specified value. A trailing / will break the translation.
-//_email_template and _rdp_template look strange here because json doesn't truly support multi-line text
-//For _email_template, you only really need to edit the signature at the end of the email
-//For _rdp_template, only the username and domain lines might need to be changed, but the current settings are probabaly ok.
-//CourseType is the Course tag for the AMI. It should also be the GITBRANCH, and the S3 folder within the bucket.
-
-
-//InstanceInitiatedShutdownBehavior : terminate|stop   This determines if training machines will automatically terminate or stop when shut down.
-var settings = {
+{
 
 "git.username"        : "safesoftware",
 "git.repository"      : "virtualmachines",
@@ -45,6 +36,7 @@ var settings = {
 "fme.portForwarding" : "81;82;443;8080;8081",
 "fme.firewall"       : "80;25;5900;5800;7078",
 "fme.password"      : "FMElearnings#1",
+"fme.license"   :   "10.0.27.123",
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
 "fme.vm.fromEmail"  : "train@safe.com",
@@ -139,4 +131,4 @@ var settings = {
 "enablecredsspsupport:i:0",
 "drivestoredirect:s:"
   ]
-};
+}
