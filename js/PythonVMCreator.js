@@ -1,4 +1,16 @@
 //Grab the values from the JSON in settings.json
+var requestURL = '../settings.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+  var settings = request.response;
+}
+var settings = request.response;
+
+
 var repository, workspace, form, server, token;
 repository = settings.web.repository;
 workspace = settings.web.workspace;
