@@ -17,3 +17,5 @@ workspaces/CreateFMEServer.log
 workspaces/InitialMachineCreator.fmw.recover
 workspaces/InitialMachineCreator.log
 workspaces/CreateLicenseServer_log.ffs
+workspaces/QuickSetup.fmw.recover
+workspaces/QuickSetup.log
