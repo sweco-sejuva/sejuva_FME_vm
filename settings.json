@@ -44,7 +44,7 @@
 "web.server"      : "http://18.218.40.240",
 "web.token"       : "c63182c0ae9c269d1c00f0025d7c8583ba5f735f",
 
-"git.aws.files"   : ["settings.json","index.html", "images/FMEServerLoader.gif", "js/PythonVMCreator.js"],
+"git.aws.files"   : ["index.html", "images/FMEServerLoader.gif", "js/PythonVMCreator.js"],
 
 "fme.vm.template.email":[
 "Hello _FullName_,",
