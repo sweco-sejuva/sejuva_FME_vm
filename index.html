@@ -10,19 +10,7 @@
 	<script type="text/javascript" src="https://api.fmeserver.com/js/v3/FMEServer.js"></script>
 	<!-- Contains the parameters used by PythonVMCreator.js -->
 
-	<script type="text/javascript">
-var requestURL = './settings.json';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-
-request.onload = function() {
-  var settings = request.response;
-}
-var settings = request.response;
-
-	</script>
+	<script type="text/javascript" src="./js/settings.js"></script>
 	<!-- This creates the form contents, and shows results -->
 	<script type="text/javascript" src="./js/PythonVMCreator.js"></script>
 
