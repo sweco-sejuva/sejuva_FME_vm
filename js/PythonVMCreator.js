@@ -4,14 +4,14 @@ repository = settings.web.repository;
 workspace = settings.web.workspace;
 server = settings.web.server;
 token = settings.web.token;
-var git.branch = settings.git.branch;
+var branch = settings.git.branch;
 
 function populateForm( json ) {
 	// Print json to the log; might need it for troubleshooting later if element numbers change
 	console.log(json);
 	// Update response json to contain desired default values
 	// Make sure these are hidden later
-	json[0].defaultValue = git.branch;
+	json[0].defaultValue = branch;
 
 	// Use the API to build the form items
 	FMEServer.generateFormItems( "example-form", json );
