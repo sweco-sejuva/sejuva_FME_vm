@@ -1,10 +1,10 @@
 //Grab the values from the JSON in settings.json
-var repository, workspace, form, server, token, git.branch;
+var repository, workspace, form, server, token;
 repository = settings.web.repository;
 workspace = settings.web.workspace;
 server = settings.web.server;
 token = settings.web.token;
-git.branch = settings.git.branch;
+var git.branch = settings.git.branch;
 
 function populateForm( json ) {
 	// Print json to the log; might need it for troubleshooting later if element numbers change
