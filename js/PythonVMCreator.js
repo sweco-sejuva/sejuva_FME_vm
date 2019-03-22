@@ -11,7 +11,7 @@ function populateForm( json ) {
 	FMEServer.generateFormItems( "example-form", json );
 
 	// Hide the published parameters that the user shouldn't see
-	document.querySelector("span.git.branch.fmes-form-component").style.display= 'none';
+	document.querySelector("span.branch.fmes-form-component").style.display= 'none';
 
 	// Add the custom submit button
 	var button = document.createElement( "input" );
