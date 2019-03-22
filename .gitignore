@@ -19,3 +19,4 @@ workspaces/InitialMachineCreator.log
 workspaces/CreateLicenseServer_log.ffs
 workspaces/QuickSetup.fmw.recover
 workspaces/QuickSetup.log
+*.rdp
