@@ -18,10 +18,7 @@ Also be aware that the default VPC limit is 5. If you currently have 5 VPCs in y
 1. Create and configure S3 Bucket
 1. Install and update AWSCredentialSupplier.fmx
 1. Edit settings.json
-1. Run CreateVPC.fmw in FME Desktop
-1. Run CreateLicenseServer.fmw in FME Desktop to create license server
-1. Use FME Cloud or Run CreateFMEServer.fmw in FME Desktop to create FME Server installation
-1. Run InitialMachineCreator.fmw in FME Desktop to create instance to use as AMI
+1. Run QuickSetup.fmw
 1. Create and tag AMI
 1. Publish VMCreator.fmw and GitClone2S3.fmw with AWSCredentialSupplier.fmx to FME Server/Cloud
 1. Configure GitHub webhook to run GitClone2s3.fmw
