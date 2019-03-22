@@ -27,7 +27,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-03-22T09:05:00"
+#!   LAST_SAVE_DATE="2019-03-22T10:40:53"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,7 +45,7 @@
 #!   TITLE="FMEDataGit2S3"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="-1746.02 1263.01"
+#!   VIEW_POSITION="-1221.01 1143.01"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -368,6 +368,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
@@ -392,6 +393,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="AWS_ACCESS_KEY" PARM_VALUE="@Value(AWS_ACCESS_KEY_ID)"/>
 #!     <XFORM_PARM PARM_NAME="AWS_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
@@ -455,6 +457,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
@@ -501,6 +504,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_s3_object_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
@@ -874,6 +878,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="git.aws.files" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GITUSER" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GITREPOSITORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GITBRANCH" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -894,7 +899,7 @@
 #!     <XFORM_ATTR ATTR_NAME="web.token" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; _response_body SET_TO &lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;This&lt;space&gt;JS&lt;space&gt;file&lt;space&gt;is&lt;space&gt;created&lt;space&gt;byGitClone2S3.fmw&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;It&lt;space&gt;takes&lt;space&gt;the&lt;space&gt;contents&lt;space&gt;of&lt;space&gt;settings.json&lt;lf&gt;&lt;lf&gt;var&lt;space&gt;settings&lt;space&gt;=&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;quote&gt;repository&lt;quote&gt;&lt;space&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;web.repository&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;quote&gt;workspace&lt;quote&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;web.workspace&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;quote&gt;server&lt;quote&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;web.server&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;quote&gt;token&lt;quote&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;web.token&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;closecurly&gt;&lt;semicolon&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; _response_body SET_TO &lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;This&lt;space&gt;JS&lt;space&gt;file&lt;space&gt;is&lt;space&gt;created&lt;space&gt;byGitClone2S3.fmw&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;It&lt;space&gt;takes&lt;space&gt;the&lt;space&gt;contents&lt;space&gt;of&lt;space&gt;settings.json&lt;lf&gt;&lt;lf&gt;var&lt;space&gt;repository&lt;comma&gt;&lt;space&gt;workspace&lt;comma&gt;&lt;space&gt;form&lt;comma&gt;&lt;space&gt;server&lt;comma&gt;&lt;space&gt;token&lt;comma&gt;&lt;space&gt;branch&lt;semicolon&gt;&lt;lf&gt;repository&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;web.repository&lt;closeparen&gt;&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;workspace&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;web.workspace&lt;closeparen&gt;&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;server&lt;space&gt;&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;web.server&lt;closeparen&gt;&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;token&lt;space&gt;=&lt;space&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;web.token&lt;closeparen&gt;&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;branch&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;git.branch&lt;closeparen&gt;&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;  git.aws.files SET_TO js&lt;solidus&gt;settings.js"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -987,6 +992,17 @@
 #!   SOURCE_NODE="37"
 #!   TARGET_NODE="35"
 #!   SOURCE_PORT_DESC="fo 0 ELEMENTS"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="42"
+#!   SOURCE_NODE="38"
+#!   TARGET_NODE="21"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -1105,13 +1121,13 @@ FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_51460c63_685f_4a58_bcb6_ed08467f1a1e3_LIST_EXP ";    foreach attr [split "git.aws.files<opencurly><closecurly>"] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,git.username,AWS_SECRET_ACCESS_KEY,git.branch,aws.s3_bucket_name,aws.vpc_cidr,aws.name_tag,aws.region_name,web.server,web.token,AWS_ACCESS_KEY_ID,web.workspace,git.repository,web.repository,fme_pcre_match,"^fme_$(AttributeKeeper_51460c63_685f_4a58_bcb6_ed08467f1a1e3_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_51460c63_685f_4a58_bcb6_ed08467f1a1e9_LIST_EXP ";    foreach attr [split "git.aws.files<opencurly><closecurly>"] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,git.username,AWS_SECRET_ACCESS_KEY,git.branch,aws.s3_bucket_name,aws.vpc_cidr,aws.name_tag,aws.region_name,web.server,web.token,AWS_ACCESS_KEY_ID,web.workspace,git.repository,web.repository,fme_pcre_match,"^fme_$(AttributeKeeper_51460c63_685f_4a58_bcb6_ed08467f1a1e9_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "GITUSER" "$(GITUSER)" "SET_TO" }      ATTR_ACTION { "" "GITREPOSITORY" "$(GITREPOSITORY)" "SET_TO" }      ATTR_ACTION { "" "GITBRANCH" "$(GITBRANCH)" "SET_TO" }      ATTR_ACTION { "" "_s3_object_key" "$(GITBRANCH)" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeManager OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeManager_OUTPUT   OUTPUT FEATURE_TYPE AttributeManager_OUTPUT_0_qkWxPTSviNs=   OUTPUT FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "_response_body" "SET_TO" "<solidus><solidus><space>This<space>JS<space>file<space>is<space>created<space>byGitClone2S3.fmw<lf><solidus><solidus><space>It<space>takes<space>the<space>contents<space>of<space>settings.json<lf><lf>var<space>settings<space>=<space><opencurly><lf><quote>repository<quote><space><space>:<space><quote><at>Value<openparen>web.repository<closeparen><quote><comma><lf><quote>workspace<quote><space><space><space>:<space><quote><at>Value<openparen>web.workspace<closeparen><quote><comma><lf><quote>server<quote><space><space><space><space><space><space>:<space><quote><at>Value<openparen>web.server<closeparen><quote><comma><lf><quote>token<quote><space><space><space><space><space><space><space>:<space><quote><at>Value<openparen>web.token<closeparen><quote><comma><lf><closecurly><semicolon>" }
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "_response_body" "SET_TO" "<solidus><solidus><space>This<space>JS<space>file<space>is<space>created<space>byGitClone2S3.fmw<lf><solidus><solidus><space>It<space>takes<space>the<space>contents<space>of<space>settings.json<lf><lf>var<space>repository<comma><space>workspace<comma><space>form<comma><space>server<comma><space>token<comma><space>branch<semicolon><lf>repository<space>=<space><quote><at>Value<openparen>web.repository<closeparen><quote><semicolon><lf>workspace<space>=<space><quote><at>Value<openparen>web.workspace<closeparen><quote><semicolon><lf>server<space><space>=<space><quote><at>Value<openparen>web.server<closeparen><quote><semicolon><lf>token<space>=<space><space><quote><at>Value<openparen>web.token<closeparen><quote><semicolon><lf>branch<space>=<space><quote><at>Value<openparen>git.branch<closeparen><quote><semicolon><lf>" }      ATTR_ACTION { "" "git.aws.files" "SET_TO" "js<solidus>settings.js" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_0_qkWxPTSviNs=    LIST_NAME "git.aws.files{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_ELEMENTS         @RemoveAttributes(ElementFactory.baseCloned)    OUTPUT NOLIST FEATURE_TYPE ListExploder_<REJECTED>         @RemoveAttributes(ElementFactory.baseCloned)         fme_rejection_code MISSING_PARAMETER_LIST
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
@@ -1121,12 +1137,12 @@ FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE L
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME HTTPCaller_<Rejected> INPUT FEATURE_TYPE HTTPCaller_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, HTTPCaller<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * COM.safe.fme.factory.S3Factory    FACTORY_NAME S3Uploader       INPUT  FEATURE_TYPE HTTPCaller_Output    S3_MODE S3_PUT    S3_ACCESS_KEY_ID "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>AWS_ACCESS_KEY_ID<closeparen>,S3Uploader)"    S3_SECRET_ACCESS_KEY "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>AWS_SECRET_ACCESS_KEY<closeparen>,S3Uploader)"    S3_AWS_REGION "US_EAST_1"    S3_BUCKET_NAME "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>aws.s3_bucket_name<closeparen>,S3Uploader)"    S3_OBJECT_KEY "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>git.branch<closeparen><solidus><at>Value<openparen>git.aws.files<closeparen>,S3Uploader)"    S3_DATA "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>_response_body<closeparen>,S3Uploader)"    S3_CUSTOM_HEADERS Content-Type;text/html    S3_REQUEST_HEADER_LIST_ATTR "<Unused>"    S3_CANNED_ACL "PublicRead"    S3_ACCELERATION "Suspended"    S3_UPLOAD_ENCRYPTION "NONE"    S3_URI_ATTRIBUTE "_s3_object_uri"    S3_ERROR_ATTRIBUTE "fme_rejection_message"    OUTPUT OUTPUT FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT REJECTED FEATURE_TYPE S3Uploader_<REJECTED>
+FACTORY_DEF * COM.safe.fme.factory.S3Factory    FACTORY_NAME S3Uploader       INPUT  FEATURE_TYPE HTTPCaller_Output    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    S3_MODE S3_PUT    S3_ACCESS_KEY_ID "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>AWS_ACCESS_KEY_ID<closeparen>,S3Uploader)"    S3_SECRET_ACCESS_KEY "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>AWS_SECRET_ACCESS_KEY<closeparen>,S3Uploader)"    S3_AWS_REGION "US_EAST_1"    S3_BUCKET_NAME "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>aws.s3_bucket_name<closeparen>,S3Uploader)"    S3_OBJECT_KEY "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>git.branch<closeparen><solidus><at>Value<openparen>git.aws.files<closeparen>,S3Uploader)"    S3_DATA "@EvaluateExpression(FDIV,STRING,<at>Value<openparen>_response_body<closeparen>,S3Uploader)"    S3_CUSTOM_HEADERS Content-Type;text/html    S3_REQUEST_HEADER_LIST_ATTR "<Unused>"    S3_CANNED_ACL "PublicRead"    S3_ACCELERATION "Suspended"    S3_UPLOAD_ENCRYPTION "NONE"    S3_URI_ATTRIBUTE "_s3_object_uri"    S3_ERROR_ATTRIBUTE "fme_rejection_message"    OUTPUT OUTPUT FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT REJECTED FEATURE_TYPE S3Uploader_<REJECTED>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Uploader_Rejected_Logger    INPUT  FEATURE_TYPE S3Uploader_<REJECTED>    OUTPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED                  @Log(ENCODED, "Logger_S3Uploader_Rejected:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,Logger_S3Uploader_Rejected_572d3567_57f4_4402_8b57_e3988b0c05672)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Uploader_Rejected_Logger    INPUT  FEATURE_TYPE S3Uploader_<REJECTED>    OUTPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED                  @Log(ENCODED, "Logger_S3Uploader_Rejected:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,Logger_S3Uploader_Rejected_572d3567_57f4_4402_8b57_e3988b0c05678)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger_S3Uploader_Rejected LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_S3Uploader_Rejected_LOGGED
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Output_Logger    INPUT  FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT FEATURE_TYPE Logger_S3Output_LOGGED                  @Log(ENCODED, "Logger_S3Output:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_S3Output_7fb1f2ee_d7da_4c84_991c_840d60c28d282)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_S3Output_Logger    INPUT  FEATURE_TYPE S3Uploader_OUTPUT    OUTPUT FEATURE_TYPE Logger_S3Output_LOGGED                  @Log(ENCODED, "Logger_S3Output:<space>Feature<space>is:","20","20","",INFO,LOG_ONLY,Logger_S3Output_7fb1f2ee_d7da_4c84_991c_840d60c28d288)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger_S3Output LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_S3Output_LOGGED
 # -------------------------------------------------------------------------
 

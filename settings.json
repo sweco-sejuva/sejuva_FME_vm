@@ -22,7 +22,7 @@
 "fmeserver.ec2size"     : "medium",
 "fmeserver.volumeSize"  : 40,
 "fmeserver.securityGroup"  : "fmeserver",
-"fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2018.1.1/docker-compose.yaml",
+"fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.0.0-beta/latest/docker-compose.yaml",
 
 "fme.ec2type"       : "t3",
 "fme.ec2size"       : "large",
@@ -41,8 +41,8 @@
 
 "web.repository"  : "FMETraining",
 "web.workspace"   : "VMCreator.fmw",
-"web.server"      : "http://18.218.40.240",
-"web.token"       : "c63182c0ae9c269d1c00f0025d7c8583ba5f735f",
+"web.server"      : "https://18.217.93.153",
+"web.token"       : "90a87b9627b93f57a08dd33b15924def7b65751b",
 
 "git.aws.files"   : ["index.html", "images/FMEServerLoader.gif", "js/PythonVMCreator.js"],
 
