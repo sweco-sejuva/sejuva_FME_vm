@@ -5,7 +5,8 @@ The webpage used for requesting the virtual machines is a static page hosted on 
 
 ## Prerequisites
 A basic understanding of GitHub, Amazon AWS, FME Desktop, and FME Server is required.
-An installation of GitHub Desktop and FME Desktop.
+You will also require an AWS account and a GitHub account.
+On your local machine, you will need an installation of GitHub Desktop and FME Desktop.
 
 Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines. At Safe Software, we have a limit of 500.
 
@@ -15,7 +16,7 @@ Also be aware that the default VPC limit is 5. If you currently have 5 VPCs in y
 
 ## Overview
 1. Fork this Repository to your own account
-1. Create and configure S3 Bucket
+1. Create and configure S3 Bucket for static webpage
 1. Install and update AWSCredentialSupplier.fmx
 1. Edit settings.json
 1. Run QuickSetup.fmw
@@ -25,20 +26,37 @@ Also be aware that the default VPC limit is 5. If you currently have 5 VPCs in y
 
 
 There are two files in the repository that need to be edited, and two workspaces that need to be edited and published to FME Server. The two files you will eventually edit are:
-1. InitialConfiguration.bat
 1. settings.json
+1. InitialConfiguration.bat
+
 
 # Steps
 ## Fork this Repository to your own account
 Click Fork.
 Once forked into your own account, click Settings.
 Change the repository name if desired.
+Create a branch that will be the name of the course.
+
+## Create and configure S3 Bucket
+## Install and update AWSCredentialSupplier.fmx
+## Edit settings.json
+## Run QuickSetup.fmw
+This step creates your AWS EC2 Environment
+1. Open QuickSetup.fmw
+1. Run Quicksetup.fmw
+### Configure FlexNet License Server
+
+### Configure FME Server
+1. Using the public IP address, log into FME Server. Username and password are `admin`
+1. Change the admin password
+1.
+
+## Create and tag AMI
+## Publish VMCreator.fmw and GitClone2S3.fmw with AWSCredentialSupplier.fmx to FME Server/Cloud
+## Configure GitHub webhook to run GitClone2s3.fmw
 
 
-### Create License Server machine for FME Desktop (if desired)
-1. Edit and run CreateLicenseServer.fmw
-1. Open LicenseServerInfo.txt and follow instructions to obtain license file safe.lic
-1. Stop the license server virtual machine, and edit the User Data to so that `wget https://licensing.safe.com/licenses/fme/float/` contains the entire path listed in the email from Codes.
+
 
 
 ### FME Server
