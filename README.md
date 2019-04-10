@@ -38,10 +38,35 @@ Change the repository name if desired.
 Create a branch that will be the name of the course.
 
 ## Create and configure S3 Bucket for static webpage
+Create an AWS account if necessary.
+
 ## Install and update AWSCredentialSupplier.fmx
+The /workpaces/AWSCredentialSupplier.fmx custom transformer will supply the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` values in other workspaces. The values are kept in private parameters. Import the custom transformer and set your AWS Access Key ID and AWS Secret Access Key values.
+
 ## Edit settings.json
-* Replace `password` with the desired login password for the virtual machine
-* Replace `fmelicenseip` with the FME license server IP address
+* `git.username`    The GitHub username of the account containing your repository
+* `git.repository`  The GitHub repository containing this file
+* `git.branch`      The GitHub repository branch for this particular virtual machine
+
+* `aws.name_tag`    The `Name` tag that will be attached to the various items created in AWS
+* `aws.s3_bucket_name`  The name of your AWS S3 bucket that will contain the static webpage
+* `aws.region_name` The EC2 region that will be hosting the virtual Machines
+
+* `fme.timezone`    The desired timezone for the virtual machine
+* `fme.password`    The desired password for the virtual machine
+* `fme.license`     The IP address of the floating license server
+* `fme.vm.instanceInitiatedShutdownBehaviour` What happens to the virtual machine when it is turned off
+* `fme.vm.fromEmail`  Email address the connection files will be sent from
+* `fme.vm.CCEmail`    Additional email address used to report problems when VM is created
+* `fme.vm.BCCEmail`   BCC email address. Can be used to copy emails to a CRM
+
+* `web.repository`  The FME Server repository that stores the VM creating workspace
+* `web.workspace`   The name of the VM creating workspace.
+* `web.server`      FME Server URL
+* `web.token`       The FME Server REST API token
+
+* `fme.vm.template.email` The template used for the email containing the RDP connection files
+* `fme.vm.template.rdp`   The settings for the RDP files; watch out for the domain value
 
 ## Run QuickSetup.fmw
 This step creates your AWS EC2 Environment
