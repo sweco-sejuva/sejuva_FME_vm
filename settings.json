@@ -2,9 +2,9 @@
 
 "git.username"        : "safesoftware",
 "git.repository"      : "virtualmachines",
-"git.branch"          : "development",
+"git.branch"          : "2019training",
 
-"aws.name_tag"        : "FME Virtual Machines",
+"aws.name_tag"        : "FME Virtual Machines 2019",
 "aws.s3_bucket_name"  : "fmevm",
 "aws.region_name"     : "us-east-2",
 "aws.vpc_cidr"        : "10.0.0.0/16",
@@ -40,7 +40,7 @@
 "fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
 
 "web.repository"  : "FMETraining",
-"web.workspace"   : "VMCreator.fmw",
+"web.workspace"   : "VMCreator2019.fmw",
 "web.server"      : "https://18.217.93.153",
 "web.token"       : "90a87b9627b93f57a08dd33b15924def7b65751b",
 
