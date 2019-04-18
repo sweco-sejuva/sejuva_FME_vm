@@ -40,9 +40,9 @@
 "fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
 
 "web.repository"  : "FMETraining",
-"web.workspace"   : "VMCreator2019.fmw",
-"web.server"      : "https://18.217.93.153",
-"web.token"       : "90a87b9627b93f57a08dd33b15924def7b65751b",
+"web.workspace"   : "VMCreator2019training.fmw",
+"web.server"      : "https://demos-safe-software.fmecloud.com",
+"web.token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",
 
 "git.aws.files"   : ["index.html", "images/FMEServerLoader.gif", "js/PythonVMCreator.js"],
 
