@@ -11,7 +11,7 @@
 "aws.subnet_cidr"     : ["10.0.0.0/19","10.0.32.0/19","10.0.64.0/19","10.0.96.0/19"],
 
 "ami.linux"           : "Amazon Linux 2 AMI*",
-"ami.windows"         : "Microsoft Windows Server 2019 with Desktop Experience Locale English AMI provided by Amazon",
+"ami.windows"         : "Microsoft Windows Server 2016 with Desktop Experience Locale English AMI provided by Amazon",
 
 "flexnet.ec2type"       : "t3",
 "flexnet.ec2size"       : "nano",
