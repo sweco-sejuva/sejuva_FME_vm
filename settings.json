@@ -49,7 +49,7 @@
 "fme.vm.template.email":[
 "Hello _FullName_,",
 "",
-"The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.",
+"The attached RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically on Friday at 4:30pm Pacific Time.",
 "",
 "Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.",
 "",
