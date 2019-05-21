@@ -62,6 +62,7 @@ goto :eof
 goto :eof
 
 :fmedatadownload
+	choco install opera -y
 	::download and install the current FMEData from www.safe.com/download
 	aria2c https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
 	CALL FMEDataDownloadInstall.bat
