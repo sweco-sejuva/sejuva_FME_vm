@@ -38,12 +38,6 @@
 "fme.vm.CCEmail"    : "ryan.cragg@safe.com",
 "fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
 
-"web.repository"  : "FMETraining",
-"web.workspace"   : "VMCreator.fmw",
-"web.server"      : "https://18.217.93.153",
-"web.token"       : "90a87b9627b93f57a08dd33b15924def7b65751b",
-
-"git.aws.files"   : ["index.html", "images/FMEServerLoader.gif", "js/PythonVMCreator.js"],
 
 "fme.vm.template.email":[
 "Hello _FullName_,",
