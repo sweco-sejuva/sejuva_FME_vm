@@ -2,10 +2,9 @@
 
 "git.username"        : "safesoftware",
 "git.repository"      : "virtualmachines",
-"git.branch"          : "development",
+"git.branch"          : "2019.1",
 
 "aws.name_tag"        : "FME Virtual Machines",
-"aws.s3_bucket_name"  : "fmevm",
 "aws.region_name"     : "us-east-2",
 "aws.vpc_cidr"        : "10.0.0.0/16",
 "aws.subnet_cidr"     : ["10.0.0.0/19","10.0.32.0/19","10.0.64.0/19","10.0.96.0/19"],
@@ -33,7 +32,7 @@
 "fme.firewall"       : "80;25;5900;5800;7078",
 "fme.password"      : "FMElearnings#1",
 "fme.license"   :   "10.0.34.250",
-"fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice",
+"fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
 "fme.vm.fromEmail"  : "train@safe.com",
 "fme.vm.CCEmail"    : "ryan.cragg@safe.com",
