@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/CreateLicenseServer.fmw
+#        /Library/FME/2019.0/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/CreateLicenseServer.fmw
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -10,14 +10,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="25530.3 2442.86"
-#!   DOC_TOP_LEFT="-4542.9 -2522.5"
+#!   DOC_EXTENTS="25530.3 2501.07"
+#!   DOC_TOP_LEFT="-4542.9 -2580.71"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="c4dc99b1-7961-407a-9979-0550617538d7"
-#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,3fb21e13-b1a8-4ceb-b357-1bbbece82886,bd7bed3e-73ca-4de6-9b8e-93baac30c1a3,b990fb5a-6c06-469a-be51-d39f1a9e3063,51b4a5ab-36ca-4208-a5e5-557946c19cce"
+#!   FME_BUILD_NUM="19260"
+#!   FME_DOCUMENT_GUID="b3c156fd-655e-492e-b680-ae85f15313aa"
+#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,3fb21e13-b1a8-4ceb-b357-1bbbece82886,bd7bed3e-73ca-4de6-9b8e-93baac30c1a3,b990fb5a-6c06-469a-be51-d39f1a9e3063,51b4a5ab-36ca-4208-a5e5-557946c19cce,c4dc99b1-7961-407a-9979-0550617538d7"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -25,8 +25,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - macosx)"
-#!   LAST_SAVE_DATE="2019-03-21T18:54:28"
+#!   LAST_SAVE_BUILD="FME(R) 2019.0.2.0 (20190605 - Build 19260 - macosx)"
+#!   LAST_SAVE_DATE="2019-06-21T11:41:17"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -36,6 +36,7 @@
 #!   PASSWORD=""
 #!   PYTHON_COMPATIBILITY="36"
 #!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
 #!   SHOW_ANNOTATIONS="true"
 #!   SHOW_INFO_NODES="true"
 #!   SOURCE="NONE"
@@ -44,7 +45,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="15801.6 17.143"
+#!   VIEW_POSITION="15801.6 55.7148"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="70"
@@ -69,7 +70,7 @@
 #! <DATASET 
 #!   NAME="FeatureWriter"
 #!   OVERRIDE="--FeatureWriterDataset_FeatureWriter"
-#!   DATASET="FeatureWriter/LicenseServerInfo.txt"
+#!   DATASET="FeatureWriter/..\LicenseServerInfo.txt"
 #! />
 #! </WRITER_DATASETS>
 #! </FMESERVER>
@@ -86,7 +87,8 @@
 #!   ORDER="500000000000190"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.58039215686274515,0.20000000000000001,0.12941176470588237,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="2"
 #! />
@@ -100,7 +102,8 @@
 #!   ORDER="500000000000221"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.6470588235294118,0.42745098039215684,0.29411764705882354,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="22"
 #! />
@@ -114,7 +117,8 @@
 #!   ORDER="500000000000223"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.6470588235294118,0.42745098039215684,0.29411764705882354,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="32"
 #! />
@@ -128,7 +132,8 @@
 #!   ORDER="500000000000224"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.6470588235294118,0.42745098039215684,0.29411764705882354,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="34"
 #! />
@@ -142,7 +147,8 @@
 #!   ORDER="500000000000226"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.58823529411764708,0.5607843137254902,0.3411764705882353,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="36"
 #! />
@@ -156,7 +162,8 @@
 #!   ORDER="500000000000230"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.58039215686274515,0.20000000000000001,0.12941176470588237,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="57"
 #! />
@@ -170,7 +177,8 @@
 #!   ORDER="500000000000221"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.21568627450980393,0.18823529411764706,0.31764705882352939,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="64"
 #! />
@@ -184,7 +192,8 @@
 #!   ORDER="500000000000253.38"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,1"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.58039215686274515,0.20000000000000001,0.12941176470588237,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="63"
 #! />
@@ -195,146 +204,157 @@
 #! <BOOKMARK
 #!   IDENTIFIER="27"
 #!   NAME="Use VPCId to find subnets and security groups"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="3398.6054146255751 -79.643990820009066"
 #!   ORDER="500000000000241.38"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="12459.624765500985 -2099.6634387772447"
 #!   BOUNDING_RECT="3398.6054146255751 -79.643990820009066 9061.0193508754091 2020.0194479572356"
 #!   STICKY="true"
-#!   COLOUR="0.9882352941176471,0.78431372549019607,0.35686274509803922"
-#!   CONTENTS="37 46 64 76 22 88 29 28 25 81 80 35 33 82 30 90 32 49 45 79 34 52 78 39 36 31 51 38 50 "
+#!   COLOUR="0.78823529411764703,0.62745098039215685,0.28235294117647058,0.39215686274509803"
+#!   CONTENTS="80 78 82 29 28 49 34 50 79 46 35 51 32 30 22 25 64 81 90 38 31 33 45 36 39 88 76 37 52 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="45"
 #!   NAME="Find Subnet"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="4683.0477384840469 -245.64489859184283"
 #!   ORDER="500000000000241.5"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="9054.5907151604806 -1724.6574287171438"
 #!   BOUNDING_RECT="4683.0477384840469 -245.64489859184283 4371.5429766764337 1479.0125301253011"
 #!   STICKY="true"
-#!   COLOUR="0.81176470588235294,0.53725490196078429,0.36862745098039218"
-#!   CONTENTS="33 29 30 32 22 50 31 35 49 28 34 51 "
+#!   COLOUR="0.6470588235294118,0.42745098039215684,0.29411764705882354,0.39215686274509803"
+#!   CONTENTS="29 34 51 32 49 22 35 50 30 31 33 28 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="46"
 #!   NAME="Find Security Group"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="9201.0929718663756 -262.14547859764315"
 #!   ORDER="500000000000241.5"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="12284.623015483485 -1897.161828761145"
 #!   BOUNDING_RECT="9201.0929718663756 -262.14547859764315 3083.5300436171083 1635.0163501635018"
 #!   STICKY="true"
-#!   COLOUR="0.73725490196078436,0.70196078431372544,0.42745098039215684"
+#!   COLOUR="0.58823529411764708,0.5607843137254902,0.3411764705882353,0.39215686274509803"
 #!   CONTENTS="88 39 90 52 36 38 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="47"
 #!   NAME="Start License Server machine"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="12551.483896449443 -825.24634770157206"
 #!   ORDER="500000000000218"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="14914.434858634304 -1300.2498454993054"
 #!   BOUNDING_RECT="12551.483896449443 -825.24634770157206 2362.9509621848611 475.0034977977333"
 #!   STICKY="true"
-#!   COLOUR="0.27843137254901962,0.68627450980392157,0.023529411764705882"
-#!   CONTENTS="5 14 15 "
+#!   COLOUR="0.2196078431372549,0.5490196078431373,0.015686274509803921,0.39215686274509803"
+#!   CONTENTS="14 5 15 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="48"
 #!   NAME="Present MAC Address in log file"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="14953.00667292387 -509.07795658823846"
 #!   ORDER="500000000000219"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="18347.326330406162 -1574.5856666653394"
 #!   BOUNDING_RECT="14953.00667292387 -509.07795658823846 3394.3196574822923 1065.5077100771009"
 #!   STICKY="true"
-#!   COLOUR="0.62352941176470589,0.13725490196078433,0.72549019607843135"
-#!   CONTENTS="54 56 103 62 108 106 17 60 "
+#!   COLOUR="0.49803921568627452,0.10980392156862745,0.58039215686274515,0.39215686274509803"
+#!   CONTENTS="108 56 106 109 104 103 62 60 54 105 17 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="73"
 #!   NAME="Get the most recent"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="2208.5101454734049 -353.00376614438119"
 #!   ORDER="500000000000240.25"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="3286.5098454704048 -689.00376614438119"
 #!   BOUNDING_RECT="2208.5101454734049 -353.00376614438119 1077.9996999970001 336"
 #!   STICKY="true"
-#!   COLOUR="0.90588235294117647,0.14509803921568629,0.15686274509803921"
-#!   CONTENTS="71 72 69 "
+#!   COLOUR="0.72156862745098038,0.11372549019607843,0.12549019607843137,0.39215686274509803"
+#!   CONTENTS="72 69 71 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="74"
 #!   NAME="Find the most recent Amazon Linux 2 AMI for this region"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="-278.5742143135717 -216.00304613718163"
 #!   ORDER="500000000000240.13"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="3336.5098454704034 -724.00376614438164"
 #!   BOUNDING_RECT="-278.5742143135717 -216.00304613718163 3615.0840597839751 508.00072000720002"
 #!   STICKY="true"
-#!   COLOUR="0.16470588235294117,0.78823529411764703,0.96470588235294119"
-#!   CONTENTS="66 70 61 68 73 71 67 72 65 69 "
+#!   COLOUR="0.12941176470588237,0.62745098039215685,0.7686274509803922,0.39215686274509803"
+#!   CONTENTS="66 72 67 69 71 65 70 73 68 61 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="82"
 #!   NAME="Find VPC"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="3500.7547011308425 -284.4316518518097"
 #!   ORDER="500000000000249.38"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="4590.7637917217435 -1371.9396930627456"
 #!   BOUNDING_RECT="3500.7547011308425 -284.4316518518097 1090.0090905909005 1087.508041210936"
 #!   STICKY="true"
-#!   COLOUR="0.27058823529411763,0.23921568627450981,0.40000000000000002"
-#!   CONTENTS="81 79 80 64 78 76 "
+#!   COLOUR="0.21568627450980393,0.18823529411764706,0.31764705882352939,0.39215686274509803"
+#!   CONTENTS="64 81 80 78 79 76 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="77"
 #!   NAME="Get Parameters"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="-4542.9025718828616 -203.50457228296636"
 #!   ORDER="500000000000252.38"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="-349.4888563063214 -1389.5840016486886"
 #!   BOUNDING_RECT="-4542.9025718828616 -203.50457228296636 4193.4137155765402 1186.0794293657223"
 #!   STICKY="true"
-#!   COLOUR="0.72549019607843135,0.25098039215686274,0.16470588235294117"
-#!   CONTENTS="7 11 3 85 59 63 75 8 57 2 87 84 "
+#!   COLOUR="0.58039215686274515,0.20000000000000001,0.12941176470588237,0.39215686274509803"
+#!   CONTENTS="87 3 59 63 84 57 75 85 7 8 2 11 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="89"
 #!   NAME="Future: automatically request license file"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="19547.338330526163 -540.00540005400046"
 #!   ORDER="500000000000266.38"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="20987.352730670165 -1560.0156001560015"
 #!   BOUNDING_RECT="19547.338330526163 -540.00540005400046 1440.0144001440021 1020.010200102001"
 #!   STICKY="false"
-#!   COLOUR="0.41568627450980394,0.29803921568627451,0.95294117647058818"
+#!   COLOUR="0.32941176470588235,0.23529411764705882,0.76078431372549016,0.39215686274509803"
 #!   CONTENTS=""
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="97"
 #!   NAME="Error in PythonCaller"
-#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="18436.604817100142 -1763.2610810014003"
 #!   ORDER="500000000000263.25"
+#!   PALETTE_COLOR=""
 #!   COLLAPSED="true"
 #!   UNCOLLAPSED_SIZE="4089.7467798207399 1861.7833237155896"
 #!   BOTTOM_RIGHT="19273.604817100142 -1968.2610810014003"
 #!   BOUNDING_RECT="18436.604817100142 -1763.2610810014003 837 205"
 #!   STICKY="true"
-#!   COLOUR="0.98431372549019602,0.0039215686274509803,0.023529411764705882"
-#!   CONTENTS="96 95 94 92 93 "
+#!   COLOUR="0.78431372549019607,0,0.015686274509803921,0.39215686274509803"
+#!   CONTENTS="95 93 96 92 94 "
 #! >
 #!     <BOOKMARK_FEAT NAME="AttributeExposer" SOURCE_NODE="94" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
@@ -349,7 +369,7 @@
 #!   ORDER="500000000000165"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
+#!   LAST_PARM_EDIT="19260"
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -358,14 +378,13 @@
 #!     <XFORM_PARM PARM_NAME="AWS_SECRET_ACCESS_KEY" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszd6ht4bVmyf7AYkBUHSfX5VdRcrDmSPRhTe9s/lB1Hzmzl5yWgFMc7fElLkf2e7dyDLFiReD40qhaFyasAzd5uZeEOHPj+iEY0Uu2FpOqto02lcr5GKztM6hI1Hz9sF9i//2fdxLputH3j4mDy1RZUJ/3fJ5bgkXmqxX73L17uLV/kFNbclbGP2yb8uH0l7NMq9FbqH1BzjiEFT+Mgctq0vFdkM5ogemMPpPCTFY5EJFrzSUokD29NINzqDMKdff+PiFh//R3QAeT6P1ahUes7/z+e/CE/mqAXuVwvQRJnA53GjxmssBCsiAOX81WGDCOg0PWPqbez20kP/orEYtf0KDmmvFfKOdp)"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AWSCredentialSupplier"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="3"
 #!   TYPE="Creator"
 #!   VERSION="5"
 #!   POSITION="-4287.9694249283621 -605.36353372972371"
-#!   BOUNDING_RECT="-4287.9694249283621 -605.36353372972371 -1 -1"
+#!   BOUNDING_RECT="-4287.9694249283621 -605.36353372972371 431 71"
 #!   ORDER="500000000000192"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -443,7 +462,7 @@
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
 #!   POSITION="13564.992266783143 -935.24634770157218"
-#!   BOUNDING_RECT="13564.992266783143 -935.24634770157218 -1 -1"
+#!   BOUNDING_RECT="13564.992266783143 -935.24634770157218 431 71"
 #!   ORDER="500000000000200"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -540,7 +559,7 @@
 #!   TYPE="StringReplacer"
 #!   VERSION="4"
 #!   POSITION="16301.14385973657 -825.24634770157206"
-#!   BOUNDING_RECT="16301.14385973657 -825.24634770157206 -1 -1"
+#!   BOUNDING_RECT="16301.14385973657 -825.24634770157206 431 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -646,7 +665,7 @@
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
 #!   POSITION="5847.0570690773475 -675.64945087460978"
-#!   BOUNDING_RECT="5847.0570690773475 -675.64945087460978 -1 -1"
+#!   BOUNDING_RECT="5847.0570690773475 -675.64945087460978 431 71"
 #!   ORDER="500000000000206"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -735,7 +754,7 @@
 #!   TYPE="ListExploder"
 #!   VERSION="6"
 #!   POSITION="6496.0635591422488 -675.64945087460978"
-#!   BOUNDING_RECT="6496.0635591422488 -675.64945087460978 -1 -1"
+#!   BOUNDING_RECT="6496.0635591422488 -675.64945087460978 431 71"
 #!   ORDER="500000000000210"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -887,6 +906,7 @@
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;State&lt;closeparen&gt; = available"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_subnet_available"/>
 #! </TRANSFORMER>
@@ -895,7 +915,7 @@
 #!   TYPE="Sampler"
 #!   VERSION="4"
 #!   POSITION="8409.0814493211528 -675.64945087460978"
-#!   BOUNDING_RECT="8409.0814493211528 -675.64945087460978 -1 -1"
+#!   BOUNDING_RECT="8409.0814493211528 -675.64945087460978 431 71"
 #!   ORDER="500000000000212"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1025,7 +1045,7 @@
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
 #!   POSITION="10386.102512461774 -684.14912087130938"
-#!   BOUNDING_RECT="10386.102512461774 -684.14912087130938 -1 -1"
+#!   BOUNDING_RECT="10386.102512461774 -684.14912087130938 431 71"
 #!   ORDER="500000000000213"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1172,7 +1192,7 @@
 #!   TYPE="FeatureReader"
 #!   VERSION="11"
 #!   POSITION="-3081.4593860224318 -605.36353372972371"
-#!   BOUNDING_RECT="-3081.4593860224318 -605.36353372972371 -1 -1"
+#!   BOUNDING_RECT="-3081.4593860224318 -605.36353372972371 431 71"
 #!   ORDER="500000000000229"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1303,11 +1323,11 @@
 #!   TYPE="FeatureWriter"
 #!   VERSION="0"
 #!   POSITION="17839.83340163422 -825.24634770157206"
-#!   BOUNDING_RECT="17839.83340163422 -825.24634770157206 -1 -1"
+#!   BOUNDING_RECT="17839.83340163422 -825.24634770157206 431 71"
 #!   ORDER="500000000000231"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
+#!   LAST_PARM_EDIT="19260"
 #! >
 #!     <OUTPUT_FEAT NAME="SUMMARY"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -1316,14 +1336,14 @@
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="LicenseServerInfo.txt"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="..&lt;backslash&gt;LicenseServerInfo.txt"/>
 #!     <XFORM_PARM PARM_NAME="DATASET_ATTR" PARM_VALUE="_dataset"/>
 #!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPES_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_LIST_ATTR" PARM_VALUE="_feature_type"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="TEXTLINE"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="RUNTIME_MACROS,OVERWRITE_FILE&lt;comma&gt;YES&lt;comma&gt;END_OF_LINE&lt;comma&gt;System&lt;comma&gt;WRITE_LAST_EOL&lt;comma&gt;YES&lt;comma&gt;ENCODING&lt;comma&gt;SYSTEM&lt;comma&gt;WRITE_UTF8_BOM&lt;comma&gt;YES&lt;comma&gt;MIME_TYPE&lt;comma&gt;text&lt;solidus&gt;plain&lt;comma&gt;DESTINATION_DATASETTYPE_VALIDATION&lt;comma&gt;Yes&lt;comma&gt;COORDINATE_SYSTEM_GRANULARITY&lt;comma&gt;FEATURE,METAFILE,TEXTLINE"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="TEXTLINE_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING SYSTEM%*&quot;,TEXTLINE&lt;space&gt;Character&lt;space&gt;Encoding:,TEXTLINE_WRITE_LAST_EOL,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Write&lt;space&gt;Last&lt;space&gt;Line&lt;space&gt;Terminator:,TEXTLINE_END_OF_LINE,&quot;OPTIONAL CHOICE System%Windows%Unix%Macintosh%Source%None&quot;,TEXTLINE&lt;space&gt;Line&lt;space&gt;Termination:,TEXTLINE_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;,TEXTLINE_WRITE_UTF8_BOM,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Write&lt;space&gt;UTF&lt;space&gt;Byte&lt;space&gt;Order&lt;space&gt;Mark,TEXTLINE_OVERWRITE_FILE,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File:,TEXTLINE_DESTINATION_DATASETTYPE_VALIDATION,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;,TEXTLINE_MIME_TYPE,&quot;OPTIONAL STRING_OR_CHOICE application/json%application/octet-stream%application/xml%application/x-www-form-urlencoded%image/gif%image/jpeg%image/png%image/tiff%multipart/mixed%multipart/alternative%multipart/related%text/html%text/plain%text/xml&quot;,TEXTLINE&lt;space&gt;MIME&lt;space&gt;Type:"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="TEXTLINE_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;,TEXTLINE_OVERWRITE_FILE,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File:,TEXTLINE_WRITE_UTF8_BOM,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Write&lt;space&gt;UTF&lt;space&gt;Byte&lt;space&gt;Order&lt;space&gt;Mark,TEXTLINE_MIME_TYPE,&quot;OPTIONAL STRING_OR_CHOICE application/json%application/octet-stream%application/xml%application/x-www-form-urlencoded%image/gif%image/jpeg%image/png%image/tiff%multipart/mixed%multipart/alternative%multipart/related%text/html%text/plain%text/xml&quot;,TEXTLINE&lt;space&gt;MIME&lt;space&gt;Type:,TEXTLINE_WRITE_LAST_EOL,&quot;OPTIONAL CHOICE YES%NO&quot;,TEXTLINE&lt;space&gt;Write&lt;space&gt;Last&lt;space&gt;Line&lt;space&gt;Terminator:,TEXTLINE_END_OF_LINE,&quot;OPTIONAL CHOICE System%Windows%Unix%Macintosh%Source%None&quot;,TEXTLINE&lt;space&gt;Line&lt;space&gt;Termination:,TEXTLINE_DESTINATION_DATASETTYPE_VALIDATION,&quot;OPTIONAL NO_EDIT TEXT&quot;,TEXTLINE&lt;space&gt;,TEXTLINE_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING fme-system%*&quot;,TEXTLINE&lt;space&gt;Character&lt;space&gt;Encoding:"/>
 #!     <XFORM_PARM PARM_NAME="MORE_SUMMARY_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NO_OUTPUT_PORTS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE="NO"/>
@@ -1396,7 +1416,7 @@
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
 #!   POSITION="994.50834545540488 -463.00376614438119"
-#!   BOUNDING_RECT="994.50834545540488 -463.00376614438119 -1 -1"
+#!   BOUNDING_RECT="994.50834545540488 -463.00376614438119 431 71"
 #!   ORDER="500000000000233.13"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1548,7 +1568,7 @@
 #!   TYPE="Sorter"
 #!   VERSION="2"
 #!   POSITION="2282.5101454734049 -463.00376614438119"
-#!   BOUNDING_RECT="2282.5101454734049 -463.00376614438119 -1 -1"
+#!   BOUNDING_RECT="2282.5101454734049 -463.00376614438119 431 71"
 #!   ORDER="500000000000235.13"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1590,7 +1610,7 @@
 #!   TYPE="Sampler"
 #!   VERSION="4"
 #!   POSITION="2806.5098454704048 -463.00376614438119"
-#!   BOUNDING_RECT="2806.5098454704048 -463.00376614438119 -1 -1"
+#!   BOUNDING_RECT="2806.5098454704048 -463.00376614438119 431 71"
 #!   ORDER="500000000000236.13"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1661,7 +1681,7 @@
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
 #!   POSITION="-1989.0519317982194 -700.72163016783111"
-#!   BOUNDING_RECT="-1989.0519317982194 -700.72163016783111 -1 -1"
+#!   BOUNDING_RECT="-1989.0519317982194 -700.72163016783111 431 71"
 #!   ORDER="500000000000242.38"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1912,7 +1932,7 @@
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
 #!   POSITION="11529.793204455607 -809.69773428644078"
-#!   BOUNDING_RECT="11529.793204455607 -809.69773428644078 -1 -1"
+#!   BOUNDING_RECT="11529.793204455607 -809.69773428644078 431 71"
 #!   ORDER="500000000000254.38"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1969,6 +1989,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1993,7 +2014,6 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2003,6 +2023,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2027,7 +2048,6 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2039,6 +2059,7 @@
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST _exception ATTRIBUTE_HAS_A_VALUE &quot;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_has_exception"/>
 #! </TRANSFORMER>
@@ -2047,7 +2068,7 @@
 #!   TYPE="Terminator"
 #!   VERSION="3"
 #!   POSITION="20117.973331961759 -2509.7095369565477"
-#!   BOUNDING_RECT="20117.973331961759 -2509.7095369565477 -1 -1"
+#!   BOUNDING_RECT="20117.973331961759 -2509.7095369565477 431 71"
 #!   ORDER="500000000000259.25"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -2063,7 +2084,7 @@
 #!   TYPE="AttributeExposer"
 #!   VERSION="1"
 #!   POSITION="18752.604039164078 -2070.7645043239017"
-#!   BOUNDING_RECT="18752.604039164078 -2070.7645043239017 -1 -1"
+#!   BOUNDING_RECT="18752.604039164078 -2070.7645043239017 431 71"
 #!   ORDER="500000000000262.25"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -2071,6 +2092,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2095,7 +2117,6 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2112,7 +2133,7 @@
 #!   TYPE="AttributeFileWriter"
 #!   VERSION="4"
 #!   POSITION="17371.311030253168 -1235.655028693144"
-#!   BOUNDING_RECT="17371.311030253168 -1235.655028693144 -1 -1"
+#!   BOUNDING_RECT="17371.311030253168 -1235.655028693144 431 71"
 #!   ORDER="500000000000268.38"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2206,7 +2227,7 @@
 #!   TYPE="AttributeFileReader"
 #!   VERSION="4"
 #!   POSITION="16050.16050160502 -1235.655028693144"
-#!   BOUNDING_RECT="16050.16050160502 -1235.655028693144 -1 -1"
+#!   BOUNDING_RECT="16050.16050160502 -1235.655028693144 431 71"
 #!   ORDER="500000000000271.38"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2299,7 +2320,7 @@
 #!   TYPE="StringReplacer"
 #!   VERSION="4"
 #!   POSITION="16714.452858814304 -1235.655028693144"
-#!   BOUNDING_RECT="16714.452858814304 -1235.655028693144 -1 -1"
+#!   BOUNDING_RECT="16714.452858814304 -1235.655028693144 431 71"
 #!   ORDER="500000000000272.38"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2802,7 +2823,6 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "AWSCredentialSupplier Input Input Colle
 MACRO AWSCredentialSupplier_WORKSPACE_NAME AWSCredentialSupplier
 MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_XFORMER_NAME AWSCredentialSupplier
 MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_TRANSFORMER_GROUP 
-MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
 MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_ACCESS_KEY_ID AKIAICERN4WDSWP5VUDQ
 MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_SECRET_ACCESS_KEY fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszd6ht4bVmyf7AYkBUHSfX5VdRcrDmSPRhTe9s/lB1Hzmzl5yWgFMc7fElLkf2e7dyDLFiReD40qhaFyasAzd5uZeEOHPj+iEY0Uu2FpOqto02lcr5GKztM6hI1Hz9sF9i//2fdxLputH3j4mDy1RZUJ/3fJ5bgkXmqxX73L17uLV/kFNbclbGP2yb8uH0l7NMq9FbqH1BzjiEFT+Mgctq0vFdkM5ogemMPpPCTFY5EJFrzSUokD29NINzqDMKdff+PiFh//R3QAeT6P1ahUes7/z+e/CE/mqAXuVwvQRJnA53GjxmssBCsiAOX81WGDCOg0PWPqbez20kP/orEYtf0KDmmvFfKOdp)
 INCLUDE_CUSTOM_TRANSFORMER_VER AWSCredentialSupplier:1
@@ -2871,7 +2891,7 @@ FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder    INPUT  FEATURE_TYPE
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME ListExploder_<Rejected> INPUT FEATURE_TYPE ListExploder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ListExploder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_subnet_available    INPUT  FEATURE_TYPE ListExploder_ELEMENTS    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>State<closeparen>,Tester_subnet_available) = available ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_subnet_available_PASSED
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester_subnet_available    INPUT  FEATURE_TYPE ListExploder_ELEMENTS    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>State<closeparen>,Tester_subnet_available) = available ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "<Unused>"    OUTPUT PASSED FEATURE_TYPE Tester_subnet_available_PASSED
 # -------------------------------------------------------------------------
 # If we're doing LAST N features, then the multiplier comes in as 0.
 # If we're doing First N, multiplier is -1.
@@ -2899,7 +2919,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_run_instances OUTPUT Split
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT_1_nMoh3RUxP8Q=    INPUT  FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT_1_sTREnuX8u3k=    INPUT  FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT_1_ST5fwnV5KBI=    INPUT  FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT_1_D+7rPVJLF2M=    INPUT  FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT_1_z4XpeqRk4XM=    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_has_exception    INPUT  FEATURE_TYPE AttributeExposer_OUTPUT    TEST _exception ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_has_exception_PASSED
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester_has_exception    INPUT  FEATURE_TYPE AttributeExposer_OUTPUT    TEST _exception ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "<Unused>"    OUTPUT PASSED FEATURE_TYPE Tester_has_exception_PASSED
 # -------------------------------------------------------------------------
 # The default behaviour is to abort on any feature entering the transformer.
 # If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
@@ -2917,8 +2937,8 @@ FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_b95180b4_4c1e_4be1_b59a_07d43bda45392_replacer { findText replaceText invalidValue} {     set attrs [split \"MacAddress\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_b95180b4_4c1e_4be1_b59a_07d43bda45392_replacer {:} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_29582129_d3db_4291_a061_917932fd53011_replacer { findText replaceText invalidValue} {     set attrs [split \"MacAddress\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_29582129_d3db_4291_a061_917932fd53011_replacer {:} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFileReader_AttributeFileReaderInput    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    OUTPUT FEATURE_TYPE ___TOATTRIBUTEFILEREADER___
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFileReader    INPUT FEATURE_TYPE ___TOATTRIBUTEFILEREADER___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @File(REJECTABLE,ENCODED_PARAMS,DestReadSrcWrite,_file_contents,"..<solidus>settings.json",fme-system)
@@ -2928,8 +2948,8 @@ FACTORY_DEF * TeeFactory FACTORY_NAME AttributeFileReader_<Rejected> INPUT FEATU
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_fme.license_1c66c37b_df4f_4d37_9e04_834296e73d1a6_replacer { findText replaceText invalidValue} {     set attrs [split \"_file_contents\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{YES} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_fme.license    INPUT  FEATURE_TYPE AttributeFileReader_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_fme.license_OUTPUT         @Tcl2("StringReplacer_fme.license_1c66c37b_df4f_4d37_9e04_834296e73d1a6_replacer {fme.license.+?<comma>} {@EvaluateExpression(FDIV,STRING_ENCODED,fme.license<quote><space><space><space>:<space><space><space><quote><at>Value<openparen>PrivateIpAddress<closeparen><quote><comma>,StringReplacer_fme.license)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_fme.license_3e701e06_eba1_4bd7_b112_70a0a9e2e9c01_replacer { findText replaceText invalidValue} {     set attrs [split \"_file_contents\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{YES} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_fme.license    INPUT  FEATURE_TYPE AttributeFileReader_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_fme.license_OUTPUT         @Tcl2("StringReplacer_fme.license_3e701e06_eba1_4bd7_b112_70a0a9e2e9c01_replacer {fme.license.+?<comma>} {@EvaluateExpression(FDIV,STRING_ENCODED,fme.license<quote><space><space><space>:<space><space><space><quote><at>Value<openparen>PrivateIpAddress<closeparen><quote><comma>,StringReplacer_fme.license)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFileWriter_AttributeFileWriterInput    INPUT  FEATURE_TYPE StringReplacer_fme.license_OUTPUT    OUTPUT FEATURE_TYPE ___TOATTRIBUTEFILEWRITER___
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFileWriter    INPUT FEATURE_TYPE ___TOATTRIBUTEFILEWRITER___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @File(REJECTABLE,ENCODED_PARAMS,DestWriteSrcRead,_file_contents,"..<solidus>settings.json",fme-system)
@@ -2937,9 +2957,9 @@ FACTORY_DEF * TestFactory    FACTORY_NAME AttributeFileWriter_Rejector    INPUT 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME AttributeFileWriter_<Rejected> INPUT FEATURE_TYPE AttributeFileWriter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AttributeFileWriter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME text_line_FeatureWriter_c0b57ed9_42b2_4f05_9509_605de99e77066 INPUT FEATURE_TYPE AttributeFileWriter_OUTPUT MULTI_FEATURE_MODE NO NULL_ATTR_MODE NO_OP ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV ATTR text_line_data Instance<space>ID<space>is<space><at>Value<openparen>InstanceId<closeparen>.<space>You<space>don<apos>t<space>need<space>this<space>to<space>request<space>the<space>license<space>file.<space>Use<space>localhost<space>instead.<lf>The<space>MAC<space>address<space>is<space><at>Value<openparen>MacAddress<closeparen><lf><lf>Go<space>to<space>https:<solidus><solidus>www.safe.com<solidus>activation<solidus>floating<solidus><space>and<space>fill<space>in<space>the<space>form.<lf>Enter<space>your<space>Product<space>Serial<space>Number<lf>Select<space>the<space>Version<space>of<space>FME<space><openparen>Most<space>likely<space>the<space>top<space>option<closeparen><lf>Hostname<space>is<space>localhost<lf>Host<space>ID<space>is<space><at>Value<openparen>MacAddress<closeparen><lf>Enter<space>your<space>email<space>address<lf>Click<space>Submit<space>Floating<space>License<space>Request<lf><lf>The<space>email<space>will<space>take<space>around<space>5<space>minutes<space>to<space>arrive.<space><lf>Download<space>the<space>safe.lic.<lf>Edit<space>out<space>the<space>last<space>line<space>that<space>contains<space>your<space>serial<space>number!<lf>Save<space>the<space>safe.lic<space>file<space>to<space>GitHub.<space><at>Value<openparen>git.username<closeparen><solidus><at>Value<openparen>git.repository<closeparen><solidus><at>Value<openparen>git.branch<closeparen><lf><lf>When<space>licensing<space>FME<space>Desktop<space>from<space>virtual<space>machines<space>in<space>the<space>same<space>VPC<comma><space>use<space>the<space>IP<space>Address<space><at>Value<openparen>PrivateIpAddress<closeparen> OUTPUT OUTPUT FEATURE_TYPE *
-INCLUDE [    puts {DEFAULT_MACRO FeatureWriterDataset_FeatureWriter LicenseServerInfo.txt}; ]
-FACTORY_DEF * WriterFactory    FACTORY_NAME FeatureWriter    WRITER_TYPE TEXTLINE    WRITER_DATASET "$(FeatureWriterDataset_FeatureWriter)"    WRITER_SETTINGS RUNTIME_MACROS,OVERWRITE_FILE<comma>YES<comma>END_OF_LINE<comma>System<comma>WRITE_LAST_EOL<comma>YES<comma>ENCODING<comma>SYSTEM<comma>WRITE_UTF8_BOM<comma>YES<comma>MIME_TYPE<comma>text<solidus>plain<comma>DESTINATION_DATASETTYPE_VALIDATION<comma>Yes<comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE,METAFILE,TEXTLINE    WRITER_METAFILE ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,,ATTRIBUTE_LENGTH,60,ATTR_TYPE_MAP,char<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>buffer<comma>fme_buffer<comma>buffer<comma>fme_binarybuffer<comma>buffer<comma>fme_xml<comma>buffer<comma>fme_json<comma>char<openparen>20<closeparen><comma>fme_datetime<comma>char<openparen>12<closeparen><comma>fme_time<comma>char<openparen>8<closeparen><comma>fme_date<comma><quote>number<openparen>31<comma>15<closeparen><quote><comma>fme_real64<comma><quote>number<openparen>15<comma>7<closeparen><quote><comma>fme_real32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_int32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_uint32<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_int64<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_uint64<comma>logical<comma>fme_boolean<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_int16<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_uint16<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_int8<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_uint8<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<solidus>TEXTLINE.fmf,FORMAT_NAME,TEXTLINE,GEOM_MAP,text_line_none<comma>fme_no_geom<comma>text_line_none<comma>fme_point<comma>text_line_none<comma>fme_line<comma>text_line_none<comma>fme_polygon<comma>text_line_none<comma>fme_text<comma>text_line_none<comma>fme_ellipse<comma>text_line_none<comma>fme_arc<comma>text_line_none<comma>fme_rectangle<comma>text_line_none<comma>fme_rounded_rectangle<comma>text_line_none<comma>fme_collection<comma>text_line_none<comma>fme_raster<comma>text_line_none<comma>fme_surface<comma>text_line_none<comma>fme_solid<comma>text_line_none<comma>fme_point_cloud<comma>text_line_none<comma>fme_feature_table,READER_ATTR_INDEX_TYPES,,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,no,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,textline.sch,WRITER,TEXTLINE,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly>,WRITER_FORMAT_PARAMETER,READER_FEATURE_TYPE_EDITING<comma>NO<comma>WRITER_FEATURE_TYPE_EDITING<comma>NO<comma>MIME_TYPE<comma>text<solidus>plain<comma>DATASET_NAME<comma><quote>txt<space>file<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>text_line<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>Text<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>name<space>for<space>the<space>Text<space>file<quote>,WRITER_HAS_DEFLINE_ATTRS,yes    WRITER_FEATURE_TYPES text_line:text_line,ftp_feature_type_name,text_line,ftp_writer,TEXTLINE,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,text_line_data<comma>buffer,ftp_user_attribute_values,Instance<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>InstanceId<lt>lt<gt>closeparen<lt>gt<gt>.<lt>lt<gt>space<lt>gt<gt>You<lt>lt<gt>space<lt>gt<gt>don<lt>lt<gt>apos<lt>gt<gt>t<lt>lt<gt>space<lt>gt<gt>need<lt>lt<gt>space<lt>gt<gt>this<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>request<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>license<lt>lt<gt>space<lt>gt<gt>file.<lt>lt<gt>space<lt>gt<gt>Use<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>space<lt>gt<gt>instead.<lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>MAC<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Go<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>https:<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt>www.safe.com<lt>lt<gt>solidus<lt>gt<gt>activation<lt>lt<gt>solidus<lt>gt<gt>floating<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>and<lt>lt<gt>space<lt>gt<gt>fill<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>form.<lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>Product<lt>lt<gt>space<lt>gt<gt>Serial<lt>lt<gt>space<lt>gt<gt>Number<lt>lt<gt>lf<lt>gt<gt>Select<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>Version<lt>lt<gt>space<lt>gt<gt>of<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>openparen<lt>gt<gt>Most<lt>lt<gt>space<lt>gt<gt>likely<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>top<lt>lt<gt>space<lt>gt<gt>option<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Hostname<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>lf<lt>gt<gt>Host<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>lf<lt>gt<gt>Click<lt>lt<gt>space<lt>gt<gt>Submit<lt>lt<gt>space<lt>gt<gt>Floating<lt>lt<gt>space<lt>gt<gt>License<lt>lt<gt>space<lt>gt<gt>Request<lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>will<lt>lt<gt>space<lt>gt<gt>take<lt>lt<gt>space<lt>gt<gt>around<lt>lt<gt>space<lt>gt<gt>5<lt>lt<gt>space<lt>gt<gt>minutes<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>arrive.<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Download<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>safe.lic.<lt>lt<gt>lf<lt>gt<gt>Edit<lt>lt<gt>space<lt>gt<gt>out<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>last<lt>lt<gt>space<lt>gt<gt>line<lt>lt<gt>space<lt>gt<gt>that<lt>lt<gt>space<lt>gt<gt>contains<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>serial<lt>lt<gt>space<lt>gt<gt>number!<lt>lt<gt>lf<lt>gt<gt>Save<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>safe.lic<lt>lt<gt>space<lt>gt<gt>file<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>GitHub.<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.username<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.repository<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.branch<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>When<lt>lt<gt>space<lt>gt<gt>licensing<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt>Desktop<lt>lt<gt>space<lt>gt<gt>from<lt>lt<gt>space<lt>gt<gt>virtual<lt>lt<gt>space<lt>gt<gt>machines<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>same<lt>lt<gt>space<lt>gt<gt>VPC<lt>lt<gt>comma<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>use<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>IP<lt>lt<gt>space<lt>gt<gt>Address<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>PrivateIpAddress<lt>lt<gt>closeparen<lt>gt<gt>    WRITER_PARAMS ENCODING,SYSTEM,WRITE_LAST_EOL,YES,END_OF_LINE,System,COORDINATE_SYSTEM_GRANULARITY,FEATURE,WRITE_UTF8_BOM,YES,OVERWRITE_FILE,YES,DESTINATION_DATASETTYPE_VALIDATION,Yes,MIME_TYPE,text<solidus>plain    DATASET_ATTR _dataset    FEATURE_TYPE_LIST_ATTR _feature_type    TOTAL_FEATURES_WRITTEN_ATTR _total_features_written    OUTPUT_PORTS ""    INPUT text_line FEATURE_TYPE AttributeFileWriter_OUTPUT  @FeatureType(ENCODED,text_line)
+FACTORY_DEF * AttrSetFactory FACTORY_NAME text_line_FeatureWriter_ffdfdaa0_c730_42db_84a4_d53149022ebe1 INPUT FEATURE_TYPE AttributeFileWriter_OUTPUT MULTI_FEATURE_MODE NO NULL_ATTR_MODE NO_OP ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV ATTR text_line_data Instance<space>ID<space>is<space><at>Value<openparen>InstanceId<closeparen>.<space>You<space>don<apos>t<space>need<space>this<space>to<space>request<space>the<space>license<space>file.<space>Use<space>localhost<space>instead.<lf>The<space>MAC<space>address<space>is<space><at>Value<openparen>MacAddress<closeparen><lf><lf>Go<space>to<space>https:<solidus><solidus>www.safe.com<solidus>activation<solidus>floating<solidus><space>and<space>fill<space>in<space>the<space>form.<lf>Enter<space>your<space>Product<space>Serial<space>Number<lf>Select<space>the<space>Version<space>of<space>FME<space><openparen>Most<space>likely<space>the<space>top<space>option<closeparen><lf>Hostname<space>is<space>localhost<lf>Host<space>ID<space>is<space><at>Value<openparen>MacAddress<closeparen><lf>Enter<space>your<space>email<space>address<lf>Click<space>Submit<space>Floating<space>License<space>Request<lf><lf>The<space>email<space>will<space>take<space>around<space>5<space>minutes<space>to<space>arrive.<space><lf>Download<space>the<space>safe.lic.<lf>Edit<space>out<space>the<space>last<space>line<space>that<space>contains<space>your<space>serial<space>number!<lf>Save<space>the<space>safe.lic<space>file<space>to<space>GitHub.<space><at>Value<openparen>git.username<closeparen><solidus><at>Value<openparen>git.repository<closeparen><solidus><at>Value<openparen>git.branch<closeparen><lf><lf>When<space>licensing<space>FME<space>Desktop<space>from<space>virtual<space>machines<space>in<space>the<space>same<space>VPC<comma><space>use<space>the<space>IP<space>Address<space><at>Value<openparen>PrivateIpAddress<closeparen> OUTPUT OUTPUT FEATURE_TYPE *
+INCLUDE [    puts {DEFAULT_MACRO FeatureWriterDataset_FeatureWriter ..<backslash>LicenseServerInfo.txt}; ]
+FACTORY_DEF * WriterFactory    FACTORY_NAME FeatureWriter    WRITER_TYPE TEXTLINE    WRITER_DATASET "$(FeatureWriterDataset_FeatureWriter)"    WRITER_SETTINGS "RUNTIME_MACROS,OVERWRITE_FILE<comma>YES<comma>END_OF_LINE<comma>System<comma>WRITE_LAST_EOL<comma>YES<comma>ENCODING<comma>SYSTEM<comma>WRITE_UTF8_BOM<comma>YES<comma>MIME_TYPE<comma>text<solidus>plain<comma>DESTINATION_DATASETTYPE_VALIDATION<comma>Yes<comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE,METAFILE,TEXTLINE"    WRITER_METAFILE "ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,,ATTRIBUTE_LENGTH,60,ATTR_TYPE_MAP,char<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>char<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>buffer<comma>fme_buffer<comma>buffer<comma>fme_binarybuffer<comma>buffer<comma>fme_xml<comma>buffer<comma>fme_json<comma>char<openparen>20<closeparen><comma>fme_datetime<comma>char<openparen>12<closeparen><comma>fme_time<comma>char<openparen>8<closeparen><comma>fme_date<comma><quote>number<openparen>31<comma>15<closeparen><quote><comma>fme_real64<comma><quote>number<openparen>15<comma>7<closeparen><quote><comma>fme_real32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_int32<comma><quote>number<openparen>11<comma>0<closeparen><quote><comma>fme_uint32<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_int64<comma><quote>number<openparen>20<comma>0<closeparen><quote><comma>fme_uint64<comma>logical<comma>fme_boolean<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_int16<comma><quote>number<openparen>6<comma>0<closeparen><quote><comma>fme_uint16<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_int8<comma><quote>number<openparen>4<comma>0<closeparen><quote><comma>fme_uint8<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<solidus>TEXTLINE.fmf,FORMAT_NAME,TEXTLINE,GEOM_MAP,text_line_none<comma>fme_no_geom<comma>text_line_none<comma>fme_point<comma>text_line_none<comma>fme_line<comma>text_line_none<comma>fme_polygon<comma>text_line_none<comma>fme_text<comma>text_line_none<comma>fme_ellipse<comma>text_line_none<comma>fme_arc<comma>text_line_none<comma>fme_rectangle<comma>text_line_none<comma>fme_rounded_rectangle<comma>text_line_none<comma>fme_collection<comma>text_line_none<comma>fme_raster<comma>text_line_none<comma>fme_surface<comma>text_line_none<comma>fme_solid<comma>text_line_none<comma>fme_point_cloud<comma>text_line_none<comma>fme_feature_table,READER_ATTR_INDEX_TYPES,,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,no,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,textline.sch,WRITER,TEXTLINE,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly>,WRITER_FORMAT_PARAMETER,READER_FEATURE_TYPE_EDITING<comma>NO<comma>WRITER_FEATURE_TYPE_EDITING<comma>NO<comma>MIME_TYPE<comma>text<solidus>plain<comma>DATASET_NAME<comma><quote>txt<space>file<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>text_line<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>Text<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>name<space>for<space>the<space>Text<space>file<quote>,WRITER_HAS_DEFLINE_ATTRS,yes"    WRITER_FEATURE_TYPES "text_line:text_line,ftp_feature_type_name,text_line,ftp_writer,TEXTLINE,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,text_line_data<comma>buffer,ftp_user_attribute_values,Instance<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>InstanceId<lt>lt<gt>closeparen<lt>gt<gt>.<lt>lt<gt>space<lt>gt<gt>You<lt>lt<gt>space<lt>gt<gt>don<lt>lt<gt>apos<lt>gt<gt>t<lt>lt<gt>space<lt>gt<gt>need<lt>lt<gt>space<lt>gt<gt>this<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>request<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>license<lt>lt<gt>space<lt>gt<gt>file.<lt>lt<gt>space<lt>gt<gt>Use<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>space<lt>gt<gt>instead.<lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>MAC<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Go<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>https:<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt>www.safe.com<lt>lt<gt>solidus<lt>gt<gt>activation<lt>lt<gt>solidus<lt>gt<gt>floating<lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>and<lt>lt<gt>space<lt>gt<gt>fill<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>form.<lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>Product<lt>lt<gt>space<lt>gt<gt>Serial<lt>lt<gt>space<lt>gt<gt>Number<lt>lt<gt>lf<lt>gt<gt>Select<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>Version<lt>lt<gt>space<lt>gt<gt>of<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>openparen<lt>gt<gt>Most<lt>lt<gt>space<lt>gt<gt>likely<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>top<lt>lt<gt>space<lt>gt<gt>option<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Hostname<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt>localhost<lt>lt<gt>lf<lt>gt<gt>Host<lt>lt<gt>space<lt>gt<gt>ID<lt>lt<gt>space<lt>gt<gt>is<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>MacAddress<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Enter<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>address<lt>lt<gt>lf<lt>gt<gt>Click<lt>lt<gt>space<lt>gt<gt>Submit<lt>lt<gt>space<lt>gt<gt>Floating<lt>lt<gt>space<lt>gt<gt>License<lt>lt<gt>space<lt>gt<gt>Request<lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>The<lt>lt<gt>space<lt>gt<gt>email<lt>lt<gt>space<lt>gt<gt>will<lt>lt<gt>space<lt>gt<gt>take<lt>lt<gt>space<lt>gt<gt>around<lt>lt<gt>space<lt>gt<gt>5<lt>lt<gt>space<lt>gt<gt>minutes<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>arrive.<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>Download<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>safe.lic.<lt>lt<gt>lf<lt>gt<gt>Edit<lt>lt<gt>space<lt>gt<gt>out<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>last<lt>lt<gt>space<lt>gt<gt>line<lt>lt<gt>space<lt>gt<gt>that<lt>lt<gt>space<lt>gt<gt>contains<lt>lt<gt>space<lt>gt<gt>your<lt>lt<gt>space<lt>gt<gt>serial<lt>lt<gt>space<lt>gt<gt>number!<lt>lt<gt>lf<lt>gt<gt>Save<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>safe.lic<lt>lt<gt>space<lt>gt<gt>file<lt>lt<gt>space<lt>gt<gt>to<lt>lt<gt>space<lt>gt<gt>GitHub.<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.username<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.repository<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>solidus<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>git.branch<lt>lt<gt>closeparen<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt><lt>lt<gt>lf<lt>gt<gt>When<lt>lt<gt>space<lt>gt<gt>licensing<lt>lt<gt>space<lt>gt<gt>FME<lt>lt<gt>space<lt>gt<gt>Desktop<lt>lt<gt>space<lt>gt<gt>from<lt>lt<gt>space<lt>gt<gt>virtual<lt>lt<gt>space<lt>gt<gt>machines<lt>lt<gt>space<lt>gt<gt>in<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>same<lt>lt<gt>space<lt>gt<gt>VPC<lt>lt<gt>comma<lt>gt<gt><lt>lt<gt>space<lt>gt<gt>use<lt>lt<gt>space<lt>gt<gt>the<lt>lt<gt>space<lt>gt<gt>IP<lt>lt<gt>space<lt>gt<gt>Address<lt>lt<gt>space<lt>gt<gt><lt>lt<gt>at<lt>gt<gt>Value<lt>lt<gt>openparen<lt>gt<gt>PrivateIpAddress<lt>lt<gt>closeparen<lt>gt<gt>"    WRITER_PARAMS "COORDINATE_SYSTEM_GRANULARITY,FEATURE,OVERWRITE_FILE,YES,WRITE_UTF8_BOM,YES,MIME_TYPE,text<solidus>plain,WRITE_LAST_EOL,YES,END_OF_LINE,System,DESTINATION_DATASETTYPE_VALIDATION,Yes,ENCODING,SYSTEM"    DATASET_ATTR "_dataset"    FEATURE_TYPE_LIST_ATTR "_feature_type"    TOTAL_FEATURES_WRITTEN_ATTR "_total_features_written"    OUTPUT_PORTS ""    INPUT text_line FEATURE_TYPE AttributeFileWriter_OUTPUT  @FeatureType(ENCODED,text_line)
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")

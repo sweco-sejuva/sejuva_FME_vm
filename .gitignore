@@ -21,3 +21,4 @@ workspaces/QuickSetup.fmw.recover
 workspaces/QuickSetup.log
 *.rdp
 .DS_Store
+LicenseServerInfo.txt
