@@ -20,3 +20,4 @@ workspaces/CreateLicenseServer_log.ffs
 workspaces/QuickSetup.fmw.recover
 workspaces/QuickSetup.log
 *.rdp
+.DS_Store
