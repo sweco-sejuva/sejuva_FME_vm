@@ -47,7 +47,7 @@
 
 "git.aws.files"   : ["index.html", "images/FMEServerLoader.gif", "js/PythonVMCreator.js"],
 
-"fme.vm.template.email.subject" : "Your FME Training Virtual Machine connection files",
+"fme.vm.template.email.subject" : "Your Partner Summit Virtual Machine Connection Files",
 "fme.vm.template.email":[
 "Hello _FullName_,",
 "",
