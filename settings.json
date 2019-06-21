@@ -21,7 +21,7 @@
 "fmeserver.ec2size"     : "medium",
 "fmeserver.volumeSize"  : 40,
 "fmeserver.securityGroup"  : "fmeserver",
-"fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.0.0-beta/latest/docker-compose.yaml",
+"fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.1.0-beta/latest/docker-compose.yaml",
 
 "fme.ec2type"       : "t3",
 "fme.ec2size"       : "large",
