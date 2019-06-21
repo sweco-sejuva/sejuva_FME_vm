@@ -35,7 +35,7 @@
 "fme.license"   :   "10.0.43.28",
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
-"fme.vm.Subject"    :"Your FME Training Virtual Machine connection files",
+"fme.vm.Subject"    :"Your Partner Summit Virtual Machine Connection Files",
 "fme.vm.fromEmail"  : "train@safe.com",
 "fme.vm.CCEmail"    : "ryan.cragg@safe.com",
 "fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
