@@ -16,8 +16,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19260"
-#!   FME_DOCUMENT_GUID="59fb33ef-89c5-4096-8848-0376e39f037c"
-#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,60458a80-2aad-4eeb-9257-5192adfb8cb6,e54b6f8d-03ca-48a4-8f58-0ad54e69ba4e,66aa0403-d44a-405a-9a7e-2fd1b8757abb,9d6df054-03d1-4aaf-a191-37dcbdaec95c"
+#!   FME_DOCUMENT_GUID="20f49af7-35ec-4527-9b0d-9b7757406154"
+#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,60458a80-2aad-4eeb-9257-5192adfb8cb6,e54b6f8d-03ca-48a4-8f58-0ad54e69ba4e,66aa0403-d44a-405a-9a7e-2fd1b8757abb,9d6df054-03d1-4aaf-a191-37dcbdaec95c,59fb33ef-89c5-4096-8848-0376e39f037c"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,7 +26,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.2.0 (20190605 - Build 19260 - macosx)"
-#!   LAST_SAVE_DATE="2019-06-21T11:23:21"
+#!   LAST_SAVE_DATE="2019-06-21T16:37:49"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,7 +45,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="7302.07 -1614.02"
+#!   VIEW_POSITION="1839.02 -6.00006"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -355,7 +355,7 @@
 #!   BOUNDING_RECT="3921.1901630218181 -861.50779231516697 4299.606297295727 975.00975009750096"
 #!   STICKY="true"
 #!   COLOUR="0.49411764705882355,0.40392156862745099,0.34509803921568627,0.39215686274509803"
-#!   CONTENTS="21 29 30 22 20 60 19 62 61 17 "
+#!   CONTENTS="21 17 62 20 30 29 61 19 22 60 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -369,7 +369,7 @@
 #!   BOUNDING_RECT="648.0064800648006 -584.00746231186702 2993.0142143954708 957.00957009570106"
 #!   STICKY="true"
 #!   COLOUR="0.44313725490196076,0.3843137254901961,0.69019607843137254,0.39215686274509803"
-#!   CONTENTS="24 55 25 27 18 26 "
+#!   CONTENTS="24 18 26 25 55 27 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -383,7 +383,7 @@
 #!   BOUNDING_RECT="3883.5436767618176 873.00873008730059 4018.5353440283898 537.00537005370052"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
-#!   CONTENTS="98 92 99 100 96 "
+#!   CONTENTS="96 100 92 99 98 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -397,7 +397,7 @@
 #!   BOUNDING_RECT="3883.5436767618176 1848.0184801848018 4012.5352840277901 915.00915009150106"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
-#!   CONTENTS="79 93 90 88 94 "
+#!   CONTENTS="88 90 94 93 79 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -411,7 +411,7 @@
 #!   BOUNDING_RECT="3533.4720334875801 -2181.7885737680904 11346.676768000434 1319.2464365820128"
 #!   STICKY="true"
 #!   COLOUR="0.078431372549019607,0.17254901960784313,0.0039215686274509803,0.39215686274509803"
-#!   CONTENTS="142 43 44 128 36 56 147 71 52 45 70 47 127 77 40 50 39 32 122 145 42 143 85 63 75 144 73 41 53 86 54 51 74 46 48 146 126 69 68 76 72 "
+#!   CONTENTS="85 51 74 126 48 53 73 147 39 71 128 70 127 146 144 47 52 122 63 54 145 50 46 68 40 43 86 69 44 36 45 75 143 56 72 42 76 142 32 41 77 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -425,7 +425,7 @@
 #!   BOUNDING_RECT="8814.802400376946 -867.77543363668906 4164.0416404164025 960.0096000960009"
 #!   STICKY="true"
 #!   COLOUR="0.50980392156862742,0.50196078431372548,0.38823529411764707,0.39215686274509803"
-#!   CONTENTS="112 115 114 118 110 116 119 111 "
+#!   CONTENTS="112 111 110 116 119 115 118 114 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -439,7 +439,7 @@
 #!   BOUNDING_RECT="3889.9792148844435 253.50308692173797 4003.0997159048638 976.5103169940387"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
-#!   CONTENTS="134 129 133 132 130 "
+#!   CONTENTS="134 133 132 130 129 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -453,7 +453,7 @@
 #!   BOUNDING_RECT="15890.162839556675 -1352.5131768434994 4089.7467798207399 1861.7833237155896"
 #!   STICKY="true"
 #!   COLOUR="0.78431372549019607,0,0.015686274509803921,0.39215686274509803"
-#!   CONTENTS="138 113 176 131 123 "
+#!   CONTENTS="138 176 123 131 113 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -467,7 +467,7 @@
 #!   BOUNDING_RECT="-2274.5197990035317 -300.50509228816668 2846.5250190557322 878.00237002370045"
 #!   STICKY="true"
 #!   COLOUR="0.50588235294117645,0.25490196078431371,0.17254901960784313,0.39215686274509803"
-#!   CONTENTS="11 125 124 2 150 121 3 7 120 149 "
+#!   CONTENTS="124 121 120 125 149 2 150 7 11 3 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -766,7 +766,7 @@
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
+#!   LAST_PARM_EDIT="19260"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -790,7 +790,7 @@
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="_response"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;boto3&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#need&lt;space&gt;this&lt;space&gt;for&lt;space&gt;AWS&lt;space&gt;access&lt;lf&gt;import&lt;space&gt;json&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#AWS&lt;space&gt;stuff&lt;space&gt;creates&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;lf&gt;def&lt;space&gt;AWSCall&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ec2&lt;space&gt;=&lt;space&gt;boto3.client&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;ec2&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;region_name=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;aws.region_name&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_access_key_id=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_ACCESS_KEY_ID&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_secret_access_key=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_SECRET_ACCESS_KEY&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;response&lt;space&gt;=&lt;space&gt;ec2.create_tags&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Resources=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;Vpc.VpcId&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Tags=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;aws.name_tag&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_response&lt;quote&gt;&lt;comma&gt;&lt;space&gt;json.dumps&lt;openparen&gt;response&lt;comma&gt;&lt;space&gt;default=str&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;#https:&lt;solidus&gt;&lt;solidus&gt;stackoverflow.com&lt;solidus&gt;questions&lt;solidus&gt;11875770&lt;solidus&gt;how-to-overcome-datetime-datetime-not-json-serializable&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;e:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_exception&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;error&lt;space&gt;in&lt;space&gt;PythonCaller_run_instances:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;repr&lt;openparen&gt;e&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;boto3&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#need&lt;space&gt;this&lt;space&gt;for&lt;space&gt;AWS&lt;space&gt;access&lt;lf&gt;import&lt;space&gt;json&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#AWS&lt;space&gt;stuff&lt;space&gt;creates&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;lf&gt;def&lt;space&gt;AWSCall&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ec2&lt;space&gt;=&lt;space&gt;boto3.client&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;ec2&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;region_name=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;aws.region_name&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_access_key_id=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_ACCESS_KEY_ID&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;aws_secret_access_key=feature.getAttribute&lt;openparen&gt;&lt;apos&gt;AWS_SECRET_ACCESS_KEY&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;response&lt;space&gt;=&lt;space&gt;ec2.create_tags&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Resources=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;Vpc.VpcId&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Tags=&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Key&lt;apos&gt;:&lt;space&gt;&lt;apos&gt;Name&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;Value&lt;apos&gt;:&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;aws.name_tag&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_response&lt;quote&gt;&lt;comma&gt;&lt;space&gt;json.dumps&lt;openparen&gt;response&lt;comma&gt;&lt;space&gt;default=str&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;#https:&lt;solidus&gt;&lt;solidus&gt;stackoverflow.com&lt;solidus&gt;questions&lt;solidus&gt;11875770&lt;solidus&gt;how-to-overcome-datetime-datetime-not-json-serializable&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;e:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_exception&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;PythonCaller_create_vpc_tags:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;repr&lt;openparen&gt;e&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="AWSCall"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller_create_vpc_tags"/>
@@ -847,7 +847,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -863,7 +862,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -894,7 +892,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -910,7 +907,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
@@ -934,7 +930,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -950,13 +945,11 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -972,7 +965,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1007,7 +999,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="ELEMENTS"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1023,14 +1014,12 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1046,7 +1035,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1074,7 +1062,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1090,14 +1077,12 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1113,7 +1098,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1139,7 +1123,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1155,7 +1138,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1163,7 +1145,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1179,7 +1160,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1207,7 +1187,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1223,12 +1202,10 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1244,7 +1221,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1269,7 +1245,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="JOINED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1285,7 +1260,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1294,7 +1268,6 @@
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="UNJOINED_LEFT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1310,12 +1283,10 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="UNJOINED_RIGHT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1331,7 +1302,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1339,7 +1309,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1355,7 +1324,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1387,7 +1355,6 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1403,7 +1370,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1436,7 +1402,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1452,7 +1417,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1464,7 +1428,6 @@
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1480,7 +1443,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1521,7 +1483,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1537,7 +1498,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1554,7 +1514,6 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1570,7 +1529,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1605,7 +1563,6 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1621,7 +1578,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2246,7 +2202,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="ELEMENTS"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2262,11 +2217,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2282,7 +2235,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge List Attributes"/>
@@ -2481,6 +2433,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2497,8 +2450,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2509,8 +2460,10 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2527,8 +2480,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2539,6 +2490,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST _exception ATTRIBUTE_HAS_A_VALUE &quot;&quot;"/>
@@ -2576,6 +2528,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2592,8 +2545,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2604,6 +2555,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_exception"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeExposer"/>
@@ -2621,7 +2573,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2637,7 +2588,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2647,7 +2597,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2663,7 +2612,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2692,7 +2640,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="LOGGED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2708,7 +2655,6 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2892,6 +2838,17 @@
 #!   ENABLED="true"
 #!   EXECUTION_IDX="4"
 #!   HIDDEN="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="141"
+#!   SOURCE_NODE="26"
+#!   TARGET_NODE="63"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="5"
+#!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3192,17 +3149,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="141"
-#!   SOURCE_NODE="110"
-#!   TARGET_NODE="63"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="116"
 #!   SOURCE_NODE="111"
 #!   TARGET_NODE="115"
@@ -3458,40 +3404,10 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_vpc_<Rejected> INPUT FEATURE_TYPE JSONFlattener_vpc_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_vpc<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_vpc_tags    INPUT  FEATURE_TYPE JSONFlattener_vpc_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.create_tags<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Resources=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Tags=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Key<apos>:<space><apos>Name<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>aws.name_tag<apos><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_vpc_tags OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_0_hQPSsck4qkY=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_1_QLQMU2iHCD0=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_2_D10HaIsJmbc=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_3_9iuEsB7pGBs=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_4_6fIPw1ByVko=
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_vpc_tags    INPUT  FEATURE_TYPE JSONFlattener_vpc_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.create_tags<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Resources=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Tags=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Key<apos>:<space><apos>Name<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>aws.name_tag<apos><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>PythonCaller_create_vpc_tags:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_vpc_tags OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_0_hQPSsck4qkY=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_1_QLQMU2iHCD0=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_2_D10HaIsJmbc=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_3_9iuEsB7pGBs=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_4_6fIPw1ByVko=   OUTPUT FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_5_y4r1VYtgWqY=
 # -------------------------------------------------------------------------
-FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_internet_gateway    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_3_9iuEsB7pGBs=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_internet_gateway<openparen><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_internet_gateway OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_0_qUxCSNaQbIA=   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_1_MK/KGxC3Sqw=
-# -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_0_qUxCSNaQbIA=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_<REJECTED>
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_<Rejected> INPUT FEATURE_TYPE JSONFlattener_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_internet_gateway_tags    INPUT  FEATURE_TYPE JSONFlattener_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.create_tags<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Resources=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>InternetGateway.InternetGatewayId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Tags=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Key<apos>:<space><apos>Name<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>aws.name_tag<apos><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_create_internet_gateway_tags:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_internet_gateway_tags OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_0_mYs0mAolA7w=   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_1_W4EPtbCBuPw=
-# -------------------------------------------------------------------------
-FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_attach_to_vpc    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_0_mYs0mAolA7w=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.attach_internet_gateway<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>InternetGatewayId=feature.getAttribute<openparen><apos>InternetGateway.InternetGatewayId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>VpcId=feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_attach_to_vpc:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_attach_to_vpc OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_0_CyE7fHW2Otg=   OUTPUT FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_1_CG28K+AM5uM=
-# -------------------------------------------------------------------------
-FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_route_2    INPUT  FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_0_CyE7fHW2Otg=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_route_tables<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>vpc-id<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_route_2 OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_0_zZ9dGGSRJx0=   OUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_1_725bmk55g78=
-# -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_route_table    INPUT  FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_0_zZ9dGGSRJx0=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_route_table)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_route_table_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_route_table_<REJECTED>
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_route_table_<Rejected> INPUT FEATURE_TYPE JSONFlattener_route_table_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_route_table<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE JSONFlattener_route_table_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "RouteTables<opencurly>0<closecurly>.Associations<opencurly>0<closecurly>.RouteTableId" "RouteTableId" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
-# -------------------------------------------------------------------------
-FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_route    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_route<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>DestinationCidrBlock=<apos>0.0.0.0<solidus>0<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>GatewayId=feature.getAttribute<openparen><apos>InternetGateway.InternetGatewayId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>RouteTableId=feature.getAttribute<openparen><apos>RouteTableId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_route_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_route OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_route_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_route_OUTPUT_0_Sp5catlhfVs=   OUTPUT FEATURE_TYPE PythonCaller_create_route_OUTPUT_1_RmRe2ScYi/I=
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Junction    INPUT  FEATURE_TYPE PythonCaller_create_route_OUTPUT_1_RmRe2ScYi/I=    OUTPUT FEATURE_TYPE Junction_Output
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_5_y4r1VYtgWqY=    OUTPUT FEATURE_TYPE Junction_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction Output Splitter"   INPUT FEATURE_TYPE Junction_Output   OUTPUT FEATURE_TYPE Junction_Output_0_sH9l3UTsGrw=   OUTPUT FEATURE_TYPE Junction_Output_1_/QQSbUuR6ZI=
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
@@ -3537,7 +3453,7 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_subnets    INPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_Create_Subnets_success    INPUT  FEATURE_TYPE PythonCaller_create_subnets_OUTPUT    TEST _exception NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    OUTPUT PASSED FEATURE_TYPE Tester_Create_Subnets_success_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_Create_Subnets_success_FAILED
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Tester_Create_Subnets_success_Failed_Logger    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_FAILED    OUTPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED                  @Log(ENCODED, "Tester_Create_Subnets_success_Failed:<space>Feature is:","20","20","",INFO,LOG_ONLY,Tester_Create_Subnets_success_Failed_23ea38f6_289e_4d01_92b6_243d3e04fcd80)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Tester_Create_Subnets_success_Failed_Logger    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_FAILED    OUTPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED                  @Log(ENCODED, "Tester_Create_Subnets_success_Failed:<space>Feature is:","20","20","",INFO,LOG_ONLY,Tester_Create_Subnets_success_Failed_66b64b56_2ef6_4c57_af99_42e0cdb628820)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_Create_Subnets_success_Failed LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED
 # -------------------------------------------------------------------------
 FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_subnets    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_PASSED    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_subnets)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_subnets_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_subnets_<REJECTED>
@@ -3552,6 +3468,35 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_subnet_tags OUTPUT 
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_enable_public_ip_addresses    INPUT  FEATURE_TYPE PythonCaller_create_subnet_tags_OUTPUT_0_+WHtH4NFXfM=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.modify_subnet_attribute<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>MapPublicIpOnLaunch=<opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Value<apos>:<space>True<lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>SubnetId=feature.getAttribute<openparen><apos>Subnet.SubnetId<apos><closeparen><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_enable_public_ip_addresses:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_enable_public_ip_addresses_OUTPUT
+# -------------------------------------------------------------------------
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_internet_gateway    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_3_9iuEsB7pGBs=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_internet_gateway<openparen><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_internet_gateway OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_0_qUxCSNaQbIA=   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_1_MK/KGxC3Sqw=
+# -------------------------------------------------------------------------
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_0_qUxCSNaQbIA=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_<Rejected> INPUT FEATURE_TYPE JSONFlattener_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_internet_gateway_tags    INPUT  FEATURE_TYPE JSONFlattener_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.create_tags<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Resources=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>InternetGateway.InternetGatewayId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Tags=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Key<apos>:<space><apos>Name<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Value<apos>:<space>feature.getAttribute<openparen><apos>aws.name_tag<apos><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_create_internet_gateway_tags:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_internet_gateway_tags OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_0_mYs0mAolA7w=   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_1_W4EPtbCBuPw=
+# -------------------------------------------------------------------------
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_attach_to_vpc    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_0_mYs0mAolA7w=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.attach_internet_gateway<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>InternetGatewayId=feature.getAttribute<openparen><apos>InternetGateway.InternetGatewayId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>VpcId=feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_attach_to_vpc:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_attach_to_vpc OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_0_CyE7fHW2Otg=   OUTPUT FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_1_CG28K+AM5uM=
+# -------------------------------------------------------------------------
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_route_2    INPUT  FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_0_CyE7fHW2Otg=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_route_tables<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>vpc-id<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_route_2 OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_0_zZ9dGGSRJx0=   OUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_1_725bmk55g78=
+# -------------------------------------------------------------------------
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_route_table    INPUT  FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_0_zZ9dGGSRJx0=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_route_table)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_route_table_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_route_table_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_route_table_<Rejected> INPUT FEATURE_TYPE JSONFlattener_route_table_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_route_table<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE JSONFlattener_route_table_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "RouteTables<opencurly>0<closecurly>.Associations<opencurly>0<closecurly>.RouteTableId" "RouteTableId" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+# -------------------------------------------------------------------------
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_route    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_route<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>DestinationCidrBlock=<apos>0.0.0.0<solidus>0<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>GatewayId=feature.getAttribute<openparen><apos>InternetGateway.InternetGatewayId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>RouteTableId=feature.getAttribute<openparen><apos>RouteTableId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_route_OUTPUT
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_FlexNet_security_group    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_2_D10HaIsJmbc=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_security_group<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Description=<apos>FME<space>License<space>Server<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>GroupName=feature.getAttribute<openparen><apos>flexnet.securityGroup<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>VpcId=feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_create_FlexNet_security_group:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT
@@ -3586,7 +3531,7 @@ FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_flexnet_3_<Rejected> INPUT F
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_modify_fmeserver    INPUT  FEATURE_TYPE JSONFlattener_flexnet_3_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.resource<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>security_group<space>=<space>ec2.SecurityGroup<openparen>feature.getAttribute<openparen><apos>GroupId<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>security_group.authorize_ingress<openparen><lf><lf><space><space><space><space><space><space><space><space><space><space><space><space>IpPermissions=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>FromPort<apos>:<space>80<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>IpProtocol<apos>:<space><apos>tcp<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>IpRanges<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>CidrIp<apos>:<space><apos>0.0.0.0<solidus>0<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>ToPort<apos>:<space>80<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><lf><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_modify_fmeserver_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_1_MK/KGxC3Sqw=    INPUT  FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_1_EprFU1kg14U=    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_1_W4EPtbCBuPw=    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_4_6fIPw1ByVko=    INPUT  FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_1_CG28K+AM5uM=    INPUT  FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT_1_uTBuVB4f3C0=    INPUT  FEATURE_TYPE PythonCaller_create_subnet_tags_OUTPUT_1_PQSR88kae5c=    INPUT  FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT_1_/xyuvnLiYjM=    INPUT  FEATURE_TYPE PythonCaller_enable_public_ip_addresses_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT_1_2E9rPeaZlQc=    INPUT  FEATURE_TYPE PythonCaller_modify_FlexNet_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_modify_fme_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_route_OUTPUT_0_Sp5catlhfVs=    INPUT  FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_1_725bmk55g78=    INPUT  FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT_1_oXoSYy9Hx04=    INPUT  FEATURE_TYPE PythonCaller_modify_fmeserver_OUTPUT    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_1_MK/KGxC3Sqw=    INPUT  FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_1_EprFU1kg14U=    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_tags_OUTPUT_1_W4EPtbCBuPw=    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_4_6fIPw1ByVko=    INPUT  FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_1_CG28K+AM5uM=    INPUT  FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT_1_uTBuVB4f3C0=    INPUT  FEATURE_TYPE PythonCaller_create_subnet_tags_OUTPUT_1_PQSR88kae5c=    INPUT  FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT_1_/xyuvnLiYjM=    INPUT  FEATURE_TYPE PythonCaller_enable_public_ip_addresses_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT_1_2E9rPeaZlQc=    INPUT  FEATURE_TYPE PythonCaller_modify_FlexNet_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_modify_fme_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_route_OUTPUT    INPUT  FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_1_725bmk55g78=    INPUT  FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT_1_oXoSYy9Hx04=    INPUT  FEATURE_TYPE PythonCaller_modify_fmeserver_OUTPUT    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_has_exception    INPUT  FEATURE_TYPE AttributeExposer_OUTPUT    TEST _exception ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "<Unused>"    OUTPUT PASSED FEATURE_TYPE Tester_has_exception_PASSED
 # -------------------------------------------------------------------------
