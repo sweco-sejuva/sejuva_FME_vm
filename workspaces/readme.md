@@ -1,4 +1,4 @@
-#These are the workspaces required to automate VM creation
+# These are the workspaces required to automate VM creation
 
 | Workspace                 | Purpose   |
 |---                        |---        |
