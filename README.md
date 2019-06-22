@@ -29,6 +29,10 @@ There are two files in the repository that need to be edited, and two workspaces
 1. InitialConfiguration.bat
 
 # Steps
+
+## Create an IAM user that the workspaces can use
+[Create a new IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) for **Programatic Access**. Select **Attach existing policies to user directly** and select the **AmazonEC2FullAccess** policy. This creates an access key and secret key. Make note of those somewhere safe; you'll need them later in AWSCredentialSupplier.fmx
+
 ## Fork this Repository to your own account
 Click Fork.
 Once forked into your own account, click Settings.
@@ -36,7 +40,7 @@ Change the repository name if desired.
 Create a branch that will be the name of the course.
 
 ## Install and update AWSCredentialSupplier.fmx
-The /workpaces/AWSCredentialSupplier.fmx custom transformer will supply the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` values in other workspaces. The values are kept in private parameters. Import the custom transformer and set your AWS Access Key ID and AWS Secret Access Key values.
+The /transformers/AWSCredentialSupplier.fmx custom transformer will supply the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` values in other workspaces. The values are kept in private parameters. Import the custom transformer and set your AWS Access Key ID and AWS Secret Access Key values.
 
 ## Edit settings.json
 * `git.username`    The GitHub username of the account containing your repository
@@ -55,7 +59,7 @@ These are used for the FlexNet license server.
 * `flexnet.ec2type` EC2 type. Recommend `T3` or `T3a`
 * `flexnet.ec2size` EC2 size. Recommend `nano` or `micro`
 * `flexnet.volumeSize`  The drive volume size in GB. Recommend `8`
-* `flexnet.securityGroup`
+* `flexnet.securityGroup` The name of the security group used by the license server
 ---
 These are for the FME Server machine
 * `fmeserver.ec2type` EC2 type. Recommend `T3` or `T3a`
@@ -65,19 +69,19 @@ These are for the FME Server machine
 * `fmeserver.docker-compose.yaml` Docker yaml url. [List can be found here](https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/index.html)
 ---
 These are for the training virtual machines
-* `fme.ec2type`
-* `fme.ec2size`
-* `fme.volumeSize`
-* `fme.securityGroup`
+* `fme.ec2type` EC2 type. Recommend `T3` or `T3a`
+* `fme.ec2size` EC2 size. Recommend `large` or `xlarge`
+* `fme.volumeSize` The drive volume size in GB. Recommend `80`
+* `fme.securityGroup` The security group the virtual machines will belong to
 
-* `fme.timezone`    The desired timezone for the virtual machine
-* `fme.portForwarding`
-* `fme.firewall`
+* `fme.timezone`    The desired [Windows timezone](https://techsupport.osisoft.com/Documentation/PI-Web-API/help/topics/timezones/windows.html) for the virtual machine
+* `fme.portForwarding` Forwards additional ports to 3389 so they can be used for Remote Desktop
+* `fme.firewall`  Ports to be opened in the Widows Firewall
 * `fme.password`    The desired password for the virtual machine
 * `fme.license`     The IP address of the floating license server
-* `fme.installApps`
+* `fme.installApps` Apps to be installed by [Chocolatey package manager](https://chocolatey.org/)
 * `fme.vm.instanceInitiatedShutdownBehaviour` What happens to the virtual machine when it is turned off
-* `fme.vm.Subject`
+* `fme.vm.Subject`  Email subject line
 * `fme.vm.fromEmail`  Email address the connection files will be sent from
 * `fme.vm.CCEmail`    Additional email address used to report problems when VM is created
 * `fme.vm.BCCEmail`   BCC email address. Can be used to copy emails to a CRM
