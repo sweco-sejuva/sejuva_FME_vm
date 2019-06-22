@@ -18,9 +18,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19229"
-#!   FME_DOCUMENT_GUID="6fee566a-aaeb-44af-a5da-d965b7acb33c"
-#!   FME_DOCUMENT_PRIORGUID="dc39ef50-085e-45c0-ad49-5babdc60102e,d366e0ce-ed85-4a7e-8a6f-4c6d108f898a,eb3651f9-022d-4a95-be5d-aa432165cb48,ac2c5935-5c43-4372-b2eb-26a53d2efaaa,0329f2db-90dc-4ee9-b537-460e7582da53,984bfefc-da4d-4c88-8080-97fceaacf76b,31b3d4a3-f7d2-40e9-b0a6-7602d4695213,2b5d3684-5b2f-4ad9-b9c3-beb1c75ad2ea,6c92f21d-8adc-492e-a5fa-637ddf24d843,7589343b-92b3-46ec-82fd-291260658218,88cefae5-b077-4488-a934-6f31043071d2,d1efde11-f5ad-4997-a056-15a734d6be55,806c6941-04e8-4b7c-9f73-41a6438691e7,3ae10773-e771-478b-8d41-24aa68e4f50b,9c239600-a873-4f08-8f78-4574b6f9a0c8,080c4e9f-9b73-40b9-b4a1-47db8d04ab70,9268d7e6-6815-4bf9-985f-1c4aad38065a,cceea16e-ffad-46a0-9b77-a6900e302712,024755b4-9648-4e22-9ddd-176d9072ae64,97067e46-fd83-45aa-81b8-907e95402e0d,82a49109-9aba-411f-adf0-ab4af8d20cd5"
+#!   FME_BUILD_NUM="19260"
+#!   FME_DOCUMENT_GUID="bfebd876-08eb-4f88-a7ab-72d3cb5acf98"
+#!   FME_DOCUMENT_PRIORGUID="dc39ef50-085e-45c0-ad49-5babdc60102e,d366e0ce-ed85-4a7e-8a6f-4c6d108f898a,eb3651f9-022d-4a95-be5d-aa432165cb48,ac2c5935-5c43-4372-b2eb-26a53d2efaaa,0329f2db-90dc-4ee9-b537-460e7582da53,984bfefc-da4d-4c88-8080-97fceaacf76b,31b3d4a3-f7d2-40e9-b0a6-7602d4695213,2b5d3684-5b2f-4ad9-b9c3-beb1c75ad2ea,6c92f21d-8adc-492e-a5fa-637ddf24d843,7589343b-92b3-46ec-82fd-291260658218,88cefae5-b077-4488-a934-6f31043071d2,d1efde11-f5ad-4997-a056-15a734d6be55,806c6941-04e8-4b7c-9f73-41a6438691e7,3ae10773-e771-478b-8d41-24aa68e4f50b,9c239600-a873-4f08-8f78-4574b6f9a0c8,080c4e9f-9b73-40b9-b4a1-47db8d04ab70,9268d7e6-6815-4bf9-985f-1c4aad38065a,cceea16e-ffad-46a0-9b77-a6900e302712,024755b4-9648-4e22-9ddd-176d9072ae64,97067e46-fd83-45aa-81b8-907e95402e0d,82a49109-9aba-411f-adf0-ab4af8d20cd5,6fee566a-aaeb-44af-a5da-d965b7acb33c"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -28,8 +28,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.0.0.0 (20190315 - Build 19229 - macosx)"
-#!   LAST_SAVE_DATE="2019-06-20T18:56:53"
+#!   LAST_SAVE_BUILD="FME(R) 2019.0.2.0 (20190605 - Build 19260 - macosx)"
+#!   LAST_SAVE_DATE="2019-06-21T23:05:36"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,7 +48,7 @@
 #!   TITLE="Amazon EC2 Virtual Machine Creator"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="37835.7 -727.948"
+#!   VIEW_POSITION="-14881 -295.591"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="68"
@@ -99,7 +99,7 @@
 #!   NAME="FMETraining"
 #! />
 #! <ITEM
-#!   NAME="VMCreatorServer2019.fmw"
+#!   NAME="VMCreator.fmw"
 #! />
 #! <MODIFICATIONS>
 #! <MODIFICATION
@@ -129,6 +129,10 @@
 #! <MODIFICATION
 #!   UID=":WBDoc:SOURCE_ROUTING_FILE"
 #!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBParameterNode_10:SMTP_CONNECTION"
+#!   VALUE="GMAIL_NAMED_CONNECTION;$(GMAIL_NAMED_CONNECTION);TIMEOUT;60;FME_CONTROLLER_QUERY_FILE;transformers&lt;solidus&gt;dependencies&lt;solidus&gt;emailer&lt;solidus&gt;Gmail.fme"
 #! />
 #! <MODIFICATION
 #!   UID=":WBParameterNode_10:SMTP_CONNECTION"
@@ -778,7 +782,7 @@
 #!   BOUNDING_RECT="11277.300731611362 350.50561005609984 4268.6042371597541 1298.5150901509007"
 #!   STICKY="true"
 #!   COLOUR="0.36470588235294116,0.37647058823529411,0.38823529411764707,0.39215686274509803"
-#!   CONTENTS="280 281 278 282 265 248 2 277 238 38 3 216 39 126 94 50 "
+#!   CONTENTS="280 126 282 94 277 2 265 38 248 278 39 3 50 216 238 281 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -792,7 +796,7 @@
 #!   BOUNDING_RECT="30406.226844758326 -255.88491179029432 10504.476379920976 1733.8408678204426"
 #!   STICKY="true"
 #!   COLOUR="0.031372549019607843,0.22352941176470589,0.44705882352941179,0.39215686274509803"
-#!   CONTENTS="12 55 23 9 84 165 7 47 117 8 134 6 209 115 210 243 60 116 247 59 42 35 11 10 54 57 56 83 237 125 118 211 "
+#!   CONTENTS="247 211 165 8 57 9 55 35 125 237 210 115 243 59 23 118 11 116 7 54 47 42 12 56 6 84 117 83 134 60 209 10 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -806,7 +810,7 @@
 #!   BOUNDING_RECT="-14779.559560301483 13.432970150597027 16857.36968171833 5422.3105883385424"
 #!   STICKY="true"
 #!   COLOUR="0.61960784313725492,0.035294117647058823,0.36078431372549019,0.39215686274509803"
-#!   CONTENTS="15 230 227 257 245 262 215 222 174 37 264 226 175 228 145 158 220 259 244 146 221 163 261 263 90 251 246 250 36 231 141 234 152 236 249 233 235 240 242 144 219 224 147 218 130 225 223 13 232 239 217 241 150 258 "
+#!   CONTENTS="231 150 260 262 36 230 263 145 245 158 264 218 233 223 227 90 37 261 13 15 152 257 222 147 240 249 130 215 175 226 146 141 250 236 244 242 235 258 163 246 174 259 221 144 219 224 251 239 232 225 234 217 228 220 241 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -820,7 +824,7 @@
 #!   BOUNDING_RECT="2155.2103402074581 -97.002070020700558 9039.4158873014821 2360.0225002250017"
 #!   STICKY="true"
 #!   COLOUR="0.36078431372549019,0.47843137254901963,0.36078431372549019,0.39215686274509803"
-#!   CONTENTS="74 16 80 65 148 120 102 26 91 17 105 124 25 27 78 75 79 101 29 63 99 30 95 20 18 98 129 28 81 24 82 66 149 93 108 128 "
+#!   CONTENTS="93 101 120 24 75 148 79 124 91 98 25 81 28 129 105 26 102 20 99 29 30 18 66 95 63 16 74 149 80 65 78 108 17 128 27 82 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -834,7 +838,7 @@
 #!   BOUNDING_RECT="15734.002370985138 384.00384003840054 3799.3645562881793 1694.0178801788018"
 #!   STICKY="true"
 #!   COLOUR="0.2627450980392157,0.17647058823529413,0.60392156862745094,0.39215686274509803"
-#!   CONTENTS="73 40 71 153 34 123 69 22 127 96 21 154 131 41 "
+#!   CONTENTS="34 96 123 69 127 22 153 131 73 41 21 71 40 154 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -848,7 +852,7 @@
 #!   BOUNDING_RECT="-13294.757694027243 -162.72479895562878 1184.3424722279688 1840.2364071270199"
 #!   STICKY="true"
 #!   COLOUR="0.52941176470588236,0.18431372549019609,0.12549019607843137,0.39215686274509803"
-#!   CONTENTS="36 37 130 90 "
+#!   CONTENTS="130 36 90 37 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -862,7 +866,7 @@
 #!   BOUNDING_RECT="25219.485458826348 277.59998362701288 3549.9198822858816 797.68153798473475"
 #!   STICKY="true"
 #!   COLOUR="0.4392156862745098,0.65098039215686276,0.039215686274509803,0.39215686274509803"
-#!   CONTENTS="182 189 204 203 188 186 184 181 185 196 195 "
+#!   CONTENTS="203 182 189 196 195 188 204 184 185 186 181 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -876,7 +880,7 @@
 #!   BOUNDING_RECT="27285.818180175909 167.30476302774809 1435.2095499763855 617.00216002160028"
 #!   STICKY="true"
 #!   COLOUR="0.396078431372549,0.12549019607843137,0.40392156862745099,0.39215686274509803"
-#!   CONTENTS="203 188 196 195 "
+#!   CONTENTS="203 196 195 188 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -890,7 +894,7 @@
 #!   BOUNDING_RECT="19809.381194711674 649.50370234745787 8966.0583442645893 2131.8714672015767"
 #!   STICKY="true"
 #!   COLOUR="0.71372549019607845,0.73725490196078436,0.23137254901960785,0.39215686274509803"
-#!   CONTENTS="203 179 214 192 177 187 196 204 170 189 199 201 212 188 202 195 213 184 186 181 197 178 185 191 207 183 182 194 200 190 180 208 161 193 "
+#!   CONTENTS="193 196 207 191 182 190 178 187 199 200 185 188 201 212 213 202 170 203 214 189 161 208 186 177 181 204 194 183 184 197 180 192 179 195 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -904,7 +908,7 @@
 #!   BOUNDING_RECT="21160.019999093714 -296.26516601630954 2832.3812649891206 1150.8081282460446"
 #!   STICKY="true"
 #!   COLOUR="0.4392156862745098,0.047058823529411764,0.47450980392156861,0.39215686274509803"
-#!   CONTENTS="191 192 212 170 199 213 190 214 197 193 "
+#!   CONTENTS="192 170 197 191 214 190 199 193 213 212 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -918,7 +922,7 @@
 #!   BOUNDING_RECT="19866.734709423297 481.85496703657532 1453.565583235697 710.98425585232781"
 #!   STICKY="true"
 #!   COLOUR="0.44313725490196076,0.73333333333333328,0.38039215686274508,0.39215686274509803"
-#!   CONTENTS="178 201 179 161 "
+#!   CONTENTS="161 178 201 179 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -932,7 +936,7 @@
 #!   BOUNDING_RECT="-10297.161795147362 -376.19825649456595 2514.7310296632377 2019.4139349214652"
 #!   STICKY="true"
 #!   COLOUR="0.42352941176470588,0.6588235294117647,0.078431372549019607,0.39215686274509803"
-#!   CONTENTS="145 144 141 222 146 150 "
+#!   CONTENTS="150 145 144 141 146 222 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -946,7 +950,7 @@
 #!   BOUNDING_RECT="-7557.4446132209823 -1173.6172674208606 7851.5777770244358 3701.4314830666431"
 #!   STICKY="true"
 #!   COLOUR="0.78823529411764703,0.62745098039215685,0.28235294117647058,0.39215686274509803"
-#!   CONTENTS="221 226 231 261 263 234 236 219 240 242 15 233 220 235 228 246 239 225 264 241 224 218 232 175 262 245 230 223 227 "
+#!   CONTENTS="231 236 225 241 226 264 261 263 15 239 235 242 232 228 223 175 246 245 219 262 234 233 221 230 224 220 227 218 240 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -960,7 +964,7 @@
 #!   BOUNDING_RECT="-7451.5612014456874 -2755.8088076872546 4371.5429766764337 998.64050151171909"
 #!   STICKY="true"
 #!   COLOUR="0.6470588235294118,0.42745098039215684,0.29411764705882354,0.39215686274509803"
-#!   CONTENTS="175 224 234 225 233 223 231 241 240 232 239 226 "
+#!   CONTENTS="231 241 225 233 240 239 232 226 224 223 175 234 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -974,7 +978,7 @@
 #!   BOUNDING_RECT="-2964.3986298311547 -1356.1187551984947 2951.1632033592427 1635.0163501635018"
 #!   STICKY="true"
 #!   COLOUR="0.58823529411764708,0.5607843137254902,0.3411764705882353,0.39215686274509803"
-#!   CONTENTS="236 228 230 242 227 15 "
+#!   CONTENTS="228 236 230 15 227 242 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -988,7 +992,7 @@
 #!   BOUNDING_RECT="-7443.5363502403034 -1420.8656846934425 2450.0190923213795 1087.508041210936"
 #!   STICKY="true"
 #!   COLOUR="0.21568627450980393,0.18823529411764706,0.31764705882352939,0.39215686274509803"
-#!   CONTENTS="220 261 221 262 219 218 "
+#!   CONTENTS="262 220 219 261 218 221 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1004,7 +1008,7 @@
 #!   BOUNDING_RECT="29673.947349040103 -2210.3162208092667 837 75"
 #!   STICKY="true"
 #!   COLOUR="0.78431372549019607,0,0.015686274509803921,0.39215686274509803"
-#!   CONTENTS="270 267 269 "
+#!   CONTENTS="269 267 270 "
 #! >
 #!     <BOOKMARK_FEAT NAME="Tester_has_exception" SOURCE_NODE="267" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
@@ -1279,11 +1283,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_uuid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1367,11 +1371,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_uuid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FolderName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1454,11 +1458,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_uuid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="3"/>
@@ -2462,11 +2466,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2810,11 +2814,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_uuid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -5290,11 +5294,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Reservations&lt;opencurly&gt;0&lt;closecurly&gt;.Instances&lt;opencurly&gt;0&lt;closecurly&gt;.PublicIpAddress PublicIpAddress RENAME_SET_DEFAULT "/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -5367,11 +5371,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -5428,11 +5432,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST PublicIpAddress ATTRIBUTE_HAS_A_VALUE &quot;&quot;"/>
@@ -5582,11 +5586,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Reservations{0}.Instances{0}.State.Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Global"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -6463,19 +6467,19 @@
 #! <TRANSFORMER
 #!   IDENTIFIER="217"
 #!   TYPE="AWSCredentialSupplier"
-#!   VERSION="1"
+#!   VERSION="2"
 #!   POSITION="-13951.30356594864 -757.5364335567607"
 #!   BOUNDING_RECT="-13951.30356594864 -757.5364335567607 575.86782764379677 71"
 #!   ORDER="500000000000165"
-#!   PARMS_EDITED="true"
+#!   PARMS_EDITED="false"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19229"
+#!   LAST_PARM_EDIT="19260"
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="AWS_ACCESS_KEY_ID" PARM_VALUE="AKIAICERN4WDSWP5VUDQ"/>
-#!     <XFORM_PARM PARM_NAME="AWS_SECRET_ACCESS_KEY" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszd6ht4bVmyf7AYkBUHSfX5VdRcrDmSPRhTe9s/lB1Hzmzl5yWgFMc7fElLkf2e7dyDLFiReD40qhaFyasAzd5uZeEOHPj+iEY0Uu2FpOqto02lcr5GKztM6hI1Hz9sF9i//2fdxLputH3j4mDy1RZUJ/3fJ5bgkXmqxX73L17uLV/kFNbclbGP2yb8uH0l7NMq9FbqH1BzjiEFT+Mgctq0vFdkM5ogemMPpPCTFY5EJFrzSUokD29NINzqDMKdff+PiFh//R3QAeT6P1ahUes7/z+e/CE/mqAXuVwvQRJnA53GjxmssBCsiAOX81WGDCOg0PWPqbez20kP/orEYtf0KDmmvFfKOdp)"/>
+#!     <XFORM_PARM PARM_NAME="AWS_ACCESS_KEY_ID" PARM_VALUE="AKIAS5YUQ6Z2YWWFTDC6"/>
+#!     <XFORM_PARM PARM_NAME="AWS_SECRET_ACCESS_KEY" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszLshmmCvXnicKUSlpjfmVrPxeP8B9pPxANWm8GRD6nqzVDuK6CtOi4uqcoBaI9h88+Nx+60WUm6f9oGuhh8POK6AoF7DD+OPvOufYHgwb2knR+/aCoo1BZuyichzRbyfFhXBwY34S9jdxRxqAvfONKBXzcKVuhVCZ/jhbBtY4azQN4J+klVukYx2GSNHK1VcF/J8/JUZTLyApzCe8i4C/uIWwnpkzhjBfYIpRwg/BncpJelNjKIweQ+8EgaoDp9S5UdqFSfzfsCHugVKW38TL/kwza8d3mEgk2+y9p+CkXFniMA3ZFMvG6a0j9tFolyvcsONDDZJyahYU3vReN3v+dvVokuoYAELr)"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AWSCredentialSupplier"/>
 #! </TRANSFORMER>
@@ -6977,13 +6981,12 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.template.email" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.template.rdp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tag.team" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tag.owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tag.team" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tag.owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -6993,6 +6996,7 @@
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -7033,13 +7037,12 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.template.email" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.template.rdp" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tag.team" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tag.owner" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tag.team" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tag.owner" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -7049,6 +7052,7 @@
 #!     <XFORM_ATTR ATTR_NAME="PublicIpAddress" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -7207,7 +7211,7 @@
 #!   TYPE="Tester"
 #!   VERSION="2"
 #!   POSITION="13133.347022252941 -539.12303828920631"
-#!   BOUNDING_RECT="13133.347022252941 -539.12303828920631 454 71"
+#!   BOUNDING_RECT="13133.347022252941 -539.12303828920631 918.26408209339388 71"
 #!   ORDER="500000000000263.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -8254,6 +8258,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="260"
+#!   SOURCE_NODE="147"
+#!   TARGET_NODE="141"
+#!   SOURCE_PORT_DESC="fo 1 JSONFeature"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="180"
 #!   SOURCE_NODE="178"
 #!   TARGET_NODE="170"
@@ -8374,17 +8389,6 @@
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
-#! <FEAT_LINK
-#!   IDENTIFIER="260"
-#!   SOURCE_NODE="147"
-#!   TARGET_NODE="141"
-#!   SOURCE_PORT_DESC="fo 1 JSONFeature"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
@@ -8465,9 +8469,9 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "AWSCredentialSupplier Input Input Colle
 MACRO AWSCredentialSupplier_WORKSPACE_NAME AWSCredentialSupplier
 MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_XFORMER_NAME AWSCredentialSupplier
 MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_TRANSFORMER_GROUP 
-MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_ACCESS_KEY_ID AKIAICERN4WDSWP5VUDQ
-MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_SECRET_ACCESS_KEY fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszd6ht4bVmyf7AYkBUHSfX5VdRcrDmSPRhTe9s/lB1Hzmzl5yWgFMc7fElLkf2e7dyDLFiReD40qhaFyasAzd5uZeEOHPj+iEY0Uu2FpOqto02lcr5GKztM6hI1Hz9sF9i//2fdxLputH3j4mDy1RZUJ/3fJ5bgkXmqxX73L17uLV/kFNbclbGP2yb8uH0l7NMq9FbqH1BzjiEFT+Mgctq0vFdkM5ogemMPpPCTFY5EJFrzSUokD29NINzqDMKdff+PiFh//R3QAeT6P1ahUes7/z+e/CE/mqAXuVwvQRJnA53GjxmssBCsiAOX81WGDCOg0PWPqbez20kP/orEYtf0KDmmvFfKOdp)
-INCLUDE_CUSTOM_TRANSFORMER_VER AWSCredentialSupplier:1
+MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_ACCESS_KEY_ID AKIAS5YUQ6Z2YWWFTDC6
+MACRO $(AWSCredentialSupplier_WORKSPACE_NAME)_AWS_SECRET_ACCESS_KEY fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszLshmmCvXnicKUSlpjfmVrPxeP8B9pPxANWm8GRD6nqzVDuK6CtOi4uqcoBaI9h88+Nx+60WUm6f9oGuhh8POK6AoF7DD+OPvOufYHgwb2knR+/aCoo1BZuyichzRbyfFhXBwY34S9jdxRxqAvfONKBXzcKVuhVCZ/jhbBtY4azQN4J+klVukYx2GSNHK1VcF/J8/JUZTLyApzCe8i4C/uIWwnpkzhjBfYIpRwg/BncpJelNjKIweQ+8EgaoDp9S5UdqFSfzfsCHugVKW38TL/kwza8d3mEgk2+y9p+CkXFniMA3ZFMvG6a0j9tFolyvcsONDDZJyahYU3vReN3v+dvVokuoYAELr)
+INCLUDE_CUSTOM_TRANSFORMER_VER AWSCredentialSupplier:2
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AWSCredentialSupplier Output Output Renamer/Nuker"   INPUT FEATURE_TYPE AWSCredentialSupplier_Output   OUTPUT FEATURE_TYPE AWSCredentialSupplier_Output
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_valid_email    INPUT  FEATURE_TYPE AWSCredentialSupplier_Output    CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,$(EmailAddress$encode),Tester_valid_email) CONTAINS @EvaluateExpression(FDIV,STRING_ENCODED,<at>,Tester_valid_email) ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "<Unused>"    OUTPUT PASSED FEATURE_TYPE Tester_valid_email_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_valid_email_FAILED
@@ -8719,18 +8723,18 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_7e1e8505_ec71_4e7c_9143_afcc05813e132_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_7e1e8505_ec71_4e7c_9143_afcc05813e132_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_49c13b97_2def_4213_b2aa_9c4ee629a95c2_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_49c13b97_2def_4213_b2aa_9c4ee629a95c2_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_2839ce95_d060_40a8_86ed_b0fb1512f7362_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_2839ce95_d060_40a8_86ed_b0fb1512f7362_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_bf3927d2_461e_4504_a4b1_726e19c0e8632_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_bf3927d2_461e_4504_a4b1_726e19c0e8632_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_password_3a8a3cf3_2c32_4ef7_9f11_0b3047d0b1de2_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_OUTPUT         @Tcl2("StringReplacer_password_3a8a3cf3_2c32_4ef7_9f11_0b3047d0b1de2_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_password_7176c593_01a4_49d2_b840_eaa753b562d32_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_OUTPUT         @Tcl2("StringReplacer_password_7176c593_01a4_49d2_b840_eaa753b562d32_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
@@ -8740,10 +8744,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_CATCHER    INPUT  FEATURE_TYPE 
 FACTORY_DEF * PythonFactory    FACTORY_NAME Emailer_CALLER    INPUT FEATURE_TYPE Emailer_READY    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME Emailer.Emailer    OUTPUT PYOUTPUT FEATURE_TYPE Emailer_PROCESSED
 FACTORY_DEF * TestFactory    FACTORY_NAME Emailer_ROUTER    INPUT FEATURE_TYPE Emailer_PROCESSED    TEST &fme_rejection_code == ""    OUTPUT PASSED FEATURE_TYPE Emailer_Sent
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_32702df6_1c02_4e36_963c_dee3d1acce862_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,CourseType,FullName,PublicIpAddress,email,FileName,FolderName,_attempt,name,fme_pcre_match,"^fme_$(AttributeKeeper_32702df6_1c02_4e36_963c_dee3d1acce862_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_e84b033e_2115_45b5_8906_87b78a2cac8c2_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Emailer_Sent    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,CourseType,FullName,PublicIpAddress,email,FileName,FolderName,_attempt,name,fme_pcre_match,"^fme_$(AttributeKeeper_e84b033e_2115_45b5_8906_87b78a2cac8c2_LIST_EXP)")         }
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_ONLY,Emailer_Sent_221e59da_fdbd_456e_be5b_622fc50674132)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Emailer_Sent_Logger    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT FEATURE_TYPE Emailer_Sent_LOGGED                  @Log(ENCODED, "Emailer_Sent:<space>EMAIL<space>OUTPUT","20","20","",INFO,LOG_ONLY,Emailer_Sent_4327a438_0542_495b_bd0c_81fbbc3f72892)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer_Sent LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Emailer_Sent_LOGGED
 # -------------------------------------------------------------------------
 
