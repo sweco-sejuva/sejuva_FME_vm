@@ -45,23 +45,26 @@ The /workpaces/AWSCredentialSupplier.fmx custom transformer will supply the `AWS
 ---
 * `aws.name_tag`    The `Name` tag that will be attached to the various items created in AWS
 * `aws.region_name` The EC2 region that will be hosting the virtual Machines. Full list under [Amazon Elastic Compute Cloud (Amazon EC2)](https://docs.aws.amazon.com/general/latest/gr/rande.html)
-* `aws.vpc_cidr`
-* `aws.subnet_cidr`
+* `aws.vpc_cidr`  Private IP address range of the VPC
+* `aws.subnet_cidr` Address ranges of each subnet
 ---
-* `ami.linux`
-* `ami.windows`
+* `ami.linux` Search term used to find Linux AMI
+* `ami.windows` Search term used to find Windows AMI. Use `"Microsoft Windows Server 2016 with Desktop Experience Locale English AMI provided by Amazon"` or `"Microsoft Windows Server 2019 with Desktop Experience Locale English AMI provided by Amazon"`
 ---
-* `flexnet.ec2type`
-* `flexnet.ec2size`
-* `flexnet.volumeSize`
+These are used for the FlexNet license server.
+* `flexnet.ec2type` EC2 type. Recommend `T3` or `T3a`
+* `flexnet.ec2size` EC2 size. Recommend `nano` or `micro`
+* `flexnet.volumeSize`  The drive volume size in GB. Recommend `8`
 * `flexnet.securityGroup`
 ---
-* `fmeserver.ec2type`
-* `fmeserver.ec2size`
-* `fmeserver.volumeSize`
-* `fmeserver.securityGroup`
-* `fmeserver.docker-compose.yaml`
+These are for the FME Server machine
+* `fmeserver.ec2type` EC2 type. Recommend `T3` or `T3a`
+* `fmeserver.ec2size`EC2 size. Recommend `medium` or `large`
+* `fmeserver.volumeSize`  The drive volume size in GB. Recommend `40`
+* `fmeserver.securityGroup` Name of the security group that will be created
+* `fmeserver.docker-compose.yaml` Docker yaml url. [List can be found here](https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/index.html)
 ---
+These are for the training virtual machines
 * `fme.ec2type`
 * `fme.ec2size`
 * `fme.volumeSize`
@@ -107,7 +110,7 @@ OnstartConfiguration.bat is run by the Task Scheduler on the virtual machines ev
 ## Create and tag AMI
 Once the machine is configured, create an image (AMI) where the Description value is the same as the Git Branch name. The course is the name of the image (like training, or certification). This tag is used by the VMCreator.fmw file to launch virtual machines on demand.  
 
-## Publish VMCreator.fmw and GitClone2S3.fmw with AWSCredentialSupplier.fmx to FME Server/Cloud
+## Publish VMCreator.fmw and AWSCredentialSupplier.fmx to FME Server/Cloud
 1. Open VMCreator.fmw, set the private parameters `git.username` and `git.repository`, and add a webconnection for the `GMAIL_NAMED_CONNECTION` private parameter. Publish to the FMETraining repository (or a repository of your choice) on FME Server.
 
 ## Create FME Server App
