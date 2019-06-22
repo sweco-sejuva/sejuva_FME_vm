@@ -41,11 +41,12 @@ The /workpaces/AWSCredentialSupplier.fmx custom transformer will supply the `AWS
 ## Edit settings.json
 * `git.username`    The GitHub username of the account containing your repository
 * `git.repository`  The GitHub repository containing this file
-* `git.branch`      The GitHub repository branch for this particular virtual machine
+* `git.branch`      The GitHub repository branch for this particular virtual machine. Also the AMI Description.
 
 * `aws.name_tag`    The `Name` tag that will be attached to the various items created in AWS
+* `aws.region_name` The EC2 region that will be hosting the virtual Machines. Full list under [Amazon Elastic Compute Cloud (Amazon EC2)]( here: )https://docs.aws.amazon.com/general/latest/gr/rande.html)
 * `aws.s3_bucket_name`  The name of your AWS S3 bucket that will contain the static webpage
-* `aws.region_name` The EC2 region that will be hosting the virtual Machines
+
 
 * `fme.timezone`    The desired timezone for the virtual machine
 * `fme.password`    The desired password for the virtual machine
@@ -95,4 +96,4 @@ You can unselect the course name. That way you can re-use the same workspace for
 Fork the current GitHub branch, and give it a name that matches the Description tag on the AMI.
 
 ## Set Calendar Reminders
-If you are not using a permanent license for FME Server, you'll have to re-license it on occasion. 
+If you are not using a permanent license for FME Server, you'll have to re-license it on occasion.
