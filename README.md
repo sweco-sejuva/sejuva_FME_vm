@@ -42,24 +42,45 @@ The /workpaces/AWSCredentialSupplier.fmx custom transformer will supply the `AWS
 * `git.username`    The GitHub username of the account containing your repository
 * `git.repository`  The GitHub repository containing this file
 * `git.branch`      The GitHub repository branch for this particular virtual machine. Also the AMI Description.
-
+---
 * `aws.name_tag`    The `Name` tag that will be attached to the various items created in AWS
 * `aws.region_name` The EC2 region that will be hosting the virtual Machines. Full list under [Amazon Elastic Compute Cloud (Amazon EC2)](https://docs.aws.amazon.com/general/latest/gr/rande.html)
-* `aws.s3_bucket_name`  The name of your AWS S3 bucket that will contain the static webpage
-
+* `aws.vpc_cidr`
+* `aws.subnet_cidr`
+---
+* `ami.linux`
+* `ami.windows`
+---
+* `flexnet.ec2type`
+* `flexnet.ec2size`
+* `flexnet.volumeSize`
+* `flexnet.securityGroup`
+---
+* `fmeserver.ec2type`
+* `fmeserver.ec2size`
+* `fmeserver.volumeSize`
+* `fmeserver.securityGroup`
+* `fmeserver.docker-compose.yaml`
+---
+* `fme.ec2type`
+* `fme.ec2size`
+* `fme.volumeSize`
+* `fme.securityGroup`
 
 * `fme.timezone`    The desired timezone for the virtual machine
+* `fme.portForwarding`
+* `fme.firewall`
 * `fme.password`    The desired password for the virtual machine
 * `fme.license`     The IP address of the floating license server
+* `fme.installApps`
 * `fme.vm.instanceInitiatedShutdownBehaviour` What happens to the virtual machine when it is turned off
+* `fme.vm.Subject`
 * `fme.vm.fromEmail`  Email address the connection files will be sent from
 * `fme.vm.CCEmail`    Additional email address used to report problems when VM is created
 * `fme.vm.BCCEmail`   BCC email address. Can be used to copy emails to a CRM
 
-* `web.repository`  The FME Server repository that stores the VM creating workspace
-* `web.workspace`   The name of the VM creating workspace.
-* `web.server`      FME Server URL
-* `web.token`       The FME Server REST API token
+---
+
 
 * `fme.vm.template.email` The template used for the email containing the RDP connection files
 * `fme.vm.template.rdp`   The settings for the RDP files; watch out for the domain value
