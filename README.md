@@ -44,7 +44,7 @@ The /workpaces/AWSCredentialSupplier.fmx custom transformer will supply the `AWS
 * `git.branch`      The GitHub repository branch for this particular virtual machine. Also the AMI Description.
 
 * `aws.name_tag`    The `Name` tag that will be attached to the various items created in AWS
-* `aws.region_name` The EC2 region that will be hosting the virtual Machines. Full list under [Amazon Elastic Compute Cloud (Amazon EC2)]( here: )https://docs.aws.amazon.com/general/latest/gr/rande.html)
+* `aws.region_name` The EC2 region that will be hosting the virtual Machines. Full list under [Amazon Elastic Compute Cloud (Amazon EC2)](https://docs.aws.amazon.com/general/latest/gr/rande.html)
 * `aws.s3_bucket_name`  The name of your AWS S3 bucket that will contain the static webpage
 
 
