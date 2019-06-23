@@ -4,14 +4,14 @@ The virtual machines are Amazon AWS EC2 machines.
 The webpage used for requesting the virtual machines is a static page hosted on AWS S3.
 
 ## Prerequisites
-A basic understanding of GitHub, Amazon AWS, FME Desktop, and FME Server is required.
+A basic understanding of [GitHub](https://guides.github.com/activities/hello-world/), [Amazon AWS](https://aws.amazon.com/ec2/?hp=tile&so-exp=below), FME Desktop, and FME Server is required.
 You will also require an AWS account and a GitHub account.
-For your AWS account, you will need to have an aws_access_key_id and aws_secret_access_key.
-On your local machine, you will need an installation of GitHub Desktop and FME Desktop.
 
-Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines. At Safe Software, we have a limit of 500.
+On your local machine, you will need an installation of [GitHub Desktop](https://desktop.github.com/) and FME Desktop.
 
-Also be aware that the default VPC limit is 5. If you currently have 5 VPCs in your desired region, you will have to request an increase in the VPC limit.
+Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines per region. At Safe Software, we have a limit of 500.
+
+Also be aware that the default VPC limit per region is 5. If you currently have 5 VPCs in your desired region, you will have to request an increase in the VPC limit.
 
 ![EC2 Service Increase](/images/EC2Limits.png)
 

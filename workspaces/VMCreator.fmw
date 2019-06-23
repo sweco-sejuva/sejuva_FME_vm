@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.2.0 (20190605 - Build 19260 - macosx)"
-#!   LAST_SAVE_DATE="2019-06-22T21:36:18"
+#!   LAST_SAVE_DATE="2019-06-22T21:36:40"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -560,10 +560,10 @@
 #! <COMMENT
 #!   IDENTIFIER="197"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Check to see if PublicIpAddress has been retrieved&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="30210.515479391252 -349.44106836356821"
-#!   TOP_LEFT="30210.515479391252 -349.44106836356821"
-#!   BOTTOM_RIGHT="30747.905703638324 -348.44106836356821"
-#!   BOUNDING_RECT="30210.515479391252 -349.44106836356821 537.39022424707036 -1"
+#!   POSITION="30414.517519411656 -361.44118836476821"
+#!   TOP_LEFT="30414.517519411656 -361.44118836476821"
+#!   BOTTOM_RIGHT="30951.907743658725 -360.44118836476821"
+#!   BOUNDING_RECT="30414.517519411656 -361.44118836476821 537.39022424707036 -1"
 #!   ORDER="500000000000174"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -575,10 +575,10 @@
 #! <COMMENT
 #!   IDENTIFIER="199"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;If we don&apos;t have PublicIpAddress yet, wait a beat and try again&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="32212.151893749346 -395.08632363965023"
-#!   TOP_LEFT="32212.151893749346 -395.08632363965023"
-#!   BOTTOM_RIGHT="32642.151893749346 -394.08632363965023"
-#!   BOUNDING_RECT="32212.151893749346 -395.08632363965023 430 -1"
+#!   POSITION="32416.15393376975 -407.08644364085023"
+#!   TOP_LEFT="32416.15393376975 -407.08644364085023"
+#!   BOTTOM_RIGHT="32846.153933769747 -406.08644364085023"
+#!   BOUNDING_RECT="32416.15393376975 -407.08644364085023 430 -1"
 #!   ORDER="500000000000176"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -635,10 +635,10 @@
 #! <COMMENT
 #!   IDENTIFIER="193"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;First, check that we haven&apos;t run out of attempts.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Second, check that PublicIpAddress has no value.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Third, discard extra features if we do have PublicIpAddress&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="30801.904661949047 -93.729718897132273"
-#!   TOP_LEFT="30801.904661949047 -93.729718897132273"
-#!   BOTTOM_RIGHT="31795.479294863148 -387.7323589235325"
-#!   BOUNDING_RECT="30801.904661949047 -93.729718897132273 993.57463291410022 294.00264002640023"
+#!   POSITION="31005.906701969452 -105.72983889833228"
+#!   TOP_LEFT="31005.906701969452 -105.72983889833228"
+#!   BOTTOM_RIGHT="31999.481334883552 -399.7324789247325"
+#!   BOUNDING_RECT="31005.906701969452 -105.72983889833228 993.57463291410022 294.00264002640023"
 #!   ORDER="500000000000188"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -916,11 +916,11 @@
 #!   IDENTIFIER="207"
 #!   NAME="PublicIpAddress not found. Try again"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="30130.109699990731 18.737984015190762"
+#!   TOP_LEFT="30334.111740011136 6.7378640139907482"
 #!   ORDER="500000000000183"
 #!   PALETTE_COLOR=""
-#!   BOTTOM_RIGHT="32962.49096497985 -1132.0701442308539"
-#!   BOUNDING_RECT="30130.109699990731 18.737984015190762 2832.3812649891206 1150.8081282460446"
+#!   BOTTOM_RIGHT="33166.493005000259 -1144.0702642320539"
+#!   BOUNDING_RECT="30334.111740011136 6.7378640139907482 2832.3812649891206 1150.8081282460446"
 #!   STICKY="true"
 #!   COLOUR="0.4392156862745098,0.047058823529411764,0.47450980392156861,0.39215686274509803"
 #!   CONTENTS="192 214 190 193 170 213 212 191 197 199 "
@@ -4530,8 +4530,8 @@
 #!   IDENTIFIER="170"
 #!   TYPE="VariableRetriever"
 #!   VERSION="3"
-#!   POSITION="30234.515479391252 -582.44274838036802"
-#!   BOUNDING_RECT="30234.515479391252 -582.44274838036802 537.39022424707036 71"
+#!   POSITION="30438.517519411656 -594.44286838156836"
+#!   BOUNDING_RECT="30438.517519411656 -594.44286838156836 537.39022424707036 71"
 #!   ORDER="500000000000169"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5172,8 +5172,8 @@
 #!   IDENTIFIER="192"
 #!   TYPE="Decelerator"
 #!   VERSION="0"
-#!   POSITION="32236.151893749346 -676.08848366125028"
-#!   BOUNDING_RECT="32236.151893749346 -676.08848366125028 431 71"
+#!   POSITION="32440.15393376975 -688.08860366245062"
+#!   BOUNDING_RECT="32440.15393376975 -688.08860366245062 431 71"
 #!   ORDER="500000000000172"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5325,8 +5325,8 @@
 #!   IDENTIFIER="212"
 #!   TYPE="TestFilter"
 #!   VERSION="1"
-#!   POSITION="31025.671365498427 -676.08848366125028"
-#!   BOUNDING_RECT="31025.671365498427 -676.08848366125028 431 71"
+#!   POSITION="31229.673405518832 -688.08860366245062"
+#!   BOUNDING_RECT="31229.673405518832 -688.08860366245062 431 71"
 #!   ORDER="500000000000186"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5511,8 +5511,8 @@
 #!   IDENTIFIER="190"
 #!   TYPE="Terminator"
 #!   VERSION="3"
-#!   POSITION="31884.514346676697 -930.73808898083314"
-#!   BOUNDING_RECT="31884.514346676697 -930.73808898083314 845.63817707895214 71"
+#!   POSITION="32088.516386697102 -942.73820898203348"
+#!   BOUNDING_RECT="32088.516386697102 -942.73820898203348 845.63817707895214 71"
 #!   ORDER="500000000000187"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -8480,18 +8480,18 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_4b7d26bf_ab61_4aa2_82a1_c97af4f8ee1c14_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_4b7d26bf_ab61_4aa2_82a1_c97af4f8ee1c14_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_4b7d26bf_ab61_4aa2_82a1_c97af4f8ee1c15_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_4b7d26bf_ab61_4aa2_82a1_c97af4f8ee1c15_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_f068c164_c6d0_4642_8e9b_dd16e6db004b14_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_f068c164_c6d0_4642_8e9b_dd16e6db004b14_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_f068c164_c6d0_4642_8e9b_dd16e6db004b15_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_f068c164_c6d0_4642_8e9b_dd16e6db004b15_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_password_3625c913_46c3_4922_b9f8_1b06128efe0914_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_OUTPUT         @Tcl2("StringReplacer_password_3625c913_46c3_4922_b9f8_1b06128efe0914_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_password_3625c913_46c3_4922_b9f8_1b06128efe0915_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_OUTPUT         @Tcl2("StringReplacer_password_3625c913_46c3_4922_b9f8_1b06128efe0915_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
