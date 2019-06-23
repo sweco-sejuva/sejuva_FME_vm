@@ -9,7 +9,7 @@ You will also require an AWS account and a GitHub account.
 
 On your local machine, you will need an installation of [GitHub Desktop](https://desktop.github.com/) and FME Desktop.
 
-Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines per region. At Safe Software, we have a limit of 500.
+Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines per region. At Safe Software, we have a limit of 500. Keep in mind that the Limit increase request is per region. You'll have to submit a request for each region you intend to use.
 
 Also be aware that the default VPC limit per region is 5. If you currently have 5 VPCs in your desired region, you will have to request an increase in the VPC limit.
 
@@ -38,9 +38,6 @@ Click Fork.
 Once forked into your own account, click Settings.
 Change the repository name if desired.
 Create a branch that will be the name of the course.
-
-## Install and update AWSCredentialSupplier.fmx
-The /transformers/AWSCredentialSupplier.fmx custom transformer will supply the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` values in other workspaces. The values are kept in private parameters. Import the custom transformer and set your AWS Access Key ID and AWS Secret Access Key values.
 
 ## Edit settings.json
 * `git.username`    The GitHub username of the account containing your repository
@@ -92,27 +89,32 @@ These are for the training virtual machines
 * `fme.vm.template.email` The template used for the email containing the RDP connection files
 * `fme.vm.template.rdp`   The settings for the RDP files; watch out for the domain value
 
+## Install AWSCredentialSupplier.fmx
+The /transformers/AWSCredentialSupplier.fmx custom transformer will supply the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` values in other workspaces. The values are kept in private parameters. Import the custom transformer by double-clicking on it. The parameters will be set later.
+
 ## Run QuickSetup.fmw
 This step creates your AWS EC2 Environment
 1. Open QuickSetup.fmw
+1. Right-Click on the AWSCredentialSupplier transformer and select 'edit'
+1. In AWSCredentialSupplier, set your AWS Access Key ID and AWS Secret Access Key values in the Private Parameters. Save the custom transformer.
 1. Run Quicksetup.fmw
 
 ### Configure FlexNet License Server
-1. Follow the instructions in the /workspaces/LicenseServerInfo.txt file to request a license.
+1. Follow the instructions in LicenseServerInfo.txt file to request a license.
 1. Edit the safe.lic file so that the serial number is removed.
 1. Save the safe.lic file into your GitHub repository and push any updates.
 1. Reboot the license server machine.
-
-### Configure FME Server
-1. Using the public IP address, log into FME Server. Username and password are `admin`
-1. Change the admin password
-1. Activate FME Server
 
 ## Review/Edit OnstartConfiguration.bat
 OnstartConfiguration.bat is run by the Task Scheduler on the virtual machines every time the virtual machine starts (or restarts). This allows you to perform additional configuration steps at startup.
 
 ## Create and tag AMI
 Once the machine is configured, create an image (AMI) where the Description value is the same as the Git Branch name. The course is the name of the image (like training, or certification). This tag is used by the VMCreator.fmw file to launch virtual machines on demand.  
+
+### Configure FME Server
+1. Using the public IP address, log into FME Server. Username and password are `admin`
+1. Change the admin password
+1. Activate FME Server
 
 ## Publish VMCreator.fmw and AWSCredentialSupplier.fmx to FME Server/Cloud
 1. Open VMCreator.fmw, set the private parameters `git.username` and `git.repository`, and add a webconnection for the `GMAIL_NAMED_CONNECTION` private parameter. Publish to the FMETraining repository (or a repository of your choice) on FME Server.
