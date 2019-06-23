@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.2.0 (20190605 - Build 19260 - macosx)"
-#!   LAST_SAVE_DATE="2019-06-22T21:20:03"
+#!   LAST_SAVE_DATE="2019-06-22T21:36:18"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,7 +48,7 @@
 #!   TITLE="Amazon EC2 Virtual Machine Creator"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="45387.5 -1452.01"
+#!   VIEW_POSITION="29550.3 423.004"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -575,10 +575,10 @@
 #! <COMMENT
 #!   IDENTIFIER="199"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;If we don&apos;t have PublicIpAddress yet, wait a beat and try again&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="32213.151893749346 -395.08632363965023"
-#!   TOP_LEFT="32213.151893749346 -395.08632363965023"
-#!   BOTTOM_RIGHT="32643.151893749346 -394.08632363965023"
-#!   BOUNDING_RECT="32213.151893749346 -395.08632363965023 430 -1"
+#!   POSITION="32212.151893749346 -395.08632363965023"
+#!   TOP_LEFT="32212.151893749346 -395.08632363965023"
+#!   BOTTOM_RIGHT="32642.151893749346 -394.08632363965023"
+#!   BOUNDING_RECT="32212.151893749346 -395.08632363965023 430 -1"
 #!   ORDER="500000000000176"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -635,10 +635,10 @@
 #! <COMMENT
 #!   IDENTIFIER="193"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;First, check that we haven&apos;t run out of attempts.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Second, check that PublicIpAddress has no value.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Third, discard extra features if we do have PublicIpAddress&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="30768.904331945749 -165.73334893343281"
-#!   TOP_LEFT="30768.904331945749 -165.73334893343281"
-#!   BOTTOM_RIGHT="31762.478964859849 -459.73598895983304"
-#!   BOUNDING_RECT="30768.904331945749 -165.73334893343281 993.57463291410022 294.00264002640023"
+#!   POSITION="30801.904661949047 -93.729718897132273"
+#!   TOP_LEFT="30801.904661949047 -93.729718897132273"
+#!   BOTTOM_RIGHT="31795.479294863148 -387.7323589235325"
+#!   BOUNDING_RECT="30801.904661949047 -93.729718897132273 993.57463291410022 294.00264002640023"
 #!   ORDER="500000000000188"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -5172,8 +5172,8 @@
 #!   IDENTIFIER="192"
 #!   TYPE="Decelerator"
 #!   VERSION="0"
-#!   POSITION="32237.151893749346 -676.08848366125028"
-#!   BOUNDING_RECT="32237.151893749346 -676.08848366125028 431 71"
+#!   POSITION="32236.151893749346 -676.08848366125028"
+#!   BOUNDING_RECT="32236.151893749346 -676.08848366125028 431 71"
 #!   ORDER="500000000000172"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5325,14 +5325,15 @@
 #!   IDENTIFIER="212"
 #!   TYPE="TestFilter"
 #!   VERSION="1"
-#!   POSITION="30929.670405488832 -676.08848366125028"
-#!   BOUNDING_RECT="30929.670405488832 -676.08848366125028 431 71"
+#!   POSITION="31025.671365498427 -676.08848366125028"
+#!   BOUNDING_RECT="31025.671365498427 -676.08848366125028 431 71"
 #!   ORDER="500000000000186"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18547"
+#!   OUTPUT_FT_ORDER="No&lt;space&gt;PublicIpAddress&lt;space&gt;Yet%Error%&lt;lt&gt;UNFILTERED&lt;gt&gt;"
 #! >
-#!     <OUTPUT_FEAT NAME="Error"/>
+#!     <OUTPUT_FEAT NAME="No&lt;space&gt;PublicIpAddress&lt;space&gt;Yet"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tag.team" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5388,7 +5389,7 @@
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}.GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_attempt" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="No&lt;space&gt;PublicIpAddress&lt;space&gt;Yet"/>
+#!     <OUTPUT_FEAT NAME="Error"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="InstanceId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="tag.team" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -5510,8 +5511,8 @@
 #!   IDENTIFIER="190"
 #!   TYPE="Terminator"
 #!   VERSION="3"
-#!   POSITION="31821.513716670393 -93.729718897132273"
-#!   BOUNDING_RECT="31821.513716670393 -93.729718897132273 845.63817707895214 71"
+#!   POSITION="31884.514346676697 -930.73808898083314"
+#!   BOUNDING_RECT="31884.514346676697 -930.73808898083314 845.63817707895214 71"
 #!   ORDER="500000000000187"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -7709,7 +7710,7 @@
 #!   IDENTIFIER="191"
 #!   SOURCE_NODE="212"
 #!   TARGET_NODE="190"
-#!   SOURCE_PORT_DESC="fo 0 Error"
+#!   SOURCE_PORT_DESC="fo 1 Error"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -8050,7 +8051,7 @@
 #!   IDENTIFIER="214"
 #!   SOURCE_NODE="212"
 #!   TARGET_NODE="192"
-#!   SOURCE_PORT_DESC="fo 1 No&lt;lt&gt;space&lt;gt&gt;PublicIpAddress&lt;lt&gt;space&lt;gt&gt;Yet"
+#!   SOURCE_PORT_DESC="fo 0 No&lt;lt&gt;space&lt;gt&gt;PublicIpAddress&lt;lt&gt;space&lt;gt&gt;Yet"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -8412,6 +8413,14 @@ FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_Condition_2 INPUT FEATURE_TYPE
 FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_<lt>UNFILTERED<gt> INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_2 OUTPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_NoPublicIpAddress    INPUT  FEATURE_TYPE TestFilter_Error    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space>Something<space>went<space>wrong.<space>Cannot<space>obtain<space>PublicIpAddress.<space>Tried<space><at>Value<openparen>_attempt<closeparen><space>times,Terminator_NoPublicIpAddress)")       @SupplyAttributes(_wb_termination_xformer,"Terminator_NoPublicIpAddress")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space>Something<space>went<space>wrong.<space>Cannot<space>obtain<space>PublicIpAddress.<space>Tried<space><at>Value<openparen>_attempt<closeparen><space>times,Terminator_NoPublicIpAddress)")
+# -------------------------------------------------------------------------
 # This is just a simple delay, which is given a # of seconds to stall
 Tcl2 proc Decelerator_delay {seconds unused} {     after [expr round($seconds * 1000)]; }
 Tcl2 set Decelerator_clockMillisecondsWhenLastFeatureWentBy [clock clicks -milliseconds];
@@ -8424,14 +8433,6 @@ Tcl2 if { {Per Feature Delay} == {Per Feature Delay} } {         rename Decelera
 FACTORY_DEF * TestFactory    FACTORY_NAME Decelerator_DelayRejector    INPUT  FEATURE_TYPE TestFilter_No<space>PublicIpAddress<space>Yet    TEST "1" TYPE NUM ENCODED    TEST PERFEATDELAY != PERFEATDELAY    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE Decelerator_<REJECTED>       fme_rejection_code "INVALID_PARAMETER_DELAY_PER_FEATURE"    OUTPUT PASSED FEATURE_TYPE Decelerator__toMaximumRejector__
 FACTORY_DEF * TestFactory    FACTORY_NAME Decelerator_MaximumRejector    INPUT FEATURE_TYPE Decelerator__toMaximumRejector__    TEST "<Unused>" TYPE NUM ENCODED    TEST PERFEATDELAY != FEATPERSEC    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE Decelerator_<REJECTED>       fme_rejection_code "INVALID_PARAMETER_MAXIMUM_FEATURES_PER_SECOND"    OUTPUT PASSED FEATURE_TYPE Decelerator__toOutput__
 FACTORY_DEF * TeeFactory    FACTORY_NAME Decelerator_Decelerator    INPUT FEATURE_TYPE Decelerator__toOutput__    OUTPUT FEATURE_TYPE Decelerator_OUTPUT         @Tcl2("Decelerator_Waiter {1} {<Unused>}")
-# -------------------------------------------------------------------------
-# The default behaviour is to abort on any feature entering the transformer.
-# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
-# then the features will instead be passed through with a feature type of
-# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
-# somesuch.
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_NoPublicIpAddress    INPUT  FEATURE_TYPE TestFilter_Error    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space>Something<space>went<space>wrong.<space>Cannot<space>obtain<space>PublicIpAddress.<space>Tried<space><at>Value<openparen>_attempt<closeparen><space>times,Terminator_NoPublicIpAddress)")       @SupplyAttributes(_wb_termination_xformer,"Terminator_NoPublicIpAddress")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space>Something<space>went<space>wrong.<space>Cannot<space>obtain<space>PublicIpAddress.<space>Tried<space><at>Value<openparen>_attempt<closeparen><space>times,Terminator_NoPublicIpAddress)")
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_DescribeInstances_PublicIpAddress    INPUT  FEATURE_TYPE Sampler_First_IP_attempt_SAMPLED    INPUT  FEATURE_TYPE Decelerator_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.describe_instances<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>InstanceIds=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>InstanceId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_DescribeInstances_PublicIpAddress:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_DescribeInstances_PublicIpAddress_OUTPUT
@@ -8479,18 +8480,18 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_4b7d26bf_ab61_4aa2_82a1_c97af4f8ee1c13_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_4b7d26bf_ab61_4aa2_82a1_c97af4f8ee1c13_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_4b7d26bf_ab61_4aa2_82a1_c97af4f8ee1c14_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_OUTPUT         @Tcl2("StringReplacer_FullName_4b7d26bf_ab61_4aa2_82a1_c97af4f8ee1c14_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_f068c164_c6d0_4642_8e9b_dd16e6db004b13_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_f068c164_c6d0_4642_8e9b_dd16e6db004b13_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_f068c164_c6d0_4642_8e9b_dd16e6db004b14_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress    INPUT  FEATURE_TYPE StringReplacer_FullName_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_f068c164_c6d0_4642_8e9b_dd16e6db004b14_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_password_3625c913_46c3_4922_b9f8_1b06128efe0913_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_OUTPUT         @Tcl2("StringReplacer_password_3625c913_46c3_4922_b9f8_1b06128efe0913_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_password_3625c913_46c3_4922_b9f8_1b06128efe0914_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_OUTPUT         @Tcl2("StringReplacer_password_3625c913_46c3_4922_b9f8_1b06128efe0914_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
