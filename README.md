@@ -7,7 +7,7 @@ The webpage used for requesting the virtual machines is a static page hosted on 
 A basic understanding of [GitHub](https://guides.github.com/activities/hello-world/), [Amazon AWS](https://aws.amazon.com/ec2/?hp=tile&so-exp=below), FME Desktop, and FME Server is required.
 You will also require an AWS account and a GitHub account.
 
-On your local machine, you will need an installation of [GitHub Desktop](https://desktop.github.com/) and FME Desktop.
+On your local machine, you will need an installation of [GitHub Desktop](https://desktop.github.com/) and FME Desktop. You may also need [Boto3 for Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html) installed on your local machine.
 
 Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines per region. At Safe Software, we have a limit of 500. Keep in mind that the Limit increase request is per region. You'll have to submit a request for each region you intend to use.
 
