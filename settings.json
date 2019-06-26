@@ -2,10 +2,10 @@
 
 "git.username"        : "safesoftware",
 "git.repository"      : "virtualmachines",
-"git.branch"          : "test",
+"git.branch"          : "partnersummit",
 
-"aws.name_tag"        : "FME Virtual Machines Canada",
-"aws.region_name"     : "ca-central-1",
+"aws.name_tag"        : "FME Virtual Machines Sydney",
+"aws.region_name"     : "ap-southeast-2",
 "aws.vpc_cidr"        : "10.0.0.0/16",
 "aws.subnet_cidr"     : ["10.0.0.0/19","10.0.32.0/19","10.0.64.0/19","10.0.96.0/19"],
 
@@ -30,7 +30,7 @@
 "fme.timezone"      : "Pacific Standard Time",
 "fme.portForwarding" : "81;82;443;8080;8081",
 "fme.firewall"       : "80;25;5900;5800;7078",
-"fme.password"      : "FMElearnings#1",
+"fme.password"      : "FMElearnings!1",
 "fme.license"   :   "10.0.63.219",
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
