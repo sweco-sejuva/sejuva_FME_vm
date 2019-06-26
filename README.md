@@ -109,7 +109,10 @@ This step creates your AWS EC2 Environment
 OnstartConfiguration.bat is run by the Task Scheduler on the virtual machines every time the virtual machine starts (or restarts). This allows you to perform additional configuration steps at startup.
 
 ## Create and tag AMI
-Once the machine is configured, create an image (AMI) where the Description value is the same as the Git Branch name. The course is the name of the image (like training, or certification). This tag is used by the VMCreator.fmw file to launch virtual machines on demand.  
+A "Template" instance was created by the QuickStart workspace. Once it is finished setting up, it should automatically stop. This should only take an hour to accomplish. If the machine is still running after an hour, log in and check to see if some of the installation has failed, or start another instance by running the WorkspaceRunner_InitialMachineCreator transformer in the QuickStart workspace again. 
+When the "Template" machine has stopped, start it, log in, and do the steps in the PostCreationSteps.md file.
+
+Once the machine is configured, create an image (AMI) where the Description value is the same as the Git Branch name. This Description value is used by the VMCreator.fmw file to launch virtual machines on demand.  
 
 ### Configure FME Server
 1. Using the public IP address, log into FME Server. Username and password are `admin`
