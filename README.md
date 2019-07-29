@@ -17,11 +17,10 @@ Also be aware that the default VPC limit per region is 5. If you currently have 
 
 ## Overview
 1. Fork this Repository to your own account
-1. Install and update AWSCredentialSupplier.fmx
 1. Edit settings.json
 1. Run QuickSetup.fmw
 1. Create and tag AMI
-1. Publish VMCreator.fmw and GitClone2S3.fmw with AWSCredentialSupplier.fmx to FME Server/Cloud
+1. Publish VMCreator.fmw to FME Server/Cloud
 1. Create FME Server App to allow virtual machine creation
 
 There are two files in the repository that need to be edited, and two workspaces that need to be edited and published to FME Server. The two files you will eventually edit are:
@@ -31,7 +30,7 @@ There are two files in the repository that need to be edited, and two workspaces
 # Steps
 
 ## Create an IAM user that the workspaces can use
-[Create a new IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) for **Programatic Access**. Select **Attach existing policies to user directly** and select the **AmazonEC2FullAccess** policy. This creates an access key and secret key. Make note of those somewhere safe; you'll need them later in AWSCredentialSupplier.fmx
+[Create a new IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) for **Programatic Access**. Select **Attach existing policies to user directly** and select the **AmazonEC2FullAccess** policy. This creates an access key and secret key. Make note of those somewhere safe; you'll need them later in the `FME Virtual Machines IAM Amazon Web Services` web connection
 
 ## Fork this Repository to your own account
 Click Fork.
@@ -89,14 +88,11 @@ These are for the training virtual machines
 * `fme.vm.template.email` The template used for the email containing the RDP connection files
 * `fme.vm.template.rdp`   The settings for the RDP files; watch out for the domain value
 
-## Install AWSCredentialSupplier.fmx
-The /transformers/AWSCredentialSupplier.fmx custom transformer will supply the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` values in other workspaces. The values are kept in private parameters. Import the custom transformer by double-clicking on it. The parameters will be set later.
-
 ## Run QuickSetup.fmw
 This step creates your AWS EC2 Environment
 1. Open QuickSetup.fmw
-1. Right-Click on the AWSCredentialSupplier transformer and select 'edit'
-1. In AWSCredentialSupplier, set your AWS Access Key ID and AWS Secret Access Key values in the Private Parameters. Save the custom transformer.
+1. Right-Click on the `FME Virtual Machines IAM Amazon Web Services` web connection and select `Edit Connection`
+1. Set your AWS Access Key ID and AWS Secret Access Key values in the Web Connection Parameters.
 1. Run Quicksetup.fmw
 
 ### Configure FlexNet License Server
@@ -109,7 +105,7 @@ This step creates your AWS EC2 Environment
 OnstartConfiguration.bat is run by the Task Scheduler on the virtual machines every time the virtual machine starts (or restarts). This allows you to perform additional configuration steps at startup.
 
 ## Create and tag AMI
-A "Template" instance was created by the QuickStart workspace. Once it is finished setting up, it should automatically stop. This should only take an hour to accomplish. If the machine is still running after an hour, log in and check to see if some of the installation has failed, or start another instance by running the WorkspaceRunner_InitialMachineCreator transformer in the QuickStart workspace again. 
+A "Template" instance was created by the QuickStart workspace. Once it is finished setting up, it should automatically stop. This should only take an hour to accomplish. If the machine is still running after an hour, log in and check to see if some of the installation has failed, or start another instance by running the WorkspaceRunner_InitialMachineCreator transformer in the QuickStart workspace again.
 When the "Template" machine has stopped, start it, log in, and do the steps in the PostCreationSteps.md file.
 
 Once the machine is configured, create an image (AMI) where the Description value is the same as the Git Branch name. This Description value is used by the VMCreator.fmw file to launch virtual machines on demand.  
@@ -119,7 +115,7 @@ Once the machine is configured, create an image (AMI) where the Description valu
 1. Change the admin password
 1. Activate FME Server
 
-## Publish VMCreator.fmw and AWSCredentialSupplier.fmx to FME Server/Cloud
+## Publish VMCreator.fmw to FME Server/Cloud
 1. Open VMCreator.fmw, set the private parameters `git.username` and `git.repository`, and add a webconnection for the `GMAIL_NAMED_CONNECTION` private parameter. Publish to the FMETraining repository (or a repository of your choice) on FME Server.
 
 ## Create FME Server App
