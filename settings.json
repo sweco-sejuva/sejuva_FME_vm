@@ -44,7 +44,7 @@
 "fme.vm.template.email":[
 "Hello _FullName_,",
 "",
-"Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.",
+"Please wait 5-10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.",
 "The following RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically at 4:30pm Pacific Time.",
 "",
 "Please download and connect using __files{0}._url first. ",
