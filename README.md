@@ -1,3 +1,6 @@
+# Note: 
+There is an issue with not all availability zones supporting all instance types. This can cause the VMCreator to randomly fail. A fix will be completed by the end of August. If you find that some runs of the VMCreator fail, seemingly randomly, then there is an availaility zone that will have to be removed.
+
 # FME Training Virtual Machines and Automation
 The files in this repository are used to create virtual machines for FME training courses, and to allow students to request virtual machines on-demand.
 The virtual machines are Amazon AWS EC2 machines.
