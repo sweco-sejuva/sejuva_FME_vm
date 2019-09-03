@@ -4,6 +4,7 @@
 #        /Library/FME/2019.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/VMCreator.fmw
 #              --FullName "Ryan Cragg"
 #              --EmailAddress "rjcragg@gmail.com"
+#              --EmailAddress_DoubleCheck "rjcragg@gmail.com"
 #              --branch "2019.1"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -29,7 +30,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.1.1.0 (20190801 - Build 19617 - macosx)"
-#!   LAST_SAVE_DATE="2019-08-29T17:40:56"
+#!   LAST_SAVE_DATE="2019-08-30T09:40:54"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,7 +49,7 @@
 #!   TITLE="Amazon EC2 Virtual Machine Creator"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="45576.5 -3375.03"
+#!   VIEW_POSITION="-3774.04 888.009"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -197,7 +198,12 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_OR_ATTR EmailAddress Enter your email address and press &apos;Run&apos;:"
+#!   GUI_LINE="GUI TEXT_OR_ATTR EmailAddress Enter your email address:"
+#!   DEFAULT_VALUE="rjcragg@gmail.com"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_OR_ATTR EmailAddress_DoubleCheck Enter your email address again and press &apos;Run&apos;:"
 #!   DEFAULT_VALUE="rjcragg@gmail.com"
 #!   IS_STAND_ALONE="true"
 #! />
@@ -442,21 +448,6 @@
 #!   COLOUR="0.36078431372549019,0.47843137254901963,0.36078431372549019,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="30"
-#! />
-#! <COMMENT
-#!   IDENTIFIER="130"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Check that email is valid. Has @ in it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-3891.8624292809181 198.17646178111647"
-#!   TOP_LEFT="-3891.8624292809181 198.17646178111647"
-#!   BOTTOM_RIGHT="-3246.4125032567554 199.17646178111647"
-#!   BOUNDING_RECT="-3891.8624292809181 198.17646178111647 645.44992602416278 -1"
-#!   ORDER="500000000000093"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.52941176470588236,0.18431372549019609,0.12549019607843137,0.39215686274509803"
-#!   SIZE_POLICY="10"
-#!   ANCHORED_NODE="37"
 #! />
 #! <COMMENT
 #!   IDENTIFIER="131"
@@ -848,6 +839,21 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="286"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="307"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Check that the email address is valid and correct&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-3960.5392253922532 87.000220002199967"
+#!   TOP_LEFT="-3960.5392253922532 87.000220002199967"
+#!   BOTTOM_RIGHT="-3388.5392253922532 86.000220002199967"
+#!   BOUNDING_RECT="-3960.5392253922532 87.000220002199967 572 1"
+#!   ORDER="500000000000278.25"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.52941176470588236,0.18431372549019609,0.12549019607843137,0.39215686274509803"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="303"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -891,7 +897,7 @@
 #!   BOUNDING_RECT="-5749.4692593984728 613.43897021059763 7399.4857595634758 2803.4608704295997"
 #!   STICKY="true"
 #!   COLOUR="0.61960784313725492,0.035294117647058823,0.36078431372549019,0.39215686274509803"
-#!   CONTENTS="130 37 260 144 145 150 146 299 215 36 222 90 141 174 300 158 258 257 147 210 211 291 163 259 "
+#!   CONTENTS="144 145 150 146 215 36 222 141 174 300 158 257 147 303 210 211 163 259 307 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -933,7 +939,7 @@
 #!   BOUNDING_RECT="-4264.6673931242331 437.28120110437186 1184.3424722279688 1840.2364071270199"
 #!   STICKY="true"
 #!   COLOUR="0.52941176470588236,0.18431372549019609,0.12549019607843137,0.39215686274509803"
-#!   CONTENTS="130 36 90 37 "
+#!   CONTENTS="36 309 310 307 303 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -3647,8 +3653,8 @@
 #!   IDENTIFIER="36"
 #!   TYPE="Terminator"
 #!   VERSION="3"
-#!   POSITION="-3773.5597593540624 -391.53043349676005"
-#!   BOUNDING_RECT="-3773.5597593540624 -391.53043349676005 431 71"
+#!   POSITION="-3734.5593693501623 -673.5332535249604"
+#!   BOUNDING_RECT="-3734.5593693501623 -673.5332535249604 431 71"
 #!   ORDER="500000000000092"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3658,35 +3664,6 @@
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="37"
-#!   TYPE="Tester"
-#!   VERSION="2"
-#!   POSITION="-3867.8624292809181 -34.825218235683451"
-#!   BOUNDING_RECT="-3867.8624292809181 -34.825218235683451 645.44992602416278 71"
-#!   ORDER="500000000000091"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
-#! >
-#!     <OUTPUT_FEAT NAME="PASSED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="FAILED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="CASE_INSENSITIVE_TEST $(EmailAddress) CONTAINS &lt;at&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
-#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_valid_email"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="38"
@@ -8715,32 +8692,6 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_URL"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="260"
-#!   TYPE="Logger"
-#!   VERSION="4"
-#!   POSITION="-4608.5848906002839 -333.32521823568345"
-#!   BOUNDING_RECT="-4608.5848906002839 -333.32521823568345 454 71"
-#!   ORDER="500000000000276.25"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="19617"
-#! >
-#!     <OUTPUT_FEAT NAME="LOGGED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
-#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
-#!     <XFORM_PARM PARM_NAME="MSG_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SEVERITY" PARM_VALUE="INFO"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Logger"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="301"
 #!   TYPE="StringReplacer"
 #!   VERSION="4"
@@ -9068,12 +9019,42 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_URL_3"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="303"
+#!   TYPE="TestFilter"
+#!   VERSION="2"
+#!   POSITION="-3922.5392253922532 -146.00146001460018"
+#!   BOUNDING_RECT="-3922.5392253922532 -146.00146001460018 570.52187500000002 71"
+#!   ORDER="500000000000277.25"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19617"
+#!   OUTPUT_FT_ORDER="valid%invalid%mismatch"
+#! >
+#!     <OUTPUT_FEAT NAME="valid"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="invalid"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="mismatch"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="valid"/>
+#!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;$(EmailAddress)&lt;space&gt;NOT_CONTAINS&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;&quot;,invalid,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;$(EmailAddress)&lt;space&gt;!=&lt;space&gt;$(EmailAddress_DoubleCheck)&quot;,mismatch"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter_email_check"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="291"
+#!   IDENTIFIER="258"
 #!   SOURCE_NODE="210"
-#!   TARGET_NODE="260"
+#!   TARGET_NODE="303"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -9372,17 +9353,6 @@
 #!   SOURCE_NODE="35"
 #!   TARGET_NODE="11"
 #!   SOURCE_PORT_DESC="fo 0 ELEMENTS"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="258"
-#!   SOURCE_NODE="37"
-#!   TARGET_NODE="257"
-#!   SOURCE_PORT_DESC="fo 0 PASSED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -9808,17 +9778,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="299"
-#!   SOURCE_NODE="260"
-#!   TARGET_NODE="37"
-#!   SOURCE_PORT_DESC="fo 0 LOGGED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="270"
 #!   SOURCE_NODE="267"
 #!   TARGET_NODE="269"
@@ -9962,17 +9921,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="90"
-#!   SOURCE_NODE="37"
-#!   TARGET_NODE="36"
-#!   SOURCE_PORT_DESC="fo 1 FAILED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="94"
 #!   SOURCE_NODE="38"
 #!   TARGET_NODE="39"
@@ -10028,6 +9976,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="310"
+#!   SOURCE_NODE="303"
+#!   TARGET_NODE="36"
+#!   SOURCE_PORT_DESC="fo 1 invalid"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="98"
 #!   SOURCE_NODE="18"
 #!   TARGET_NODE="20"
@@ -10050,6 +10009,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="309"
+#!   SOURCE_NODE="303"
+#!   TARGET_NODE="36"
+#!   SOURCE_PORT_DESC="fo 2 mismatch"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="101"
 #!   SOURCE_NODE="18"
 #!   TARGET_NODE="20"
@@ -10065,6 +10035,17 @@
 #!   SOURCE_NODE="28"
 #!   TARGET_NODE="29"
 #!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="308"
+#!   SOURCE_NODE="303"
+#!   TARGET_NODE="257"
+#!   SOURCE_PORT_DESC="fo 0 valid"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -10141,7 +10122,9 @@ FME_PYTHON_VERSION 27
 DEFAULT_MACRO FullName Ryan Cragg
 GUI TEXT FullName Enter your full name:
 DEFAULT_MACRO EmailAddress rjcragg@gmail.com
-GUI TEXT EmailAddress Enter your email address and press 'Run':
+GUI TEXT EmailAddress Enter your email address:
+DEFAULT_MACRO EmailAddress_DoubleCheck rjcragg@gmail.com
+GUI TEXT EmailAddress_DoubleCheck Enter your email address again and press 'Run':
 DEFAULT_MACRO branch 2019.1
 GUI TEXT_EDIT_OR_NUM_MULTI_FEATURE branch " " GitHub Branch. Also AMI Description:
 DEFAULT_MACRO git.username safesoftware
@@ -10156,6 +10139,7 @@ DEFAULT_MACRO aws_connection FME Virtual Machines IAM Amazon Web Services
 GUI IGNORE OPTIONAL NAMED_CONNECTION aws_connection "Amazon Web Services" AWS Web Connection:
 INCLUDE [ if {{$(FullName)} == {}} { puts_real {Parameter 'FullName' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(EmailAddress)} == {}} { puts_real {Parameter 'EmailAddress' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(EmailAddress_DoubleCheck)} == {}} { puts_real {Parameter 'EmailAddress_DoubleCheck' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(branch)} == {}} { puts_real {Parameter 'branch' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
@@ -10191,13 +10175,14 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * CreationFactory    FACTORY_NAME PythonCreator_AWS_Credentials_Creator    OUTPUT FEATURE_TYPE _____CREATED_PYTHON__
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCreator_AWS_Credentials    INPUT FEATURE_TYPE _____CREATED_PYTHON__    SYMBOL_NAME aws_credentials_from_conn_name    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>collections<lf><lf>from<space>fmewebservices<space>import<space>FMETokenConnection<space><space>#<space>noqa<lf>from<space>fmegeneral.webservices<space>import<space>NamedConnectionManager<lf><lf>def<space>aws_credentials_from_conn_name<openparen>feature<closeparen>:<lf><space><space><space>#<space>noinspection<space>PyArgumentList<lf><space><space><space>named_connection<space>=<space>NamedConnectionManager<openparen><closeparen>.getNamedConnection<openparen><lf><space><space><space><space><space><space><space>FME_MacroValues<openbracket><apos>aws_connection<apos><closebracket><lf><space><space><space><closeparen><space><space>#<space>type:<space>FMETokenConnection<lf><lf><space><space><space>try:<lf><space><space><space><space><space><space><space>key_vals<space>=<space>named_connection.getKeyValues<openparen><closeparen><lf><space><space><space><space><space><space><space>key<space>=<space>key_vals.get<openparen><quote>AWS_ACCESS_KEY<quote><comma><space>None<closeparen><lf><space><space><space><space><space><space><space>secret<space>=<space>key_vals.get<openparen><quote>AWS_SECRET<quote><comma><space>None<closeparen><lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>AWS_ACCESS_KEY_ID<quote><comma><space>key<closeparen><lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>AWS_SECRET_ACCESS_KEY<quote><comma><space>secret<closeparen><lf><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>PythonCreator_AWS_Credentials:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf><space><space><space><space>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCreator_AWS_Credentials_OUTPUT        @SupplyAttributes(?,fme_feature_type,PythonCreator_AWS_Credentials)
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "PythonCreator_AWS_Credentials_OUTPUT Brancher -1 291"   INPUT FEATURE_TYPE PythonCreator_AWS_Credentials_OUTPUT   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "PythonCreator_AWS_Credentials_OUTPUT Brancher -1 258"   INPUT FEATURE_TYPE PythonCreator_AWS_Credentials_OUTPUT   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE PythonCreator_AWS_Credentials_OUTPUT    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature is:","20","20","",INFO,LOG_ONLY,Logger_9b0c0576_c033_431a_9338_8d942e9df1e86)
-# -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_valid_email    INPUT  FEATURE_TYPE Logger_LOGGED    CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,$(EmailAddress$encode),Tester_valid_email) CONTAINS @EvaluateExpression(FDIV,STRING_ENCODED,<at>,Tester_valid_email) ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "<Unused>"    OUTPUT PASSED FEATURE_TYPE Tester_valid_email_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_valid_email_FAILED
+FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter_email_check    INPUT  FEATURE_TYPE PythonCreator_AWS_Credentials_OUTPUT    OUTPUT FEATURE_TYPE TestFilter_email_check_TESTFILTERINPUTLINE_0
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_email_check_Condition_1 INPUT FEATURE_TYPE TestFilter_email_check_TESTFILTERINPUTLINE_0 CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,$(EmailAddress$encode),TestFilter_email_check) NOT_CONTAINS @EvaluateExpression(FDIV,STRING_ENCODED,<at>,TestFilter_email_check) ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" FEATURE_TABLE_SHIM_SUPPORT Yes OUTPUT PASSED FEATURE_TYPE TestFilter_email_check_invalid OUTPUT FAILED FEATURE_TYPE TestFilter_email_check_TESTFILTERINPUTLINE_1
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_email_check_Condition_2 INPUT FEATURE_TYPE TestFilter_email_check_TESTFILTERINPUTLINE_1 TEST @EvaluateExpression(FDIV,STRING_ENCODED,$(EmailAddress$encode),TestFilter_email_check) != @EvaluateExpression(FDIV,STRING_ENCODED,$(EmailAddress_DoubleCheck$encode),TestFilter_email_check) ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" FEATURE_TABLE_SHIM_SUPPORT Yes OUTPUT PASSED FEATURE_TYPE TestFilter_email_check_mismatch OUTPUT FAILED FEATURE_TYPE TestFilter_email_check_TESTFILTERINPUTLINE_2
+FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_email_check_valid INPUT FEATURE_TYPE TestFilter_email_check_TESTFILTERINPUTLINE_2 OUTPUT FEATURE_TYPE TestFilter_email_check_valid
 # -------------------------------------------------------------------------
 # The default behaviour is to abort on any feature entering the transformer.
 # If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
@@ -10205,9 +10190,9 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Tester_valid_email    INPUT  FEATURE_T
 # __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
 # somesuch.
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TestFactory    FACTORY_NAME Terminator    INPUT  FEATURE_TYPE Tester_valid_email_FAILED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Invalid<space>email<space>address")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Invalid<space>email<space>address")
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator    INPUT  FEATURE_TYPE TestFilter_email_check_mismatch    INPUT  FEATURE_TYPE TestFilter_email_check_invalid    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Invalid<space>email<space>address")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Invalid<space>email<space>address")
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Tester_valid_email_PASSED    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "git.username" "$(git.username)" "SET_TO" }      ATTR_ACTION { "" "git.repository" "$(git.repository)" "SET_TO" }      ATTR_ACTION { "" "git.branch" "$(branch)" "SET_TO" }      ATTR_ACTION { "" "FullName" "$(FullName$encode)" "SET_TO" }      ATTR_ACTION { "" "EmailAddress" "$(EmailAddress$encode)" "SET_TO" }      ATTR_ACTION { "" "email" "<at>ReplaceString<openparen>$(EmailAddress$encode)<comma><quote><space><quote><comma>+<closeparen>" "SET_TO" }      ATTR_ACTION { "" "tag.created" "<at>DateTimeNow<openparen><closeparen>" "SET_TO" }      ATTR_ACTION { "" "tag.createdBy" "<at>Value<openparen>git.branch<closeparen><space>virtual<space>machine<space>generator" "SET_TO" }      ATTR_ACTION { "" "tag.purpose" "Used<space>for<space><at>Value<openparen>git.branch<closeparen><space>by<space><at>Value<openparen>EmailAddress<closeparen>" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE TestFilter_email_check_valid    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "git.username" "$(git.username)" "SET_TO" }      ATTR_ACTION { "" "git.repository" "$(git.repository)" "SET_TO" }      ATTR_ACTION { "" "git.branch" "$(branch)" "SET_TO" }      ATTR_ACTION { "" "FullName" "$(FullName$encode)" "SET_TO" }      ATTR_ACTION { "" "EmailAddress" "$(EmailAddress$encode)" "SET_TO" }      ATTR_ACTION { "" "email" "<at>ReplaceString<openparen>$(EmailAddress$encode)<comma><quote><space><quote><comma>+<closeparen>" "SET_TO" }      ATTR_ACTION { "" "tag.created" "<at>DateTimeNow<openparen><closeparen>" "SET_TO" }      ATTR_ACTION { "" "tag.createdBy" "<at>Value<openparen>git.branch<closeparen><space>virtual<space>machine<space>generator" "SET_TO" }      ATTR_ACTION { "" "tag.purpose" "Used<space>for<space><at>Value<openparen>git.branch<closeparen><space>by<space><at>Value<openparen>EmailAddress<closeparen>" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
 # -------------------------------------------------------------------------
 MACRO FeatureReader_OUTPUT_PORTS_ENCODED JSONFeature
 MACRO FeatureReader_DIRECTIVES DECODE_TEXT_STRINGS,Yes,USE_SEARCH_ENVELOPE,NO,SCAN_MODE,AUTO,GEOMETRY_FORMAT,None,FEATURE_TYPE_KEY,json_featuretype,USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,SAVE_FRAGMENTS,NO,FLATTEN_MODE,ALL_LEVELS
@@ -10447,33 +10432,33 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator_RDP    INPUT  FEATUR
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_FullName_2_8bac2ac1_cb73_4667_9f38_df1cade166435_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName_2    INPUT  FEATURE_TYPE Aggregator_RDP_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_2_OUTPUT         @Tcl2("StringReplacer_FullName_2_8bac2ac1_cb73_4667_9f38_df1cade166435_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName_2)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_FullName_2_8bac2ac1_cb73_4667_9f38_df1cade166438_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_FullName_2    INPUT  FEATURE_TYPE Aggregator_RDP_AGGREGATE    OUTPUT FEATURE_TYPE StringReplacer_FullName_2_OUTPUT         @Tcl2("StringReplacer_FullName_2_8bac2ac1_cb73_4667_9f38_df1cade166438_replacer {_FullName_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FullName<closeparen>,StringReplacer_FullName_2)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_PublicIpAddress_2_70bc7cea_ecc9_40b2_8921_59db6560235d5_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress_2    INPUT  FEATURE_TYPE StringReplacer_FullName_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_2_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_2_70bc7cea_ecc9_40b2_8921_59db6560235d5_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress_2)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_PublicIpAddress_2_70bc7cea_ecc9_40b2_8921_59db6560235d8_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_PublicIpAddress_2    INPUT  FEATURE_TYPE StringReplacer_FullName_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_PublicIpAddress_2_OUTPUT         @Tcl2("StringReplacer_PublicIpAddress_2_70bc7cea_ecc9_40b2_8921_59db6560235d8_replacer {_PublicIpAddress_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>PublicIpAddress<closeparen>,StringReplacer_PublicIpAddress_2)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_password_2_fbb11b2a_2490_49a2_ab35_71c616946c675_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password_2    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_2_OUTPUT         @Tcl2("StringReplacer_password_2_fbb11b2a_2490_49a2_ab35_71c616946c675_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password_2)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_password_2_fbb11b2a_2490_49a2_ab35_71c616946c678_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_password_2    INPUT  FEATURE_TYPE StringReplacer_PublicIpAddress_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_password_2_OUTPUT         @Tcl2("StringReplacer_password_2_fbb11b2a_2490_49a2_ab35_71c616946c678_replacer {_fme.password_} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme.password<closeparen>,StringReplacer_password_2)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_URL_4dbf26d0_99f8_4434_a8f0_9e9c61ef2a976_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_URL    INPUT  FEATURE_TYPE StringReplacer_password_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_URL_OUTPUT         @Tcl2("StringReplacer_URL_4dbf26d0_99f8_4434_a8f0_9e9c61ef2a976_replacer {__files<opencurly>0<closecurly>._url} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_files<opencurly>0<closecurly>._url<closeparen>,StringReplacer_URL)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_URL_4dbf26d0_99f8_4434_a8f0_9e9c61ef2a979_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_URL    INPUT  FEATURE_TYPE StringReplacer_password_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_URL_OUTPUT         @Tcl2("StringReplacer_URL_4dbf26d0_99f8_4434_a8f0_9e9c61ef2a979_replacer {__files<opencurly>0<closecurly>._url} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_files<opencurly>0<closecurly>._url<closeparen>,StringReplacer_URL)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_URL_2_594569e4_96eb_4b5f_a4c2_fcc002f855a83_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_URL_2    INPUT  FEATURE_TYPE StringReplacer_URL_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_URL_2_OUTPUT         @Tcl2("StringReplacer_URL_2_594569e4_96eb_4b5f_a4c2_fcc002f855a83_replacer {__files<opencurly>1<closecurly>._url} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_files<opencurly>1<closecurly>._url<closeparen>,StringReplacer_URL_2)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_URL_2_594569e4_96eb_4b5f_a4c2_fcc002f855a86_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_URL_2    INPUT  FEATURE_TYPE StringReplacer_URL_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_URL_2_OUTPUT         @Tcl2("StringReplacer_URL_2_594569e4_96eb_4b5f_a4c2_fcc002f855a86_replacer {__files<opencurly>1<closecurly>._url} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_files<opencurly>1<closecurly>._url<closeparen>,StringReplacer_URL_2)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_URL_3_0b80686a_2a8f_4d07_aede_9a16ea9158532_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_URL_3    INPUT  FEATURE_TYPE StringReplacer_URL_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_URL_3_OUTPUT         @Tcl2("StringReplacer_URL_3_0b80686a_2a8f_4d07_aede_9a16ea9158532_replacer {__files<opencurly>2<closecurly>._url} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_files<opencurly>2<closecurly>._url<closeparen>,StringReplacer_URL_3)} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_URL_3_0b80686a_2a8f_4d07_aede_9a16ea9158535_replacer { findText replaceText invalidValue} {     set attrs [split \"fme.vm.template.email\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_URL_3    INPUT  FEATURE_TYPE StringReplacer_URL_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_URL_3_OUTPUT         @Tcl2("StringReplacer_URL_3_0b80686a_2a8f_4d07_aede_9a16ea9158535_replacer {__files<opencurly>2<closecurly>._url} {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_files<opencurly>2<closecurly>._url<closeparen>,StringReplacer_URL_3)} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 # Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
 # FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
