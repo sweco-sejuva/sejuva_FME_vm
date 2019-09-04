@@ -35,7 +35,7 @@
 "fme.license"   :   "10.0.51.209",
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
-"fme.vm.Subject"    :"FME Training Virtual Machine connection instructions",
+"fme.vm.Subject"    :"FME Server Certification Virtual Machine connection instructions",
 "fme.vm.fromEmail"  : "\"FME Training\" <train@safe.com>",
 "fme.vm.CCEmail"    : "ryan.cragg@safe.com",
 "fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
