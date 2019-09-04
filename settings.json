@@ -1,34 +1,51 @@
-//The json in this file is used to configure both the static webpage and the VMCreator.fmw workspace.
-// For S3ROOT, make sure there is no / at the end of the specified value. A trailing / will break the translation.
-//_email_template and _rdp_template look strange here because json doesn't truly support multi-line text
-//For _email_template, you only really need to edit the signature at the end of the email
-//For _rdp_template, only the username and domain lines might need to be changed, but the current settings are probabaly ok.
-//CourseType is the Course tag for the AMI. It should also be the GITBRANCH, and the S3 folder within the bucket.
+{
 
-var settings = {
-"repository"  : "FMETraining",
-"workspace"   : "VMCreator.fmw",
-"server"      : "https://demos-safe-software.fmecloud.com",
-"token"       : "b42f5405ae92f30024974cd3943d5d2a2bcf0443",
+"git.username"        : "safesoftware",
+"git.repository"      : "virtualmachines",
+"git.branch"          : "certification",
 
-"S3_BUCKET_NAME": "fmevm",
+"aws.name_tag"        : "FME Virtual Machines 2019",
+"aws.region_name"     : "us-east-2",
+"aws.vpc_cidr"        : "10.0.0.0/16",
+"aws.subnet_cidr"     : ["10.0.0.0/19","10.0.32.0/19","10.0.64.0/19","10.0.96.0/19"],
+"aws.rdp.bucket"      : "FMETemp",
 
-"region_name" : "us-east-1",
-"EC2Type"     : "t3",
-"EC2Size"     : "medium",
-"SubnetId"    : [ "subnet-5da75e2a", "subnet-7f0c3757", "subnet-1a13085c"  ],
-"Team"        : "Train",
-"Owner"       : "RCragg",
-"CourseType"  : "certification",
-"FromEmail"   : "train@safe.com",
-"CCEmail"     : "ryan.cragg@safe.com",
-"BCCEmail"    : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
+"ami.linux"           : "Amazon Linux 2 AMI*",
+"ami.windows"         : "Microsoft Windows Server 2019 with Desktop Experience Locale English AMI provided by Amazon",
 
-"_email_template":[
+"flexnet.ec2type"       : "t3",
+"flexnet.ec2size"       : "nano",
+"flexnet.volumeSize"    : 8,
+"flexnet.securityGroup"  : "flexnet",
+
+"fmeserver.ec2type"     : "t3",
+"fmeserver.ec2size"     : "medium",
+"fmeserver.volumeSize"  : 40,
+"fmeserver.securityGroup"  : "fmeserver",
+"fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.1.0-beta/latest/docker-compose.yaml",
+
+"fme.ec2type"       : "t3",
+"fme.ec2size"       : "large",
+"fme.volumeSize"    : 80,
+"fme.securityGroup" : "fme",
+"fme.timezone"      : "Pacific Standard Time",
+"fme.portForwarding" : "81;82;443;8080;8081",
+"fme.firewall"       : "80;25;5900;5800;7078",
+"fme.password"      : "FMElearnings#1",
+"fme.license"   :   "10.0.51.209",
+"fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
+"fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
+"fme.vm.Subject"    :"FME Training Virtual Machine connection instructions",
+"fme.vm.fromEmail"  : "\"FME Training\" <train@safe.com>",
+"fme.vm.CCEmail"    : "ryan.cragg@safe.com",
+"fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
+
+
+"fme.vm.template.email":[
 "Hello _FullName_,",
 "",
 "Please wait 5-10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.",
-"The following RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically in 14 days",
+"The following RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically in 14 days.",
 "",
 "Please download and connect using __files{0}._url first. ",
 "Double-click on _PublicIpAddress_.rdp to open it in Microsoft Remote Desktop.",
@@ -65,7 +82,7 @@ var settings = {
 "train@safe.com | www.safe.com"
 ],
 
-"_rdp_template":[
+"fme.vm.template.rdp":[
 "username:s:Administrator",
 "screen mode id:i:2",
 "use multimon:i:0",
@@ -107,4 +124,4 @@ var settings = {
 "enablecredsspsupport:i:0",
 "drivestoredirect:s:"
   ]
-};
+}
