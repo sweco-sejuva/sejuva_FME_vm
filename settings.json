@@ -1,11 +1,11 @@
 {
 
-"git.username"        : "safesoftware",
-"git.repository"      : "virtualmachines",
-"git.branch"          : "2019.1",
+"git.username"        : "sweco-sejuva",
+"git.repository"      : "sejuva_FME_vm",
+"git.branch"          : "Desktop_basic_oslo_23--24-09-2019",
 
 "aws.name_tag"        : "FME Virtual Machines 2019",
-"aws.region_name"     : "us-east-2",
+"aws.region_name"     : "eu-north-1",
 "aws.vpc_cidr"        : "10.0.0.0/16",
 "aws.subnet_cidr"     : ["10.0.0.0/19","10.0.32.0/19","10.0.64.0/19","10.0.96.0/19"],
 "aws.rdp.bucket"      : "FMETemp",
@@ -28,7 +28,7 @@
 "fme.ec2size"       : "large",
 "fme.volumeSize"    : 80,
 "fme.securityGroup" : "fme",
-"fme.timezone"      : "Pacific Standard Time",
+"fme.timezone"      : "W. Europe Standard Time",
 "fme.portForwarding" : "81;82;443;8080;8081",
 "fme.firewall"       : "80;25;5900;5800;7078",
 "fme.password"      : "FMElearnings#1",
@@ -36,9 +36,9 @@
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
 "fme.vm.Subject"    :"FME Training Virtual Machine connection instructions",
-"fme.vm.fromEmail"  : "\"FME Training\" <train@safe.com>",
-"fme.vm.CCEmail"    : "ryan.cragg@safe.com",
-"fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
+"fme.vm.fromEmail"  : "\"FME Training\" <fmetraining@sweco.se>",
+"fme.vm.CCEmail"    : "fmetraining@sweco.se",
+"fme.vm.BCCEmail"   : "jurgen.van.tiggelen@sweco.se",
 
 
 "fme.vm.template.email":[
@@ -75,11 +75,11 @@
 "THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.",
 "",
 "Regards,",
-"Ryan Cragg",
+"Jurgen van Tiggelen",
 "--",
-"Training at Safe Software",
-"Safe Software Inc.",
-"train@safe.com | www.safe.com"
+"FME Certified trainer",
+"Sweco Position AB",
+"fmetraining@sweco.se | dataflow.center"
 ],
 
 "fme.vm.template.rdp":[
